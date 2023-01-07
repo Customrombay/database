@@ -7,7 +7,7 @@ void main() async {
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
   List<String> listOfNotCovered = [];
-  for (var file in await Directory("devices").list().toList()) {
+  for (var file in await Directory("filesFromLineageOS/devices").list().toList()) {
     String content = await File(file.path).readAsString();
     stdout.write(file.path + "\n");
     var ydoc = loadYaml(content);
@@ -96,7 +96,7 @@ void main() async {
 
     bool thisCovered = false;
 
-    if (await File("files/${vendor.toString().toLowerCase()}-$codename.yaml").exists()) {
+    if (await File("database/phone_data/${vendor.toString().toLowerCase()}-$codename.yaml").exists()) {
       stdout.write("${vendor.toString().toLowerCase()}-$codename \n");
       numberOfCovered += 1;
       thisCovered = true;
@@ -108,7 +108,7 @@ void main() async {
     }
 
     if (thisCovered) {
-      File thisFile = File("files/${vendor.toString().toLowerCase()}-$codename.yaml");
+      File thisFile = File("database/phone_data/${vendor.toString().toLowerCase()}-$codename.yaml");
       String thisFileContent = await thisFile.readAsString();
       var thisFileyaml = loadYaml(thisFileContent);
       // stdout.write(yamlWriter.write(thisFileyaml));
@@ -133,9 +133,11 @@ void main() async {
       // stdout.write(thisMap);
 
       List newList = [];
+      bool alreadySupported = false;
       for (var thisRom in thisFileyaml["roms"]) {
         String thisRomName = thisRom["rom-name"];
         if (thisRomName == "LineageOS") {
+          alreadySupported = true;
           newList += [
             {
               "rom-name": "LineageOS",
@@ -152,6 +154,19 @@ void main() async {
         }
       }
 
+      if (!alreadySupported) {
+        newList = <dynamic>[
+          {
+            "rom-name": "LineageOS",
+            "rom-support": true,
+            "rom-state": state,
+            "android-version": androidVersion,
+            "rom-webpage": "https://lineageos.org/",
+            "phone-webpage": phoneWebpage
+          }
+        ] + newList;
+      }
+
       Map newMap = {
         "device-name" : thisFileyaml["device-name"],
         "device-vendor": thisFileyaml["device-vendor"],
@@ -160,8 +175,8 @@ void main() async {
         "roms": newList
       };
 
-      File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");
-      await newFile.writeAsString(yamlWriter.write(newMap));
+      // File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");
+      await thisFile.writeAsString(yamlWriter.write(newMap));
     }
   }
   stdout.write("Covered: $numberOfCovered\n");
