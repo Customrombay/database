@@ -1,0 +1,10 @@
+device-name: aurora
+device-vendor: Sony
+device-model-name: Xperia XZ2 Premium
+roms:
+  - rom-name: LineageOS
+    rom-support: true
+    rom-state: Official
+    android-version: 12L
+    rom-webpage: https://lineageos.org/
+    phone-webpage: https://wiki.lineageos.org/devices/aurora/
