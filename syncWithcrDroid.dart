@@ -44,6 +44,7 @@ void main() async {
     int numberOfCovered = 0;
     int numberOfNotCovered = 0;
     List<String> listOfNotCovered = [];
+    List<String> listOfCovered = [];
     YamlMap ydoc = loadYaml(response.body);
     print(ydoc.runtimeType);
     for (var entry in ydoc.entries) {
@@ -63,6 +64,9 @@ void main() async {
       YamlMap devices = entry.value;
 
       for (var readCodename in devices.keys) {
+        if (readCodename == "tulip") {
+          continue;
+        }
         String codename = codenameCorrection(readCodename, vendor);
         print(codename);
         int newestVersion = 0;
@@ -88,6 +92,10 @@ void main() async {
         File thisFile = File("database/phone_data/${vendor.toString().toLowerCase()}-${codename.toString()}.yaml");
         if (await thisFile.exists()) {
           numberOfCovered += 1;
+          if (listOfCovered.contains("${vendor.toString().toLowerCase()}-${codename.toString()}")) {
+            throw Exception();
+          }
+          listOfCovered += ["${vendor.toString().toLowerCase()}-${codename.toString()}"];
           String thisFileContent = await thisFile.readAsString();
           var thisFileyaml = loadYaml(thisFileContent);
 //       // stdout.write(yamlWriter.write(thisFileyaml));
@@ -115,7 +123,7 @@ void main() async {
           }
 
           if (!alreadySupported) {
-            newList = <dynamic>[
+            newList += <dynamic>[
               {
                 "rom-name": "crDroid",
                   "rom-support": true,
@@ -124,7 +132,7 @@ void main() async {
                   "rom-webpage": "https://crdroid.net/",
                   "phone-webpage": phoneWebpage
               }
-            ] + newList;
+            ];
           }
 
           Map newMap = {
