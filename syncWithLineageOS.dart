@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
+import 'tools/codename_correction.dart';
+import 'tools/android_version_from_lineageos_version.dart';
 
 void main() async {
   var yamlWriter = YAMLWriter();
@@ -15,16 +17,7 @@ void main() async {
     var name = ydoc["name"];
     var readCodename = ydoc["codename"];
 
-    String codename = "";
-    if (readCodename == "twolip" && vendor == "Xiaomi") {
-      codename = "tulip";
-    }
-    else if (readCodename == "apollon" && vendor == "Xiaomi") {
-      codename = "apollo";
-    }
-    else {
-      codename = readCodename;
-    }
+    String codename = codenameCorrection(readCodename, vendor);
 
     var androidVersion = "";
     var lineageOSversion = ydoc["current_branch"];
@@ -33,58 +26,7 @@ void main() async {
     var state = "";
     var phoneWebpage = "https://wiki.lineageos.org/devices/$codename/";
 
-    if (lineageOSversion.toString() == "20") {
-      androidVersion = "13";
-      // state = "Official";
-    }
-    else if (lineageOSversion.toString() == "19.1") {
-      androidVersion = "12L";
-      // state = "Official";
-    }
-    else if (lineageOSversion.toString() == "18.1") {
-      androidVersion = "11";
-      // state = "Official";
-    }
-    else if (lineageOSversion.toString() == "17.1") {
-      androidVersion = "10";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "16.0") {
-      androidVersion = "9";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "15.1") {
-      androidVersion = "8.1";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "14.1") {
-      androidVersion = "7.1";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "13.0") {
-      androidVersion = "6";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "12.1") {
-      androidVersion = "5.1";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "12.0") {
-      androidVersion = "5.0";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "11.0") {
-      androidVersion = "4.4.4";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "10.0") {
-      androidVersion = "4.1.2";
-      // state = "Discontinued";
-    }
-    else if (lineageOSversion.toString() == "9.0") {
-      androidVersion = "4.0.4";
-      // state = "Discontinued";
-    }
+    androidVersion = androidVersionFromLineageOSVersion(lineageOSversion.toString());
     if (maintainers.length > 0) {
       state = "Official";
     }
