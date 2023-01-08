@@ -2,39 +2,8 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
-
-String codenameCorrection(String readCodename, String vendor) {
-  if (readCodename == "twolip" && vendor == "Xiaomi") {
-    return "tulip";
-  }
-  else if (readCodename == "apollon" && vendor == "Xiaomi") {
-    return "apollo";
-  }
-  else if (readCodename == "merlinx" && vendor == "Xiaomi") {
-    return "merlin";
-  }
-  else {
-    return readCodename;
-  }
-}
-
-String androidVersionFromCrDroidVersion(String crDroidVersion) {
-  if (crDroidVersion == "6") {
-    return "10";
-  }
-  else if (crDroidVersion == "7") {
-    return "11";
-  }
-  else if (crDroidVersion == "8") {
-    return "12";
-  }
-  else if (crDroidVersion == "9") {
-    return "13";
-  }
-  else {
-    throw Exception();
-  }
-}
+import 'tools/codename_correction.dart';
+import 'tools/android_version_from_crdroid_version.dart';
 
 void main() async {
   var response = await http.get(Uri.parse("https://crdroid.net/devices_handler/compiled.json"));
