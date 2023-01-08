@@ -24,7 +24,7 @@ void main() async {
     var image = ydoc["image"];
     var maintainers = ydoc["maintainers"];
     var state = "";
-    var phoneWebpage = "https://wiki.lineageos.org/devices/$codename/";
+    var phoneWebpage = "https://wiki.lineageos.org/devices/$readCodename/";
 
     androidVersion = androidVersionFromLineageOSVersion(lineageOSversion.toString());
     if (maintainers.length > 0) {
