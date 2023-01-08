@@ -1,0 +1,54 @@
+architecture: arm
+battery: {removable: True, capacity: 3100, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0'}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.9 MP'}
+channels:
+codename: n7100
+cpu: Samsung Exynos 4 Quad 4412
+cpu_cores: '4'
+cpu_freq: 1600 MHz
+current_branch: {current_branch}
+depth: 9.4 mm
+download_boot: devices.hold_volume_down_home_power
+gpu: Mali-400MP4
+height: 151.1 mm
+image:
+kernel:
+maintainers:
+models:
+name: Galaxy Note 2 (3G)
+network:
+peripherals: [Accelerometer, gyro, proximity, compass, barometer]
+ram: 2 Gb
+recovery_boot: devices.hold_volume_up_home_power
+release: 2012
+screen: 5.5 in
+screen_ppi: 267
+screen_res: 720 x 1280
+screen_tech: Super AMOLED
+sdcard:
+soc:
+storage: 16.0 Gb
+tree:
+type: Phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-note-2-3g-n7100-documentation-suggestions/21014
+custom_recovery: https://twrp.me/samsung/samsunggalaxynote2n7100.html
+uses_twrp: true
+vendor: Samsung
+width: 80.5 mm
+wifi: 802.11 a/b/g/n
+build_version_dev: Nougat
+is_beta: true
+custom_recovery_codename: t03g
+recovery_install_method: heimdall
+removable_battery: 1
+sim_slots: 1
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+
+recovery_install_file_name: recovery_install_heimdall
+legacy: "yes"

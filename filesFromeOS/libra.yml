@@ -1,0 +1,59 @@
+architecture: arm64
+battery: {removable: False, capacity: 3080, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '13 MP, phase detection autofocus'}
+- {flash: '', info: '5 MP'}
+channels:
+codename: libra
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '6'
+cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
+current_branch: 14.1
+depth: 7.8 mm (0.31 in)
+download_boot: devices.hold_volume_down_power_fastboot
+gpu: Adreno 418
+height: 138.1 mm (5.44 in)
+image: libra.png
+recovery_install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_msm8992
+maintainers: []
+name: Mi 4c
+network:
+- {tech: 2G, bands: '850 900 1800 1900 GSM' }
+- {tech: 3G, bands: '850 900 1800 2100 HSDPA' }
+- {tech: 4G, bands: '1(2100), 3(1800), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500) LTE' }
+peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
+ram: 2/3 GB
+recovery_boot: devices.recovery_boot_alioth
+release: 2015
+screen: 5.0 in
+screen_ppi: 441
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8992 Snapdragon 808
+storage: 16/32 GB
+tree: android_device_xiaomi_libra
+type: phone
+community_doc_url: https://community.e.foundation/t/xiaomi-mi-4c-libra-documentation-suggestions/21039
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/libra/
+vendor: Xiaomi
+additional_downloads:
+  file: xiaomi
+vendor_short: xiaomi
+width: 69.6 mm (2.74 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
+build_version_dev: Nougat
+is_lineageos_official: true
+is_beta: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_xiaomi
+legacy: "yes"

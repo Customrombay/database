@@ -1,0 +1,55 @@
+architecture:
+battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+bluetooth: {spec: 4.1, A2DP}
+cameras:
+- {flash: 'LED', info: '13 MP', 'f/1.9', '28mm (wide)', video: '1080p@30fps'}
+- {flash: 'LED', info: '5 MP', 'f/2.2', '23mm (wide)'}
+channels:
+codename: j5lte
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.2 Ghz
+current_branch:
+depth: 7.9 mm
+download_boot: devices.hold_volume_down_home_power
+gpu: Adreno 306
+height: 142.1 mm (5.59 in)
+image:
+kernel:
+maintainers: []
+models: [SM-J500F, SM-J500G, SM-J500M, SM-J500NO, SM-J500Y]
+name: Galaxy J5 LTE
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA'}
+- {tech: 4G, bands: 'LTE band 1(2100), 3(1800)'}
+peripherals:
+ram: 1.5 Gb
+recovery_boot: devices.hold_volume_up_home_power
+release: 2015
+screen: 5.0 in
+screen_ppi: 294
+screen_res: 720 x 1280
+screen_tech: Super AMOLED
+sdcard:
+soc: Qualcomm MSM8916 Snapdragon 410 (28 nm)
+storage:
+tree:
+type: Phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-j5-lte-j5lte-documentation-suggestions/21010
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/j5lte/
+vendor: Samsung
+width: 71.8 mm (2.83 in)
+wifi: 802.11b/g/n, direct, hotspot
+is_beta: true
+build_version_dev: Oreo
+removable_battery: 1
+sim_slots: 1
+region: All
+maturity: red
+install:
+- { mode: Install doc }
+
+recovery_install_file_name: recovery_install_heimdall
+legacy: "yes"

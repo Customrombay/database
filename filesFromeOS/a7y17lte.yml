@@ -1,0 +1,63 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '16 MP'}
+channels: []
+codename: a7y17lte
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.9 GHz
+current_branch: 16.0
+depth: 7.9 mm (0.31 in)
+download_boot: devices.hold_volume_down_home_power
+gpu: ARM Mali-T830 MP3
+height: 156.8 mm (6.17 in)
+image: a7y17lte.png
+recovery_install_method: heimdall
+kernel: android_kernel_samsung_universal7880
+maintainers: []
+models: [SM-A720F , SM-A720F/DS , SM-A720S ]
+name: Galaxy A7 (2017)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 HSDPA' }
+- {tech: 4G, bands: '1(2100), 2(1900), 3(1800), 4(1700/2100)' }
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS,
+    GPS, Gesture sensor, Gyroscope, NFC, Pedometer, Proximity sensor, RGB ambient light,
+    Sensor hub, USB OTG, Wi-Fi Display]
+ram: 3 GB
+recovery_boot: devices.hold_volume_up_home_power
+release: 2017
+required_bootloader: ['from Samsung Oreo firmware']
+screen: 5.2 in
+screen_ppi: 424
+screen_res: 1920x1080
+screen_tech: Super AMOLED
+sdcard: up to 256 GB
+soc: Samsung Exynos 7880
+storage: 32/64 GB
+steps_to_flash_file_name: device_upgrade_samsung
+tree: android_device_samsung_a7y17lte
+type: phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-a7-2017-a7y17lte-documentation-suggestions/21008
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/a7y17lte/
+upgrade_available: R
+vendor: Samsung
+vendor_short: samsung
+width: 77.6 mm (3.06 in)
+wifi: 802.11 a/b/g/n/ac
+build_version_dev: R
+is_lineageos_official: true
+removable_battery: 0
+revert_to_stock:
+- {os : windows, url: pages/revert_samsung_to_stock_on_windows }
+sim_slots: 2
+region: All
+maturity: red
+install:
+- { mode: Install doc }
+
+recovery_install_file_name: recovery_install_heimdall

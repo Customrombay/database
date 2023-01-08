@@ -1,0 +1,58 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '2 MP'}
+- {flash: 'LED', info: '8 MP'}
+codename: X01AD
+cpu: Kryo 250
+cpu_cores: '8'
+cpu_freq: 1.8 GHz
+current_branch: 18.1
+width: 3 in 
+height: 6.24 in 
+depth: 0.30 in 
+download_boot: devices.download_boot_asus
+gpu: Adreno 506
+image: X01AD.png
+install_method: fastboot_zenfone
+kernel: android_kernel_asus_X01AD
+maintainers: []
+name: Zenfone Max M2
+network:
+- {tech: 2G, bands: GSM}
+- {tech: 3G, bands: UMTS} 
+- {tech: 4G, bands: LTE}
+peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
+ram: 3/4 GB
+recovery_boot: devices.recovery_boot_asus_X
+release: 2018
+screen: 
+screen: 6.26 in 
+screen_ppi: 269
+screen_res: 720x1520
+screen_tech: IPS LCD
+sdcard: 2 TB
+soc: Qualcomm SDM632 Snapdragon 632
+storage: 32/64 GB
+tree: android_device_asus_X01AD
+type: phone
+vendor: ASUS
+vendor_short: asus
+versions: [R]
+wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot
+community_doc_url: https://community.e.foundation/t/asus-zenfone-max-m2-x01ad-documentation-suggestions/37392
+build_version_dev: R
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+before_install_file_name: before_install_needs_specific_android_fw
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_zenfone
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

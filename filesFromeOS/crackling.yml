@@ -1,0 +1,60 @@
+architecture: arm64
+battery: {removable: True, capacity: 2500, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
+channels:
+codename: crackling
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 16.0
+custom_recovery: https://androidfilehost.com/?fid=1395089523397922480
+depth: 9.37 mm (0.37 in)
+download_boot: devices.hold_volume_up_connect_usb
+format_on_upgrade: true
+gpu: Adreno 306
+height: 141.15 mm (5.56 in)
+image: crackling.png
+recovery_install_method: fastboot_nexus
+kernel: android_kernel_cyanogen_msm8916
+maintainers: []
+models:
+name: Swift
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '3(1800) 7(2600) 20(800) LTE(Cat. 4)' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
+ram: 2 GB
+recovery_boot: devices.hold_volume_down_power
+release: 2015
+screen: 5.0 in
+screen_ppi: '294'
+screen_res: 1280x720
+screen_tech: IPS LCD
+sdcard: up to 32 GB
+soc: Qualcomm MSM8916 Snapdragon 410
+storage: 16 GB
+tree: android_device_wileyfox_crackling
+type: phone
+community_doc_url: https://community.e.foundation/t/wileyfox-swift-crackling-documentation-suggestions/21036
+uses_twrp: true
+vendor: Wileyfox
+vendor_short: wileyfox
+width: 71 mm (2.8 in)
+wifi: 802.11 b/g/n
+build_version_dev: Nougat
+is_lineageos_official: true
+is_beta: true
+removable_battery: 1
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_file_name: recovery_install_fastboot_generic
+legacy: "yes"

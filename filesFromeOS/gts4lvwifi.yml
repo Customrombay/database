@@ -1,0 +1,53 @@
+architecture: arm64
+battery: {removable: False, capacity: 7040, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: '', info: '13 MP'}
+- {flash: '', info: '8 MP'}
+codename: gts4lvwifi
+cpu: Kryo 360
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz & 6 x 1.7 GHz
+current_branch: 17.1
+depth: 5.5 mm (0.22 in)
+download_boot: devices.download_boot_gts4lvwifi
+gpu: Adreno 615
+height: 245 mm (9.65 in)
+image: gts4lv.png
+install_method: odin
+kernel: android_kernel_samsung_sdm670
+maintainers: []
+models: [SM-T720]
+name: Galaxy Tab S5e (Wi-Fi)
+peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
+ram: 4/6 GB
+recovery_boot: devices.hold_volume_up_power
+release: 2019
+screen: 10.5 in
+screen_ppi: 287
+screen_res: 1600x2560
+screen_tech: Super AMOLED
+sdcard: up to 512 GB
+soc: Qualcomm SDM670 Snapdragon 670
+storage: 64/128 GB
+tree: android_device_samsung_gts4lvwifi
+type: tablet
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-tab-s5e-wi-fi-gts4lvwifi-documentation-suggestions/26801
+vendor: Samsung
+vendor_short: samsung
+width: 160 mm (6.3 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
+upgrade_available: S
+build_version_dev: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 0
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+before_install_file_name: before_install_gts4lv
+recovery_install_file_name: recovery_install_odin
+steps_to_flash_file_name: device_upgrade_samsung
+downloads_file_name: device_downloads_erecovery
+install_e_file_name: install_e_with_erecovery

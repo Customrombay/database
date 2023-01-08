@@ -1,0 +1,56 @@
+architecture: arm64
+battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '8 MP'}
+codename: z2_plus
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 17.1
+depth: 8.5 mm (0.33 in)
+download_boot: devices.download_boot_z2_plus
+gpu: Adreno 530
+height: 141.7 mm (5.58 in)
+image: z2_plus.png
+install_method: fastboot_custom
+kernel: android_kernel_zuk_msm8996
+maintainers: []
+name: Z2 Plus
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+ram: 3 GB LPDDR4 / 4 GB LPDDR4
+recovery_boot: devices.recovery_boot_z2_plus
+release: 2016-06
+screen: 5.0 in
+screen_ppi: 441
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 32 / 64 GB
+tree: android_device_zuk_z2_plus
+type: phone
+community_doc_url: https://community.e.foundation/t/zuk-z2-plus-z2-plus-documentation-suggestions/28792
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/z2_plus/
+unlock_bootloader_guide: 'https://forum.xda-developers.com/lenovo-zuk-z2/how-to/z2-z2-plus-bootloader-unlock-twrp-t3615283'
+vendor: ZUK
+vendor_short: zuk
+width: 68.9 mm (2.71 in)
+wifi: 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot
+build_version_dev : S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_custom

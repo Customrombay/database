@@ -1,0 +1,58 @@
+architecture:
+battery: {removable: False, capacity: 2150, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'LED', info: '13 MP , f/2.0, AF, OIS'}
+- {flash: '', info: '4 MP, f/2.0, 27mm(wide), 1/3'}
+channels:
+codename: hiaeuhl
+cpu: Qualcomm MSM8952
+cpu_cores: '8'
+cpu_freq: 4x1.5 GHz
+current_branch: {current_branch}
+depth: 7.3 mm (0.29 in)
+download_boot: devices.hold_volume_down_home_power
+gpu: Adreno 405
+height: 145.8 mm (5.74 in)
+image:
+kernel:
+maintainers: []
+models: One A9 (International GSM)
+name: One A9 (International GSM)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100), 3(1800)' }
+peripherals: [Fingerprint (front-mounted), accelerometer, gyro, proximity, compass]
+ram: 3 Gb
+recovery_boot: devices.recovery_boot_use_volume_to_recovery
+release: 2015
+screen: 5 in
+screen_ppi: '441'
+screen_res: 1080x1920
+screen_tech: AMOLED
+sdcard:
+soc:
+storage: 16/32 Gb
+tree:
+type: Phone
+community_doc_url: https://community.e.foundation/t/htc-one-a9-international-gsm-hiaeuhl-documentation-suggestions/20969
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/hiaeuhl/
+vendor: HTC
+width: 70.8 mm (2.79 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot, DLNA
+build_version_dev: Nougat
+custom_recovery_codename: hiae
+is_lineageos_official: true
+is_beta: true
+recovery_install_method: fastboot_htc
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_htc
+legacy: "yes"

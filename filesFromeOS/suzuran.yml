@@ -1,0 +1,59 @@
+architecture: arm64
+battery: {removable: False, capacity: 2700, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'LED', info: '23 MP f/2.0'}
+- {flash: '', info: '5.1 MP f/2.4'}
+codename: suzuran
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
+current_branch: 14.1
+custom_recovery: https://androidfilehost.com/?fid=7161016148664799361
+depth: 8.9 mm (0.35 in)
+download_boot: devices.hold_volume_up_connect_usb_notification_blue
+gpu: Adreno 430
+height: 127 mm (5 in)
+image: suzuran.png
+recovery_install_method: fastboot_sony
+kernel: android_kernel_sony_msm8994
+maintainers: []
+models: [E5803, E5823]
+name: Xperia Z5 Compact
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Fingerprint reader, Gyroscope, Proximity sensor, Light sensor, GPS, NFC]
+ram: 2 GB
+recovery_boot: devices.hold_volume_down_power
+recovery_install_command: fastboot flash recovery
+release: 2015-10
+screen: 4.6 in
+screen_ppi: '323'
+screen_res: 1280x720
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm MSM8994 Snapdragon 810
+storage: 32 GB
+tree: https://github.com/Professor-Berni/android_device_sony_suzuran/tree/lineage-17.1
+type: phone
+community_doc_url: https://community.e.foundation/t/sony-z5-compact-suzuran-documentation-suggestions/27228
+uses_twrp: true
+custom_recovery: https://drive.google.com/file/d/1CTubNXg5ijhMxmcdrR6Ul45oGu8vFrDr
+vendor: Sony
+vendor_short: sony
+width: 65 mm (2.6 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+build_version_dev: R
+upgrade_available: R
+is_lineageos_official: false
+unofficial_maintainers:
+  - 
+    username:  Professor-Berni
+    url: https://github.com/Professor-Berni
+    os_version: 17.1
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_file_name: recovery_install_fastboot_sony_install

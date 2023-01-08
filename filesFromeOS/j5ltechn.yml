@@ -1,0 +1,53 @@
+architecture:
+battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'LED', info: '12 MP', 'f/1.9', video: '1920x1080p @ 30fps'}
+- {flash: 'LED', info: '5 MP', '30 fps'}
+channels:
+codename: j5ltechn
+cpu: MSM8916
+cpu_cores: '4'
+cpu_freq: 1200 MHz
+current_branch: {current_branch}
+depth: 8.5 mm
+download_boot: devices.hold_volume_down_home_power
+gpu:
+height: 142 mm
+image:
+kernel:
+maintainers: []
+models: SM-J5008
+name: Galaxy J5 LTE
+network:
+- {tech: 2G, bands: '900 1800 1900 MHz GSM'}
+peripherals: [Accelerometer, proximity]
+ram: 1.5 Gb
+recovery_boot: devices.hold_volume_up_home_power
+release: 2015
+screen: 5.0 in
+screen_ppi:
+screen_res: 720 x 1280
+screen_tech: Super AMOLED
+sdcard:
+soc: Qualcomm MSM8916 Snapdragon 410 (28 nm)
+storage:
+tree:
+type: Phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-j5-lte-j5ltechn-documentation-suggestions/21011
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/j5ltechn/
+vendor: Samsung
+width: 71.8 mm
+wifi: 802.11b , 802.11g , 802.11n
+is_beta: true
+build_version_dev: Oreo
+removable_battery: 1
+sim_slots: 2
+region: All
+maturity: red
+install:
+- { mode: Install doc }
+
+recovery_install_file_name: recovery_install_heimdall
+legacy: "yes"

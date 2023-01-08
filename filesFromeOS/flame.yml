@@ -1,0 +1,69 @@
+architecture: arm64
+battery: {removable: False, capacity: 2800 , tech: 'Li-Po'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 12}
+before_install_stable_args: {version: 11}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12.2 MP'}
+- {flash: '', info: '16 MP'}
+- {flash: '', info: '8 MP'}
+codename: flame
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 19.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+depth: 8.2 mm (0.32 in)
+download_boot: devices.hold_volume_down_power
+gpu: Adreno 640
+height: 147.1 mm (5.79 in)
+image: floral.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_google_coral
+maintainers: []
+name: Pixel 4
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 3G, bands: 'CDMA2000' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Accelerometer, Barometer, BeiDou, Compass, Depth Sensor, Dot Projector, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Radar, USB OTG]
+ram: 6 GB
+recovery_boot: devices.hold_volume_down_power_recovery
+release: 2019-09
+screen: 5.7 in
+screen_ppi: 444
+screen_res: 2280x1080
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 64/128 GB
+tree: android_device_google_flame
+type: phone
+vendor: Google
+vendor_short: google
+versions: [S]
+width: 68.8 mm (2.7 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+community_doc_url: https://community.e.foundation/t/google-pixel-4-flame-documentation-suggestions/35470
+vendor: Google
+vendor_short: google
+wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot
+e_recovery: true
+build_version_dev: S
+upgrade_available: S
+build_version_stable: R 
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 1
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+- { mode: Easy Installer }
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_file_name: recovery_install_fastboot_generic
+recovery_install_command: fastboot flash boot
+install_e_file_name: install_e_with_erecovery

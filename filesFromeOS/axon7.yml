@@ -1,0 +1,61 @@
+architecture: arm64
+battery: {removable: False, capacity: 3250, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '20 MP'}
+- {flash: '', info: '8 MP'}
+channels:
+codename: axon7
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 15.1
+custom_recovery: 'https://androidfilehost.com/?w=files&flid=274875'
+depth: 7.9 mm (0.31 in)
+download_boot: devices.download_boot_axon7
+gpu: Adreno 530
+height: 151.7 mm (5.97 in)
+image: axon7.png
+recovery_install_method: fastboot_custom
+kernel: android_kernel_zte_msm8996
+maintainers: []
+models: 'Axon 7'
+name: 'Axon 7'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100)'  }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC]
+ram: 4 GB LPDDR4 (Standard edition) / 6 GB LPDDR4 (Exclusive edition)
+recovery_boot: devices.hold_volume_up_power
+release: 2016
+screen: 5.5 in
+screen_ppi: '538'
+screen_res: 2560x1440
+screen_tech: AMOLED
+sdcard: up to 256 GB (SIM 2 slot)
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
+tree: android_device_zte_axon7
+type: phone
+community_doc_url: https://community.e.foundation/t/zte-axon-7-axon7-documentation-suggestions/21057
+uses_twrp: true
+unlock_bootloader_guide: 'https://forum.xda-developers.com/axon-7/how-to/guide-how-to-unlock-bootloader-stay-t3461165'
+vendor: ZTE
+vendor_short: zte
+width: 75 mm (2.95 in)
+wifi: 802.11 b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+build_version_dev: Nougat
+is_lineageos_official: true
+is_beta: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+
+oem_unlock_file_name: recovery_install_fastboot_custom
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_generic
+legacy: "yes"

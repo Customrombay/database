@@ -1,0 +1,59 @@
+architecture: arm64
+battery: {removable: False, capacity: 7040, tech: 'Li-Ion'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
+bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+cameras:
+- {flash: '', info: '8 MP'}
+- {flash: '', info: '5 MP'}
+codename: gta4xlwifi
+cpu: Cortex-A73 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
+current_branch: 18.1
+depth: 7.0 mm (0.28 in)
+download_boot: devices.hold_volume_down_up_connect_usb
+gpu: ARM Mali-G72 MP3
+height: 244.5 mm (9.63 in)
+image: gta4xlwifi.png
+install_method: heimdall
+kernel: android_kernel_samsung_gta4xl
+maintainers: []
+models: [SM-P610]
+name: Galaxy Tab S6 Lite (Wi-Fi)
+peripherals: [Accelerometer, GPS, Gyroscope]
+ram: 4 GB
+recovery_boot:  devices.hold_volume_up_power
+release: 2020-04-02
+screen: 10.4 in
+screen_ppi: 224
+screen_res: 1200 x 2000
+screen_tech: TFT
+sdcard: up to 1TB
+soc: Samsung Exynos 9611
+storage: 64/128 GB
+tree: android_device_samsung_gta4xlwifi
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [S]
+width: 154.3 mm (6.07 in)
+wifi: 802.11 a/b/g/n/ac
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-tab-s6-lite-wi-fi-gta4xlwifi-documentation-suggestions/35472
+vendor: Samsung
+vendor_short: samsung
+width: 160 mm (6.3 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 0
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_file_name: recovery_install_erecovery_heimdall
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+steps_to_flash_file_name: device_upgrade_samsung

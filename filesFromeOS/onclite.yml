@@ -1,0 +1,58 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '12MP + 2MP AI Dual Camera'}
+- {flash: '', info: '8MP Selfie camera'}
+codename: onclite
+cpu: Kryo 250
+cpu_cores: '8'
+cpu_freq: 1.8 GHz
+current_branch: 17.1
+depth: 8.47 mm (0.33 in)
+download_boot: devices.hold_volume_down_power_fastboot
+gpu: Adreno 506
+height: 158.73 mm (6.25 in)
+image: onclite.png
+recovery_install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_onclite
+maintainers: []
+name: Redmi 7
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, IR blaster, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 2/3 GB
+recovery_boot: devices.recovery_boot_redmi
+release: 2019
+screen: 6.26 in
+screen_ppi: 269
+screen_res: 1520x720
+screen_tech: IPS LCD
+sdcard: up to 512 GB
+soc: Qualcomm MSM8953 Snapdragon 632
+storage: 16/32 GB
+tree: android_device_xiaomi_onclite
+type: phone
+community_doc_url: https://community.e.foundation/t/xiaomi-redmi-7-onclite-documentation-suggestions/26298
+upgrade_available: R
+vendor: Xiaomi
+additional_downloads:
+  file: xiaomi
+vendor_short: xiaomi
+width: 75.58 mm (2.98 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
+build_version_dev: R
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_xiaomi
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+

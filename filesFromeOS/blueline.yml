@@ -1,0 +1,61 @@
+architecture: arm64
+battery: {removable: False, capacity: 2915, tech: 'Li-Po'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12.2 MP'}
+- {flash: '', info: '8 MP'}
+codename: blueline
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.5 GHz + 4 x 1.6 GHz
+current_branch: 18.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+depth: 7.9 mm (0.31 in)
+download_boot: devices.hold_volume_down_power
+gpu: Adreno 630
+height: 145.6 mm (5.73 in)
+image: blueline.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_google_msm-4.9
+maintainers: []
+name: Pixel 3
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Accelerometer, Barometer, BeiDou, Compass, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+ram: 4 GB
+recovery_boot: devices.recovery_boot_using_volume_keys
+release: 2018
+screen: 5.5 in
+screen_ppi: 443
+screen_res: 2160x1080
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128 GB
+tree: android_device_google_blueline
+type: phone
+community_doc_url: https://community.e.foundation/t/google-pixel-3-blueline-documentation-suggestions/34721
+vendor: Google
+vendor_short: google
+versions: [S]
+width: 68.2 mm (2.69 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+build_version_dev: S
+upgrade_available: S
+is_ab_device: true
+recovery_install_method: fastboot_nexus
+removable_battery: 0
+sim_slots: 1
+region: All
+maturity: green
+install:
+- { mode: Install doc }
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_file_name: recovery_install_fastboot_ab
+recovery_install_command: fastboot flash boot
+install_e_file_name: erecovery_install

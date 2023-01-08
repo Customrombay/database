@@ -1,0 +1,63 @@
+architecture: arm64
+battery: {removable: False, capacity: 3300, tech: 'Li-Ion'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 9}
+before_e_install: before_e_install_ab_copy_partitions
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '23 MP'}
+- {flash: '', info: '8 MP'}
+channels:
+codename: pioneer
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.2 GHz
+current_branch: 16.0
+depth: 9.7 mm (0.38 in)
+download_boot: devices.hold_volume_up_connect_usb_notification_blue
+gpu: Adreno 508
+height: 142 mm (5.59 in)
+image: pioneer.png
+recovery_install_method: fastboot_sony
+is_ab_device: true
+kernel: android_kernel_sony_sdm660
+maintainers: []
+models:
+name: Xperia XA2
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 5 (850) 7 (2600) 8 (900) 20 (800) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM radio]
+ram: 3 GB
+recovery_boot: devices.hold_volume_down_power
+release: 2018
+screen: 5.2 in
+screen_ppi: '424'
+screen_res: 1080x1920
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM630 Snapdragon 630
+storage: 32 GB
+tree: android_device_sony_pioneer
+type: phone
+community_doc_url: https://community.e.foundation/t/sony-xperia-xa2-pioneer-documentation-suggestions/21034
+vendor: Sony
+vendor_short: sony
+width: 70 mm (2.76 in)
+wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot
+build_version_dev: S
+upgrade_available: S
+additional_install_guides: https://community.e.foundation/t/sony-xperia-xa2-pioneer-documentation-suggestions/21034/2
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash boot
+copy_partitions_file_name: before_e_install_ab_copy_partitions
+recovery_install_file_name: recovery_install_fastboot_sony
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

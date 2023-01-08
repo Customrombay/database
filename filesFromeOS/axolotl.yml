@@ -1,0 +1,60 @@
+architecture: arm64
+battery: {removable: True, capacity: 3850, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: None, info: '24 MP'}
+- {flash: None, info: '16 MP'}
+codename: axolotl
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
+current_branch: 19.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+width: 3 in
+height: 6.29 in
+depth: 0.33 in
+download_boot: devices.hold_volume_up_power
+gpu: Adreno 630
+has_recovery_partition: true
+image: axolotl.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_shift_sdm845
+maintainers: []
+name: 'SHIFT6mq'
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [A-GPS, Accelerometer, BeiDou, Compass, DP over USB-C, Fingerprint reader, GLONASS, GPS, Galileo, Gyroscope, Light sensor, NFC, Proximity sensor, QZSS, SBAS, USB OTG, Wi-Fi Display]
+ram: 8 GB LPDDR4X
+recovery_boot: devices.hold_volume_down_power
+release: 2020-06
+screen: 6 in
+screen_ppi: 402
+screen_res: 1080x2160
+screen_tech: AMOLED
+sdcard: Upto '512 GB'
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 128 GB UFS 2.1
+tree: android_device_shift_axolotl
+type: phone
+vendor: SHIFT
+vendor_short: shift
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, DLNA, Dual-band, Hotspot, Wi-Fi Direct, Wi-Fi Display
+community_doc_url: https://community.e.foundation/t/shift-6mq-axolotl-documentation-suggestions/40840
+build_version_dev: S
+upgrade_available: S
+recovery_install_method: fastboot_nexus
+removable_battery: 1
+sim_slots: 2
+region: All
+maturity: green
+install:
+- { mode: Install doc }
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_file_name: recovery_install_fastboot_generic_install
+recovery_install_command: fastboot flash recovery
+install_e_file_name: erecovery_install

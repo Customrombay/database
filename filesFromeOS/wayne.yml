@@ -1,0 +1,58 @@
+architecture: arm64
+battery: {removable: False, capacity: 3010, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: 'Dual LED', info: '20 MP'}
+- {flash: 'LED', info: '20 MP'}
+codename: wayne
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+current_branch: 17.1
+depth: 7.3 mm (0.29 in)
+download_boot: devices.hold_volume_down_power_fastboot
+gpu: Adreno 512
+height: 158.7 mm (6.25 in)
+image: wayne.png
+recovery_install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm660
+maintainers: []
+name: 'Mi 6X'
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4/6 GB
+recovery_boot: devices.recovery_boot_alioth
+release: 2018
+screen: 5.99 in
+screen_ppi: '403'
+screen_res: 1080x2160
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 32/64/128 GB
+tree: android_device_xiaomi_wayne
+type: phone
+community_doc_url: https://community.e.foundation/t/xiaomi-mi-6x-wayne-documentation-suggestions/26299
+vendor: Xiaomi
+additional_downloads:
+  file: xiaomi
+vendor_short: xiaomi
+width: 75.4 mm (2.97 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
+build_version_dev: R
+upgrade_available: R
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_xiaomi_install
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

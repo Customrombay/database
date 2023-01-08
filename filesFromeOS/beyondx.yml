@@ -1,0 +1,62 @@
+architecture: arm64
+battery: {removable: False, capacity: 4500, tech: 'Li-Ion'}
+before_install_file_name: before_install_exynos9820
+before_install_args: {version: 10 or 11}
+bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'LED', info: '12 MP , f/1.5-2.4'}
+- {flash: 'LED', info: '12MP , f/2.4 telephoto'}
+- {flash: 'LED', info: '16MP , f/2.2 ultrawide'}
+- {flash: '', info: '0.3MP , TOF 3D'}
+- {flash: '', info: '10 MP, f/1.9'}
+- {flash: '', info: 'TOF 3D'}
+codename: beyondx
+cpu: Exynos M4 & Cortex-A75 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
+current_branch: 18.1
+depth: 7.9 mm (0.31 in)
+download_boot: devices.download_boot_beyond0lte
+gpu: ARM Mali-G76 MP12
+height: 162.6 mm (6.4 in)
+image: beyondx.png
+install_method: heimdall
+kernel: android_kernel_samsung_exynos9820
+maintainers: []
+models: [SM-G977B]
+name: Galaxy S10 5G
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, Qi wireless charging, Qi reverse wireless charging]
+ram: 8 GB
+recovery_boot: devices.recovery_boot_s10
+release: 2019-03-08
+screen: 6.7 in
+screen_ppi: '502'
+screen_res: 3040x1440
+screen_tech: Quad HD+ Dynamic AMOLED
+soc: Samsung Exynos 9820
+storage: 256/512 GB
+tree: android_device_samsung_beyondx
+type: phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-s10-5g-beyondx-documentation-suggestions/34206
+vendor: Samsung
+vendor_short: samsung
+versions: [S]
+width: 77.1 mm (3.04 in)
+wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
+is_lineageos_official: true
+build_version_dev: S
+upgrade_available: S
+region: All
+maturity: red
+install:
+- { mode: Install doc }
+removable_battery:  0
+sim_slots: 2
+recovery_install_file_name: recovery_install_erecovery_heimdall
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+

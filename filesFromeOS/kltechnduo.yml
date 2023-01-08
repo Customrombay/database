@@ -1,0 +1,55 @@
+architecture: arm
+battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: '6.0.1'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
+codename: kltechnduo
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 18.1
+depth: 8.1 mm (0.32 in)
+download_boot: devices.hold_volume_down_home_power
+gpu: Adreno 330
+height: 142 mm (5.59 in)
+image: klte.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8974
+maintainers: []
+models: [SM-G9006W, SM-G9008W, SM-G9009W]
+name: Galaxy S5 LTE Duos (G9006W/8W)
+no_oem_unlock_switch: true
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
+  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
+ram: 2 GB
+recovery_boot: devices.hold_volume_up_home_power
+release: 2014
+screen: 5.1 in
+screen_ppi: '432'
+screen_res: 1920x1080
+screen_tech: Full HD Super AMOLED
+sdcard: up to 128 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 32 GB
+tree: android_device_samsung_kltechnduo
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [R]
+width: 72.5 mm (2.85 in)
+wifi: 802.11 a/b/g/n/ac
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-s5-lte-duos-g9006w-8w-kltechnduo-documentation-suggestions/36784
+is_lineageos_official: true
+build_version_dev: R
+region: All
+maturity: red
+install:
+- { mode: Install doc }
+removable_battery:  0
+sim_slots: 2
+recovery_install_file_name: recovery_install_odin
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

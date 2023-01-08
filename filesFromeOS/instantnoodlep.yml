@@ -1,0 +1,71 @@
+architecture: arm64
+battery: {removable: False, capacity: 4510, tech: 'Li-Po'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 12}
+before_install_stable_args: {version: 11}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 8 MP (telephoto) + 48 MP (ultrawide) + 5 MP (color filter camera)'}
+- {flash: '', info: '16 MP'}
+codename: instantnoodlep
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 18.1
+depth: 8.4 mm (0.33 in)
+download_boot: devices.hold_volume_down_up_power
+firmware_update: firmware_update_oneplus_sm8250
+gpu: Adreno 650
+has_recovery_partition: true
+height: 165.3 mm (6.51 in)
+image: instantnoodlep.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_oneplus_sm8250
+maintainers: []
+models: [IN2020, IN2023, IN2025]
+name: '8 Pro'
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+- {tech: 5G, bands: '5G' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG, Wi-Fi Display]
+ram: 8/12GB GB LPDDR5
+recovery_boot: devices.hold_volume_down_power
+release: 2020
+screen: 6.78 in
+screen_ppi: '513'
+screen_res: 1440x3168
+screen_tech: Fluid AMOLED
+sdcard:
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256 GB UFS3.0
+tree: android_device_oneplus_instantnoodlep
+type: phone
+vendor: OnePlus
+vendor_short: oneplus
+versions: [R]
+width: 74.4 mm (2.93 in)
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+community_doc_url: https://community.e.foundation/t/oneplus-8pro-instantnoodlep-documentation-suggestions/36691
+build_version_dev: S
+upgrade_available: S
+build_version_stable: R
+is_lineageos_official: true
+can_rollback: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Easy Installer }
+- { mode: Install doc }
+oem_unlock_file_name: oem_unlock_generic
+before_recovery_install_file_name: before_recovery_install_boot_stack
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_generic
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+help_file_name: help_oneplus

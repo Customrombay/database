@@ -1,0 +1,58 @@
+architecture: arm
+battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0'}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
+codename: jactivelte
+cpu: Krait 300
+cpu_cores: 4
+cpu_freq: 1.9GHz
+current_branch: 17.1
+depth: 9.1 mm (0.36 in)
+download_boot: devices.hold_volume_down_home_power
+format_on_upgrade: true
+gpu: Adreno 320
+height: 139.7 mm (5.5 in)
+image: jactivelte.png
+kernel: android_kernel_samsung_jf
+maintainers: []
+models: [GT-I9295]
+name: Galaxy S4 Active
+network:
+- {tech: 2G, bands: 'CDMA, GSM' }
+- {tech: 3G, bands: 'CDMA2000' }
+- {tech: 4G, bands: 'LTE' }
+no_oem_unlock_switch: true
+peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer,
+  Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
+ram: 2 GB
+recovery_boot: devices.recovery_boot_jactivelte
+release: 2013
+screen: 5 in
+screen_ppi: 440
+screen_res: 1920x1080
+screen_tech: Pentile RGBG Full HD Super AMOLED
+sdcard: up to 64 GB
+soc: Qualcomm Snapdragon 600 (APQ8064T)
+storage: 16/32 GB
+tree: android_device_samsung_jactivelte
+type: phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-s4-jfltexx-documentation-suggestions/21021
+vendor: Samsung
+vendor_short: samsung
+width: 71.3 mm (2.8 in)
+wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display
+upgrade_available: R
+build_version_dev: R
+is_lineageos_official: true
+removable_battery: 1
+sim_slots: 1
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_file_name: recovery_install_odin
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+steps_to_flash_file_name: device_upgrade_samsung

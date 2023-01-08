@@ -1,0 +1,62 @@
+architecture: arm64
+battery: {removable: False, capacity: 4160, tech: 'Li-Po'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 12}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '48 MP'}
+- {flash: 'Dual LED', info: '8 MP'}
+- {flash: 'Dual LED', info: '2 MP'}
+- {flash: 'Dual LED', info: '2 MP'}
+- {flash: None, info: '16 MP'}
+codename: monet
+cpu: Kryo 475
+cpu_cores: '8'
+cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 18.1
+width: 2.97 in
+height: 6.43 in
+depth: 0.35 in
+download_boot: devices.hold_volume_down_power_fastboot
+gpu: Adreno 620
+image: monet.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm7250
+maintainers: []
+models: [M2002J9G]
+name: Mi 10 Lite 5G
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'CDMA' }
+- {tech: 4G, bands: 'LTE' }
+- {tech: 5G}
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: devices.recovery_boot_alioth
+release: 2020-05
+screen: 6.57 in
+screen_ppi: 401
+screen_res: 1080x2340
+screen_tech: AMOLED
+soc: Qualcomm SM7250 Snapdragon 765G
+storage: 64/128/256 GB
+tree: android_device_xiaomi_monet
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+community_doc_url: https://community.e.foundation/t/xiaomi-mi-10-lite-5g-monet-documentation-suggestions/40850
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_xiaomi_install
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

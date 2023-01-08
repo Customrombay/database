@@ -1,0 +1,62 @@
+architecture: arm64
+battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+before_recovery_install: moto_exynos_9610
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '12 MP'}
+- {flash: None, info: '16 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '12 MP'}
+codename: troika
+cpu: Cortex-A73 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
+current_branch: 19.1
+width: 2.8 in
+height: 6.3 in
+depth: 0.36 in
+download_boot: devices.hold_volume_down_power
+gpu: ARM Mali-G72 MP3
+image: troika.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_exynos9610
+maintainers: []
+models: [XT2013-1, XT2013-2, XT2013-3, XT2013-4]
+name: Moto One Action
+network:
+- {tech: 2G, bands: GSM}
+- {tech: 3G, bands: UMTS} 
+- {tech: 4G, bands: LTE}
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+ram: 4 GB
+recovery_boot: devices.recovery_boot_using_volume_keys
+release: 2019
+screen: 6.3 in
+screen_ppi: 432
+screen_res: 1080x2520
+screen_tech: IPS LCD
+sdcard: upto 512 GB
+soc: Exynos 9609
+storage: 128 GB
+tree: android_device_motorola_troika
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+community_doc_url: https://community.e.foundation/t/motorola-moto-one-action-troika-documentation-suggestions/40857
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash boot
+flash_compatible_firmware_file: flash_compatible_firmware_motorola
+recovery_install_file_name: recovery_install_fastboot_motorola
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

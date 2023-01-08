@@ -1,0 +1,68 @@
+architecture: arm64
+battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 12}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '48 MP / 64 MP'}
+- {flash: '', info: '8 MP (ultrawide)'}
+- {flash: '', info: '5 MP (macro)'}
+- {flash: '', info: '2 MP (bokeh)'}
+- {flash: '', info: '16 MP / 32 MP (front punch-hole)'}
+codename: miatoll
+cpu: Kryo 465
+cpu_cores: '8'
+cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
+current_branch: 18.1
+depth: 8.8 mm (0.35 in)
+download_boot: devices.hold_volume_down_power_fastboot
+gpu: Adreno 618
+has_recovery_partition: true
+height: 165.7 mm (6.52 in)
+image: miatoll.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm6250
+maintainers: [Core.entin]
+models: [M2003J6A1G, M2003J6A1I, M2003J6B1I, M2003J6B2G, M2003J6CI]
+name: POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4/6/8 GB
+recovery_boot: devices.recovery_boot_miatoll
+release:
+- POCO M2 Pro: 2020-07-14
+- Redmi Note 9S: 2020-04-30
+- Redmi Note 9 Pro (Global): 2020-05-05
+- Redmi Note 9 Pro (India): 2020-03-17
+- Redmi Note 9 Pro Max: 2020-05-12
+screen: 6.67 in
+screen_ppi: 395
+screen_res: 1080x2400
+screen_tech: IPS LCD
+sdcard: up to 512 GB
+soc: Qualcomm SM7125 Snapdragon 720G
+storage: 64/128 GB
+tree: android_device_xiaomi_miatoll
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [S]
+width: 76.6 mm (3.02 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+community_doc_url: https://community.e.foundation/t/xiaomi-poco-m2-pro-redmi-note-9s-redmi-note-9-pro-redmi-note-9-pro-max-miatoll-documentation-suggestions/35473
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_xiaomi
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

@@ -1,0 +1,61 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '16 MP '}
+- {flash: '', info: '8 MP'}
+codename: PL2
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+current_branch: 18.1
+width: 2.98 in 
+height: 5.86 in 
+depth: 0.32 in 
+download_boot: devices.download_boot_nokia
+gpu: Adreno 508
+image: PL2.png
+install_method: fastboot_nokia
+is_ab_device: true
+kernel: android_kernel_nokia_sdm660
+maintainers: [theimpulson]
+models: [TA-1043, TA-1089]
+name: '6.1 (2018)'
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS]
+ram: 3/4 GB LPDDR4X
+recovery_boot: devices.recovery_boot_nokia
+release: 2018
+screen: 5.46 in 
+screen_ppi: 403
+screen_res: 1080x1920
+screen_tech: IPS LCD
+sdcard: 128 GB
+soc: Qualcomm SDM660 Snapdragon 630
+storage: 32/64 GB
+tree: android_device_nokia_PL2
+type: phone
+vendor: Nokia
+vendor_short: nokia
+versions: [S]
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
+community_doc_url: https://community.e.foundation/t/nokia-6-1-2018-pl2-documentation-suggestions/36949
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_generic
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+
+

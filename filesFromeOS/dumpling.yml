@@ -1,0 +1,66 @@
+architecture: arm64
+battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '20 MP'}
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '16MP'}
+channels:
+codename: dumpling
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 16.0
+depth: 7.30 mm (0.29 in)
+download_boot: devices.hold_volume_up_power
+gpu: Adreno 540
+height: 156.1 mm (6.15 in)
+image: dumpling.png
+recovery_install_method: fastboot_nexus
+kernel: android_kernel_oneplus_msm8998
+maintainers: []
+models:
+name: '5T'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, BC0 CDMA EVDO' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 2 4 5 7 8 12 17 18 19 20 ' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]
+ram: 6/8 GB
+recovery_boot: devices.hold_volume_down_power
+release: 2017
+screen: 6.01 in
+screen_ppi: '401'
+screen_res: 1080x2160
+screen_tech: Optic AMOLED
+sdcard:
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128 GB UFS 2.1 2-LANE
+tree: android_device_oneplus_dumpling
+type: phone
+community_doc_url: https://community.e.foundation/t/oneplus-5t-dumpling-documentation-suggestions/20994
+vendor: OnePlus
+vendor_short: oneplus
+width: 75.0 mm (2.95 in)
+wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
+build_version_dev: S
+upgrade_available: S
+additional_install_guides: https://community.e.foundation/t/oneplus-5t-dumpling-documentation-suggestions/20994/2
+before_install_file_name: before_install_dumpling
+additional_downloads:
+  latest_firmware: https://www.androidfilehost.com/?fid=17248734326145729708
+is_lineageos_official: true
+can_rollback: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+help_file_name: help_oneplus
+before_install_file_name: before_install_ensure_latest_firmware
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_generic
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery

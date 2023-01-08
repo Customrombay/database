@@ -1,0 +1,57 @@
+architecture: arm64
+battery: {removable: False, capacity: 4500 , tech: 'Li-Ion'}
+bluetooth: {spec: '4.2'}
+cameras:
+- {flash: 'LED', info: '48 MP rear'}
+- {flash: 'LED', info: '8 MP Front'}
+- {flash: 'LED', info: '25 MP Selfie'}
+codename: one
+cpu: MediaTek Helio P60
+cpu_cores: '8'
+cpu_freq: 2.1 GHz
+current_branch: 11.1
+depth: 8.9 mm
+download_boot: devices.download_boot_murena
+gpu: Arm Mali-G72 900MHz
+height: 161.8 mm (6.3 in)
+image: one.jpg
+is_ab_device: true
+kernel:
+maintainers: []
+models: [Murena One]
+name: 'Murena One '
+network:
+- {tech: 3G, bands: B2/B3/B5/B8}
+- {tech: 4G, bands: voLTE, VoWifi}
+nfc: true
+peripherals: [Headphone Jack,USB-C port,Separate Micro SD slot, Accelerometer, Gyroscope, Proximity, Compass, Fingerprint reader]
+ram: 4 GB
+recovery_boot: devices.recovery_boot_murena
+release: 2022 
+screen: 6.53 in
+screen_ppi: 395 ppi
+screen_res: 1080 x 2242
+screen_tech: IPS LCD Display
+sdcard:
+soc:
+storage: 128 GB
+tree:
+type: phone
+community_doc_url: https://community.e.foundation/t/murena-murena-one-documentation-suggestions/45344
+vendor: Murena
+vendor_short: murena
+width: 76.9 mm
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
+build_version_stable: R
+is_lineageos_official: false
+removable_battery: 1
+sim_slots: 2
+region: All
+maturity: green
+install:
+- { mode: Install doc }
+- { mode: Murena smartphones }
+custom_unlock_cmd: 'fastboot flashing unlock_critical'
+oem_unlock_file_name: oem_unlock_generic
+display_erecovery: false
+install_e_file_name: install_e_one

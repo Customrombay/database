@@ -1,0 +1,61 @@
+architecture: arm
+battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.9 MP'}
+channels:
+codename: i9305
+cpu: Cortex-A9
+cpu_cores: '4'
+cpu_freq: 1.4 GHz
+current_branch: 14.1
+custom_recovery: https://twrp.me/samsung/samsunggalaxys3internationalexynos.html
+depth: 8.6 mm (0.339 in)
+download_boot: devices.hold_volume_down_home_power
+gpu: ARM Mali-400 MP4
+height: 137 mm (5.4 in)
+image: i9300.png
+recovery_install_method: heimdall
+kernel: android_kernel_samsung_smdk4412
+maintainers: []
+models:
+name: Galaxy S III (LTE / International)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
+- {tech: 3G, bands: '850 900 2100 MHz UMTS/HSPA+'}
+- {tech: 4G, bands: '800 1800 2600 MHz (GT-I9305)'}
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+ram: 2 GB
+recovery_boot: devices.hold_volume_up_home_power
+release: 2012
+screen: 4.8 in
+screen_ppi: '320'
+screen_res: 1280x720
+screen_tech: Super AMOLED
+sdcard: up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16 GB
+tree: android_device_samsung_i9305
+type: phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-s-iii-lte-international-i9305-documentation-suggestions/21020
+uses_twrp: true
+vendor: Samsung
+vendor_short: samsung
+width: 71 mm (2.8 in)
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+build_version_dev: Nougat
+is_lineageos_official: true
+is_beta: true
+additional_downloads:
+  additional_patch: http://images.ecloud.global/dev/i9305/system(sim_support).zip
+removable_battery: 1
+sim_slots: 1
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+
+recovery_install_file_name: recovery_install_heimdall
+legacy: "yes"

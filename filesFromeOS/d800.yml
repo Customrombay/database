@@ -1,0 +1,59 @@
+architecture: arm
+battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+before_install_file_name: before_install_g2-common
+before_dd_recovery: before_dd_recovery_g2-common
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
+carrier: AT&T
+codename: d800
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.26 GHz
+current_branch: 18.1
+depth: 8.9 mm (0.35 in)
+download_boot: devices.download_boot_lg_d
+downgrade_bootloader: true
+gpu: Adreno 330
+height: 138.5 mm (5.45 in)
+image: g2.png
+install_method: dd
+kernel: android_kernel_lge_msm8974
+maintainers: []
+name: G2 (AT&T)
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+ram: 2 GB
+recovery_boot: devices.recovery_boot_lg_d
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+release: 2013-09-12
+root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
+screen: 5.2 in
+screen_ppi: '424'
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8974 Snapdragon 800
+storage: 16/32 GB
+tree: android_device_lge_d800
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [R]
+width: 70.9 mm (2.79 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+community_doc_url: https://community.e.foundation/t/lg-g2-at-t-d800-documentation-suggestions/35186
+build_version_dev: R
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_file_name: recovery_install_dd
+install_e_file_name: install_e_with_erecovery

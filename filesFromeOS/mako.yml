@@ -1,0 +1,61 @@
+architecture: arm
+battery: {removable: False, capacity: 2100, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
+channels:
+codename: mako
+cpu: Krait
+cpu_cores: '4'
+cpu_freq: 1.5 GHz
+current_branch: 15.1
+depth: 9.1 mm (0.36 in)
+download_boot: devices.hold_volume_down_power_then_release
+gpu: Adreno 320
+height: 133.9 mm (5.27 in)
+image: mako.png
+recovery_install_method: fastboot_nexus
+kernel: android_kernel_lge_mako
+maintainers: []
+name: Nexus 4
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
+peripherals: [GPS, Mobility DisplayPort (MyDP), Proximity sensor, NFC, Qi wireless charging]
+ram: 2 GB
+recovery_boot: devices.recovery_boot_use_volume_to_recovery
+release: 2012
+screen: 4.7 in
+screen_ppi: '320'
+screen_res: 1280x768
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm APQ8064 Snapdragon S4 Pro
+storage: 8/16 GB
+tree: android_device_lge_mako
+type: phone
+community_doc_url: https://community.e.foundation/t/google-nexus-4-mako-documentation-suggestions/20956
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/mako/
+vendor: Google
+vendor_short: lge
+width: 68.7 mm (2.70 in)
+wifi: 802.11 b/g/n
+build_version_dev: Nougat
+is_lineageos_official: true
+is_beta: true
+removable_battery: 0
+sim_slots: 1
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+minimal_os: true
+
+oem_unlock_file_name: oem_unlock_generic
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_generic
+legacy: "yes"

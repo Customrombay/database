@@ -1,0 +1,55 @@
+architecture:
+battery: {removable: True, capacity: 2600, tech: 'Li-ion'}
+bluetooth: {spec: 4.1, A2DP}
+cameras:
+- {flash: 'LED', info: '13 MP', 'f/1.9', '28mm (wide)', 'AF'}
+- {flash: 'LED', info: '5 MP', 'f/2.2', '23mm (wide)'}
+channels:
+codename: j53gxx
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1200 MHz
+current_branch:
+depth: 7.9 mm
+download_boot: devices.hold_volume_down_home_power
+gpu: Adreno 306
+height: 142.1 mm
+image:
+kernel:
+maintainers: []
+models: [SM-J500H]
+name: Galaxy J5 3G
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz ' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) ' }
+peripherals: [light sensor, Proximity sensor]
+ram: 1.5 Gb
+recovery_boot: devices.hold_volume_up_home_power
+release: 2015
+screen: 5 in
+screen_ppi:
+screen_res: 720x1280
+screen_tech:
+sdcard:
+soc:
+storage:
+tree:
+type: Phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-j5-3g-j53gxx-documentation-suggestions/21009
+uses_twrp: true
+custom_recovery: https://dl.twrp.me/j53gxx/
+vendor: Samsung
+width: 71.8 mm
+wifi: 802.11 a/g/b/n, Wi-fi Direct, Hotspot
+is_beta: true
+build_version_dev: Oreo
+removable_battery: 1
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+
+recovery_install_file_name: recovery_install_heimdall
+legacy: "yes"

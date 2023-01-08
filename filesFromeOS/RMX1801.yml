@@ -1,0 +1,52 @@
+architecture: arm64
+battery: {removable: False, capacity: 3500, tech: 'Li-Ion'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '16 MP (IMX398) f/1.7 + 2 MP Depth sensor (GC2375) f/2.4'}
+- {flash: '', info: '16 MP (IMX371) f/2.0'}
+codename: RMX1801
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
+current_branch: 17.1
+custom_recovery: https://sourceforge.net/projects/twrp-rmx1801/files/rmx1801/twrp-3.3.1-20200405-RMX1801.img/download
+download_boot: devices.download_boot_rmx1801
+gpu: Adreno 512
+recovery_install_method: fastboot_realme
+image: RMX1801.png
+kernel: android_kernel_realme_sdm660
+maintainers: []
+models: [RMX1801]
+name: 2 Pro
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS,  USB OTG]
+ram: 4/6/8 GB LPDDR4X
+recovery_boot: devices.recovery_boot_rmx1801
+release: 2018
+screen: 6.3 in
+screen_ppi: ~409
+screen_res: 2340x1080
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 64/128 GB eMMC5.1
+tree: android_device_realme_RMX1801
+type: phone
+community_doc_url: https://community.e.foundation/t/realme-2-pro-rmx1801-documentation-suggestions/28045
+uses_twrp: true
+vendor: Realme
+vendor_short: realme
+wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
+build_version_dev: Q
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 1
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_realme

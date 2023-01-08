@@ -1,0 +1,54 @@
+architecture:
+battery: {removable: False, capacity: 2300, tech: 'Li-ion'}
+bluetooth:
+cameras:
+- {flash: '8 MP', 'f/2.4', 'AF', 31mm (standard)'}
+- {flash: '5 MP', 'f/2.2'}
+channels:
+codename: a3xelte
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch:
+custom_recovery: https://twrp.me/samsung/samsunggalaxya32016exynos.html
+depth: 7.3mm
+download_boot: devices.hold_volume_down_home_power
+gpu: Adreno 306
+height: 130.1 mm (5.12 in)
+image:
+kernel: kernel/samsung/exynos7580-common
+maintainers: []
+models: [SM-A310F, SM-A310M, SM-A310Y, SM-A310N0 ]
+name: Galaxy A3 2016 Exynos
+network:
+peripherals: [accelerometer , proximity , compass , light]
+ram: 1.5 Gb
+recovery_boot: devices.hold_volume_up_home_power
+release: 2015
+screen: 4.5 in
+screen_ppi: 312ppi
+screen_res: 540x960
+screen_tech: Super AMOLED
+sdcard: supported up to 256 GB
+soc: Exynos7580 (8x 1.6GHz)
+storage:
+steps_to_flash_file_name: device_upgrade_samsung
+tree: android_device_samsung_a3xeltexx
+type: Phone
+community_doc_url: https://community.e.foundation/t/samsung-galaxy-a3-2016-exynos-a3xelte-documentation-suggestions/21004
+uses_twrp: true
+upgrade_available: Q
+vendor: Samsung
+width: 65.2 mm
+wifi: 802.11 b/g/n
+build_version_dev: Q
+region: All
+maturity: red
+install:
+- { mode: Install doc }
+removable_battery:  0
+revert_to_stock:
+- {os : windows, url: pages/revert_samsung_to_stock_on_windows }
+sim_slots: 2
+
+recovery_install_file_name: recovery_install_heimdall

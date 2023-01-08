@@ -1,0 +1,60 @@
+architecture: arm64
+battery: {removable: False, capacity: 2870, tech: 'Li-Ion'}
+before_e_install: before_e_install_ab_copy_partitions
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '8 MP'}
+codename: kirin
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.2 GHz
+current_branch: 17.1
+depth: 8.4 mm (0.33 in)
+download_boot: devices.hold_volume_up_connect_usb_notification_blue
+gpu: Adreno 508
+height: 163 mm (6.42 in)
+image: kirin.png
+recovery_install_method: fastboot_sony
+is_ab_device: true
+kernel: android_kernel_sony_sdm660
+maintainers: []
+models: [I3113, I3123, I4113, I4193]
+name: Xperia 10
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM radio]
+ram: 3/4 GB
+recovery_boot: devices.hold_volume_down_power
+release: 2019
+screen: 6 in
+screen_ppi: '457'
+screen_res: 1080x2520
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM630 Snapdragon 630
+storage: 64 GB
+tree: android_device_sony_kirin
+type: phone
+community_doc_url: https://community.e.foundation/t/sony-xperia-10-kirin-documentation-suggestions/26793
+vendor: Sony
+vendor_short: sony
+width: 68 mm (2.68 in)
+wifi: 802.11 a/b/g/n, dual band, Wi-Fi Direct, Hotspot
+upgrade_available: S
+build_version_dev: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+
+copy_partitions_file_name: before_e_install_ab_copy_partitions
+recovery_install_command: fastboot flash boot
+recovery_install_file_name: recovery_install_fastboot_sony
+downloads_file_name: device_downloads_erecovery

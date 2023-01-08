@@ -1,0 +1,61 @@
+architecture: arm64
+battery: {removable: False, capacity: 2730 , tech: 'Li-Ion'}
+before_e_install: before_e_install_ab_copy_partitions
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+codename: nash
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 17.1
+depth: 6.1 mm (0.24 in)
+download_boot: devices.hold_volume_down_power
+gpu: Adreno 540
+height: 155.8 mm (6.13 in)
+image: nash.png
+recovery_install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_msm8998
+maintainers: []
+models: [XT1789-02, XT1789-03, XT1789-04, XT1789-05, XT1789-06, XT1789-07]
+name: 'Moto Z2 Force'
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+ram: 4 GB, 6 GB
+recovery_boot: devices.hold_volume_down_power
+release: 2017
+screen: 5.5 in
+screen_ppi: '534'
+screen_res: 1440x2560
+screen_tech: Optic AMOLED
+sdcard: Up to 256 GB
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64 GB, 128 GB (UFS 2.1 2-LANE)
+tree: android_device_motorola_nash
+type: phone
+community_doc_url: https://community.e.foundation/t/motorola-moto-z2-force-nash-documentation-suggestions/27227
+vendor: Motorola
+vendor_short: motorola
+width: 76 mm (2.99 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, DLNA, Hotspot
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+before_install_file_name: before_install_nash
+copy_partitions_file_name: before_e_install_ab_copy_partitions
+recovery_install_command: fastboot flash boot
+recovery_install_file_name: recovery_install_fastboot_motorola
+downloads_file_name: device_downloads_erecovery
+install_e_file_name: install_e_with_erecovery

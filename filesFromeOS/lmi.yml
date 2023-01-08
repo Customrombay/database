@@ -1,0 +1,60 @@
+architecture: arm64
+battery: {removable: False, capacity: 4700, tech: 'Li-Po'}
+before_install_file_name: before_install_needs_specific_android_fw
+before_install_args: {version: 12}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '64 MP + 13MP (ultrawide) + 5MP (macro) + 2MP (bokeh) or 8MP (telephoto, zoom edition only)'}
+- {flash: '', info: '20 MP (front popup)'}
+codename: lmi
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 18.1
+width: 2.91 in
+height: 6.43 in 
+depth: 0.35 in 
+download_boot: devices.hold_volume_down_power_fastboot
+gpu: Adreno 650
+image: lmi.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm8250
+maintainers: []
+models: [M2004J11G, M2001J11C, M2001J11E]
+name: POCO F2 Pro / Redmi K30 Pro / Redmi K30 Pro Zoom Edition
+network:
+- {tech: 2G, bands: 'GSM' }
+- {tech: 3G, bands: 'UMTS' }
+- {tech: 4G, bands: 'LTE' }
+- {tech: 5G, bands: '5G' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8/12 GB
+recovery_boot: devices.recovery_boot_alioth
+release: 2020
+screen: 6.67 in
+screen_ppi: 395
+screen_res: 1080x2400
+screen_tech: AMOLED
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256/512 GB
+tree: android_device_xiaomi_lmi
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [S]
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+community_doc_url: https://community.e.foundation/t/xiaomi-poco-f2-pro-redmi-k30-pro-redmi-k30-pro-zoom-lmi-documentation-suggestions/36943
+build_version_dev: S
+upgrade_available: S
+is_lineageos_official: true
+removable_battery: 0
+sim_slots: 2
+region: All
+maturity: orange
+install:
+- { mode: Install doc }
+recovery_install_command: fastboot flash recovery
+recovery_install_file_name: recovery_install_fastboot_xiaomi
+install_e_file_name: install_e_with_erecovery
+downloads_file_name: device_downloads_erecovery
+
