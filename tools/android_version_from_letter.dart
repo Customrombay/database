@@ -46,7 +46,7 @@ String androidVersionFromLetter(String letter) {
     return "10";
   }
   else if (letter == "r") {
-    return "1";
+    return "11";
   }
   else if (letter == "s") {
     return "12";

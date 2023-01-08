@@ -27,7 +27,26 @@ void main() async {
     var name = ydoc["name"];
     var readCodename = ydoc["codename"];
     var build_version_stable = ydoc["build_version_stable"];
+
+    if (build_version_stable == "Pie" || build_version_stable == "pie") {
+      build_version_stable = "P";
+    }
+    else if (build_version_stable == "Oreo" || build_version_stable == "oreo") {
+      build_version_stable = "O";
+    }
+
     var build_version_dev = ydoc["build_version_dev"];
+
+    if (build_version_dev == "Nougat") {
+      build_version_dev = "N";
+    }
+    else if (build_version_dev == "Pie" || build_version_dev == "pie") {
+      build_version_dev = "P";
+    }
+    else if (build_version_dev == "Oreo" || build_version_dev == "oreo") {
+      build_version_dev = "O";
+    }
+
     var eOSVersion;
 
     if (build_version_stable != null) {
