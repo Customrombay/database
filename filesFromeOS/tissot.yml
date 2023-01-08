@@ -59,7 +59,6 @@ install:
 - { mode: Install doc }
 recovery_install_command: fastboot flash boot
 recovery_install_file_name: recovery_install_fastboot_xiaomi
-install_e_file_name: install_e_custom
 install_e_file_name: install_e_with_erecovery
 downloads_file_name: device_downloads_erecovery
 

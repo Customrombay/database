@@ -55,7 +55,6 @@ region: All
 maturity: orange
 install:
 - { mode: Install doc }
-recovery_install_command: fastboot flash boot
 copy_partitions_file_name: before_e_install_ab_copy_partitions
 recovery_install_file_name: recovery_install_fastboot_sony
 recovery_install_command: fastboot flash boot

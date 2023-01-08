@@ -53,7 +53,6 @@ region: All
 maturity: orange
 install:
 - { mode: Install doc }
-recovery_install_command: fastboot flash recovery
 recovery_install_file_name: recovery_install_fastboot_xiaomi
 recovery_install_command: fastboot flash recovery
 install_e_file_name: install_e_with_erecovery

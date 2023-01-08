@@ -28,7 +28,6 @@ peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS,
 ram: 3/4 GB
 recovery_boot: devices.recovery_boot_asus_X
 release: 2018
-screen: 
 screen: 6.26 in 
 screen_ppi: 269
 screen_res: 720x1520

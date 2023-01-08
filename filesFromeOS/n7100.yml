@@ -4,7 +4,7 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
-channels:
+channels: null
 codename: n7100
 cpu: Samsung Exynos 4 Quad 4412
 cpu_cores: '4'
@@ -14,12 +14,12 @@ depth: 9.4 mm
 download_boot: devices.hold_volume_down_home_power
 gpu: Mali-400MP4
 height: 151.1 mm
-image:
-kernel:
-maintainers:
-models:
+image: null
+kernel: null
+maintainers: null
+models: null
 name: Galaxy Note 2 (3G)
-network:
+network: null
 peripherals: [Accelerometer, gyro, proximity, compass, barometer]
 ram: 2 Gb
 recovery_boot: devices.hold_volume_up_home_power
@@ -28,10 +28,10 @@ screen: 5.5 in
 screen_ppi: 267
 screen_res: 720 x 1280
 screen_tech: Super AMOLED
-sdcard:
-soc:
+sdcard: null
+soc: null
 storage: 16.0 Gb
-tree:
+tree: null
 type: Phone
 community_doc_url: https://community.e.foundation/t/samsung-galaxy-note-2-3g-n7100-documentation-suggestions/21014
 custom_recovery: https://twrp.me/samsung/samsunggalaxynote2n7100.html
@@ -49,6 +49,5 @@ region: All
 maturity: orange
 install:
 - { mode: Install doc }
-
 recovery_install_file_name: recovery_install_heimdall
 legacy: "yes"

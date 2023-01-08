@@ -30,7 +30,6 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, FM r
 ram: 4/6/8 GB LPDDR4X
 recovery_boot: devices.recovery_boot_asus_z
 release: 2018-06
-screen: 
 screen: 6.2 in 
 screen_ppi: 402
 screen_res: 2246x1080

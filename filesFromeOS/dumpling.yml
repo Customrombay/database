@@ -46,7 +46,6 @@ wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
 build_version_dev: S
 upgrade_available: S
 additional_install_guides: https://community.e.foundation/t/oneplus-5t-dumpling-documentation-suggestions/20994/2
-before_install_file_name: before_install_dumpling
 additional_downloads:
   latest_firmware: https://www.androidfilehost.com/?fid=17248734326145729708
 is_lineageos_official: true

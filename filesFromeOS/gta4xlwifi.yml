@@ -37,11 +37,7 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [S]
-width: 154.3 mm (6.07 in)
-wifi: 802.11 a/b/g/n/ac
 community_doc_url: https://community.e.foundation/t/samsung-galaxy-tab-s6-lite-wi-fi-gta4xlwifi-documentation-suggestions/35472
-vendor: Samsung
-vendor_short: samsung
 width: 160 mm (6.3 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
 build_version_dev: S

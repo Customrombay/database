@@ -52,7 +52,7 @@ width: 74 mm (2.9 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
 build_version_dev: S
 upgrade_available: S
-is_ab_device: true
+# is_ab_device: true
 recovery_install_method: fastboot_nexus
 removable_battery: 0
 sim_slots: 1

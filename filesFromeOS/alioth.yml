@@ -53,11 +53,7 @@ tree: android_device_xiaomi_alioth
 type: phone
 community_doc_url: https://community.e.foundation/t/xiaomi-poco-f3-redmi-k40-mi-11x-alioth-documentation-suggestions/34358
 additional_install_guides: https://community.e.foundation/t/xiaomi-poco-f3-redmi-k40-mi-11x-alioth-documentation-suggestions/34358/4
-vendor: Xiaomi
-vendor_short: xiaomi
 versions: [S]
-width: 76.4 mm (3.01 in)
-wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
 vendor: Xiaomi
 additional_downloads: xiaomi
 vendor_short: xiaomi

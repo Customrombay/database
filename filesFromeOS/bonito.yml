@@ -18,7 +18,6 @@ gpu: Adreno 615
 height: 160.0 mm (6.3 in)
 image: b4s4.png
 install_method: fastboot_nexus
-is_ab_device: true
 kernel: android_kernel_google_msm-4.9
 maintainers: []
 name: Pixel 3a XL

@@ -46,10 +46,7 @@ vendor: Google
 vendor_short: google
 versions: [S]
 width: 68.8 mm (2.7 in)
-wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
 community_doc_url: https://community.e.foundation/t/google-pixel-4-flame-documentation-suggestions/35470
-vendor: Google
-vendor_short: google
 wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot
 e_recovery: true
 build_version_dev: S

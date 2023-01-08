@@ -1,6 +1,5 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-before_install_file_name: before_install_needs_specific_android_fw
 before_install_args: {version: 10}
 before_e_install: before_e_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}

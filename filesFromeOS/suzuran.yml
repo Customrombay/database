@@ -9,7 +9,6 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
-custom_recovery: https://androidfilehost.com/?fid=7161016148664799361
 depth: 8.9 mm (0.35 in)
 download_boot: devices.hold_volume_up_connect_usb_notification_blue
 gpu: Adreno 430

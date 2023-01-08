@@ -9,7 +9,6 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 16.0
-custom_recovery: https://androidfilehost.com/?fid=1395089523397922634
 depth: 4.9 mm (0.19 in)
 download_boot: devices.hold_volume_up_power
 format_on_upgrade: true
