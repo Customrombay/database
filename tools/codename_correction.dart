@@ -8,6 +8,9 @@ String codenameCorrection(String readCodename, String vendor) {
   else if (readCodename == "merlinx" && vendor == "Xiaomi") {
     return "merlin";
   }
+  else if (readCodename == "lemonkebab" && (vendor == "Oneplus" || vendor == "OnePlus")) {
+    return "lemonades";
+  }
   else {
     return readCodename;
   }
