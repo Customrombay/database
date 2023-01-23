@@ -36,6 +36,9 @@ void main() async {
         if (readCodename == "tulip") {
           continue;
         }
+        if (readCodename == "z2_plus" && readVendor == "Lenovo") {
+          vendor = "ZUK";
+        }
         String codename = codenameCorrection(readCodename, vendor);
         print(codename);
         int newestVersion = 0;
@@ -118,6 +121,9 @@ void main() async {
         else {
           numberOfNotCovered += 1;
           listOfNotCovered += ["${vendor.toString().toLowerCase()}-${codename.toString()}"];
+        }
+        if (readCodename == "z2_plus" && readVendor == "Lenovo") {
+          vendor = "Lenovo";
         }
       }
       stdout.write("Covered: $numberOfCovered\n");
