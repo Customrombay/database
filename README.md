@@ -1,2 +1,12 @@
-# database_sync
-A repository for syncing with custom ROMs creators
+# Customrombay database
+A repository for syncing data with custom ROMs' creators. It includes files for hundreds of devices and scripts for synchronizing the data with upstream repositories.
+
+## State of scripts for synchronizing with different custom ROMs' creators:
+**<span style="color:lime">[✓]</span>** LineageOS - conflicts fixed [here](https://github.com/LineageOS/lineage_wiki/commit/97360174e8eab338d7b848db4b626ef0ce8cd72e), using a local copy of the [device directory](https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices) \
+**<span style="color:yellow">[/]</span>** crDroid - using a [mainstream file from the official website](https://crdroid.net/devices_handler/compiled.json), an [important issue](https://github.com/crdroidandroid/crdroid.net/issues/10) ignored by the authors, 144/169 devices supported \
+**<span style="color:yellow">[/]</span>** CorvusOS - using a local copy of the [devices.json file](https://github.com/CorvusRom-Devices/jenkins/blob/main/devices.json) due to duplicate declarations, [fixes requested](https://github.com/CorvusRom-Devices/jenkins/pull/45), 42/52 devices supported \
+**<span style="color:orange">[\\]</span>** /e/OS - using a local copy of the [devices directory](https://gitlab.e.foundation/e/documentation/user/-/tree/master/htdocs/_data/devices) due to duplicate declarations, 250/270 devices supported \
+**<span style="color:red">[-]</span>** PixelExperience - no syncing script, this will be fixed in the future \
+**<span style="color:red">[-]</span>** ArrowOS - no parsable file found, devices added manually and not synced \
+**<span style="color:red">[-]</span>** GrapheneOS - no parsable file found, devices added manually and not synced \
+**<span style="color:red">[-]</span>** AwakenOS - no parsable file found, devices added manually and not synced
