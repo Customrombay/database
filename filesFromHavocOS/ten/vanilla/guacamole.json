@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "OnePlus",
+      "name": "OnePlus 7 Pro",
+      "codename": "guacamole",
+      "filename": "Havoc-OS-v3.12-20201219-guacamole-Official.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Anushek Prasal (SKULSHADY)",
+      "size": "959002775",
+      "datetime": 1608368174,
+      "id": "8a46bb4866bd3d7bcc217aa60c9ffe9d86ca9dee9ac1ede370dd8e75f413f71c",
+      "url": "https://sourceforge.net/projects/havoc-os/files/guacamole/Havoc-OS-v3.12-20201219-guacamole-Official.zip/download",
+      "group": "https://t.me/havoc_oneplus7",
+      "changelog": ""
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi Note 9 Pro",
+  "codename":"joyeuse",
+  "filename":"Havoc-OS-v4.8-20210806-joyeuse-Official-GApps.zip",
+  "version":"4.8",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"Rizak Kamal",
+  "username":"",
+  "size":1691878883,
+  "datetime":1628247980,
+  "filehash":"3852f00faee65a1bdb57c88c3761745a",
+  "id":"786c02511a3308f15dc02bc862d2ada0f1ba87e5242e33e783951f8ce8419ee6",
+  "url":"https://download.havoc-os.com/joyeuse/Havoc-OS-v4.8-20210806-joyeuse-Official-GApps.zip",
+  "group":"https://t.me/havocofficial"
+}

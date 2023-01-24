@@ -1,0 +1,16 @@
+{
+  "oem":"GSI",
+  "name":"ARM-AB",
+  "codename":"arm-ab",
+  "filename":"Havoc-OS-v3.12-20201230-Official-arm-ab.img.xz",
+  "version":"3.12",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"EugW",
+  "username":"",
+  "size":"440759024",
+  "datetime":1609372471,
+  "id":"60614c3399f783dd98eb7d44ac82303be2ae5c8c81ed74e5fd952ea283d4d197",
+  "url":"https://sourceforge.net/projects/havoc-os/files/arm-ab/Havoc-OS-v3.12-20201230-Official-arm-ab.img.xz/download",
+  "group":"https://t.me/havocgsi"
+}

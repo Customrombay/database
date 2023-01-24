@@ -1,0 +1,16 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi S2",
+  "codename":"ysl",
+  "filename":"Havoc-OS-v3.11-20201111-ysl-Official-GApps.zip",
+  "version":"3.11",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"Tushar Mahajan",
+  "username":"mahajant99",
+  "size":"1256958642",
+  "datetime":1605117627,
+  "id":"e05675cff95f3517785dca54ef8444e14ac2bb67e558fbef4a7dc4a5f5f3fd04",
+  "url":"https://sourceforge.net/projects/havoc-os/files/ysl/Havoc-OS-v3.1",
+  "group":"https://t.me/havocofficial"
+}

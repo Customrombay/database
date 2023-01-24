@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "lge",
+      "name": "LG-US997",
+      "codename": "us997",
+      "filename": "Havoc-OS-v3.11-20201114-us997-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Michael Bardoň (w0lfsvk)",
+      "size": "657127982",
+      "datetime": 1605358704,
+      "id": "3c88017750f8e25ec41f3ccbd9e1ed1bc6d2edfde603757530ed0b52ca6a81b4",
+      "url": "https://sourceforge.net/projects/havoc-os/files/us997/Havoc-OS-v3.11-20201114-us997-Official.zip/download",
+      "group": "https://t.me/havoc_lucye",
+      "changelog": ""
+    }
+  ]
+}

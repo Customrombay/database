@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "motorola",
+      "name": "moto g(7)",
+      "codename": "river",
+      "filename": "Havoc-OS-v3.9-20201011-river-Official.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Andrew Hexen (SyberHexen)",
+      "size": "601084009",
+      "datetime": 1602375205,
+      "id": "9eeb10e3972e212ef24c446122e7488ff768f76de6dedbfb2ef1a9a4879e78e5",
+      "url": "https://sourceforge.net/projects/havoc-os/files/river/Havoc-OS-v3.9-20201011-river-Official.zip/download",
+      "group": "https://t.me/havoc_river",
+      "changelog": ""
+    }
+  ]
+}

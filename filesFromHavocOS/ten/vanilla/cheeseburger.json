@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "OnePlus",
+      "name": "ONEPLUS A5000",
+      "codename": "cheeseburger",
+      "filename": "Havoc-OS-v3.9-20200928-cheeseburger-Official.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "",
+      "size": "800663525",
+      "datetime": 1601286542,
+      "id": "d7d98612ea2ea8f86fb8c89129923a6136f15a59a5782336db15553d2b4d44b4",
+      "url": "https://sourceforge.net/projects/havoc-os/files/cheeseburger/Havoc-OS-v3.9-20200928-cheeseburger-Official.zip/download",
+      "group": "",
+      "changelog": ""
+    }
+  ]
+}

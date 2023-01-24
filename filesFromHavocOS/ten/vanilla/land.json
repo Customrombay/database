@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Redmi 3S/3X",
+      "codename": "land",
+      "filename": "Havoc-OS-v3.11-20201119-land-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Sairam Majgaonkar (Sairam60)",
+      "size": "615120104",
+      "datetime": 1605795595,
+      "id": "59b69913db98f471962c62841a36cf51e4dde5bc4dfa4cb08a6c4c877f132ae0",
+      "url": "https://sourceforge.net/projects/havoc-os/files/land/Havoc-OS-v3.11-20201119-land-Official.zip/download",
+      "group": "https://t.me/havoc_land",
+      "changelog": ""
+    }
+  ]
+}

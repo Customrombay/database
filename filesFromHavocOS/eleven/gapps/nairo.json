@@ -1,0 +1,17 @@
+{
+  "oem":"Motorola",
+  "name":"Motorola Moto G 5G Plus",
+  "codename":"nairo",
+  "filename":"Havoc-OS-v4.19-20220728-nairo-Official-GApps.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"Andrew Hexen",
+  "username":"SyberHexen",
+  "size":1391080075,
+  "datetime":1659034340,
+  "filehash":"c77dbb9cf89d5982b147badcc2ec0e69",
+  "id":"8f8a5f27453835205f23154c91861f332a89db51d41d04b2f32f3224a066ac98",
+  "url":"https://download.havoc-os.com/nairo/Havoc-OS-v4.19-20220728-nairo-Official-GApps.zip",
+  "group":"https://t.me/+he6WpRFkCbdlNjAx"
+}

@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Redmi Note 7 Pro",
+      "codename": "violet",
+      "filename": "Havoc-OS-v3.12-20201224-violet-Official.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Athul Dinesan",
+      "size": "877184316",
+      "datetime": 1608809667,
+      "id": "2e7de36797d0e4b19d2dd96e305106ec4ab6cdbba8e8efa307b245732e1df329",
+      "url": "https://sourceforge.net/projects/havoc-os/files/violet/Havoc-OS-v3.12-20201224-violet-Official.zip/download",
+      "group": "https://t.me/havoc_violet",
+      "changelog": ""
+    }
+  ]
+}

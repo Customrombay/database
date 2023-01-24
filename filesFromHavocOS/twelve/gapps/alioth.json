@@ -1,0 +1,17 @@
+{
+  "oem":"POCO",
+  "name":"Mi 11x/ Poco F3 /Redmi K40",
+  "codename":"alioth",
+  "filename":"Havoc-OS-v5.7-20220719-alioth-Official-GApps.zip",
+  "version":"5.7",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"revolwoc",
+  "username":"revolwoc",
+  "size":1806559563,
+  "datetime":1658215747,
+  "filehash":"1c942c1d2a873ecefc1b7d029ce662bc",
+  "id":"a9ecee97d137251ea03aee2c955cccc7feb41c3e0d11cd375ae7ffe26efbed88",
+  "url":"https://download.havoc-os.com/alioth/Havoc-OS-v5.7-20220719-alioth-Official-GApps.zip",
+  "group":""
+}

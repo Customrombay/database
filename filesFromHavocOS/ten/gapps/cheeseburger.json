@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "OnePlus",
+      "name": "ONEPLUS A5000",
+      "codename": "cheeseburger",
+      "filename": "Havoc-OS-v3.9-20200928-cheeseburger-Official-GApps.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "",
+      "size": "1373487544",
+      "datetime": 1601300712,
+      "id": "d4f4731a2fba411bc2f971fa4dcd69b37c071bf2cccdb5a549ce8ab25c31e154",
+      "url": "https://sourceforge.net/projects/havoc-os/files/cheeseburger/Havoc-OS-v3.9-20200928-cheeseburger-Official-GApps.zip/download",
+      "group": "",
+      "changelog": ""
+    }
+  ]
+}

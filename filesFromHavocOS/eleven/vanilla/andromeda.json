@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Mi MIX 3 5G",
+  "codename":"andromeda",
+  "filename":"Havoc-OS-v4.19-20220729-andromeda-Official.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Nicholas Magill",
+  "username":"Inkypen",
+  "size":1202172207,
+  "datetime":1659065879,
+  "filehash":"c688c47edeb6dc20510155d6f655cc50",
+  "id":"fc764628357186a0a546f60456eff7404e4fcbef559eab4b25d37f5e0b899049",
+  "url":"https://download.havoc-os.com/andromeda/Havoc-OS-v4.19-20220729-andromeda-Official.zip",
+  "group":"https://t.me/+TXVqjjAj0ts4MTI8"
+}

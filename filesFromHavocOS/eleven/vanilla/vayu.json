@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Poco X3 Pro",
+  "codename":"vayu",
+  "filename":"Havoc-OS-v4.19-20220805-vayu-Official.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Alisson Grizotti",
+  "username":"bagualisson",
+  "size":1160909059,
+  "datetime":1659699742,
+  "filehash":"9c69fa482b716123f9a53466d0371603",
+  "id":"5bd80156f9e6e92c9cd7dc6f741c8ef3a8001c666cf5022510e0fe7886af941c",
+  "url":"https://download.havoc-os.com/vayu/Havoc-OS-v4.19-20220805-vayu-Official.zip",
+  "group":"https://t.me/+xesyU34aI7k2NWM1"
+}

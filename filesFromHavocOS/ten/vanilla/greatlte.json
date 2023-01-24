@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Samsung",
+      "name": "Samsung Galaxy Note 8",
+      "codename": "greatlte",
+      "filename": "Havoc-OS-v3.12-20201229-greatlte-Official.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "EugW",
+      "size": "668347175",
+      "datetime": 1609266396,
+      "id": "05d028dd61362f8d839dd586a14327af8e2ba0bbb0c05b44db900df22de9656d",
+      "url": "https://sourceforge.net/projects/havoc-os/files/greatlte/Havoc-OS-v3.12-20201229-greatlte-Official.zip/download",
+      "group": "https://t.me/havoc8895",
+      "changelog": ""
+    }
+  ]
+}

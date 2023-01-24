@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi Note 5 Pro",
+  "codename":"whyred",
+  "filename":"Havoc-OS-v4.8-20210810-whyred-Official-GApps.zip",
+  "version":"4.8",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"Ruturaj Kadam",
+  "username":"root2raj",
+  "size":1347791018,
+  "datetime":1628624457,
+  "filehash":"393ad10e2b3f5565d80a51c0575c7507",
+  "id":"823640aec77f5c891634a4e99d1685c7b5901047e728b480bb406299c1203275",
+  "url":"https://download.havoc-os.com/whyred/Havoc-OS-v4.8-20210810-whyred-Official-GApps.zip",
+  "group":"https://t.me/havocofficial"
+}

@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi 6 Pro",
+  "codename":"sakura",
+  "filename":"Havoc-OS-v4.8-20210805-sakura-Official.zip",
+  "version":"4.8",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Tushar Mahajan",
+  "username":"mahajant99",
+  "size":786741065,
+  "datetime":1628144096,
+  "filehash":"3676ec5fb283e6f14bb62a2c42fd2f58",
+  "id":"829d9e8834a428cdca8a61b8d8c451343717eac04cf6d826133f3656a8956e62",
+  "url":"https://download.havoc-os.com/sakura/Havoc-OS-v4.8-20210805-sakura-Official.zip",
+  "group":"https://t.me/havocofficial"
+}

@@ -1,0 +1,16 @@
+{
+  "oem":"OnePlus",
+  "name":"OnePlus One",
+  "codename":"bacon",
+  "filename":"Havoc-OS-v3.12-20201221-bacon-Official.zip",
+  "version":"3.12",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Clint Thebus",
+  "username":"ClintT1",
+  "size":"440386502",
+  "datetime":1608534429,
+  "id":"550602319bf61a4dddfdeb739eb95a9b7764abec64fe1d7491dc9f4b1087a2fa",
+  "url":"https://sourceforge.net/projects/havoc-os/files/bacon/Havoc-OS-v3.12-20201221-bacon-OFFICIAL.zip/download",
+  "group":"https://t.me/havocofficial"
+}

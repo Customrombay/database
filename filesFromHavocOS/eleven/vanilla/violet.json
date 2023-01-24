@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi Note 7 Pro",
+  "codename":"violet",
+  "filename":"Havoc-OS-v4.19-20220805-violet-Official.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Athul Dinesan",
+  "username":"athuld",
+  "size":971582181,
+  "datetime":1659682844,
+  "filehash":"2e06dbc20a2604594838cf94b21e0d36",
+  "id":"7a2196b99f53f8c00d38e141dcb244d35958d51f875ca48811ce05bdb1e6a83a",
+  "url":"https://download.havoc-os.com/violet/Havoc-OS-v4.19-20220805-violet-Official.zip",
+  "group":"https://t.me/+r2lq1BYhIdM5ZDY1"
+}

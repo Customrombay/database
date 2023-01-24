@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Redmi Note 5A",
+      "codename": "ulysse",
+      "filename": "Havoc-OS-v3.11-20201114-ulysse-OFFICIAL.zip",
+      "version": "3.11",
+      "romtype": "OFFICIAL",
+      "variant": "Vanilla",
+      "maintainer": "Heinz Der Flugel",
+      "size": "692168816",
+      "datetime": 1605340334,
+      "id": "2af4cead7ed00fc9425ff80fe3cae7d8a079625526a95963dbf6d9c54b7cbfa9",
+      "url": "https://sourceforge.net/projects/havoc-os/files/ulysse/Havoc-OS-v3.11-20201114-ulysse-OFFICIAL.zip/download",
+      "group": "https://t.me/havoc_ulysse",
+      "changelog": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Redmi Note 6 Pro",
+      "codename": "tulip",
+      "filename": "Havoc-OS-v3.11-20201110-tulip-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Akhil MS (akhilmsachu)",
+      "size": "768843040",
+      "datetime": 1605021747,
+      "id": "81795d26adcba473311f75748ba0753571153a354e87ce581e932a27890a9eef",
+      "url": "https://sourceforge.net/projects/havoc-os/files/tulip/Havoc-OS-v3.11-20201110-tulip-Official.zip/download",
+      "group": "https://t.me/havoc_tulip",
+      "changelog": ""
+    }
+  ]
+}

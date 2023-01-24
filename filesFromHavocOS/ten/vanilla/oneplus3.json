@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "OnePlus",
+      "name": "OnePlus 3 / 3T",
+      "codename": "oneplus3",
+      "filename": "Havoc-OS-v3.12-20201219-oneplus3-Official.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Anushek Prasal (SKULSHADY)",
+      "size": "752730221",
+      "datetime": 1608406413,
+      "id": "695927ccbe0b38d4166efef6d990bd780b467b899205bd7738068a7354460b48",
+      "url": "https://sourceforge.net/projects/havoc-os/files/oneplus3/Havoc-OS-v3.12-20201219-oneplus3-Official.zip/download",
+      "group": "https://t.me/havoc_oneplus3",
+      "changelog": ""
+    }
+  ]
+}

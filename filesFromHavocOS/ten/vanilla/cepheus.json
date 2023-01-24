@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Mi 9",
+      "codename": "cepheus",
+      "filename": "Havoc-OS-v3.11-20201111-cepheus-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Savsır Cankat Özbay (savsir)",
+      "size": "903302063",
+      "datetime": 1604930607,
+      "id": "ccc560f68ef778d7c7e2dcd36a2dd548d3bd142191285c0ccf8fe6c4cffd0800",
+      "url": "https://sourceforge.net/projects/havoc-os/files/cepheus/Havoc-OS-v3.11-20201111-cepheus-Official.zip/download",
+      "group": "https://t.me/havoc_cepheus",
+      "changelog": ""
+    }
+  ]
+}

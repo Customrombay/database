@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "SM6250",
+      "codename": "miatoll",
+      "filename": "Havoc-OS-v3.11-20201123-miatoll-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "",
+      "size": "1489266113",
+      "datetime": 1606136596,
+      "id": "2f5caeea592d27895880e5f9affb14873fccf1d54c3b6022c0b9d2754d122eea",
+      "url": "https://sourceforge.net/projects/havoc-os/files/miatoll/Havoc-OS-v3.11-20201123-miatoll-Official.zip/download",
+      "group": "",
+      "changelog": ""
+    }
+  ]
+}

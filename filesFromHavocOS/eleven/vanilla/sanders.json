@@ -1,0 +1,17 @@
+{
+  "oem":"Motorola",
+  "name":"Motorola Moto G5S Plus",
+  "codename":"sanders",
+  "filename":"Havoc-OS-v4.8-20210808-sanders-Official.zip",
+  "version":"4.8",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"P Mahapatra",
+  "username":"Ronax",
+  "size":813613868,
+  "datetime":1628429162,
+  "filehash":"2ecfa9bfb16f38713e85382f044d2b66",
+  "id":"f71ae7f42c993f91d4ce1be4d98d0a7d44809ab016cc78c775b0f2932d67c709",
+  "url":"https://download.havoc-os.com/sanders/Havoc-OS-v4.8-20210808-sanders-Official.zip",
+  "group":"https://t.me/havocofficial"
+}

@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi Note 9S / 9 Pro Max / Poco M2 Pro",
+  "codename":"miatoll",
+  "filename":"Havoc-OS-v4.10-20211026-miatoll-Official-GApps.zip",
+  "version":"4.10",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"Sairam Majgaonkar",
+  "username":"Sairam60",
+  "size":1658730959,
+  "datetime":1635292163,
+  "filehash":"2df6b0288af56e048fbe6b009211ad4d",
+  "id":"daa65d54b1b8ab6fc5b34c90d8fb9c8cd8e9b60f966e246eafcc7b2d34d4b11f",
+  "url":"https://download.havoc-os.com/miatoll/Havoc-OS-v4.10-20211026-miatoll-Official-GApps.zip",
+  "group":"https://t.me/havocofficial"
+}

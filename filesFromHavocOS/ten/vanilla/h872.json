@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "lge",
+      "name": "LG-H872",
+      "codename": "h872",
+      "filename": "Havoc-OS-v3.11-20201114-h872-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Michael Bardoň (w0lfsvk)",
+      "size": "657100235",
+      "datetime": 1605359709,
+      "id": "4451d1ec0e8d0a1f31b7d2f365e2272012b6097f73ba96774db26f78872fa567",
+      "url": "https://sourceforge.net/projects/havoc-os/files/h872/Havoc-OS-v3.11-20201114-h872-Official.zip/download",
+      "group": "https://t.me/havoc_lucye",
+      "changelog": ""
+    }
+  ]
+}

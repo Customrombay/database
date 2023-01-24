@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Redmi Note 5",
+      "codename": "whyred",
+      "filename": "Havoc-OS-v3.12-20201225-whyred-Official.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "",
+      "size": "739558336",
+      "datetime": 1608901476,
+      "id": "096abb13602e7e83dd86c1c8f10aa61208932320415873a59d8ebe02458b34d2",
+      "url": "https://sourceforge.net/projects/havoc-os/files/whyred/Havoc-OS-v3.12-20201225-whyred-Official.zip/download",
+      "group": "",
+      "changelog": ""
+    }
+  ]
+}

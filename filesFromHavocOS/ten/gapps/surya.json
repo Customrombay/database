@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "POCO",
+      "name": "M2007J20CG",
+      "codename": "surya",
+      "filename": "Havoc-OS-v3.11-20201116-surya-Official-GApps.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "Tushar Mahajan (mahajant99)",
+      "size": "1201179451",
+      "datetime": 1605555267,
+      "id": "bb6fffe2d4632ffc80cb0dbacfad749e0da831d677ef822f93065f6963420a0d",
+      "url": "https://sourceforge.net/projects/havoc-os/files/surya/Havoc-OS-v3.11-20201116-surya-Official-GApps.zip/download",
+      "group": "https://t.me/havoc_surya",
+      "changelog": ""
+    }
+  ]
+}

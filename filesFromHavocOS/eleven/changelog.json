@@ -1,0 +1,10 @@
+{
+  "changelog":
+  [
+    {
+      "enabled":"true",
+      "whitelist_only":"false",
+      "info":"- Merged July Security Patch<br>- Other fixes and improvements"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Realme",
+      "name": "Realme XT",
+      "codename": "RMX1921",
+      "filename": "Havoc-OS-v3.12-20201217-RMX1921-Official-GApps.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "Probir Ghosh (officialpro)",
+      "size": "1506125320",
+      "datetime": 1608196921,
+      "id": "8cbd90097008e6cf09bd1ff36594c3a36042ddd6f4f2599ad15210e28e8f9d7d",
+      "url": "https://sourceforge.net/projects/havoc-os/files/RMX1921/Havoc-OS-v3.12-20201217-RMX1921-Official-GApps.zip/download",
+      "group": "https://t.me/havoc_RMX1921",
+      "changelog": ""
+    }
+  ]
+}

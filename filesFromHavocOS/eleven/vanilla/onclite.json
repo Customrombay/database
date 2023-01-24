@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Redmi 7",
+  "codename":"onclite",
+  "filename":"Havoc-OS-v4.19-20220730-onclite-Official.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Havoc-OS-CI",
+  "username":"Havoc_OS",
+  "size":874161015,
+  "datetime":1659216251,
+  "filehash":"4f22c02aa8cb58655848f34f1c69f387",
+  "id":"2bc77c9e94f8221d55130ae7951b21a0657af39eb166e20f3518fbe77a68a8e8",
+  "url":"https://download.havoc-os.com/onclite/Havoc-OS-v4.19-20220730-onclite-Official.zip",
+  "group":"https://t.me/+7pW4E25hRnQ5NDll"
+}

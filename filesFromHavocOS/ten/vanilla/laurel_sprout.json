@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Mi A3",
+      "codename": "laurel_sprout",
+      "filename": "Havoc-OS-v3.9-20200917-laurel_sprout-Official.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Prakash (Prakaship78)",
+      "size": "802217638",
+      "datetime": 1600335547,
+      "id": "674c4a4b03d70876dc352bd79e1f93538e2369367feaf773c566368905a96a9a",
+      "url": "https://sourceforge.net/projects/havoc-os/files/laurel_sprout/Havoc-OS-v3.9-20200917-laurel_sprout-Official.zip/download",
+      "group": "https://t.me/havoc_laurel_sprout",
+      "changelog": ""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "realme",
+      "name": "realme X2",
+      "codename": "X2",
+      "filename": "Havoc-OS-v3.9-20200916-X2-Official.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Bibhuti Bhushan Mohapatra (TH3_GUNN3R)",
+      "size": "630645208",
+      "datetime": 1600249664,
+      "id": "2c6467f180eb34b10a78ae30decf74024d84d668568f558a698aac7c8317ec6e",
+      "url": "https://sourceforge.net/projects/havoc-os/files/X2/Havoc-OS-v3.9-20200916-X2-Official.zip/download",
+      "group": "https://t.me/havoc_X2",
+      "changelog": "https://t.me/Havoc_OS/2550"
+    }
+  ]
+}

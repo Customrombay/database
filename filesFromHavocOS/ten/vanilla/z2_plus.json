@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "ZUK",
+      "name": "Z2 Plus",
+      "codename": "z2_plus",
+      "filename": "Havoc-OS-v3.9-20201002-z2_plus-Official.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Nikhil Gohil",
+      "size": "694586754",
+      "datetime": 1601650172,
+      "id": "37755b9e8a8ab2e937193dd4d79c69b785bfbaa8b577cfdfa473413a2121c2af",
+      "url": "https://sourceforge.net/projects/havoc-os/files/z2_plus/Havoc-OS-v3.9-20201002-z2_plus-Official.zip/download",
+      "group": "https://t.me/havoc_z2_plus",
+      "changelog": ""
+    }
+  ]
+}

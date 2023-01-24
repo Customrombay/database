@@ -1,0 +1,17 @@
+{
+  "oem":"LG",
+  "name":"LG G6",
+  "codename":"h872",
+  "filename":"Havoc-OS-v4.8-20210810-h872-Official.zip",
+  "version":"4.8",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Michael Bardon",
+  "username":"",
+  "size":736966037,
+  "datetime":1628607908,
+  "filehash":"28791dc6b9bc0c8f952beac93c80ec18",
+  "id":"379a78c76b9c14dddaee35857532382d4bc6ff8ff8f475397e527e45144d7fa2",
+  "url":"https://download.havoc-os.com/lucye/Havoc-OS-v4.8-20210810-h872-Official.zip",
+  "group":"https://t.me/havocofficial"
+}

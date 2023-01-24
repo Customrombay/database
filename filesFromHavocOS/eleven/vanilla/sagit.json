@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Mi 6",
+  "codename":"sagit",
+  "filename":"Havoc-OS-v4.19-20220806-sagit-Official.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Den Chornyi",
+  "username":"DuumXH",
+  "size":806698182,
+  "datetime":1659744339,
+  "filehash":"6077e35e72663336f1dcda47928bed44",
+  "id":"c1f0c04717cff5d74bb692fc2a4fec8ca445df9d54db3493562278e03cd6c5dc",
+  "url":"https://download.havoc-os.com/sagit/Havoc-OS-v4.19-20220806-sagit-Official.zip",
+  "group":"https://t.me/+kI0Y8W59GFA3YzAy"
+}

@@ -1,0 +1,16 @@
+{
+  "oem":"GSI",
+  "name":"ARM64-Aonly",
+  "codename":"arm64-aonly",
+  "filename":"Havoc-OS-v3.12-20201230-Official-GApps-arm64-aonly.img.xz",
+  "version":"3.12",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"EugW",
+  "username":"",
+  "size":"1071844828",
+  "datetime":1609372471,
+  "id":"cb378a094d6097eccfd91e054b5f166f7cb0c27e9e3d67105cc4e23ebee79cab",
+  "url":"https://sourceforge.net/projects/havoc-os/files/arm64-aonly/Havoc-OS-v3.12-20201230-Official-GApps-arm64-aonly.img.xz/download",
+  "group":"https://t.me/havocgsi"
+}

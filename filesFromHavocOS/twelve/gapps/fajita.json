@@ -1,0 +1,17 @@
+{
+  "oem":"OnePlus",
+  "name":"OnePlus 6T",
+  "codename":"fajita",
+  "filename":"Havoc-OS-v5.7-20220711-fajita-Official-GApps.zip",
+  "version":"5.7",
+  "romtype":"Official",
+  "variant":"GApps",
+  "maintainer":"Vikas Yaduvanshi",
+  "username":"OptimussPriime",
+  "size":1457775042,
+  "datetime":1657550245,
+  "filehash":"8c2b8f63f2a2e64cbb6ee574502aeea9",
+  "id":"2ccefb1afa33be5e5594440bbb3af825e028fb6e4230e461f4c003622aa42c69",
+  "url":"https://download.havoc-os.com/fajita/Havoc-OS-v5.7-20220711-fajita-Official-GApps.zip",
+  "group":"https://t.me/havoc_oneplus6t"
+}

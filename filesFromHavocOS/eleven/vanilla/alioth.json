@@ -1,0 +1,17 @@
+{
+  "oem":"Xiaomi",
+  "name":"Xiaomi Mi 11X / Redmi K40 / Poco F3",
+  "codename":"alioth",
+  "filename":"Havoc-OS-v4.19-20220729-alioth-Official.zip",
+  "version":"4.19",
+  "romtype":"Official",
+  "variant":"Vanilla",
+  "maintainer":"Sukeerat Singh Goindi",
+  "username":"irongfly",
+  "size":1156595189,
+  "datetime":1659060341,
+  "filehash":"ea65bd77a3a992ac63940145d2e32838",
+  "id":"3bcccf88ecc271fa6b35385a8c86f52a60562fe6ab45be9afe1025661698fdfc",
+  "url":"https://download.havoc-os.com/alioth/Havoc-OS-v4.19-20220729-alioth-Official.zip",
+  "group":"https://t.me/+lHrhajwm-HsyN2Q1"
+}

@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "GSI",
+      "name": "ARM-AB",
+      "codename": "arm-ab",
+      "filename": "Havoc-OS-v3.12-20201230-Official-GApps-arm-ab.img.xz",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "EugW",
+      "size": "990382636",
+      "datetime": 1609372471,
+      "id": "9e392068b8ee10cac6317d22050bacd8e9be42f6a9d04a4a1514f73df69dc0de",
+      "url": "https://sourceforge.net/projects/havoc-os/files/arm-ab/Havoc-OS-v3.12-20201230-Official-GApps-arm-ab.img.xz/download",
+      "group": "https://t.me/havocgsi",
+      "changelog": ""
+    }
+  ]
+}

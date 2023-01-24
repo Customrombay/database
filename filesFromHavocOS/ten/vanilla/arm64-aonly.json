@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "GSI",
+      "name": "ARM64-Aonly",
+      "codename": "arm64-aonly",
+      "filename": "Havoc-OS-v3.12-20201230-Official-arm64-aonly.img.xz",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "EugW",
+      "size": "559758784",
+      "datetime": 1609372471,
+      "id": "0812bcba431c3547a5c1c05f32acec9d2527f4af232ea29f09c27931852d763a",
+      "url": "https://sourceforge.net/projects/havoc-os/files/arm64-aonly/Havoc-OS-v3.12-20201230-Official-arm64-aonly.img.xz/download",
+      "group": "https://t.me/havocgsi",
+      "changelog": ""
+    }
+  ]
+}

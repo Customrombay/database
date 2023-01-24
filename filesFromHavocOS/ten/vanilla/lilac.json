@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Sony",
+      "name": "G8441",
+      "codename": "lilac",
+      "filename": "Havoc-OS-v3.11-20201120-lilac-Official.zip",
+      "version": "3.11",
+      "romtype": "Official",
+      "variant": "Vanilla",
+      "maintainer": "Shashank Verma (shank03)",
+      "size": "859365364",
+      "datetime": 1605858768,
+      "id": "9db1266f76e3bd3be5827242d7a605b1658c9c00d668711340fbbaafed6dbb35",
+      "url": "https://sourceforge.net/projects/havoc-os/files/lilac/Havoc-OS-v3.11-20201120-lilac-Official.zip/download",
+      "group": "https://t.me/havoc_lilac",
+      "changelog": ""
+    }
+  ]
+}

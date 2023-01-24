@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "asus",
+      "name": "ZenFone Max Pro M1",
+      "codename": "X00T",
+      "filename": "Havoc-OS-v3.9-20200916-X00T-Official-GApps.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "",
+      "size": "1316102969",
+      "datetime": 1600249190,
+      "id": "af80aa3188285974cfb1c3d11c28c3cc75b28e5b03dcbd219a65508d21df563f",
+      "url": "https://sourceforge.net/projects/havoc-os/files/X00T/Havoc-OS-v3.9-20200916-X00T-Official-GApps.zip/download",
+      "group": "",
+      "changelog": ""
+    }
+  ]
+}

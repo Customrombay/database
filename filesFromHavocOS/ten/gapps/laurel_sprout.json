@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Mi A3",
+      "codename": "laurel_sprout",
+      "filename": "Havoc-OS-v3.9-20200917-laurel_sprout-Official-GApps.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "Prakash (Prakaship78)",
+      "size": "1323260311",
+      "datetime": 1600308930,
+      "id": "d2dfc4aba4daf767e43dfeea156d72d341f5567e5c70c201a5f079ef86ff1353",
+      "url": "https://sourceforge.net/projects/havoc-os/files/laurel_sprout/Havoc-OS-v3.9-20200917-laurel_sprout-Official-GApps.zip/download",
+      "group": "https://t.me/havoc_laurel_sprout",
+      "changelog": ""
+    }
+  ]
+}

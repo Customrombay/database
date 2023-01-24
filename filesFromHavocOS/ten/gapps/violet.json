@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Redmi Note 7 Pro",
+      "codename": "violet",
+      "filename": "Havoc-OS-v3.12-20201224-violet-Official-GApps.zip",
+      "version": "3.12",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "Athul Dinesan",
+      "size": "1447342454",
+      "datetime": 1608795412,
+      "id": "b1600d4b07cb0ad3b88ba17954b8f8cfe45ae54b3349078863d6f16c5a523661",
+      "url": "https://sourceforge.net/projects/havoc-os/files/violet/Havoc-OS-v3.12-20201224-violet-Official-GApps.zip/download",
+      "group": "https://t.me/havoc_violet",
+      "changelog": ""
+    }
+  ]
+}

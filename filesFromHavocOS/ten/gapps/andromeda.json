@@ -1,0 +1,20 @@
+{
+  "response": [
+    {
+      "oem": "Xiaomi",
+      "name": "Mi MIX 3 5G",
+      "codename": "andromeda",
+      "filename": "Havoc-OS-v3.9-20200916-andromeda-Official-GApps.zip",
+      "version": "3.9",
+      "romtype": "Official",
+      "variant": "GApps",
+      "maintainer": "Nicholas Magill (Inkypen)",
+      "size": "1700900965",
+      "datetime": 1600251112,
+      "id": "ad8cfe3f05c4bf9a342430336cbe5296bcfc7e1f5d82e42eda0cef1a90adc48c",
+      "url": "https://sourceforge.net/projects/havoc-os/files/andromeda/Havoc-OS-v3.9-20200916-andromeda-Official-GApps.zip/download",
+      "group": "https://t.me/havoc_andromeda",
+      "changelog": ""
+    }
+  ]
+}
