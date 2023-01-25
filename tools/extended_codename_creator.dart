@@ -11,6 +11,9 @@ String extendedCodenameCreator({
   else if (readCodename == "merlinx" && vendor == "Xiaomi") {
     return "xiaomi-merlin";
   }
+  else if (readCodename == "phoenix" && vendor == "Redmi") {
+    return "xiaomi-phoenix";
+  }
   else if (readCodename == "alioth" && (vendor == "Poco" || vendor == "POCO")) {
     return "xiaomi-alioth";
   }
