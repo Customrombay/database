@@ -35,7 +35,7 @@ roms:
     rom-name: 'HavocOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '10'
+    android-version: '11'
     rom-webpage: 'https://havoc-os.com/'
     phone-webpage: 'https://havoc-os.com/device#z2_plus'
 

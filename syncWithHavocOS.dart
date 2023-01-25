@@ -3,6 +3,7 @@ import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/codename_correction.dart';
 import 'tools/android_version_from_lineageos_version.dart';
+import 'tools/extended_codename_creator.dart';
 
 void main() async {
   var yamlWriter = YAMLWriter();
@@ -21,15 +22,16 @@ void main() async {
     }
     String readCodename = ydoc["codename"];
     String codename = codenameCorrection(readCodename, vendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
 
-    if (File("database/phone_data/${vendor.toLowerCase()}-$codename.yaml").existsSync()) {
+    if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
       numberOfCovered += 1;
-      listOfCovered += ["${vendor.toLowerCase()}-$codename"];
-      addToSupport(androidVersion: "12", extendedCodename: "${vendor.toLowerCase()}-$codename", romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
+      listOfCovered += [extendedCodename];
+      addToSupport(androidVersion: "12", extendedCodename: extendedCodename, romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
     }
     else {
       numberOfNotCovered += 1;
-      listOfNotCovered += ["${vendor.toLowerCase()}-$codename"];
+      listOfNotCovered += [extendedCodename];
     }
   }
 
@@ -44,16 +46,17 @@ void main() async {
     }
     String readCodename = ydoc["codename"];
     String codename = codenameCorrection(readCodename, vendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
 
-    if (!(listOfCovered.contains("${vendor.toLowerCase()}-$codename")) && !(listOfNotCovered.contains("${vendor.toLowerCase()}-$codename"))) {
-      if (File("database/phone_data/${vendor.toLowerCase()}-$codename.yaml").existsSync()) {
+    if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
+      if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
         numberOfCovered += 1;
-        listOfCovered += ["${vendor.toLowerCase()}-$codename"];
-        addToSupport(androidVersion: "11", extendedCodename: "${vendor.toLowerCase()}-$codename", romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
+        listOfCovered += [extendedCodename];
+        addToSupport(androidVersion: "11", extendedCodename: extendedCodename, romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
       }
       else {
         numberOfNotCovered += 1;
-        listOfNotCovered += ["${vendor.toLowerCase()}-$codename"];
+        listOfNotCovered += [extendedCodename];
       }
     }
   }
@@ -69,16 +72,17 @@ void main() async {
     }
     String readCodename = ydoc["codename"];
     String codename = codenameCorrection(readCodename, vendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
 
-    if (!(listOfCovered.contains("${vendor.toLowerCase()}-$codename")) && !(listOfNotCovered.contains("${vendor.toLowerCase()}-$codename"))) {
-      if (File("database/phone_data/${vendor.toLowerCase()}-$codename.yaml").existsSync()) {
+    if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
+      if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
         numberOfCovered += 1;
-        listOfCovered += ["${vendor.toLowerCase()}-$codename"];
-        addToSupport(androidVersion: "11", extendedCodename: "${vendor.toLowerCase()}-$codename", romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
+        listOfCovered += [extendedCodename];
+        addToSupport(androidVersion: "11", extendedCodename: extendedCodename, romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
       }
       else {
         numberOfNotCovered += 1;
-        listOfNotCovered += ["${vendor.toLowerCase()}-$codename"];
+        listOfNotCovered += [extendedCodename];
       }
     }
   }
@@ -96,16 +100,17 @@ void main() async {
     }
     String readCodename = toParse["codename"];
     String codename = codenameCorrection(readCodename, vendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
 
-    if (!(listOfCovered.contains("${vendor.toLowerCase()}-$codename")) && !(listOfNotCovered.contains("${vendor.toLowerCase()}-$codename"))) {
-      if (File("database/phone_data/${vendor.toLowerCase()}-$codename.yaml").existsSync()) {
+    if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
+      if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
         numberOfCovered += 1;
-        listOfCovered += ["${vendor.toLowerCase()}-$codename"];
-        addToSupport(androidVersion: "10", extendedCodename: "${vendor.toLowerCase()}-$codename", romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
+        listOfCovered += [extendedCodename];
+        addToSupport(androidVersion: "10", extendedCodename: extendedCodename, romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
       }
       else {
         numberOfNotCovered += 1;
-        listOfNotCovered += ["${vendor.toLowerCase()}-$codename"];
+        listOfNotCovered += [extendedCodename];
       }
     }
   }
@@ -123,16 +128,17 @@ void main() async {
     }
     String readCodename = toParse["codename"];
     String codename = codenameCorrection(readCodename, vendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
 
-    if (!(listOfCovered.contains("${vendor.toLowerCase()}-$codename")) && !(listOfNotCovered.contains("${vendor.toLowerCase()}-$codename"))) {
-      if (File("database/phone_data/${vendor.toLowerCase()}-$codename.yaml").existsSync()) {
+    if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
+      if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
         numberOfCovered += 1;
         listOfCovered += ["${vendor.toLowerCase()}-$codename"];
-        addToSupport(androidVersion: "10", extendedCodename: "${vendor.toLowerCase()}-$codename", romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
+        addToSupport(androidVersion: "10", extendedCodename: extendedCodename, romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
       }
       else {
         numberOfNotCovered += 1;
-        listOfNotCovered += ["${vendor.toLowerCase()}-$codename"];
+        listOfNotCovered += [extendedCodename];
       }
     }
   }
