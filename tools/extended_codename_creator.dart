@@ -17,7 +17,12 @@ String extendedCodenameCreator({
   else if (readCodename == "vayu" && (vendor == "Poco" || vendor == "POCO")) {
     return "xiaomi-vayu";
   }
+
+  // See xiaomi-surya description
   else if (readCodename == "surya" && (vendor == "Poco" || vendor == "POCO")) {
+    return "xiaomi-surya";
+  }
+  else if (readCodename == "karna" && (vendor == "Poco" || vendor == "POCO")) {
     return "xiaomi-surya";
   }
   else if (readCodename == "lemonkebab" && (vendor == "Oneplus" || vendor == "OnePlus")) {
