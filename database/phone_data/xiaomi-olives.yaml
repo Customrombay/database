@@ -21,9 +21,9 @@ roms:
     rom-name: 'crDroid'
     rom-support: true
     rom-state: 'Discontinued'
-    android-version: '11'
+    android-version: '12'
     rom-webpage: 'https://crdroid.net/'
-    phone-webpage: 'https://crdroid.net/downloads#olives'
+    phone-webpage: 'https://crdroid.net/downloads#Mi439'
   - 
     rom-name: 'HavocOS'
     rom-support: true
