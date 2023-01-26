@@ -1,0 +1,13 @@
+device-name: 'x2'
+device-vendor: 'Realme'
+device-model-name: 'X2'
+device-description: null
+roms: 
+  - 
+    rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '11'
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://crdroid.net/downloads#X2'
+

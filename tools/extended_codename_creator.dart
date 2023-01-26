@@ -119,6 +119,9 @@ String extendedCodenameCreator({
   else if (readCodename == "G" && vendor == "10or") {
     return "10.or-G";
   }
+  else if (readCodename == "X2" && vendor == "Realme") {
+    return "realme-x2";
+  }
   else {
     return "${vendor.toLowerCase()}-$readCodename";
   }
