@@ -133,7 +133,7 @@ void main() async {
     if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
       if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
         numberOfCovered += 1;
-        listOfCovered += ["${vendor.toLowerCase()}-$codename"];
+        listOfCovered += [extendedCodename];
         addToSupport(androidVersion: "10", extendedCodename: extendedCodename, romName: "HavocOS", romState: "Official", romSupport: true, romWebpage: "https://havoc-os.com/", deviceWebpage: "https://havoc-os.com/device#$readCodename");
       }
       else {
