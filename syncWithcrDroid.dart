@@ -4,6 +4,7 @@ import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/codename_correction.dart';
 import 'tools/android_version_from_crdroid_version.dart';
+import 'tools/extended_codename_creator.dart';
 
 void main() async {
   var response = await http.get(Uri.parse("https://crdroid.net/devices_handler/compiled.json"));
@@ -19,16 +20,6 @@ void main() async {
     for (var entry in ydoc.entries) {
       print(entry.key);
       String readVendor = entry.key;
-      String vendor = "";
-      if (readVendor == "Poco") {
-        vendor = "Xiaomi";
-      }
-      else if (readVendor == "Redmi") {
-        vendor = "Xiaomi";
-      }
-      else {
-        vendor = readVendor;
-      }
 
       YamlMap devices = entry.value;
 
@@ -36,11 +27,12 @@ void main() async {
         if (readCodename == "tulip") {
           continue;
         }
-        if (readCodename == "z2_plus" && readVendor == "Lenovo") {
-          vendor = "ZUK";
+        else if (readCodename == "olives") {
+          continue;
         }
-        String codename = codenameCorrection(readCodename, vendor);
-        print(codename);
+        // String codename = codenameCorrection(readCodename, vendor);
+        String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+        print(extendedCodename);
         int newestVersion = 0;
         YamlMap versions = devices[readCodename];
         bool isMaintained = false;
@@ -61,13 +53,13 @@ void main() async {
         String phoneWebpage = "https://crdroid.net/downloads#$readCodename";
         print(newestVersion);
         String androidVersion = androidVersionFromCrDroidVersion(newestVersion.toString());
-        File thisFile = File("database/phone_data/${vendor.toString().toLowerCase()}-${codename.toString()}.yaml");
+        File thisFile = File("database/phone_data/$extendedCodename.yaml");
         if (await thisFile.exists()) {
           numberOfCovered += 1;
-          if (listOfCovered.contains("${vendor.toString().toLowerCase()}-${codename.toString()}")) {
+          if (listOfCovered.contains(extendedCodename)) {
             throw Exception();
           }
-          listOfCovered += ["${vendor.toString().toLowerCase()}-${codename.toString()}"];
+          listOfCovered += [extendedCodename];
           String thisFileContent = await thisFile.readAsString();
           var thisFileyaml = loadYaml(thisFileContent);
 //       // stdout.write(yamlWriter.write(thisFileyaml));
@@ -119,10 +111,7 @@ void main() async {
         }
         else {
           numberOfNotCovered += 1;
-          listOfNotCovered += ["${vendor.toString().toLowerCase()}-${codename.toString()}"];
-        }
-        if (readCodename == "z2_plus" && readVendor == "Lenovo") {
-          vendor = "Lenovo";
+          listOfNotCovered += [extendedCodename];
         }
       }
     }
