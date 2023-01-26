@@ -1,0 +1,13 @@
+device-name: 'x3'
+device-vendor: 'Realme'
+device-model-name: 'X3'
+device-description: null
+roms: 
+  - 
+    rom-name: 'ArrowOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '13'
+    rom-webpage: 'https://arrowos.net/'
+    phone-webpage: 'https://arrowos.net/download/'
+
