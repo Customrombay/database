@@ -47,9 +47,13 @@ void main() async {
         }
       }
 
+      print(maxRegularVersion);
+      print(maxPlusVersion);
+
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
-        addToSupport(
+        print(extendedCodename);
+        await addToSupport(
           androidVersion: maxRegularVersion.toString(),
           extendedCodename: extendedCodename,
           romName: "PixelExperience",
@@ -59,7 +63,8 @@ void main() async {
           deviceWebpage: "https://download.pixelexperience.org/$readCodename/"
         );
         if (maxPlusVersion > 0) {
-          addToSupport(
+          print(extendedCodename);
+          await addToSupport(
             androidVersion: maxPlusVersion.toString(),
             extendedCodename: extendedCodename,
             romName: "PixelExperience Plus",
@@ -107,7 +112,7 @@ String pixelExperienceState({
   }
 }
 
-void addToSupport({String androidVersion = "", String extendedCodename = "", String romName = "", String romState = "", bool romSupport = false, String romWebpage = "", String deviceWebpage = ""}) async {
+Future<void> addToSupport({String androidVersion = "", String extendedCodename = "", String romName = "", String romState = "", bool romSupport = false, String romWebpage = "", String deviceWebpage = ""}) async {
   File deviceFile = File("database/phone_data/$extendedCodename.yaml");
   String thisFileContent = await deviceFile.readAsString();
   var thisFileyaml = loadYaml(thisFileContent);
