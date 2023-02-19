@@ -116,7 +116,9 @@ String extendedCodenameCreator({
   else if (readCodename == "z2_plus" && readVendor == "lenovo") {
     return "zuk-z2_plus";
   }
-
+  else if (readCodename == "z2_row" && readVendor == "lenovo") {
+    return "zuk-z2_row";
+  }
   else if (readCodename == "G" && readVendor == "10or") {
     return "10.or-G";
   }
