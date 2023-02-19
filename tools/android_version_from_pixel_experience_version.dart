@@ -11,6 +11,6 @@ int androidVersionFromPixelExperienceVersion({
     return 11;
   }
   else {
-    throw Exception("This version of EvolutionX ($pixelExperienceVersion) is not supported yet.");
+    throw Exception("This version of PixelExperience ($pixelExperienceVersion) is not supported yet.");
   }
 }
