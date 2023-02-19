@@ -31,7 +31,7 @@ void main() async {
           continue;
         }
         // String codename = codenameCorrection(readCodename, vendor);
-        String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+        String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
         print(extendedCodename);
         int newestVersion = 0;
         YamlMap versions = devices[readCodename];

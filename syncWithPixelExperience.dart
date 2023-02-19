@@ -19,7 +19,7 @@ void main() async {
       String readCodename = device["codename"];
       YamlList readSupportedVersions = device["supported_versions"];
 
-      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readBrand);
+      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readBrand);
       stdout.write("$extendedCodename\n");
 
       int maxRegularVersion = 0;

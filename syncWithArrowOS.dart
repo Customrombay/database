@@ -21,7 +21,7 @@ void main() async {
       String androidVersion = androidVersionAndState[0];
       String romState = androidVersionAndState[1];
       stdout.write("$readVendor\n");
-      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
       stdout.write("$extendedCodename\n");
       stdout.write("$androidVersion\n");
       stdout.write("$romState\n");

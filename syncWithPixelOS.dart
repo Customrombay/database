@@ -17,7 +17,7 @@ void main() async {
     for (YamlMap device in listOfDevices) {
       String readCodename = device["codename"];
       String readVendor = device["vendor"];
-      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
         addToSupport(

@@ -22,7 +22,7 @@ void main() async {
     }
     String readCodename = ydoc["codename"];
     String codename = codenameCorrection(readCodename, vendor);
-    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
     if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
       numberOfCovered += 1;
@@ -46,7 +46,7 @@ void main() async {
     }
     String readCodename = ydoc["codename"];
     String codename = codenameCorrection(readCodename, vendor);
-    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
     if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
       if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
@@ -72,7 +72,7 @@ void main() async {
     }
     String readCodename = ydoc["codename"];
     String codename = codenameCorrection(readCodename, vendor);
-    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
     if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
       if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
@@ -100,7 +100,7 @@ void main() async {
     }
     String readCodename = toParse["codename"];
     String codename = codenameCorrection(readCodename, vendor);
-    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
     if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
       if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
@@ -128,7 +128,7 @@ void main() async {
     }
     String readCodename = toParse["codename"];
     String codename = codenameCorrection(readCodename, vendor);
-    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+    String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
     if (!(listOfCovered.contains(extendedCodename)) && !(listOfNotCovered.contains(extendedCodename))) {
       if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {

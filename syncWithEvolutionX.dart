@@ -16,7 +16,7 @@ void main() async {
     for (YamlMap device in deviceList) {
       String codename = device["codename"];
       String vendor = device["brand"];
-      String extendedCodename = extendedCodenameCreator(readCodename: codename, vendor: vendor);
+      String extendedCodename = extendedCodenameCreator(readCodename: codename, readVendor: vendor);
       YamlList supportedVersions = device["supported_versions"];
       YamlMap thisversion = supportedVersions[0];
       String evolutionXVersion = thisversion["version_code"];

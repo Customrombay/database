@@ -15,7 +15,7 @@ void main() async {
     for (YamlMap device in listOfDevices) {
       String readCodename = device["codename"];
       String readVendor = device["brand"];
-      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, vendor: readVendor);
+      String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
       YamlList listOfSupportedVersions = device["supported_bases"];
       int maxAndroidVersion = 0;
       for (YamlMap version in listOfSupportedVersions) {
