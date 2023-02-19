@@ -123,6 +123,9 @@ String extendedCodenameCreator({
   else if (readCodename == "X2" && readVendor == "realme") {
     return "realme-x2";
   }
+  else if (readCodename == "X00T" && readVendor == "asus") {
+    return "asus-X00TD";
+  }
   else {
     return "${readVendor.toLowerCase()}-$readCodename";
   }

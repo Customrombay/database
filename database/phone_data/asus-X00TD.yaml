@@ -1,7 +1,9 @@
 device-name: 'X00TD'
 device-vendor: 'ASUS'
 device-model-name: 'Zenfone Max Pro M1'
-device-description: null
+device-description: '"What is the diff between X00T and X00TD? Many ROMs are for X00T. Would they work in X00TD? no difference.
+You can use stuffs for x00t for your x00td, or x00td stuffs for x00t
+- https://forum.xda-developers.com/t/x00t-and-x00td-are-they-same.3945266/"'
 roms: 
   - 
     rom-name: 'LineageOS'
