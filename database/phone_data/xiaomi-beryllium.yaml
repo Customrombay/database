@@ -71,4 +71,11 @@ roms:
     android-version: '13'
     rom-webpage: 'https://pixelos.net/'
     phone-webpage: 'https://pixelos.net/download/beryllium'
+  - 
+    rom-name: 'PixysOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '10'
+    rom-webpage: 'https://pixysos.com/'
+    phone-webpage: 'https://pixysos.com/beryllium'
 
