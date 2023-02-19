@@ -4,6 +4,7 @@ import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/extended_codename_creator.dart';
 import 'tools/android_version_from_number_name.dart';
+import 'tools/is_supported.dart';
 
 void main() async {
   int numberOfCovered = 0;
@@ -45,15 +46,6 @@ void main() async {
       stdout.write("$deviceNotCovered\n");
     }
   }
-}
-
-bool isSupported({
-  required String extendedCodename
-}) {
-  if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
-    return true;
-  }
-  return false;
 }
 
 void addToSupport({String androidVersion = "", String extendedCodename = "", String romName = "", String romState = "", bool romSupport = false, String romWebpage = "", String deviceWebpage = ""}) async {

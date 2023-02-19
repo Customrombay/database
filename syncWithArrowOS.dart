@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/extended_codename_creator.dart';
+import 'tools/is_supported.dart';
 
 void main() async {
   int numberOfCovered = 0;
@@ -48,15 +49,6 @@ void main() async {
       stdout.write("$deviceNotCovered\n");
     }
   }
-}
-
-bool isSupported({
-  required String extendedCodename
-}) {
-  if (File("database/phone_data/$extendedCodename.yaml").existsSync()) {
-    return true;
-  }
-  return false;
 }
 
 List<String> androidVersionAndStateForArrowOS ({
