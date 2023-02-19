@@ -3,7 +3,6 @@ import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/extended_codename_creator.dart';
-import 'tools/android_version_from_evolutionx_version.dart';
 
 void main() async {
   int numberOfCovered = 0;

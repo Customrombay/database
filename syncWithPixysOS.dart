@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/extended_codename_creator.dart';
+import 'tools/android_version_from_number_name.dart';
 
 void main() async {
   int numberOfCovered = 0;
@@ -110,24 +111,4 @@ void addToSupport({String androidVersion = "", String extendedCodename = "", Str
 
   // File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");
   await deviceFile.writeAsString(YAMLWriter().write(newMap));
-}
-
-int androidVersionFromNumberName({
-  required String androidVersionNumberName
-}) {
-  if (androidVersionNumberName == "thirteen") {
-    return 13;
-  }
-  else if (androidVersionNumberName == "twelve") {
-    return 12;
-  }
-  else if (androidVersionNumberName == "eleven") {
-    return 11;
-  }
-  else if (androidVersionNumberName == "ten") {
-    return 10;
-  }
-  else {
-    throw Exception("This version of Android ($androidVersionNumberName) is not supported yet.");
-  }
 }
