@@ -2,7 +2,7 @@
 A repository for syncing data with custom ROMs' creators. It includes files for hundreds of devices and scripts for synchronizing the data with upstream repositories.
 
 ## State of scripts for synchronizing with different custom ROMs' creators:
-**<span style="color:yellow">[/]</span>** LineageOS - conflicts fixed [here](https://github.com/LineageOS/lineage_wiki/commit/97360174e8eab338d7b848db4b626ef0ce8cd72e), using the mainstream [device directory](https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices), 409/412 devices supported \
+**<span style="color:lime">[✓]</span>** LineageOS - conflicts fixed [here](https://github.com/LineageOS/lineage_wiki/commit/97360174e8eab338d7b848db4b626ef0ce8cd72e), using the mainstream [device directory](https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices), 412/412 devices supported \
 **<span style="color:yellow">[/]</span>** PixelExperience - using the mainstream [devices.json file](https://github.com/PixelExperience/official_devices/blob/master/devices.json), 131/135 devices supported \
 **<span style="color:yellow">[/]</span>** PixelOS - using the mainstream [devices.json file](https://github.com/PixelOS-AOSP/official_devices/blob/thirteen/API/devices.json), 36/42 devices supported \
 **<span style="color:yellow">[/]</span>** PixysOS - using the mainstream [devices.json file](https://github.com/PixysOS/official_devices/blob/master/devices.json), 27/28 devices supported \
