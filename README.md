@@ -15,3 +15,5 @@ A repository for syncing data with custom ROMs' creators. It includes files for 
 **<span style="color:orange">[\\]</span>** /e/OS - using a local copy of the [devices directory](https://gitlab.e.foundation/e/documentation/user/-/tree/master/htdocs/_data/devices) due to duplicate declarations, 252/270 devices supported \
 **<span style="color:red">[-]</span>** GrapheneOS - no parsable file found, devices added manually and not synced \
 **<span style="color:red">[-]</span>** AwakenOS - no parsable file found, devices added manually and not synced
+## State of scripts for synchronizing with custom recoveries:
+**<span style="color:yellow">[/]</span>** TWRP - using the [twrpme repository](https://github.com/TeamWin/twrpme), 284/537 devices supported
