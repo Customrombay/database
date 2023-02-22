@@ -38,9 +38,12 @@ void main() async {
             }
             String readVendor = ydoc["oem"];
             String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
-            String supportStatus = ydoc["supportstatus"];
+            String supportStatus = ydoc["supportstatus"] ?? "Unspecified";
             String deviceWebpage = "https://twrp.me/$deviceVendorName/${deviceFileName.replaceAll(".markdown", ".html")}";
             if (isSupported(extendedCodename: extendedCodename)) {
+              if (listOfCovered.contains(extendedCodename)) {
+                continue;
+              }
               numberOfCovered += 1;
               listOfCovered += [extendedCodename];
               addRecoveryToSupport(
@@ -88,7 +91,7 @@ void addRecoveryToSupport({
   YamlMap thisFileyaml = loadYaml(thisFileContent);
   List newList = [];
   bool alreadySupported = false;
-  if (thisFileyaml.containsKey("recoveries")) {
+  if (thisFileyaml.containsKey("recoveries") && thisFileyaml["recoveries"] != null) {
     for (YamlMap thisRecovery in thisFileyaml["recoveries"]) {
       String thisRecoveryName = thisRecovery["recovery-name"];
       if (thisRecoveryName == recoveryName) {

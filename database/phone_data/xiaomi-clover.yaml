@@ -32,3 +32,11 @@ roms:
     rom-webpage: 'https://download.pixelexperience.org/'
     phone-webpage: 'https://download.pixelexperience.org/clover/'
 
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://twrp.me/xiaomi/xiaomimipad4.html'
+
