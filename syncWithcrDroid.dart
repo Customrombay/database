@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
-import 'tools/codename_correction.dart';
 import 'tools/android_version_from_crdroid_version.dart';
 import 'tools/extended_codename_creator.dart';
 
@@ -104,7 +103,8 @@ void main() async {
             "device-vendor": thisFileyaml["device-vendor"],
             "device-model-name": thisFileyaml["device-model-name"],
             "device-description": thisFileyaml["device-description"],
-            "roms": newList
+            "roms": newList,
+            "recoveries": thisFileyaml["recoveries"]
           };
 
           await thisFile.writeAsString(yamlWriter.write(newMap));
