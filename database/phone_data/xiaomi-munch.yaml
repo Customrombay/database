@@ -38,6 +38,20 @@ roms:
     android-version: '13'
     rom-webpage: 'https://pixelos.net/'
     phone-webpage: 'https://pixelos.net/download/munch'
+  - 
+    rom-name: 'PixelExperience'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '13'
+    rom-webpage: 'https://download.pixelexperience.org/'
+    phone-webpage: 'https://download.pixelexperience.org/munch/'
+  - 
+    rom-name: 'PixelExperience Plus'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '13'
+    rom-webpage: 'https://download.pixelexperience.org/'
+    phone-webpage: 'https://download.pixelexperience.org/munch/'
 
 recoveries: 
   - 
