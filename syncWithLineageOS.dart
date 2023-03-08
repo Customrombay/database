@@ -2,7 +2,8 @@ import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:http/http.dart' as http;
 import 'package:yaml_writer/yaml_writer.dart';
-import 'tools/codename_correction.dart';
+// import 'tools/codename_correction.dart'
+import 'tools/extended_codename_creator.dart';
 import 'tools/android_version_from_lineageos_version.dart';
 
 void main() async {
@@ -44,7 +45,8 @@ Future<List> updateDeviceFiles(String content) async {
   var name = ydoc["name"];
   var readCodename = ydoc["codename"];
 
-  String codename = codenameCorrection(readCodename, vendor);
+  // String codename = codenameCorrection(readCodename, vendor);
+  String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: vendor);
 
   var androidVersion = "";
   var lineageOSversion = ydoc["current_branch"];
@@ -65,14 +67,14 @@ Future<List> updateDeviceFiles(String content) async {
 
   bool thisCovered = false;
 
-  if (await File("database/phone_data/${vendor.toString().toLowerCase()}-$codename.yaml").exists()) {
-    stdout.write("${vendor.toString().toLowerCase()}-$codename \n");
+  if (await File("database/phone_data/$extendedCodename.yaml").exists()) {
+    stdout.write("$extendedCodename \n");
     thisCovered = true;
     //stdout.write(numberOfCovered.toString() + "\n");
   }
 
   if (thisCovered) {
-    File thisFile = File("database/phone_data/${vendor.toString().toLowerCase()}-$codename.yaml");
+    File thisFile = File("database/phone_data/$extendedCodename.yaml");
     String thisFileContent = await thisFile.readAsString();
     var thisFileyaml = loadYaml(thisFileContent);
 
@@ -123,5 +125,5 @@ Future<List> updateDeviceFiles(String content) async {
     // File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");
     await thisFile.writeAsString(YAMLWriter().write(newMap));
   }
-  return [thisCovered, "$vendor-$codename"];
+  return [thisCovered, extendedCodename];
 }
