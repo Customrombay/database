@@ -12,7 +12,7 @@ String extendedCodenameCreator({
   // else if ((readCodename == "mi439" || readCodename == "Mi439" || readCodename == "olives") && (readVendor == "xiaomi" || readVendor == "redmi")) {
   //   return "xiaomi-olives";
   // }
-  else if ((readCodename == "mi439" || readCodename == "Mi439" || readCodename == "olives") && (readVendor == "xiaomi" || readVendor == "redmi")) {
+  else if ((readCodename == "mi439" || readCodename == "Mi439" || readCodename == "olives" || readCodename == "riva" || readCodename == "rova") && (readVendor == "xiaomi" || readVendor == "redmi")) {
     return "xiaomi-Mi439";
   }
   else if (readCodename == "mojito" && readVendor == "redmi") {
@@ -105,7 +105,7 @@ String extendedCodenameCreator({
   else if (readCodename == "vayu" && readVendor == "poco") {
     return "xiaomi-vayu";
   }
-  else if (readCodename == "veux" && readVendor == "poco") {
+  else if (readCodename == "veux" && (readVendor == "poco" || readVendor == "redmi")) {
     return "xiaomi-veux";
   }
   else if (readCodename == "munch" && readVendor == "poco") {

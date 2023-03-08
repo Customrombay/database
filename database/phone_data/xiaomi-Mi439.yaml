@@ -52,6 +52,13 @@ roms:
     android-version: '13'
     rom-webpage: 'https://sourceforge.net/projects/superioros/'
     phone-webpage: 'https://sourceforge.net/projects/superioros/'
+  - 
+    rom-name: 'PixysOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '10'
+    rom-webpage: 'https://pixysos.com/'
+    phone-webpage: 'https://pixysos.com/riva'
 
 recoveries: 
   - 

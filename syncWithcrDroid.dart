@@ -29,6 +29,9 @@ void main() async {
         else if (readCodename == "olives") {
           continue;
         }
+        else if (readCodename == "rova") {
+          continue;
+        }
         // String codename = codenameCorrection(readCodename, vendor);
         String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
         print(extendedCodename);
