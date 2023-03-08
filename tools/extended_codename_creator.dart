@@ -24,6 +24,9 @@ String extendedCodenameCreator({
   else if (readCodename == "lavender" && readVendor == "redmi") {
     return "xiaomi-lavender";
   }
+  else if (readCodename == "lancelot" && readVendor == "redmi") {
+    return "xiaomi-lancelot";
+  }
   else if (readCodename == "miatoll" && readVendor == "redmi") {
     return "xiaomi-miatoll";
   }
