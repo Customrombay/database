@@ -137,6 +137,9 @@ String extendedCodenameCreator({
   else if (readCodename == "X00T" && readVendor == "asus") {
     return "asus-X00TD";
   }
+  else if (readVendor == "moto") {
+    return "motorola-$readCodename";
+  }
   else {
     return "${readVendor.toLowerCase()}-$readCodename";
   }
