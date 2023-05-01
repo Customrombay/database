@@ -59,6 +59,10 @@ List<String> androidVersionAndStateForArrowOS ({
     androidVersion = "13";
     return [androidVersion, stateFromRomList(romList: deviceMap["v13.0"])];
   }
+  else if (deviceMap.containsKey("v13.1")) {
+    androidVersion = "13";
+    return [androidVersion, stateFromRomList(romList: deviceMap["v13.1"])];
+  }
   else if (deviceMap.containsKey("v12.1")) {
     androidVersion = "12L";
     return [androidVersion, stateFromRomList(romList: deviceMap["v12.1"])];
