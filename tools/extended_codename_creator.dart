@@ -15,6 +15,9 @@ String extendedCodenameCreator({
   else if ((readCodename == "mi439" || readCodename == "Mi439" || readCodename == "olives" || readCodename == "riva" || readCodename == "rova") && (readVendor == "xiaomi" || readVendor == "redmi")) {
     return "xiaomi-Mi439";
   }
+  else if ((readCodename == "lime" || readCodename == "citrus") && (readVendor == "xiaomi" || readVendor == "redmi")) {
+    return "xiaomi-juice";
+  }
   else if (readCodename == "mojito" && readVendor == "redmi") {
     return "xiaomi-mojito";
   }
