@@ -140,6 +140,10 @@ String extendedCodenameCreator({
   else if (readVendor == "moto") {
     return "motorola-$readCodename";
   }
+
+  else if (readCodename == "RMX1801" && readVendor == "oppo") {
+    return "realme-RMX1801";
+  }
   else {
     return "${readVendor.toLowerCase()}-$readCodename";
   }
