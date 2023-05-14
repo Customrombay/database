@@ -32,6 +32,12 @@ void main() async {
         else if (readCodename == "rova") {
           continue;
         }
+        else if (readCodename == "RMX2001") {
+          continue;
+        }
+        else if (readCodename == "RMX2151") {
+          continue;
+        }
         // String codename = codenameCorrection(readCodename, vendor);
         String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
         print(extendedCodename);
