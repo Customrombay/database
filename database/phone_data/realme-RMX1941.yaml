@@ -18,4 +18,11 @@ roms:
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#RMX1941'
 
-recoveries: null
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Unspecified'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://twrp.me/realme/realmec2.html'
+
