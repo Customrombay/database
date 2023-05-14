@@ -2,7 +2,7 @@
 A repository for syncing data with custom ROMs' creators. It includes files for hundreds of devices and scripts for synchronizing the data with upstream repositories.
 
 ## State of scripts for synchronizing with different custom ROMs' creators:
-**<span style="color:lime">[✓]</span>** LineageOS - conflicts fixed [here](https://github.com/LineageOS/lineage_wiki/commit/97360174e8eab338d7b848db4b626ef0ce8cd72e), using the mainstream [device directory](https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices), 426/426 devices supported \
+**<span style="color:lime">[✓]</span>** LineageOS - conflicts fixed [here](https://github.com/LineageOS/lineage_wiki/commit/97360174e8eab338d7b848db4b626ef0ce8cd72e), using the mainstream [device directory](https://github.com/LineageOS/lineage_wiki/tree/master/_data/devices), 427/427 devices supported \
 **<span style="color:lime">[✓]</span>** PixelExperience - using the mainstream [devices.json file](https://github.com/PixelExperience/official_devices/blob/master/devices.json), 140/140 devices supported \
 **<span style="color:lime">[✓]</span>** ArrowOS - using the mainstream [arrow_ota.json file](https://github.com/ArrowOS/arrow_ota/blob/master/arrow_ota.json), no support for checking if a device is discontinued found, 89/89 devices supported \
 **<span style="color:lime">[✓]</span>** PixysOS - using the mainstream [devices.json file](https://github.com/PixysOS/official_devices/blob/master/devices.json), 28/28 devices supported \
