@@ -11,6 +11,7 @@ void main() async {
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
   List<String> listOfNotCovered = [];
+  List<String> listOfCovered = [];
   if (response.statusCode == 200) {
     stdout.write("OK\n");
     YamlList ydoc = loadYaml(response.body);
@@ -21,13 +22,16 @@ void main() async {
         stdout.write("""${deviceFile["name"]}... OK\n""");
         YamlMap thisydoc = loadYaml(thisresponse.body);
         stdout.write(thisydoc["name"] + "\n");
-        List thisList = await updateDeviceFiles(thisresponse.body);
-        if (thisList[0]) {
-          numberOfCovered += 1;
-        }
-        else {
-          numberOfNotCovered += 1;
-          listOfNotCovered += [thisList[1]];
+        if (!listOfCovered.contains(thisydoc["codename"])) {
+          List thisList = await updateDeviceFiles(thisresponse.body);
+          if (thisList[0]) {
+            numberOfCovered += 1;
+            listOfCovered += [thisydoc["codename"]];
+          }
+          else {
+            numberOfNotCovered += 1;
+            listOfNotCovered += [thisList[1]];
+          }
         }
       }
     }
