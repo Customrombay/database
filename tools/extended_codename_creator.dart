@@ -134,7 +134,7 @@ String extendedCodenameCreator({
   else if (readCodename == "G" && readVendor == "10or") {
     return "10.or-G";
   }
-  else if (readCodename == "X2" && readVendor == "realme") {
+  else if ((readCodename == "X2" || readCodename == "RMX199X") && readVendor == "realme") {
     return "realme-x2";
   }
   else if (readCodename == "X00T" && readVendor == "asus") {
