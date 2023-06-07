@@ -17,4 +17,4 @@ A repository for syncing data with custom ROMs' creators. It includes files for 
 **<span style="color:red">[-]</span>** GrapheneOS - no parsable file found, devices added manually and not synced \
 **<span style="color:red">[-]</span>** AwakenOS - no parsable file found, devices added manually and not synced
 ## State of scripts for synchronizing with custom recoveries:
-**<span style="color:yellow">[/]</span>** TWRP - using the [twrpme repository](https://github.com/TeamWin/twrpme), 303/824dar devices supported
+**<span style="color:yellow">[/]</span>** TWRP - using the [twrpme repository](https://github.com/TeamWin/twrpme), 309/825 devices supported
