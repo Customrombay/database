@@ -15,11 +15,12 @@ void main() {
       if (isSupported(extendedCodename: "xiaomi-$codename")) {
         numberOfCovered += 1;
         addToSupport(
-          androidVersion: "13",
+          androidVersion: "",
           extendedCodename: "xiaomi-$codename",
           romName: "xiaomi.eu",
           romState: "Official",
           romSupport: true,
+          romNotes: "MIUI 14",
           romWebpage: "https://xiaomi.eu/community/",
           deviceWebpage: "https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv14/"
         );

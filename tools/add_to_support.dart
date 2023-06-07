@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 
-void addToSupport({String androidVersion = "", String extendedCodename = "", String romName = "", String romState = "", bool romSupport = false, String romWebpage = "", String deviceWebpage = ""}) {
+void addToSupport({String androidVersion = "", String extendedCodename = "", String romName = "", String romState = "", bool romSupport = false, String romWebpage = "", String deviceWebpage = "", String romNotes = ""}) {
   File deviceFile = File("database/phone_data/$extendedCodename.yaml");
   String thisFileContent = deviceFile.readAsStringSync();
   var thisFileyaml = loadYaml(thisFileContent);
@@ -18,6 +18,7 @@ void addToSupport({String androidVersion = "", String extendedCodename = "", Str
           "rom-support": romSupport,
           "rom-state": romState,
           "android-version": androidVersion,
+          "rom-notes": romNotes,
           "rom-webpage": romWebpage,
           "phone-webpage": deviceWebpage
         }
