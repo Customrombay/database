@@ -1,37 +1,37 @@
 import 'dart:io';
 import 'package:yaml/yaml.dart';
-import 'package:http/http.dart' as http;
 import 'package:yaml_writer/yaml_writer.dart';
-// import 'tools/codename_correction.dart'
 import 'tools/extended_codename_creator.dart';
 import 'tools/android_version_from_lineageos_version.dart';
 
 void main() async {
-  var response = await http.get(Uri.parse("https://api.github.com/repos/LineageOS/lineage_wiki/contents/_data/devices/"));
+  stdout.write("Cloning https://github.com/LineageOS/lineage_wiki.git...");
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
   List<String> listOfNotCovered = [];
   List<String> listOfCovered = [];
-  if (response.statusCode == 200) {
-    stdout.write("OK\n");
-    YamlList ydoc = loadYaml(response.body);
-    for (var deviceFile in ydoc) {
-      String downloadUrl = deviceFile["download_url"];
-      var thisresponse = await http.get(Uri.parse(downloadUrl));
-      if (thisresponse.statusCode == 200) {
-        stdout.write("""${deviceFile["name"]}... OK\n""");
-        YamlMap thisydoc = loadYaml(thisresponse.body);
-        stdout.write(thisydoc["name"] + "\n");
-        if (!listOfCovered.contains(thisydoc["codename"])) {
-          List thisList = await updateDeviceFiles(thisresponse.body);
-          if (thisList[0]) {
-            numberOfCovered += 1;
-            listOfCovered += [thisydoc["codename"]];
-          }
-          else {
-            numberOfNotCovered += 1;
-            listOfNotCovered += [thisList[1]];
-          }
+  Directory cacheDir = Directory(".cache/LineageOSSync");
+  if (cacheDir.existsSync()) {
+    cacheDir.deleteSync(recursive: true);
+  }
+  cacheDir.createSync(recursive: true);
+  Process.runSync("git", ["clone", "https://github.com/LineageOS/lineage_wiki.git", cacheDir.path]);
+  stdout.write("OK\n");
+  for (FileSystemEntity entry in Directory("${cacheDir.path}/_data/devices").listSync().toList()) {
+    print(entry.path);
+    if (entry is File) {
+      String entryContent = entry.readAsStringSync();
+      YamlMap thisydoc = loadYaml(entryContent);
+      stdout.write(thisydoc["name"] + "\n");
+      if (!listOfCovered.contains(thisydoc["codename"])) {
+        List thisList = await updateDeviceFiles(entryContent);
+        if (thisList[0]) {
+          numberOfCovered += 1;
+          listOfCovered += [thisydoc["codename"]];
+        }
+        else {
+          numberOfNotCovered += 1;
+          listOfNotCovered += [thisList[1]];
         }
       }
     }
