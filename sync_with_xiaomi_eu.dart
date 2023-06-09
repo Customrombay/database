@@ -6,30 +6,43 @@ void main() {
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
   List<String> listOfNotCovered = [];
-  File resourceFile = File("filesFromXiaomiEU/xiaomi.eu.txt");
-  String resourceFileContent = resourceFile.readAsStringSync();
-  for (String row in resourceFileContent.split("\n")) {
-    if (row != "") {
-      String codename = row.split(" ")[0].replaceAll("(in)", "");
-      print(codename);
-      if (isSupported(extendedCodename: "xiaomi-$codename")) {
-        numberOfCovered += 1;
-        addToSupport(
-          androidVersion: "",
-          extendedCodename: "xiaomi-$codename",
-          romName: "xiaomi.eu",
-          romState: "Official",
-          romSupport: true,
-          romNotes: "MIUI 14",
-          romWebpage: "https://xiaomi.eu/community/",
-          deviceWebpage: "https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv14/"
-        );
-        print("Supported");
-      }
-      else {
-        numberOfNotCovered += 1;
-        listOfNotCovered += ["xiaomi-$codename"];
-        print("Not supported");
+  List<String> listOfCovered = [];
+  List<Map> listOfVersions = [
+    {"14" : "https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv14/"},
+    {"13" : "https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv13/"},
+    {"12" : "https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/"},
+    {"11" : "https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv11/"},
+    {"10" : "https://xiaomi.eu/community/"}
+  ];
+  for (Map version in listOfVersions) {
+    File resourceFile = File("filesFromXiaomiEU/xiaomi.eu${version.keys.toList()[0]}.txt");
+    String resourceFileContent = resourceFile.readAsStringSync();
+    for (String row in resourceFileContent.split("\n")) {
+      if (row != "") {
+        String codename = row.split(" ")[0].replaceAll("(in)", "");
+        print(codename);
+        if (!listOfCovered.contains(codename)) {
+          if (isSupported(extendedCodename: "xiaomi-$codename")) {
+            numberOfCovered += 1;
+            listOfCovered += [codename];
+            addToSupport(
+              androidVersion: "",
+              extendedCodename: "xiaomi-$codename",
+              romName: "xiaomi.eu",
+              romState: "Official",
+              romSupport: true,
+              romNotes: "MIUI ${version.keys.toList()[0]}",
+              romWebpage: "https://xiaomi.eu/community/",
+              deviceWebpage: version.values.toList()[0]
+            );
+            print("Supported");
+          }
+          else {
+            numberOfNotCovered += 1;
+            listOfNotCovered += ["xiaomi-$codename"];
+            print("Not supported");
+          }
+        }
       }
     }
   }

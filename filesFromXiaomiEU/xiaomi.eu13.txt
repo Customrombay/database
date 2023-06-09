@@ -1,0 +1,52 @@
+alioth
+apollo apollopro
+bhima
+cas
+citrus
+cmi
+courbet
+crux
+cupid
+curtana
+diting ditingp
+gauguin gauguinpro
+haydn haydnpro
+ingres
+joyeuse
+karna
+lemon
+lime
+lisa
+lmi lmipro
+mars
+mayfly
+mona
+monet
+munch
+odin
+peux peux_p
+phoenix
+picasso
+picasso_48m
+pomelo
+psyche
+renoir
+spes spesn
+star
+sunny
+surya
+sweet
+taoyao
+thor
+thyme
+toco
+tucana
+umi
+unicorn
+vangogh
+vayu
+venus
+veux
+veux veux_p
+vili
+zeus

@@ -1,0 +1,56 @@
+alioth
+apollo apollopro
+beryllium
+bhima
+cas
+cepheus
+citrus
+cmi
+courbet
+crux
+curtana
+davinci
+dipper
+equuleus
+gauguin gauguinpro
+ginkgo
+grus
+haydn haydnpro
+joyeuse
+karna
+lavender
+lemon
+lime
+lisa
+lmi lmipro
+mars
+mona
+monet
+nitrogen
+odin
+perseus
+phoenix
+picasso
+picasso_48m
+platina
+polaris
+pomelo
+pyxis
+raphael
+renoir
+sirius
+star
+sunny
+surya
+sweet
+thyme
+toco
+tucana
+umi
+ursa
+vangogh
+vayu
+venus
+vili
+violet
+willow
