@@ -4,6 +4,7 @@ import 'package:yaml/yaml.dart';
 import 'tools/extended_codename_creator.dart';
 import 'tools/is_supported.dart';
 import 'tools/add_to_support.dart';
+import 'tools/android_version_from_number_name.dart';
 
 void main() async {
   int numberOfCovered = 0;
@@ -18,10 +19,16 @@ void main() async {
       String readCodename = device["codename"];
       String readVendor = device["vendor"];
       String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
+      String androidVersion = "";
+      var deviceResponse = await http.get(Uri.parse("https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/thirteen/API/devices/$readCodename.json"));
+      if (deviceResponse.statusCode == 200) {
+        YamlMap deviceFileContent = loadYaml(deviceResponse.body);
+        androidVersion = deviceFileContent["version"];
+      }
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
         addToSupport(
-          androidVersion: "13",
+          androidVersion: androidVersionFromNumberName(androidVersionNumberName: androidVersion).toString(),
           extendedCodename: extendedCodename,
           romName: "PixelOS",
           romState: "Official",
