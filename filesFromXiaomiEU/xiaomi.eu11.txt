@@ -17,7 +17,7 @@ joyeuse
 laurus
 lavender
 lithium
-Imi
+lmi
 natrium
 nitrogen
 olive
