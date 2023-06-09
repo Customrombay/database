@@ -36,6 +36,7 @@ void addToSupport({String androidVersion = "", String extendedCodename = "", Str
         "rom-support": romSupport,
         "rom-state": romState,
         "android-version": androidVersion,
+        "rom-notes": romNotes,
         "rom-webpage": romWebpage,
         "phone-webpage": deviceWebpage
       }
