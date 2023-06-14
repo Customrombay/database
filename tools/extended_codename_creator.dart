@@ -147,7 +147,11 @@ String extendedCodenameCreator({
   else if (readCodename == "RMX1801" && readVendor == "oppo") {
     return "realme-RMX1801";
   }
+
+  else if (readVendor == "banana pi") {
+    return "bananapi-$readCodename";
+  }
   else {
-    return "${readVendor.toLowerCase()}-$readCodename";
+    return "$readVendor-$readCodename";
   }
 }
