@@ -1,3 +1,5 @@
+// Legacy script, needs rewriting to use the addToSupport() function
+
 import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
@@ -113,7 +115,8 @@ void main() async {
             "device-model-name": thisFileyaml["device-model-name"],
             "device-description": thisFileyaml["device-description"],
             "roms": newList,
-            "recoveries": thisFileyaml["recoveries"]
+            "recoveries": thisFileyaml["recoveries"],
+            "linux": thisFileyaml["linux"],
           };
 
           await thisFile.writeAsString(yamlWriter.write(newMap));

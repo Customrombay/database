@@ -65,7 +65,8 @@ void addRecoveryToSupport({
     "device-model-name": thisFileyaml["device-model-name"],
     "device-description": thisFileyaml["device-description"],
     "roms": thisFileyaml["roms"],
-    "recoveries": newList
+    "recoveries": newList,
+    "linux": thisFileyaml["linux"],
   };
 
   deviceFile.writeAsStringSync(YAMLWriter().write(newMap));

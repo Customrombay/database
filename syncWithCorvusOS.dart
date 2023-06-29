@@ -1,7 +1,9 @@
+// Legacy script, needs rewriting to use the addToSupport() and extendedCodenameCreator() functions
+
 import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
-import 'tools/codename_correction.dart';
+import 'tools/codename_correction.dart'; // Deprecated
 import 'tools/android_version_from_crdroid_version.dart';
 
 void main() async {
@@ -93,7 +95,8 @@ void main() async {
           "device-model-name": thisFileyaml["device-model-name"],
           "device-description": thisFileyaml["device-description"],
           "roms": newList,
-          "recoveries": thisFileyaml["recoveries"]
+          "recoveries": thisFileyaml["recoveries"],
+          "linux": thisFileyaml["linux"],
         };
 
       // File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");

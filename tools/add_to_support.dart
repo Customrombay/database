@@ -49,7 +49,8 @@ void addToSupport({String androidVersion = "", String extendedCodename = "", Str
     "device-model-name": thisFileyaml["device-model-name"],
     "device-description": thisFileyaml["device-description"],
     "roms": newList,
-    "recoveries": thisFileyaml["recoveries"]
+    "recoveries": thisFileyaml["recoveries"],
+    "linux": thisFileyaml["linux"],
   };
 
   // File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");

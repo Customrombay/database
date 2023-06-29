@@ -1,3 +1,5 @@
+// Legacy script, needs rewriting to use the addToSupport() function
+
 import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
@@ -123,7 +125,8 @@ Future<List> updateDeviceFiles(String content) async {
       "device-model-name": thisFileyaml["device-model-name"],
       "device-description": thisFileyaml["device-description"],
       "roms": newList,
-      "recoveries": thisFileyaml["recoveries"]
+      "recoveries": thisFileyaml["recoveries"],
+      "linux": thisFileyaml["linux"],
     };
 
     // File newFile = File("newfiles/${vendor.toString().toLowerCase()}-$codename.yaml");
