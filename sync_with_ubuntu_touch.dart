@@ -8,7 +8,6 @@ import 'tools/add_linux_to_support.dart';
 void main() async {
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
-  List<String> listOfCovered = [];
   List<String> listOfNotCovered = [];
   Directory cacheDir = Directory(".cache/UbuntuTouchSync");
   if (cacheDir.existsSync()) {
@@ -35,12 +34,28 @@ void main() async {
       );
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
-        listOfCovered += [extendedCodename];
+        bool isXenial = false;
+        bool isFocal = false;
+        if (File("${entry.path}/releases/xenial.md").existsSync()) {
+          isXenial = true;
+        }
+        if (File("${entry.path}/releases/focal.md").existsSync()) {
+          isFocal = true;
+        }
+        if (ydoc.containsKey("variantOf")) {
+          if (File("${cacheDir.path}/data/devices/${ydoc["variantOf"]}/releases/xenial.md").existsSync()) {
+            isXenial = true;
+          }
+          if (File("${cacheDir.path}/data/devices/${ydoc["variantOf"]}/releases/focal.md").existsSync()) {
+            isFocal = true;
+          }
+        }
         addLinuxToSupport(
           extendedCodename: extendedCodename,
           distributionName: "Ubuntu Touch",
           distributionSupport: true,
           distributionState: "Official",
+          distributionNotes: buildUbuntuTouchNotes(isXenial: isXenial, isFocal: isFocal),
           distributionWebpage: "https://ubuntu-touch.io/",
           deviceWebpage: "https://devices.ubuntu-touch.io/device/$readCodename"
         );
@@ -57,5 +72,23 @@ void main() async {
   stdout.write("Not covered: $numberOfNotCovered\n");
   for (var deviceNotCovered in listOfNotCovered) {
     stdout.write("$deviceNotCovered\n");
+  }
+}
+
+String buildUbuntuTouchNotes({
+  required bool isXenial,
+  required bool isFocal,
+}) {
+  if (isXenial && isFocal) {
+    return "Xenial & Focal";
+  }
+  else if (isXenial) {
+    return "Xenial";
+  }
+  else if (isFocal) {
+    return "Focal";
+  }
+  else {
+    return "";
   }
 }
