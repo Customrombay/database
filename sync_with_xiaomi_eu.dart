@@ -19,7 +19,7 @@ void main() {
     String resourceFileContent = resourceFile.readAsStringSync();
     for (String row in resourceFileContent.split("\n")) {
       if (row != "") {
-        String codename = row.split(" ")[0].replaceAll("(in)", "");
+        String codename = row.split(" ")[0].replaceAll("(in)", "").split("_").first;
         print(codename);
         if (!listOfCovered.contains(codename)) {
           if (isSupported(extendedCodename: "xiaomi-$codename")) {
