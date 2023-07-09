@@ -28,16 +28,19 @@ moonstone_p
 munch
 nuwa
 odin
+peux peux_p
 pomelo
 psyche
 redwood(in)
 renoir
 socrates
+spes spesn
 star
 sunny
 sunstone
 surya
 sweet
+sweet_k6a
 taoyao
 tapas
 thor
@@ -47,6 +50,8 @@ umi
 unicorn
 vayu
 venus
+veux
+veux veux_p
 vili
 zeus
 ziyi
