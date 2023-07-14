@@ -9,7 +9,7 @@ void main() async {
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
   List<String> listOfNotCovered = [];
-  var response = await http.get(Uri.parse("https://raw.githubusercontent.com/PiotrZPL/CherishOS-OTA/tiramisu/devices.json"));
+  var response = await http.get(Uri.parse("https://raw.githubusercontent.com/CherishOS-Devices/OTA/tiramisu/devices.json"));
   if (response.statusCode == 200) {
     stdout.write("OK\n");
     YamlList ydoc = loadYaml(response.body);
