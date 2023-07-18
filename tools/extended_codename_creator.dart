@@ -162,6 +162,10 @@ String extendedCodenameCreator({
     return "pine64-pinephonepro";
   }
 
+  else if (readVendor == "raspberry" && readCodename == "rpi") {
+    return "raspberry-pi";
+  }
+
   else {
     return "$readVendor-$readCodename";
   }
