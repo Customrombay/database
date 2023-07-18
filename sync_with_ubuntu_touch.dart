@@ -28,9 +28,15 @@ void main() async {
       String deviceName = ydoc["name"] ?? "NoName";
       print(deviceName);
       String readVendor = deviceName.split(" ")[0];
+      String vendor = readVendor;
+
+      if (["Pinephone", "Pinetab", "Pinebook"].contains(readVendor)) {
+        vendor = "pine64";
+      }
+
       String extendedCodename = extendedCodenameCreator(
         readCodename: readCodename,
-        readVendor: readVendor
+        readVendor: vendor
       );
 
       if (extendedCodename == "zuk-zuk_z2_plus") {

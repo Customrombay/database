@@ -157,6 +157,11 @@ String extendedCodenameCreator({
   else if (readVendor == "banana pi") {
     return "bananapi-$readCodename";
   }
+
+  else if (readVendor == "pine64" && readCodename == "pinephone-pro") {
+    return "pine64-pinephonepro";
+  }
+
   else {
     return "$readVendor-$readCodename";
   }
