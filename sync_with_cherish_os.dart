@@ -17,7 +17,7 @@ void main() async {
       String readVendor = device["brand"];
       String readCodename = device["codename"];
       String codename = readCodename;
-      if (codename == "Mojito" || codename == "Sweet" || codename == "Redwood") {
+      if (codename == "Mojito" || codename == "Sweet" || codename == "Redwood" || codename == "PHOENIX") {
         codename = codename.toLowerCase();
       }
       else if (codename == "mi8937") {

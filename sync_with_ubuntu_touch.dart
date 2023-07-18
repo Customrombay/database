@@ -32,6 +32,11 @@ void main() async {
         readCodename: readCodename,
         readVendor: readVendor
       );
+
+      if (extendedCodename == "zuk-zuk_z2_plus") {
+        extendedCodename = "zuk-z2_plus";
+      }
+
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
         bool isXenial = false;

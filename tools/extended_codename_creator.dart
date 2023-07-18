@@ -114,6 +114,12 @@ String extendedCodenameCreator({
   else if (readCodename == "munch" && readVendor == "poco") {
     return "xiaomi-munch";
   }
+  else if (readCodename == "redwood" && readVendor == "poco") {
+    return "xiaomi-redwood";
+  }
+  else if (readCodename == "fleur" && readVendor == "poco") {
+    return "xiaomi-fleur";
+  }
 
   // See xiaomi-surya description
   else if (readCodename == "surya" && readVendor == "poco") {
