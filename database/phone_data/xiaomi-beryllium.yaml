@@ -138,7 +138,7 @@ linux:
     distribution-state: 'Official'
     distribution-notes: 'Xenial'
     distribution-webpage: 'https://ubuntu-touch.io/'
-    device-webpage: 'https://devices.ubuntu-touch.io/device/beryllium'\
+    device-webpage: 'https://devices.ubuntu-touch.io/device/beryllium'
   - 
     distribution-name: 'PostmarketOS'
     distribution-support: true
