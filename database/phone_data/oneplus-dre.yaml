@@ -28,4 +28,12 @@ roms:
     phone-webpage: 'https://download.pixelexperience.org/dre/'
 
 recoveries: null
-linux: null
+linux: 
+  - 
+    distribution-name: 'PostmarketOS'
+    distribution-support: true
+    distribution-state: 'Non-booting'
+    distribution-notes: null
+    distribution-webpage: 'https://postmarketos.org/'
+    device-webpage: 'https://wiki.postmarketos.org/wiki/OnePlus_Nord_N200_(oneplus-dre)'
+
