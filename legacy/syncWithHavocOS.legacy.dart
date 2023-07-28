@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:yaml/yaml.dart';
-import 'tools/extended_codename_creator.dart';
-import 'tools/add_to_support.dart';
+import '../tools/extended_codename_creator.dart';
+import '../tools/add_to_support.dart';
 
 void main() async {
   int numberOfCovered = 0;
