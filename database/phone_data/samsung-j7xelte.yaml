@@ -1,0 +1,15 @@
+device-name: 'j7xelte'
+device-vendor: 'Samsung'
+device-model-name: 'Galaxy J7 (2016)'
+device-description: null
+roms: 
+  - 
+    rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '10'
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://crdroid.net/downloads#j7xelte'
+
+recoveries: null
+linux: null
