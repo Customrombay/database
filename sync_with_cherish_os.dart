@@ -23,6 +23,9 @@ void main() async {
       else if (codename == "mi8937") {
         codename = "Mi8937";
       }
+      else if (codename == "SURYA/KARNA") {
+        codename = "surya";
+      }
       String extendedCodename = extendedCodenameCreator(readCodename: codename, readVendor: readVendor);
       stdout.write("$extendedCodename\n");
       YamlMap version = device["supported_versions"][0];
