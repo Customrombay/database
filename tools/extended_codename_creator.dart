@@ -160,6 +160,10 @@ String extendedCodenameCreator({
     return "realme-RMX1801";
   }
 
+  else if (readCodename == "spartan" && readVendor == "realme") {
+    return "realme-RMX3371";
+  }
+
   else if (readVendor == "banana pi") {
     return "bananapi-$readCodename";
   }
