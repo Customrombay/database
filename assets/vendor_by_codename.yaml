@@ -4,7 +4,13 @@
 - codename: apollo
   vendors:
   - xiaomi
+- codename: avicii
+  vendors:
+  - oneplus
 - codename: begonia
+  vendors:
+  - xiaomi
+- codename: beryllium
   vendors:
   - xiaomi
 - codename: beyond0lte
@@ -31,6 +37,15 @@
 - codename: cheetah
   vendors:
   - google
+- codename: chef
+  vendors:
+  - motorola
+- codename: chime
+  vendors:
+  - xiaomi
+- codename: courbet
+  vendors:
+  - xiaomi
 - codename: crownlte
   vendors:
   - samsung
@@ -52,12 +67,21 @@
 - codename: devon
   vendors:
   - motorola
+- codename: dipper
+  vendors:
+  - xiaomi
 - codename: diting
   vendors:
   - xiaomi
 - codename: dumpling
   vendors:
   - oneplus
+- codename: enchilada
+  vendors:
+  - oneplus
+- codename: gauguin
+  vendors:
+  - xiaomi
 - codename: ginkgo
   vendors:
   - xiaomi
@@ -82,6 +106,9 @@
 - codename: instantnoodlep
   vendors:
   - oneplus
+- codename: jd2019
+  vendors:
+  - lenovo
 - codename: lancelot
   vendors:
   - xiaomi
@@ -97,6 +124,9 @@
 - codename: lemonades
   vendors:
   - oneplus
+- codename: lisa
+  vendors:
+  - xiaomi
 - codename: lunaa
   vendors:
   - realme
@@ -112,12 +142,21 @@
 - codename: mondrian
   vendors:
   - xiaomi
+- codename: munch
+  vendors:
+  - xiaomi
+- codename: NB1
+  vendors:
+  - nokia
 - codename: ocean
   vendors:
   - motorola
 - codename: onclite
   vendors:
   - xiaomi
+- codename: panther
+  vendors:
+  - google
 - codename: phoenix
   vendors:
   - xiaomi
@@ -142,6 +181,9 @@
 - codename: rhode
   vendors:
   - motorola
+- codename: RM6785
+  vendors:
+  - realme
 - codename: RMX1921
   vendors:
   - realme
@@ -154,12 +196,18 @@
 - codename: RMX2170
   vendors:
   - realme
+- codename: RMX3031
+  vendors:
+  - realme
 - codename: river
   vendors:
   - motorola
 - codename: sakura
   vendors:
   - xiaomi
+- codename: spaced
+  vendors:
+  - realme
 - codename: spes
   vendors:
   - xiaomi
@@ -188,6 +236,9 @@
   vendors:
   - xiaomi
 - codename: violet
+  vendors:
+  - xiaomi
+- codename: whyred
   vendors:
   - xiaomi
 - codename: X00TD
