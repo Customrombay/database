@@ -7,6 +7,9 @@
 - codename: begonia
   vendors:
   - xiaomi
+- codename: beyond0lte
+  vendors:
+  - samsung
 - codename: beyond1lte
   vendors:
   - samsung
