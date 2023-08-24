@@ -208,6 +208,9 @@
 - codename: spaced
   vendors:
   - realme
+- codename: spartan
+  vendors:
+  - realme
 - codename: spes
   vendors:
   - xiaomi
