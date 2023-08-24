@@ -1,0 +1,225 @@
+- codename: alioth
+  vendors:
+  - xiaomi
+- codename: apollo
+  vendors:
+  - xiaomi
+- codename: begonia
+  vendors:
+  - xiaomi
+- codename: beyond1lte
+  vendors:
+  - samsung
+- codename: beyond2lte
+  vendors:
+  - samsung
+- codename: beyondx
+  vendors:
+  - samsung
+- codename: bitra
+  vendors:
+  - realme
+- codename: bluejay
+  vendors:
+  - google
+- codename: cheeseburger
+  vendors:
+  - oneplus
+- codename: cheetah
+  vendors:
+  - google
+- codename: crownlte
+  vendors:
+  - samsung
+- codename: d1
+  vendors:
+  - samsung
+- codename: d2s
+  vendors:
+  - samsung
+- codename: d2x
+  vendors:
+  - samsung
+- codename: daisy
+  vendors:
+  - xiaomi
+- codename: davinci
+  vendors:
+  - xiaomi
+- codename: devon
+  vendors:
+  - motorola
+- codename: diting
+  vendors:
+  - xiaomi
+- codename: dumpling
+  vendors:
+  - oneplus
+- codename: ginkgo
+  vendors:
+  - xiaomi
+- codename: guacamole
+  vendors:
+  - oneplus
+- codename: guacamoleb
+  vendors:
+  - oneplus
+- codename: hawao
+  vendors:
+  - motorola
+- codename: hotdog
+  vendors:
+  - oneplus
+- codename: hotdogb
+  vendors:
+  - oneplus
+- codename: instantnoodle
+  vendors:
+  - oneplus
+- codename: instantnoodlep
+  vendors:
+  - oneplus
+- codename: lancelot
+  vendors:
+  - xiaomi
+- codename: lavender
+  vendors:
+  - xiaomi
+- codename: lemonade
+  vendors:
+  - oneplus
+- codename: lemonadep
+  vendors:
+  - oneplus
+- codename: lemonades
+  vendors:
+  - oneplus
+- codename: lunaa
+  vendors:
+  - realme
+- codename: marble
+  vendors:
+  - xiaomi
+- codename: martini
+  vendors:
+  - oneplus
+- codename: miatoll
+  vendors:
+  - xiaomi
+- codename: mondrian
+  vendors:
+  - xiaomi
+- codename: ocean
+  vendors:
+  - motorola
+- codename: onclite
+  vendors:
+  - xiaomi
+- codename: phoenix
+  vendors:
+  - xiaomi
+- codename: phone1
+  vendors:
+  - nothing
+- codename: picasso
+  vendors:
+  - xiaomi
+- codename: raphael
+  vendors:
+  - xiaomi
+- codename: raven
+  vendors:
+  - google
+- codename: redwood
+  vendors:
+  - xiaomi
+- codename: renoir
+  vendors:
+  - xiaomi
+- codename: rhode
+  vendors:
+  - motorola
+- codename: RMX1921
+  vendors:
+  - realme
+- codename: RMX1971
+  vendors:
+  - realme
+- codename: RMX2061
+  vendors:
+  - realme
+- codename: RMX2170
+  vendors:
+  - realme
+- codename: river
+  vendors:
+  - motorola
+- codename: sakura
+  vendors:
+  - xiaomi
+- codename: spes
+  vendors:
+  - xiaomi
+- codename: star2lte
+  vendors:
+  - samsung
+- codename: starlte
+  vendors:
+  - samsung
+- codename: surya
+  vendors:
+  - xiaomi
+- codename: sweet
+  vendors:
+  - xiaomi
+- codename: toco
+  vendors:
+  - xiaomi
+- codename: vayu
+  vendors:
+  - xiaomi
+- codename: veux
+  vendors:
+  - xiaomi
+- codename: vili
+  vendors:
+  - xiaomi
+- codename: violet
+  vendors:
+  - xiaomi
+- codename: X00TD
+  vendors:
+  - asus
+- codename: X01BD
+  vendors:
+  - asus
+- codename: x2
+  vendors:
+  - realme
+- codename: ysl
+  vendors:
+  - xiaomi
+- codename: Z01R
+  vendors:
+  - asus
+- codename: zippo
+  vendors:
+  - lenovo
+- codename: a10
+  vendors:
+  - samsung
+- codename: a20
+  vendors:
+  - samsung
+- codename: a20e
+  vendors:
+  - samsung
+- codename: a30
+  vendors:
+  - samsung
+- codename: a40
+  vendors:
+  - samsung
+- codename: a505fn
+  vendors:
+  - samsung
