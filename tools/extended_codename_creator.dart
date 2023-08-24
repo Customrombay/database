@@ -176,6 +176,14 @@ String extendedCodenameCreator({
     return "raspberry-pi";
   }
 
+  else if (readVendor == "samsung" && readCodename == "a505fn") {
+    return "samsung-a505f";
+  }
+
+  else if (readVendor == "nothing" && readCodename == "phone1") {
+    return "nothing-Spacewar";
+  }
+
   else {
     return "$readVendor-$readCodename";
   }
