@@ -3,7 +3,12 @@ device-vendor: 'Motorola'
 device-model-name: 'moto g40 Fusion'
 device-description: null
 roms: []
-
-recoveries: []
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://twrp.me/motorola/motorolamotog60g40fusion.html'
 
 linux: null
