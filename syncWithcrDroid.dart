@@ -31,7 +31,13 @@ void main() async {
         else if (readCodename == "olives") {
           continue;
         }
+        else if (readCodename == "olive") {
+          continue;
+        }
         else if (readCodename == "rova") {
+          continue;
+        }
+        else if (readCodename == "Mi439" && readVendor.toLowerCase() == "redmi") {
           continue;
         }
         else if (readCodename == "RMX2001") {
