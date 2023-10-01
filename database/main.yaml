@@ -1,0 +1,2812 @@
+- 
+  device-name: 'A6020'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Vibe K5 / K5 Plus'
+- 
+  device-name: 'Amber'
+  device-vendor: 'Yandex'
+  device-model-name: 'Phone'
+- 
+  device-name: 'CPH1859'
+  device-vendor: 'Realme'
+  device-model-name: '1'
+- 
+  device-name: 'DRG'
+  device-vendor: 'Nokia'
+  device-model-name: '6.1 Plus'
+- 
+  device-name: 'FP2'
+  device-vendor: 'Fairphone'
+  device-model-name: 2
+- 
+  device-name: 'FP3'
+  device-vendor: 'Fairphone'
+  device-model-name: 3
+- 
+  device-name: 'FP4'
+  device-vendor: 'Fairphone'
+  device-model-name: 4
+- 
+  device-name: 'G'
+  device-vendor: '10.or'
+  device-model-name: 'G'
+- 
+  device-name: 'GM8_sprout'
+  device-vendor: 'GM'
+  device-model-name: 8
+- 
+  device-name: 'I001D'
+  device-vendor: 'ASUS'
+  device-model-name: 'ROG Phone 2 (ZS660KL)'
+- 
+  device-name: 'I01WD'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 6 (ZS630KL)'
+- 
+  device-name: 'Mi439'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 7A / 8 / 8A / 8A Dual'
+- 
+  device-name: 'Mi8917'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 4A / 5A / [Note 5A / Y1 - Lite]'
+- 
+  device-name: 'Mi8937'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 3S / 3X / 4 (India) / 4X / [Note 5A / Y1 - Prime]'
+- 
+  device-name: 'NB1'
+  device-vendor: 'Nokia'
+  device-model-name: '8'
+- 
+  device-name: 'OP4A89'
+  device-vendor: 'OPPO'
+  device-model-name: 'Reno Ace'
+- 
+  device-name: 'P024'
+  device-vendor: 'ASUS'
+  device-model-name: 'ZenPad 8.0 (Z380KL)'
+- 
+  device-name: 'PL2'
+  device-vendor: 'Nokia'
+  device-model-name: '6.1 (2018)'
+- 
+  device-name: 'PNX_sprout'
+  device-vendor: 'Nokia'
+  device-model-name: '8.1'
+- 
+  device-name: 'RM6785'
+  device-vendor: 'Realme'
+  device-model-name: '6/7'
+- 
+  device-name: 'RMP6768'
+  device-vendor: 'Realme'
+  device-model-name: 'Pad'
+- 
+  device-name: 'RMX1801'
+  device-vendor: 'Realme'
+  device-model-name: '2 Pro'
+- 
+  device-name: 'RMX1831'
+  device-vendor: 'Realme'
+  device-model-name: 'U1'
+- 
+  device-name: 'RMX1851'
+  device-vendor: 'Realme'
+  device-model-name: '3 Pro'
+- 
+  device-name: 'RMX1901'
+  device-vendor: 'Realme'
+  device-model-name: 'X'
+- 
+  device-name: 'RMX1921'
+  device-vendor: 'Realme'
+  device-model-name: 'XT'
+- 
+  device-name: 'RMX1931'
+  device-vendor: 'Realme'
+  device-model-name: 'X2 Pro'
+- 
+  device-name: 'RMX1941'
+  device-vendor: 'Realme'
+  device-model-name: 'C2'
+- 
+  device-name: 'RMX1971'
+  device-vendor: 'Realme'
+  device-model-name: '5 Pro'
+- 
+  device-name: 'RMX2020'
+  device-vendor: 'Realme'
+  device-model-name: 'C3'
+- 
+  device-name: 'RMX2061'
+  device-vendor: 'Realme'
+  device-model-name: '6 Pro'
+- 
+  device-name: 'RMX2081'
+  device-vendor: 'Realme'
+  device-model-name: 'X3'
+- 
+  device-name: 'RMX2170'
+  device-vendor: 'Realme'
+  device-model-name: '7 Pro'
+- 
+  device-name: 'RMX3031'
+  device-vendor: 'Realme'
+  device-model-name: 'X7 Max 5G'
+- 
+  device-name: 'RMX3371'
+  device-vendor: 'Realme'
+  device-model-name: 'GT NEO 3T'
+- 
+  device-name: 'RMX3461'
+  device-vendor: 'Realme'
+  device-model-name: '9 SE 5G'
+- 
+  device-name: 'Spacewar'
+  device-vendor: 'Nothing'
+  device-model-name: 'Phone (1)'
+- 
+  device-name: 'TP1803'
+  device-vendor: 'Nubia'
+  device-model-name: 'Mini 5G'
+- 
+  device-name: 'X00P'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone Max M1'
+- 
+  device-name: 'X00QD'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 5'
+- 
+  device-name: 'X00TD'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone Max Pro M1'
+- 
+  device-name: 'X01AD'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone Max M2'
+- 
+  device-name: 'X01BD'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone Max Pro M2'
+- 
+  device-name: 'YTX703F'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Yoga Tab 3 Plus Wi-Fi'
+- 
+  device-name: 'YTX703L'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Yoga Tab 3 Plus LTE'
+- 
+  device-name: 'Z008'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 2 (720p)'
+- 
+  device-name: 'Z00A'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 2 (1080p)'
+- 
+  device-name: 'Z00D'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 2 (ZE500CL)'
+- 
+  device-name: 'Z00L'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 2 Laser (720p)'
+- 
+  device-name: 'Z00T'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 2 Laser / Selfie (1080p)'
+- 
+  device-name: 'Z01R'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 5Z (ZS620KL)'
+- 
+  device-name: 'a10'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A10'
+- 
+  device-name: 'a11q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A11'
+- 
+  device-name: 'a12nseea'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A12'
+- 
+  device-name: 'a20'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A20'
+- 
+  device-name: 'a20e'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A20e'
+- 
+  device-name: 'a20s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A20s'
+- 
+  device-name: 'a21s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A21s'
+- 
+  device-name: 'a22'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A22 4G'
+- 
+  device-name: 'a22x'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A22 5G'
+- 
+  device-name: 'a30'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A30'
+- 
+  device-name: 'a30s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A30s'
+- 
+  device-name: 'a31'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A31'
+- 
+  device-name: 'a32'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A32 4G'
+- 
+  device-name: 'a32x'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A32 5G'
+- 
+  device-name: 'a33x'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A33 5G'
+- 
+  device-name: 'a3xelte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A3 (2016)'
+- 
+  device-name: 'a3y17lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A3 (2017)'
+- 
+  device-name: 'a40'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A40'
+- 
+  device-name: 'a42xq'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A42 5G'
+- 
+  device-name: 'a505f'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A50'
+- 
+  device-name: 'a51'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A51'
+- 
+  device-name: 'a52q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A52 4G'
+- 
+  device-name: 'a52sxq'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A52s 5G'
+- 
+  device-name: 'a53x'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A53 5G'
+- 
+  device-name: 'a54x'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A54 5G'
+- 
+  device-name: 'a5xelte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A5 (2016)'
+- 
+  device-name: 'a5y17lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A5 (2017)'
+- 
+  device-name: 'a60q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A60'
+- 
+  device-name: 'a70q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A70'
+- 
+  device-name: 'a70s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A70s'
+- 
+  device-name: 'a71'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A71'
+- 
+  device-name: 'a72q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A72'
+- 
+  device-name: 'a73xq'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A73 5G'
+- 
+  device-name: 'a7xelte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A7 (2016)'
+- 
+  device-name: 'a7y17lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A7 (2017)'
+- 
+  device-name: 'addison'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto z play'
+- 
+  device-name: 'agate'
+  device-vendor: 'Xiaomi'
+  device-model-name: '11T'
+- 
+  device-name: 'ahannah'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto e5 plus (XT1924-3/9)'
+- 
+  device-name: 'akari'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XZ2'
+- 
+  device-name: 'akatsuki'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XZ3'
+- 
+  device-name: 'albus'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto z2 play'
+- 
+  device-name: 'ali'
+  device-vendor: 'Motorola'
+  device-model-name: 'Moto G6'
+- 
+  device-name: 'alioth'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Poco F3'
+- 
+  device-name: 'andromeda'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Mix 3 5G'
+- 
+  device-name: 'angelica'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 9C / Redmi 9C NFC'
+- 
+  device-name: 'angler'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 6P'
+- 
+  device-name: 'anne'
+  device-vendor: 'Huawei'
+  device-model-name: 'P20 Lite'
+- 
+  device-name: 'apollo'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10T / Mi 10T Pro / Redmi K30S Ultra'
+- 
+  device-name: 'ares'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO F3 GT'
+- 
+  device-name: 'armani'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 1S'
+- 
+  device-name: 'athene'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g4'
+- 
+  device-name: 'atom'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 10X 5G'
+- 
+  device-name: 'aura'
+  device-vendor: 'Razer'
+  device-model-name: 'Phone 2'
+- 
+  device-name: 'aurora'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XZ2 Premium'
+- 
+  device-name: 'avicii'
+  device-vendor: 'OnePlus'
+  device-model-name: 'Nord'
+- 
+  device-name: 'axolotl'
+  device-vendor: 'SHIFT'
+  device-model-name: 'SHIFT6mq'
+- 
+  device-name: 'axon7'
+  device-vendor: 'ZTE'
+  device-model-name: 'Axon 7'
+- 
+  device-name: 'babylon'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mix Fold 3'
+- 
+  device-name: 'bacon'
+  device-vendor: 'OnePlus'
+  device-model-name: 'One'
+- 
+  device-name: 'barbet'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 5a'
+- 
+  device-name: 'bardock'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris X'
+- 
+  device-name: 'bardockpro'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris X Pro'
+- 
+  device-name: 'beckham'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto z3 play'
+- 
+  device-name: 'begonia'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 8 Pro'
+- 
+  device-name: 'berkeley'
+  device-vendor: 'Huawei'
+  device-model-name: 'Honor View 10'
+- 
+  device-name: 'berlin'
+  device-vendor: 'Motorola'
+  device-model-name: 'edge 20'
+- 
+  device-name: 'berlna'
+  device-vendor: 'Motorola'
+  device-model-name: 'edge 2021'
+- 
+  device-name: 'beryllium'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Poco F1'
+- 
+  device-name: 'beyond0lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10e'
+- 
+  device-name: 'beyond0qlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10e (Snapdragon)'
+- 
+  device-name: 'beyond1lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10'
+- 
+  device-name: 'beyond1qlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10 (Snapdragon)'
+- 
+  device-name: 'beyond2lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10+'
+- 
+  device-name: 'beyond2qlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10+ (Snapdragon)'
+- 
+  device-name: 'beyondx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S10 5G'
+- 
+  device-name: 'biloba'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 8 (2021)'
+- 
+  device-name: 'bitra'
+  device-vendor: 'Realme'
+  device-model-name: 'GT NEO 2'
+- 
+  device-name: 'bladerunner'
+  device-vendor: 'Realme'
+  device-model-name: 'X50 Pro 5G'
+- 
+  device-name: 'bladerunner_48m'
+  device-vendor: 'Realme'
+  device-model-name: 'X50 Pro 5G Play'
+- 
+  device-name: 'bluejay'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 6a'
+- 
+  device-name: 'blueline'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 3'
+- 
+  device-name: 'bomb'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 10X Pro'
+- 
+  device-name: 'bonito'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 3a XL'
+- 
+  device-name: 'bramble'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 4a 5G'
+- 
+  device-name: 'bullhead'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 5X'
+- 
+  device-name: 'camellia'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 10 5G / Redmi Note 11SE / Redmi Note 10T 5G / POCO M3 Pro 5G'
+- 
+  device-name: 'cancro'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 3 / Mi 4'
+- 
+  device-name: 'capri'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g10'
+- 
+  device-name: 'capricorn'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 5s'
+- 
+  device-name: 'caprip'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g30'
+- 
+  device-name: 'cas'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10 Ultra'
+- 
+  device-name: 'castor'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Tablet Z2 LTE'
+- 
+  device-name: 'castor_windy'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Tablet Z2 Wi-Fi'
+- 
+  device-name: 'cedric'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g5'
+- 
+  device-name: 'cepheus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 9'
+- 
+  device-name: 'certus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 6 / Redmi 6a'
+- 
+  device-name: 'chagalllte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S 10.5 LTE'
+- 
+  device-name: 'chagallwifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S 10.5 Wi-Fi'
+- 
+  device-name: 'channel'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g7 play'
+- 
+  device-name: 'chaozu'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris U'
+- 
+  device-name: 'charlotte'
+  device-vendor: 'Huawei'
+  device-model-name: 'P20 Pro'
+- 
+  device-name: 'che10'
+  device-vendor: 'Huawei'
+  device-model-name: 'Honor 4x (China Telecom)'
+- 
+  device-name: 'cheeseburger'
+  device-vendor: 'OnePlus'
+  device-model-name: 5
+- 
+  device-name: 'cheetah'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 7 Pro'
+- 
+  device-name: 'chef'
+  device-vendor: 'Motorola'
+  device-model-name: 'one power'
+- 
+  device-name: 'cherry'
+  device-vendor: 'Huawei'
+  device-model-name: 'Honor 4 / 4X'
+- 
+  device-name: 'cheryl'
+  device-vendor: 'Razer'
+  device-model-name: 'Phone'
+- 
+  device-name: 'chime'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO M3/Redmi 9T/Redmi 9T NFC/Redmi 9 Power'
+- 
+  device-name: 'chiron'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi MIX 2'
+- 
+  device-name: 'chopin'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X3 GT'
+- 
+  device-name: 'clark'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto x pure edition / style (2015)'
+- 
+  device-name: 'clover'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Pad 4'
+- 
+  device-name: 'cmi'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10 Pro'
+- 
+  device-name: 'cofud'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g31'
+- 
+  device-name: 'condor'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto e'
+- 
+  device-name: 'coral'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 4 XL'
+- 
+  device-name: 'corfu'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g41'
+- 
+  device-name: 'corfur'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g71 5G'
+- 
+  device-name: 'corot'
+  device-vendor: 'Xiaomi'
+  device-model-name: '13T Pro / Redmi K60 Ultra'
+- 
+  device-name: 'courbet'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 11 Lite 4G'
+- 
+  device-name: 'crackling'
+  device-vendor: 'Wileyfox'
+  device-model-name: 'Swift'
+- 
+  device-name: 'crosshatch'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 3 XL'
+- 
+  device-name: 'crownlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 9'
+- 
+  device-name: 'crux'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 9 Pro'
+- 
+  device-name: 'cupid'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12'
+- 
+  device-name: 'cypfq'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g51 5G'
+- 
+  device-name: 'd1'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note10'
+- 
+  device-name: 'd1q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 10 (Snapdragon)'
+- 
+  device-name: 'd2att'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III (AT&T)'
+- 
+  device-name: 'd2q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 10+ (Snapdragon)'
+- 
+  device-name: 'd2s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note10+'
+- 
+  device-name: 'd2spr'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III (Sprint)'
+- 
+  device-name: 'd2tmo'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III (T-Mobile)'
+- 
+  device-name: 'd2vzw'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III (Verizon)'
+- 
+  device-name: 'd2x'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note10+ 5G'
+- 
+  device-name: 'd800'
+  device-vendor: 'LG'
+  device-model-name: 'G2 (AT&T)'
+- 
+  device-name: 'd801'
+  device-vendor: 'LG'
+  device-model-name: 'G2 (T-Mobile)'
+- 
+  device-name: 'd802'
+  device-vendor: 'LG'
+  device-model-name: 'G2 (International)'
+- 
+  device-name: 'd803'
+  device-vendor: 'LG'
+  device-model-name: 'G2 (Canadian)'
+- 
+  device-name: 'd850'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (AT&T)'
+- 
+  device-name: 'd851'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (T-Mobile)'
+- 
+  device-name: 'd852'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (Canada)'
+- 
+  device-name: 'd855'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (International)'
+- 
+  device-name: 'daisy'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi A2 Lite'
+- 
+  device-name: 'dandelion'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 9A / Redmi 10A / Redmi 10A Sport / Redmi 9AT / Redmi 9i / Redmi 9A Sport'
+- 
+  device-name: 'daumier'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12 Pro Dimensity Edition'
+- 
+  device-name: 'davinci'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K20 / Mi 9T'
+- 
+  device-name: 'deadpool'
+  device-vendor: 'Google'
+  device-model-name: 'ADT-3'
+- 
+  device-name: 'deb'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 7 (LTE, 2013 version)'
+- 
+  device-name: 'debx'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 7 2013 (LTE, Repartitioned)'
+- 
+  device-name: 'deen'
+  device-vendor: 'Motorola'
+  device-model-name: 'One'
+- 
+  device-name: 'denniz'
+  device-vendor: 'OnePlus'
+  device-model-name: 'Nord 2 5G'
+- 
+  device-name: 'denver'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g Stylus 5G'
+- 
+  device-name: 'devon'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g32'
+- 
+  device-name: 'dipper'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 8'
+- 
+  device-name: 'discovery'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XA2 Ultra'
+- 
+  device-name: 'diting'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12T Pro/Redmi K50 Ultra'
+- 
+  device-name: 'dogo'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia ZR'
+- 
+  device-name: 'dontbeevil'
+  device-vendor: 'PINE64'
+  device-model-name: "Don't be evil (devkit)"
+- 
+  device-name: 'dragon'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel C'
+- 
+  device-name: 'dre'
+  device-vendor: 'OnePlus'
+  device-model-name: 'Nord N200'
+- 
+  device-name: 'dream2lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S8+'
+- 
+  device-name: 'dreamlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S8'
+- 
+  device-name: 'dubai'
+  device-vendor: 'Motorola'
+  device-model-name: 'edge 30'
+- 
+  device-name: 'dumpling'
+  device-vendor: 'OnePlus'
+  device-model-name: '5T'
+- 
+  device-name: 'earth'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO C55 / Redmi 12C'
+- 
+  device-name: 'elish'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Pad 5 Pro'
+- 
+  device-name: 'enchilada'
+  device-vendor: 'OnePlus'
+  device-model-name: 6
+- 
+  device-name: 'equuleus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 8 Pro'
+- 
+  device-name: 'espresso3g'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)'
+- 
+  device-name: 'espressowifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab 2 7.0 / Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)'
+- 
+  device-name: 'ether'
+  device-vendor: 'Nextbit'
+  device-model-name: 'Robin'
+- 
+  device-name: 'evergo'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 11 5G / Redmi Note 11T 5G'
+- 
+  device-name: 'evergreen'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO M4 Pro 5G'
+- 
+  device-name: 'evert'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g6 plus'
+- 
+  device-name: 'f1f'
+  device-vendor: 'OPPO'
+  device-model-name: 'F1 (International)'
+- 
+  device-name: 'f400'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (Korea)'
+- 
+  device-name: 'f62'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy F62/M62'
+- 
+  device-name: 'fajita'
+  device-vendor: 'OnePlus'
+  device-model-name: '6T'
+- 
+  device-name: 'falcon'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g'
+- 
+  device-name: 'figo'
+  device-vendor: 'Huawei'
+  device-model-name: 'P Smart'
+- 
+  device-name: 'find7'
+  device-vendor: 'OPPO'
+  device-model-name: 'Find 7a/s'
+- 
+  device-name: 'fire'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 12'
+- 
+  device-name: 'flame'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 4'
+- 
+  device-name: 'fleur'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO M4 Pro / Redmi Note 11S'
+- 
+  device-name: 'flo'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 7 (Wi-Fi, 2013 version)'
+- 
+  device-name: 'flounder'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 9 (Wi-Fi)'
+- 
+  device-name: 'flounder_lte'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 9 (LTE)'
+- 
+  device-name: 'flox'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 7 2013 (Wi-Fi, Repartitioned)'
+- 
+  device-name: 'fog'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 10/10C/10 Power'
+- 
+  device-name: 'foster'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) / Jetson TX1 [Android TV]'
+- 
+  device-name: 'foster_tab'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) / Jetson TX1 [Tablet]'
+- 
+  device-name: 'fugu'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus Player'
+- 
+  device-name: 'fuxi'
+  device-vendor: 'Xiaomi'
+  device-model-name: '13'
+- 
+  device-name: 'g2m'
+  device-vendor: 'LG'
+  device-model-name: 'G2 Mini'
+- 
+  device-name: 'g3ds'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (dualsim)'
+- 
+  device-name: 'gauguin'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10T Lite / Mi 10i / Redmi Note 9 Pro 5G'
+- 
+  device-name: 'gemini'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 5'
+- 
+  device-name: 'genevn'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g Stylus 5G (2023)'
+- 
+  device-name: 'ghost'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto x'
+- 
+  device-name: 'ginkgo'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 8 / 8T'
+- 
+  device-name: 'gohan'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris X5 Plus'
+- 
+  device-name: 'gram'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Poco M2 Pro'
+- 
+  device-name: 'greatlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 8 (Exynos)'
+- 
+  device-name: 'griffin'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto z'
+- 
+  device-name: 'grus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 9 SE'
+- 
+  device-name: 'gta4xl'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S6 Lite (LTE)'
+- 
+  device-name: 'gta4xlwifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S6 Lite (Wi-Fi)'
+- 
+  device-name: 'gtaxlwifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Tab A6 (SM-T580)'
+- 
+  device-name: 'gtelwifiue'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab E 9.6 (WiFi)'
+- 
+  device-name: 'gtesqltespr'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab E 8.0 LTE (Sprint)'
+- 
+  device-name: 'gtowifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab A 8.0 (2019)'
+- 
+  device-name: 'gts210ltexx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S2 9.7 (LTE)'
+- 
+  device-name: 'gts210vewifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S2 9.7 Wi-Fi (2016)'
+- 
+  device-name: 'gts210wifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S2 9.7 (Wi-Fi)'
+- 
+  device-name: 'gts28vewifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S2 8.0 Wi-Fi (2016)'
+- 
+  device-name: 'gts4lv'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S5e (LTE)'
+- 
+  device-name: 'gts4lvwifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S5e (Wi-Fi)'
+- 
+  device-name: 'guacamole'
+  device-vendor: 'OnePlus'
+  device-model-name: '7 Pro'
+- 
+  device-name: 'guacamoleb'
+  device-vendor: 'OnePlus'
+  device-model-name: 7
+- 
+  device-name: 'h811'
+  device-vendor: 'LG'
+  device-model-name: 'G4 (T-Mobile)'
+- 
+  device-name: 'h815'
+  device-vendor: 'LG'
+  device-model-name: 'G4 (International)'
+- 
+  device-name: 'h830'
+  device-vendor: 'LG'
+  device-model-name: 'G5 (T-Mobile)'
+- 
+  device-name: 'h850'
+  device-vendor: 'LG'
+  device-model-name: 'G5 (International)'
+- 
+  device-name: 'h870'
+  device-vendor: 'LG'
+  device-model-name: 'G6 (EU Unlocked)'
+- 
+  device-name: 'h872'
+  device-vendor: 'LG'
+  device-model-name: 'G6 (T-Mobile)'
+- 
+  device-name: 'h910'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (AT&T)'
+- 
+  device-name: 'h918'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (T-Mobile)'
+- 
+  device-name: 'h932'
+  device-vendor: 'LG'
+  device-model-name: 'V30 (T-Mobile)'
+- 
+  device-name: 'h990'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (Global)'
+- 
+  device-name: 'ha3g'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 3 (International 3G)'
+- 
+  device-name: 'ham'
+  device-vendor: 'ZUK'
+  device-model-name: 'Z1'
+- 
+  device-name: 'hammerhead'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 5'
+- 
+  device-name: 'hannah'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto e5 plus (XT1924-6/7/8)'
+- 
+  device-name: 'hanoip'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g40 Fusion'
+- 
+  device-name: 'harpia'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g4 play'
+- 
+  device-name: 'hawaii'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g22'
+- 
+  device-name: 'hawao'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g42'
+- 
+  device-name: 'hayabusa'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia TX'
+- 
+  device-name: 'haydn'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K40 Pro / Redmi K40 Pro+ / Mi 11X Pro / Mi 11i'
+- 
+  device-name: 'heart'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Z5 Pro GT'
+- 
+  device-name: 'hero2lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S7 Edge'
+- 
+  device-name: 'herolte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S7'
+- 
+  device-name: 'hiae'
+  device-vendor: 'HTC'
+  device-model-name: 'One A9'
+- 
+  device-name: 'hima'
+  device-vendor: 'HTC'
+  device-model-name: 'One M9'
+- 
+  device-name: 'himaul'
+  device-vendor: 'HTC'
+  device-model-name: 'One M9 (GSM)'
+- 
+  device-name: 'himawl'
+  device-vendor: 'HTC'
+  device-model-name: 'One M9 (Verizon)'
+- 
+  device-name: 'hlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 3 LTE (N9005/P)'
+- 
+  device-name: 'hltechn'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 3 LTE (N9008V)'
+- 
+  device-name: 'hltekor'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 3 LTE (N900K/L/S)'
+- 
+  device-name: 'hltetmo'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 3 LTE (N900T/V/W8)'
+- 
+  device-name: 'honami'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z1'
+- 
+  device-name: 'hotdog'
+  device-vendor: 'OnePlus'
+  device-model-name: '7T Pro'
+- 
+  device-name: 'hotdogb'
+  device-vendor: 'OnePlus'
+  device-model-name: '7T'
+- 
+  device-name: 'hotdogg'
+  device-vendor: 'OnePlus'
+  device-model-name: '7T Pro 5G Mclaren'
+- 
+  device-name: 'huashan'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia SP'
+- 
+  device-name: 'hydrogen'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Max'
+- 
+  device-name: 'i9100'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S II'
+- 
+  device-name: 'i9300'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III (International)'
+- 
+  device-name: 'i9305'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III (LTE / International)'
+- 
+  device-name: 'ibiza'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g50'
+- 
+  device-name: 'ido'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 3/Prime'
+- 
+  device-name: 'ingres'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO F4 GT/Redmi K50G'
+- 
+  device-name: 'instantnoodle'
+  device-vendor: 'OnePlus'
+  device-model-name: 8
+- 
+  device-name: 'instantnoodlep'
+  device-vendor: 'OnePlus'
+  device-model-name: '8 Pro'
+- 
+  device-name: 'ishtar'
+  device-vendor: 'Xiaomi'
+  device-model-name: '13 Ultra'
+- 
+  device-name: 'ivy'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z3+'
+- 
+  device-name: 'j7elte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy J7 (2015)'
+- 
+  device-name: 'j7xelte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy J7 (2016)'
+- 
+  device-name: 'jackpot2lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A8+ 2018'
+- 
+  device-name: 'jackpotlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A8 2018'
+- 
+  device-name: 'jactivelte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 Active'
+- 
+  device-name: 'jag3gds'
+  device-vendor: 'LG'
+  device-model-name: 'G3 S'
+- 
+  device-name: 'jagnm'
+  device-vendor: 'LG'
+  device-model-name: 'G3 Beat'
+- 
+  device-name: 'jalebi'
+  device-vendor: 'YU'
+  device-model-name: 'Yunique'
+- 
+  device-name: 'jasmine'
+  device-vendor: 'ZTE'
+  device-model-name: 'AT&T Trek 2 HD'
+- 
+  device-name: 'jasmine_sprout'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi A2'
+- 
+  device-name: 'jason'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Note 3'
+- 
+  device-name: 'java'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g20'
+- 
+  device-name: 'jd2019'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Z5s'
+- 
+  device-name: 'jflteatt'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 (SGH-I337)'
+- 
+  device-name: 'jfltespr'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 (SCH-R970, SPH-L720)'
+- 
+  device-name: 'jfltevzw'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 (SCH-I545)'
+- 
+  device-name: 'jfltexx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 (GT-I9505, SGH-I337M, SGH-M919)'
+- 
+  device-name: 'jfvelte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 Value Edition (GT-I9515/L)'
+- 
+  device-name: 'jingpad_a1'
+  device-vendor: 'Jingling'
+  device-model-name: 'JingPad A1'
+- 
+  device-name: 'joan'
+  device-vendor: 'LG'
+  device-model-name: 'V30 (Unlocked)'
+- 
+  device-name: 'joyeuse'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 9 Pro'
+- 
+  device-name: 'juice'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 9T / Redmi 9 Power / Redmi Note 9 4G and POCO M3'
+- 
+  device-name: 'k3gxx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 (International 3G)'
+- 
+  device-name: 'kane'
+  device-vendor: 'Motorola'
+  device-model-name: 'one vision / p50'
+- 
+  device-name: 'karin'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z4 Tablet LTE'
+- 
+  device-name: 'karin_windy'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z4 Tablet WiFi'
+- 
+  device-name: 'katyusha'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Black Shark 5'
+- 
+  device-name: 'kccat6'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 Plus'
+- 
+  device-name: 'kebab'
+  device-vendor: 'OnePlus'
+  device-model-name: '8T'
+- 
+  device-name: 'kenzo'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 3'
+- 
+  device-name: 'kiev'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g 5G / one 5G ace'
+- 
+  device-name: 'kingdom'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Vibe Z2 Pro'
+- 
+  device-name: 'kipper'
+  device-vendor: 'Wileyfox'
+  device-model-name: 'Storm'
+- 
+  device-name: 'kirin'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia 10'
+- 
+  device-name: 'kiwi'
+  device-vendor: 'Huawei'
+  device-model-name: 'Honor 5X'
+- 
+  device-name: 'klimtwifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S 8.4 Wi-Fi'
+- 
+  device-name: 'klte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE (G900F/M/R4/R7/T/V/W8)'
+- 
+  device-name: 'klteactivexx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 Active (G870F)'
+- 
+  device-name: 'klteaio'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE (G900AZ/S902L)'
+- 
+  device-name: 'kltechn'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE (G9006V/8V)'
+- 
+  device-name: 'kltechnduo'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE Duos (G9006W/8W)'
+- 
+  device-name: 'klteduos'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE Duos (G900FD/MD)'
+- 
+  device-name: 'kltedv'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE (G900I/P)'
+- 
+  device-name: 'kltekdi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE (SC-04F/SCL23)'
+- 
+  device-name: 'kltekor'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE (G900K/L/S)'
+- 
+  device-name: 'kltesprsports'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 Sport'
+- 
+  device-name: 'ks01lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 LTE-A (GT-I9506)'
+- 
+  device-name: 'kugo'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia X Compact'
+- 
+  device-name: 'kunlun2'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Z6 Lite'
+- 
+  device-name: 'kunlun2_row'
+  device-vendor: 'Lenovo'
+  device-model-name: 'K10 Note'
+- 
+  device-name: 'kuntao'
+  device-vendor: 'Lenovo'
+  device-model-name: 'P2'
+- 
+  device-name: 'lake'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g7 plus'
+- 
+  device-name: 'lancelot'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 9'
+- 
+  device-name: 'land'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 3S / 3X'
+- 
+  device-name: 'laurel_sprout'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi A3'
+- 
+  device-name: 'laurus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi CC 9e'
+- 
+  device-name: 'lava'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 9 Prime / Poco M2'
+- 
+  device-name: 'lavender'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 7'
+- 
+  device-name: 'lemonade'
+  device-vendor: 'OnePlus'
+  device-model-name: 9
+- 
+  device-name: 'lemonadep'
+  device-vendor: 'OnePlus'
+  device-model-name: '9 Pro'
+- 
+  device-name: 'lemonades'
+  device-vendor: 'OnePlus'
+  device-model-name: '9R'
+- 
+  device-name: 'lentislte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 LTE-A'
+- 
+  device-name: 'lettuce'
+  device-vendor: 'YU'
+  device-model-name: 'Yuphoria'
+- 
+  device-name: 'liber'
+  device-vendor: 'Motorola'
+  device-model-name: 'Moto One Fusion +'
+- 
+  device-name: 'libra'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 4c'
+- 
+  device-name: 'lisa'
+  device-vendor: 'Xiaomi'
+  device-model-name: '11 Lite NE'
+- 
+  device-name: 'lisbon'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g60S'
+- 
+  device-name: 'lithium'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi MIX'
+- 
+  device-name: 'liuqin'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Pad 6 Pro'
+- 
+  device-name: 'lmi'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO F2 Pro / Redmi K30 Pro / Redmi K30 Pro Zoom Edition'
+- 
+  device-name: 'ls990'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (Sprint)'
+- 
+  device-name: 'ls997'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (Sprint)'
+- 
+  device-name: 'lt02ltespr'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab 3 7.0 LTE'
+- 
+  device-name: 'lt03lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 10.1 2014 (LTE)'
+- 
+  device-name: 'lunaa'
+  device-vendor: 'Realme'
+  device-model-name: 'GT Master Editon'
+- 
+  device-name: 'lux'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto x play'
+- 
+  device-name: 'lynx'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 7a'
+- 
+  device-name: 'm10lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M10'
+- 
+  device-name: 'm1852'
+  device-vendor: 'Meizu'
+  device-model-name: 'X8'
+- 
+  device-name: 'm1872'
+  device-vendor: 'Meizu'
+  device-model-name: '16X'
+- 
+  device-name: 'm1882'
+  device-vendor: 'Meizu'
+  device-model-name: '16th'
+- 
+  device-name: 'm20lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M20'
+- 
+  device-name: 'm21'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M21'
+- 
+  device-name: 'm216'
+  device-vendor: 'LG'
+  device-model-name: 'K10'
+- 
+  device-name: 'm30lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M30'
+- 
+  device-name: 'm30s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M30s'
+- 
+  device-name: 'm31'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M31'
+- 
+  device-name: 'm31s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M31s'
+- 
+  device-name: 'm32'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M32'
+- 
+  device-name: 'm40dd'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M40'
+- 
+  device-name: 'm5'
+  device-vendor: 'Banana Pi'
+  device-model-name: 'M5'
+- 
+  device-name: 'm51'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M51'
+- 
+  device-name: 'm52xq'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy M52 5G'
+- 
+  device-name: 'm7'
+  device-vendor: 'HTC'
+  device-model-name: 'One (GSM)'
+- 
+  device-name: 'm7vzw'
+  device-vendor: 'HTC'
+  device-model-name: 'One (Verizon)'
+- 
+  device-name: 'm8'
+  device-vendor: 'HTC'
+  device-model-name: 'One (M8)'
+- 
+  device-name: 'm8d'
+  device-vendor: 'HTC'
+  device-model-name: 'One (M8) Dual SIM'
+- 
+  device-name: 'maguro'
+  device-vendor: 'Google'
+  device-model-name: 'Galaxy Nexus GSM'
+- 
+  device-name: 'mako'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 4'
+- 
+  device-name: 'manta'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 10'
+- 
+  device-name: 'maple'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XZ Premium'
+- 
+  device-name: 'marble'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO F5 / Redmi Note 12 Turbo'
+- 
+  device-name: 'marlin'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel XL'
+- 
+  device-name: 'marmite'
+  device-vendor: 'Wileyfox'
+  device-model-name: 'Swift 2/2+/2X'
+- 
+  device-name: 'mars'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 11 Pro'
+- 
+  device-name: 'martini'
+  device-vendor: 'OnePlus'
+  device-model-name: '9RT'
+- 
+  device-name: 'maserati'
+  device-vendor: 'Motorola'
+  device-model-name: 'DROID 4'
+- 
+  device-name: 'mata'
+  device-vendor: 'Essential'
+  device-model-name: 'PH-1'
+- 
+  device-name: 'matisse'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K50 Pro / POCO F4 Pro'
+- 
+  device-name: 'mayfly'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12S'
+- 
+  device-name: 'mdarcy'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Shield TV 2019 Pro [Android TV]'
+- 
+  device-name: 'mdarcy_tab'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Shield TV 2019 Pro [Tablet]'
+- 
+  device-name: 'merlin'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 9'
+- 
+  device-name: 'merlin'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g3 turbo'
+- 
+  device-name: 'mermaid'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia 10 Plus'
+- 
+  device-name: 'messi'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto z3'
+- 
+  device-name: 'miatoll'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite'
+- 
+  device-name: 'mido'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 4'
+- 
+  device-name: 'milan'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g Stylus (2022)'
+- 
+  device-name: 'milanf'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g Stylus 5G (2022)'
+- 
+  device-name: 'minsk'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g Stylus (2021)'
+- 
+  device-name: 'mint'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia T'
+- 
+  device-name: 'mojito'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 10'
+- 
+  device-name: 'mona'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Civi'
+- 
+  device-name: 'mondrian'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO F5 Pro / Redmi K60'
+- 
+  device-name: 'mondrianwifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab Pro 8.4'
+- 
+  device-name: 'monet'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10 Lite 5G'
+- 
+  device-name: 'montana'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g5s'
+- 
+  device-name: 'moonstone'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X5 5G'
+- 
+  device-name: 'ms013g'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Grand 2 Duos'
+- 
+  device-name: 'mt2'
+  device-vendor: 'Huawei'
+  device-model-name: 'Ascend Mate 2 4G'
+- 
+  device-name: 'munch'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO F4'
+- 
+  device-name: 'n1awifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 10.1 Wi-Fi (2014)'
+- 
+  device-name: 'n2awifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab PRO 10.1'
+- 
+  device-name: 'n3'
+  device-vendor: 'OPPO'
+  device-model-name: 'N3'
+- 
+  device-name: 'n5100'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 8.0 (GSM)'
+- 
+  device-name: 'n5110'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 8.0 (Wi-Fi)'
+- 
+  device-name: 'n5120'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 8.0 (LTE)'
+- 
+  device-name: 'nabu'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Pad 5'
+- 
+  device-name: 'nairo'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g 5G plus / one 5G'
+- 
+  device-name: 'nash'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto z2 force'
+- 
+  device-name: 'nashc'
+  device-vendor: 'Realme'
+  device-model-name: '8'
+- 
+  device-name: 'natrium'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 5s Plus'
+- 
+  device-name: 'nicki'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia M'
+- 
+  device-name: 'nio'
+  device-vendor: 'Motorola'
+  device-model-name: 'edge s / moto g100'
+- 
+  device-name: 'nitrogen'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Max 3'
+- 
+  device-name: 'nuwa'
+  device-vendor: 'Xiaomi'
+  device-model-name: '13 Pro'
+- 
+  device-name: 'nx512j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Z9 Max'
+- 
+  device-name: 'nx563j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Z17'
+- 
+  device-name: 'nx606j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Z18'
+- 
+  device-name: 'nx609j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Red Magic'
+- 
+  device-name: 'nx611j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Z18 Mini'
+- 
+  device-name: 'nx619j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Red Magic Mars'
+- 
+  device-name: 'nx651j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Play 5G'
+- 
+  device-name: 'nx659j'
+  device-vendor: 'Nubia'
+  device-model-name: 'Red Magic 5G / Red Magic 5S'
+- 
+  device-name: 'obiwan'
+  device-vendor: 'ASUS'
+  device-model-name: 'ROG Phone 3'
+- 
+  device-name: 'ocean'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g7 power'
+- 
+  device-name: 'odin'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'MIX 4'
+- 
+  device-name: 'odin'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia ZL'
+- 
+  device-name: 'odroidc4'
+  device-vendor: 'HardKernel'
+  device-model-name: 'ODROID-C4'
+- 
+  device-name: 'olive'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 8'
+- 
+  device-name: 'onclite'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 7'
+- 
+  device-name: 'oneplus2'
+  device-vendor: 'OnePlus'
+  device-model-name: 2
+- 
+  device-name: 'oneplus3'
+  device-vendor: 'OnePlus'
+  device-model-name: '3 / 3T'
+- 
+  device-name: 'onyx'
+  device-vendor: 'OnePlus'
+  device-model-name: 'X'
+- 
+  device-name: 'opal'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 11S 5G'
+- 
+  device-name: 'oriole'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 6'
+- 
+  device-name: 'osprey'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g (2015)'
+- 
+  device-name: 'otus'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto e (2015)'
+- 
+  device-name: 'oxygen'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Max 2'
+- 
+  device-name: 'paella'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris X5'
+- 
+  device-name: 'panther'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 7'
+- 
+  device-name: 'parker'
+  device-vendor: 'Motorola'
+  device-model-name: 'Moto One Zoom'
+- 
+  device-name: 'patriot'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Black Shark 5 Pro'
+- 
+  device-name: 'payton'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto x4'
+- 
+  device-name: 'pdx203'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia 1 II'
+- 
+  device-name: 'pdx206'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia 5 II'
+- 
+  device-name: 'pdx214'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia 5 III'
+- 
+  device-name: 'pdx215'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia 1 III'
+- 
+  device-name: 'peach'
+  device-vendor: 'ARK'
+  device-model-name: 'Benefit A3'
+- 
+  device-name: 'peregrine'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g 4G'
+- 
+  device-name: 'perseus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Mix 3'
+- 
+  device-name: 'phoenix'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X2'
+- 
+  device-name: 'pi'
+  device-vendor: 'Raspberry'
+  device-model-name: 'Pi 1 & 2'
+- 
+  device-name: 'pi0'
+  device-vendor: 'Raspberry'
+  device-model-name: 'Zero'
+- 
+  device-name: 'pi3'
+  device-vendor: 'Raspberry'
+  device-model-name: 'Pi 3'
+- 
+  device-name: 'pi4'
+  device-vendor: 'Raspberry'
+  device-model-name: 'Pi 4'
+- 
+  device-name: 'picasso'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K30 5G'
+- 
+  device-name: 'picasso_48m'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K30i 5G'
+- 
+  device-name: 'piccolo'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris M5'
+- 
+  device-name: 'pine'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 7A'
+- 
+  device-name: 'pinebook'
+  device-vendor: 'PINE64'
+  device-model-name: 'Pinebook'
+- 
+  device-name: 'pinebookpro'
+  device-vendor: 'PINE64'
+  device-model-name: 'Pinebook Pro'
+- 
+  device-name: 'pinenote'
+  device-vendor: 'PINE64'
+  device-model-name: 'PineNote'
+- 
+  device-name: 'pinephone'
+  device-vendor: 'PINE64'
+  device-model-name: 'PinePhone'
+- 
+  device-name: 'pinephonepro'
+  device-vendor: 'PINE64'
+  device-model-name: 'PinePhone Pro'
+- 
+  device-name: 'pinetab'
+  device-vendor: 'PINE64'
+  device-model-name: 'PineTab'
+- 
+  device-name: 'pinetab2'
+  device-vendor: 'PINE64'
+  device-model-name: 'PineTab 2'
+- 
+  device-name: 'pioneer'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XA2'
+- 
+  device-name: 'pipa'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Pad 6'
+- 
+  device-name: 'platina'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 8 Lite'
+- 
+  device-name: 'plato'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12T'
+- 
+  device-name: 'pme'
+  device-vendor: 'HTC'
+  device-model-name: 10
+- 
+  device-name: 'polaris'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi MIX 2S'
+- 
+  device-name: 'pollux'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Tablet Z LTE'
+- 
+  device-name: 'pollux_windy'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Tablet Z Wi-Fi'
+- 
+  device-name: 'porg'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Jetson (Nano / Nano 2GB) [Android TV]'
+- 
+  device-name: 'porg_tab'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Jetson (Nano / Nano 2GB) [Tablet]'
+- 
+  device-name: 'porsche'
+  device-vendor: 'Realme'
+  device-model-name: 'GT 2'
+- 
+  device-name: 'potter'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g5 plus'
+- 
+  device-name: 'pro1'
+  device-vendor: 'F(x)tec'
+  device-model-name: 'Pro¹'
+- 
+  device-name: 'pro1x'
+  device-vendor: 'F(x)tec'
+  device-model-name: 'Pro¹ X'
+- 
+  device-name: 'pstar'
+  device-vendor: 'Motorola'
+  device-model-name: 'edge 20 pro'
+- 
+  device-name: 'psyche'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12X'
+- 
+  device-name: 'pyxis'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi CC 9 / Mi 9 Lite'
+- 
+  device-name: 'quartz64a'
+  device-vendor: 'PINE64'
+  device-model-name: 'Quartz64 A'
+- 
+  device-name: 'quartz64b'
+  device-vendor: 'PINE64'
+  device-model-name: 'Quartz64 B'
+- 
+  device-name: 'quill'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Jetson (TX2 / TX2 NX) [Android TV]'
+- 
+  device-name: 'quill_tab'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Jetson (TX2 / TX2 NX) [Tablet]'
+- 
+  device-name: 'r1q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A80'
+- 
+  device-name: 'r2p'
+  device-vendor: 'Realme'
+  device-model-name: '2 Pro'
+- 
+  device-name: 'r3q'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy A90 5G'
+- 
+  device-name: 'r5'
+  device-vendor: 'OPPO'
+  device-model-name: 'R5/R5s (International)'
+- 
+  device-name: 'r5x'
+  device-vendor: 'Realme'
+  device-model-name: 'X5x'
+- 
+  device-name: 'r7plus'
+  device-vendor: 'OPPO'
+  device-model-name: 'R7 Plus (International)'
+- 
+  device-name: 'r7sf'
+  device-vendor: 'OPPO'
+  device-model-name: 'R7s (International)'
+- 
+  device-name: 'racer'
+  device-vendor: 'Motorola'
+  device-model-name: 'edge'
+- 
+  device-name: 'radxa0'
+  device-vendor: 'Radxa'
+  device-model-name: 'Zero'
+- 
+  device-name: 'raphael'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K20 Pro'
+- 
+  device-name: 'raven'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 6 Pro'
+- 
+  device-name: 'redfin'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 5'
+- 
+  device-name: 'redwood'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X5 Pro 5G/Redmi Note 12 Pro Speed'
+- 
+  device-name: 'rembrandt'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K60E'
+- 
+  device-name: 'renoir'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 11 Lite 5G'
+- 
+  device-name: 'rhannah'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto e5 plus (XT1924-1/2/4/5)'
+- 
+  device-name: 'rhode'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g52'
+- 
+  device-name: 'rhodec'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g62 5G'
+- 
+  device-name: 'rhodep'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g82'
+- 
+  device-name: 'rimo02a'
+  device-vendor: 'Smartron'
+  device-model-name: 'SRT.phone'
+- 
+  device-name: 'river'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g7'
+- 
+  device-name: 'rock64'
+  device-vendor: 'PINE64'
+  device-model-name: 'Rock64'
+- 
+  device-name: 'rosemary'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 10S/11 SE/POCO M5S'
+- 
+  device-name: 'rosy'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 5'
+- 
+  device-name: 'roth'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Shield Portable'
+- 
+  device-name: 'rs988'
+  device-vendor: 'LG'
+  device-model-name: 'G5 (US Unlocked)'
+- 
+  device-name: 'rubens'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K50'
+- 
+  device-name: 'ruby'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12 Pro'
+- 
+  device-name: 's2'
+  device-vendor: 'LeEco'
+  device-model-name: 'Le 2'
+- 
+  device-name: 's3ve3gds'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III Neo (Dual SIM)'
+- 
+  device-name: 's3ve3gjv'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III Neo (Samsung Camera)'
+- 
+  device-name: 's3ve3gxx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S III Neo (Sony Camera)'
+- 
+  device-name: 's5neolte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S5 Neo'
+- 
+  device-name: 'sagit'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 6'
+- 
+  device-name: 'sailfish'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel'
+- 
+  device-name: 'saipan'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g50 5G'
+- 
+  device-name: 'sake'
+  device-vendor: 'ASUS'
+  device-model-name: 'ZenFone 8'
+- 
+  device-name: 'sakura'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 6 Pro'
+- 
+  device-name: 'salami'
+  device-vendor: 'OnePlus'
+  device-model-name: '11 5G'
+- 
+  device-name: 'sanders'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g5s plus'
+- 
+  device-name: 'santoni'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 4(X)'
+- 
+  device-name: 'sargo'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 3a'
+- 
+  device-name: 'scorpio'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Note 2'
+- 
+  device-name: 'sea'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12S'
+- 
+  device-name: 'seed'
+  device-vendor: 'Google'
+  device-model-name: 'Android One 2nd Gen'
+- 
+  device-name: 'serrano3gxx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 Mini (International 3G)'
+- 
+  device-name: 'serranodsdd'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 Mini (International Dual SIM)'
+- 
+  device-name: 'serranoltexx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S4 Mini (International LTE)'
+- 
+  device-name: 'shamu'
+  device-vendor: 'Google'
+  device-model-name: 'Nexus 6'
+- 
+  device-name: 'shieldtablet'
+  device-vendor: 'NVIDIA'
+  device-model-name: 'Shield Tablet'
+- 
+  device-name: 'sirius'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z2'
+- 
+  device-name: 'sirius'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 8 SE'
+- 
+  device-name: 'sky'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12R / Redmi 12 5G / POCO M6 Pro 5G'
+- 
+  device-name: 'socrates'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi K60 Pro'
+- 
+  device-name: 'sofiap'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g Stylus'
+- 
+  device-name: 'spaced'
+  device-vendor: 'Realme'
+  device-model-name: '8i/Narzo 50'
+- 
+  device-name: 'spes'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 11'
+- 
+  device-name: 'spyder'
+  device-vendor: 'Motorola'
+  device-model-name: 'DROID RAZR/RAZR MAXX (CDMA)'
+- 
+  device-name: 'star'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 11 Ultra'
+- 
+  device-name: 'star2lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S9+'
+- 
+  device-name: 'star2qltechn'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S9+ (Snapdragon)'
+- 
+  device-name: 'starlte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S9'
+- 
+  device-name: 'starqltechn'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S9 (Snapdragon)'
+- 
+  device-name: 'sumire'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z5'
+- 
+  device-name: 'sunfish'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 4a'
+- 
+  device-name: 'sunstone'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12 5G/Note 12R Pro'
+- 
+  device-name: 'surnia'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto e LTE (2015)'
+- 
+  device-name: 'surya'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X3'
+- 
+  device-name: 'suzu'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia X'
+- 
+  device-name: 'suzuran'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z5 Compact'
+- 
+  device-name: 'sweet'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 10 Pro'
+- 
+  device-name: 't0lte'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note 2 (LTE)'
+- 
+  device-name: 't6'
+  device-vendor: 'HTC'
+  device-model-name: 'One Max (GSM)'
+- 
+  device-name: 't6vzw'
+  device-vendor: 'HTC'
+  device-model-name: 'One Max (Verizon)'
+- 
+  device-name: 'taimen'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 2 XL'
+- 
+  device-name: 'tangorpro'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel Tablet'
+- 
+  device-name: 'taoshan'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia L'
+- 
+  device-name: 'taoyao'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12 Lite'
+- 
+  device-name: 'tapas'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12'
+- 
+  device-name: 'targa'
+  device-vendor: 'Motorola'
+  device-model-name: 'DROID BIONIC'
+- 
+  device-name: 'tenshi'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris U Plus'
+- 
+  device-name: 'thea'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g LTE (2014)'
+- 
+  device-name: 'thor'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12S Ultra'
+- 
+  device-name: 'thyme'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10S'
+- 
+  device-name: 'tiffany'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 5X'
+- 
+  device-name: 'tissot'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi A1'
+- 
+  device-name: 'titan'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g (2014)'
+- 
+  device-name: 'toco'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Note 10 Lite'
+- 
+  device-name: 'tomato'
+  device-vendor: 'YU'
+  device-model-name: 'Yureka / Yureka Plus'
+- 
+  device-name: 'topaz'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12 NFC'
+- 
+  device-name: 'toro'
+  device-vendor: 'Google'
+  device-model-name: 'Galaxy Nexus LTE (Verizon)'
+- 
+  device-name: 'toroplus'
+  device-vendor: 'Google'
+  device-model-name: 'Galaxy Nexus LTE (Sprint)'
+- 
+  device-name: 'troika'
+  device-vendor: 'Motorola'
+  device-model-name: 'one action'
+- 
+  device-name: 'tsubasa'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia V'
+- 
+  device-name: 'tucana'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi Note 10'
+- 
+  device-name: 'tulip'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 6 Pro'
+- 
+  device-name: 'tulip'
+  device-vendor: 'ZTE'
+  device-model-name: 'Axon 7 Mini'
+- 
+  device-name: 'tundra'
+  device-vendor: 'Motorola'
+  device-model-name: 'Edge 30 Fusion'
+- 
+  device-name: 'ulysse'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 5A'
+- 
+  device-name: 'umi'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10'
+- 
+  device-name: 'umts_spyder'
+  device-vendor: 'Motorola'
+  device-model-name: 'DROID RAZR / RAZR MAXX (GSM)'
+- 
+  device-name: 'unicorn'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12S Pro'
+- 
+  device-name: 'ursa'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 8 Explorer Edition'
+- 
+  device-name: 'us996'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (US Unlocked)'
+- 
+  device-name: 'us996d'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (GSM Unlocked - DirtySanta)'
+- 
+  device-name: 'us997'
+  device-vendor: 'LG'
+  device-model-name: 'G6 (US Unlocked)'
+- 
+  device-name: 'v1awifi'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Note Pro 12.2 Wi-Fi'
+- 
+  device-name: 'v400'
+  device-vendor: 'LG'
+  device-model-name: 'G Pad 7.0 WiFi'
+- 
+  device-name: 'v410'
+  device-vendor: 'LG'
+  device-model-name: 'G Pad 7.0 (LTE)'
+- 
+  device-name: 'v480'
+  device-vendor: 'LG'
+  device-model-name: 'G Pad 8.0 (Wi-Fi)'
+- 
+  device-name: 'v500'
+  device-vendor: 'LG'
+  device-model-name: 'G Pad 8.3'
+- 
+  device-name: 'v521'
+  device-vendor: 'LG'
+  device-model-name: 'G Pad X (T-Mobile)'
+- 
+  device-name: 'v7101o'
+  device-vendor: 'Teracube'
+  device-model-name: 'One'
+- 
+  device-name: 'vangogh'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 10 Lite Zoom'
+- 
+  device-name: 'vayu'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X3 Pro'
+- 
+  device-name: 'vegetalte'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris E5 4G / Aquaris E5s'
+- 
+  device-name: 'vela'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi CC9 Meitu Edition'
+- 
+  device-name: 'venus'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 11'
+- 
+  device-name: 'veux'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X4 Pro 5G / Redmi Note 11E Pro / Redmi Note 11 Pro 5G'
+- 
+  device-name: 'vicky'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto g72'
+- 
+  device-name: 'victara'
+  device-vendor: 'Motorola'
+  device-model-name: 'moto x (2014)'
+- 
+  device-name: 'vida'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 11 Pro 4G'
+- 
+  device-name: 'vili'
+  device-vendor: 'Xiaomi'
+  device-model-name: '11T Pro'
+- 
+  device-name: 'vince'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi 5 Plus'
+- 
+  device-name: 'violet'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 7 Pro'
+- 
+  device-name: 'voyager'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XA2 Plus'
+- 
+  device-name: 'vs985'
+  device-vendor: 'LG'
+  device-model-name: 'G3 (Verizon)'
+- 
+  device-name: 'vs995'
+  device-vendor: 'LG'
+  device-model-name: 'V20 (Verizon)'
+- 
+  device-name: 'w5'
+  device-vendor: 'LG'
+  device-model-name: 'Optimus L70'
+- 
+  device-name: 'w7'
+  device-vendor: 'LG'
+  device-model-name: 'L90'
+- 
+  device-name: 'wade'
+  device-vendor: 'Dynalink'
+  device-model-name: 'TV Box (4K)'
+- 
+  device-name: 'walleye'
+  device-vendor: 'Google'
+  device-model-name: 'Pixel 2'
+- 
+  device-name: 'wayne'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 6X'
+- 
+  device-name: 'whyred'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 5 Pro'
+- 
+  device-name: 'wt88047'
+  device-vendor: 'Wingtech'
+  device-model-name: 'Redmi 2'
+- 
+  device-name: 'x1s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S20 (5G)'
+- 
+  device-name: 'x2'
+  device-vendor: 'LeEco'
+  device-model-name: 'Le Max2'
+- 
+  device-name: 'x2'
+  device-vendor: 'Realme'
+  device-model-name: 'X2'
+- 
+  device-name: 'x3'
+  device-vendor: 'Realme'
+  device-model-name: 'X3'
+- 
+  device-name: 'xaga'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'POCO X4 GT / Redmi Note 11T Pro / Redmi Note 11T Pro+ / Redmi K50i'
+- 
+  device-name: 'xmsirius'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Mi 8 SE'
+- 
+  device-name: 'xt897'
+  device-vendor: 'Motorola'
+  device-model-name: 'PHOTON Q 4G LTE'
+- 
+  device-name: 'xun'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Pad SE'
+- 
+  device-name: 'xz2c'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia XZ2 Compact'
+- 
+  device-name: 'y2s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S20+ (5G)'
+- 
+  device-name: 'yogurt'
+  device-vendor: 'Micromax'
+  device-model-name: 'IN Note 1 / IN1'
+- 
+  device-name: 'ysl'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi S2'
+- 
+  device-name: 'yudi'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Pad 6 Max 14'
+- 
+  device-name: 'yuechu'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Civi 3'
+- 
+  device-name: 'yuga'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z'
+- 
+  device-name: 'yunluo'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Pad'
+- 
+  device-name: 'z2_plus'
+  device-vendor: 'ZUK'
+  device-model-name: 'Z2 Plus'
+- 
+  device-name: 'z2_row'
+  device-vendor: 'ZUK'
+  device-model-name: 'Z2 Pro'
+- 
+  device-name: 'z3'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z3'
+- 
+  device-name: 'z3c'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z3 Compact'
+- 
+  device-name: 'z3dual'
+  device-vendor: 'Sony'
+  device-model-name: 'Xperia Z3 Dual'
+- 
+  device-name: 'z3s'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S20 Ultra'
+- 
+  device-name: 'zangya'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris X2'
+- 
+  device-name: 'zangyapro'
+  device-vendor: 'BQ'
+  device-model-name: 'Aquaris X2 Pro'
+- 
+  device-name: 'zenfone3'
+  device-vendor: 'ASUS'
+  device-model-name: 'Zenfone 3'
+- 
+  device-name: 'zerofltexx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S6'
+- 
+  device-name: 'zeroltexx'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy S6 Edge'
+- 
+  device-name: 'zeus'
+  device-vendor: 'Xiaomi'
+  device-model-name: '12 Pro'
+- 
+  device-name: 'zippo'
+  device-vendor: 'Lenovo'
+  device-model-name: 'Z6 Pro'
+- 
+  device-name: 'ziyi'
+  device-vendor: 'Xiaomi'
+  device-model-name: '13 Lite'
+- 
+  device-name: 'zl1'
+  device-vendor: 'LeEco'
+  device-model-name: 'Le Pro3 / Le Pro3 Elite'
