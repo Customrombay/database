@@ -21,7 +21,6 @@ void main() async {
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
         addToSupport(
-          androidVersion: "13",
           extendedCodename: extendedCodename,
           romName: "BlissROM",
           romState: "Official",
