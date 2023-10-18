@@ -1,7 +1,10 @@
 int androidVersionFromNumberName({
   required String androidVersionNumberName
 }) {
-  if (androidVersionNumberName == "thirteen") {
+  if (androidVersionNumberName == "fourteen") {
+    return 14;
+  }
+  else if (androidVersionNumberName == "thirteen") {
     return 13;
   }
   else if (androidVersionNumberName == "twelve") {
