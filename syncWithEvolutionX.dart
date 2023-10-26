@@ -21,7 +21,7 @@ void main() async {
       YamlList supportedVersions = device["supported_versions"];
       YamlMap thisversion = supportedVersions[0];
       String evolutionXVersion = thisversion["version_code"];
-      String androidVersion = androidVersionFromNumberName(androidVersionNumberName: evolutionXVersion).toString();
+      String androidVersion = androidVersionFromNumberName(androidVersionNumberName: evolutionXVersion.toLowerCase()).toString();
       stdout.write("$extendedCodename\n");
       if (isSupported(extendedCodename: extendedCodename)) {
         numberOfCovered += 1;
