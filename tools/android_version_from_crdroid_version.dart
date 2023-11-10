@@ -11,6 +11,9 @@ String androidVersionFromCrDroidVersion(String crDroidVersion) {
   else if (crDroidVersion == "9") {
     return "13";
   }
+  else if (crDroidVersion == "10") {
+    return "14";
+  }
   else {
     throw Exception("This version of crDroid ($crDroidVersion) has not been added to the database yet. Edit the tools/android_version_from_crdroid_version.dart file!");
   }
