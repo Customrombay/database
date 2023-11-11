@@ -60,4 +60,12 @@ roms:
     phone-webpage: 'https://paranoidandroid.co/marble'
 
 recoveries: null
-linux: null
+linux: 
+  - 
+    distribution-name: 'PostmarketOS'
+    distribution-support: true
+    distribution-state: 'Non-booting'
+    distribution-notes: null
+    distribution-webpage: 'https://postmarketos.org/'
+    device-webpage: 'https://wiki.postmarketos.org/wiki/Xiaomi_POCO_F5_/_Redmi_Note_12_Turbo_(xiaomi-marble)'
+
