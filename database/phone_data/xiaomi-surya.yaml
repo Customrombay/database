@@ -100,33 +100,33 @@ roms:
   - 
     rom-name: 'ArrowOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '12'
-    rom-notes: 'Discontinued'
+    rom-notes: ''
     rom-webpage: 'https://arrowos.net/'
     phone-webpage: 'https://arrowos.net/download/'
   - 
     rom-name: 'PixelOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Inactive'
     android-version: '13'
-    rom-notes: 'Inactive'
+    rom-notes: ''
     rom-webpage: 'https://pixelos.net/'
     phone-webpage: 'https://pixelos.net/download/surya'
   - 
     rom-name: 'PixysOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Deprecated'
     android-version: '11'
-    rom-notes: 'Deprecated'
+    rom-notes: ''
     rom-webpage: 'https://pixysos.com/'
     phone-webpage: 'https://pixysos.com/surya'
   - 
     rom-name: 'CherishOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '12'
-    rom-notes: 'Discontinued'
+    rom-notes: ''
     rom-webpage: 'https://cherishos.com/'
     phone-webpage: 'https://www.pling.com/p/1494954'
   # - 
