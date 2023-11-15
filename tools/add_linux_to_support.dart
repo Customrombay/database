@@ -68,6 +68,7 @@ void addLinuxToSupport({
     "device-vendor": thisFileyaml["device-vendor"],
     "device-model-name": thisFileyaml["device-model-name"],
     "device-description": thisFileyaml["device-description"],
+    "specs": thisFileyaml["specs"],
     "roms": thisFileyaml["roms"],
     "recoveries": thisFileyaml["recoveries"],
     "linux": newList

@@ -2,6 +2,7 @@ device-name: 'lunaa'
 device-vendor: 'Realme'
 device-model-name: 'GT Master Editon'
 device-description: ''
+specs: null
 roms: 
   - 
     rom-name: 'crDroid'

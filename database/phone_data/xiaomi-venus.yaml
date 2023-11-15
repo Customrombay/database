@@ -2,6 +2,7 @@ device-name: 'venus'
 device-vendor: 'Xiaomi'
 device-model-name: 'Mi 11'
 device-description: null
+specs: null
 roms: 
   - 
     rom-name: 'PixelExperience'

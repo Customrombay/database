@@ -64,6 +64,7 @@ void addRecoveryToSupport({
     "device-vendor": thisFileyaml["device-vendor"],
     "device-model-name": thisFileyaml["device-model-name"],
     "device-description": thisFileyaml["device-description"],
+    "specs": thisFileyaml["specs"],
     "roms": thisFileyaml["roms"],
     "recoveries": newList,
     "linux": thisFileyaml["linux"],

@@ -2,6 +2,7 @@ device-name: 'munch'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO F4'
 device-description: null
+specs: null
 roms: 
   - 
     rom-name: 'ArrowOS'

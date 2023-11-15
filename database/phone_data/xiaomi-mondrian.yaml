@@ -2,6 +2,7 @@ device-name: 'mondrian'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO F5 Pro / Redmi K60'
 device-description: null
+specs: null
 roms: 
   - 
     rom-name: 'xiaomi.eu'

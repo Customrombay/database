@@ -2,6 +2,7 @@ device-name: 'marble'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO F5 / Redmi Note 12 Turbo'
 device-description: null
+specs: null
 roms: 
   - 
     rom-name: 'xiaomi.eu'

@@ -2,6 +2,7 @@ device-name: 'stone'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO X5 5G / Redmi Note 12 5G / Note 12R Pro'
 device-description: null
+specs: null
 roms: 
   - 
     rom-name: 'EvolutionX'
