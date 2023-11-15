@@ -13,6 +13,19 @@ specs:
     resolution: '2560x1600'
     size: 10.95
     technology: 'IPS LCD'
+  battery: 
+    capacity: 7020
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Fingerprint reader'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'USB OTG'
+  release: '2023-06'
 roms: 
   - 
     rom-name: 'LineageOS'

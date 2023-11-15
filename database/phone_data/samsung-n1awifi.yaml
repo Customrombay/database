@@ -12,6 +12,17 @@ specs:
     resolution: '2560x1600'
     size: 10.1
     technology: 'Super LCD'
+  battery: 
+    capacity: 8220
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Compass'
+    - 'GPS'
+    - 'Gyroscope'
+  release: 2013
 roms: 
   - 
     rom-name: 'LineageOS'

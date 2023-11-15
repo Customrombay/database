@@ -12,6 +12,25 @@ specs:
     resolution: '1080x1920'
     size: 4.7
     technology: 'Super LCD'
+  battery: 
+    capacity: 2300
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G CDMA'
+    - '3G CDMA2000'
+    - '4G LTE'
+  peripherals: 
+    - 'Dual front speakers'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'GPS'
+    - 'Hall effect sensor'
+    - 'NFC'
+    - 'IR blaster'
+  release: '2013-03'
 roms: 
   - 
     rom-name: 'LineageOS'

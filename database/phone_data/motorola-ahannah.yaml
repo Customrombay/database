@@ -12,6 +12,22 @@ specs:
     resolution: '1440x720'
     size: 6
     technology: 'IPS LCD'
+  battery: 
+    capacity: 5000
+    removable: false
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'Fingerprint reader'
+    - 'Accelerometer'
+    - 'Proximity sensor'
+    - 'GPS'
+    - 'FM radio'
+    - 'Light sensor'
+  release: '2018-05'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,18 @@ specs:
     resolution: '1200x1920'
     size: 8
     technology: 'IPS LCD'
+  battery: 
+    capacity: 4650
+    removable: false
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'Gyroscope'
+    - 'Compass'
+  release: '2016-06'
 roms: 
   - 
     rom-name: 'LineageOS'

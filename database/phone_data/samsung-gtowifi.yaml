@@ -12,6 +12,16 @@ specs:
     resolution: '800x1280'
     size: 8
     technology: 'TFT LCD'
+  battery: 
+    capacity: 5100
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'GPS'
+    - 'Gyroscope'
+  release: 2019
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,17 @@ specs:
     resolution: '2560x1600'
     size: 12.2
     technology: 'Super clear LCD'
+  battery: 
+    capacity: 9500
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Compass'
+    - 'GPS'
+    - 'Gyroscope'
+  release: 2014
 roms: 
   - 
     rom-name: 'LineageOS'

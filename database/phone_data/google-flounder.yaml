@@ -12,6 +12,18 @@ specs:
     resolution: '2048x1536'
     size: 8.9
     technology: 'IPS LCD'
+  battery: 
+    capacity: 6700
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Light sensor'
+    - 'Gyroscope'
+    - 'Hall effect sensor'
+    - 'GPS'
+  release: '2014-11-03'
 roms: 
   - 
     rom-name: 'LineageOS'

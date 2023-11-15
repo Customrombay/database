@@ -12,6 +12,24 @@ specs:
     resolution: '1440x2880'
     size: 6
     technology: 'P-OLED'
+  battery: 
+    capacity: 3300
+    removable: false
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'Dual SIM'
+    - 'Fingerprint reader'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'GPS'
+  release: '2018-10'
 roms: 
   - 
     rom-name: 'LineageOS'

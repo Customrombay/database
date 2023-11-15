@@ -12,6 +12,36 @@ specs:
     resolution: '3840x1644'
     size: 6.5
     technology: 'OLED'
+  battery: 
+    capacity: 4500
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Barometer'
+    - 'Compass'
+    - 'Dual SIM'
+    - 'Dual speakers'
+    - 'Fingerprint reader'
+    - 'BeiDou'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'QZSS'
+    - 'Google Assist Button'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'NFC'
+    - 'Proximity sensor'
+    - 'Qi wireless charging'
+    - 'USB OTG'
+  release: '2021-04'
 roms: 
   - 
     rom-name: 'LineageOS'

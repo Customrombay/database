@@ -12,6 +12,20 @@ specs:
     resolution: '1280x768'
     size: 4.7
     technology: 'IPS LCD'
+  battery: 
+    capacity: 2100
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+  peripherals: 
+    - 'GPS'
+    - 'Mobility DisplayPort (MyDP)'
+    - 'Proximity sensor'
+    - 'NFC'
+    - 'Qi wireless charging'
+  release: '2012-11-13'
 roms: 
   - 
     rom-name: 'LineageOS'

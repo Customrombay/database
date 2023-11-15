@@ -13,6 +13,43 @@ specs:
     resolution: '1440x3200'
     size: 6.81
     technology: 'Super AMOLED'
+  battery: 
+    capacity: 5000
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '2G CDMA'
+    - '3G UMTS'
+    - '3G CDMA2000'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Barometer'
+    - 'Compass'
+    - 'Dual SIM'
+    - 'Dual-frequency GNSS'
+    - 'Dual speakers'
+    - 'Fingerprint reader'
+    - 'BeiDou'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'NAVIC'
+    - 'SBAS'
+    - 'QZSS'
+    - 'Gyroscope'
+    - 'IR blaster'
+    - 'Infrared sensor'
+    - 'Light sensor'
+    - 'NFC'
+    - 'Ultrasound proximity sensor'
+    - 'Qi wireless charging'
+    - 'Qi reverse wireless charging'
+    - 'USB OTG'
+  release: '2021-03'
 roms: 
   - 
     rom-name: 'LineageOS'

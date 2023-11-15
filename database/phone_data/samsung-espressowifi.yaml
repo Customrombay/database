@@ -12,6 +12,19 @@ specs:
     resolution: '800x1280'
     size: 10.1
     technology: 'PLS LCD'
+  battery: 
+    capacity: 7000
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Proximity sensor'
+    - 'Light sensor'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Compass'
+    - 'GPS'
+  release: '2012-05'
 roms: 
   - 
     rom-name: 'LineageOS'

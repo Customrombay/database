@@ -12,6 +12,18 @@ specs:
     resolution: '1280x800'
     size: 8
     technology: 'TFT LCD'
+  battery: 
+    capacity: 4600
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'GPS'
+  release: '2013-04'
 roms: 
   - 
     rom-name: 'LineageOS'

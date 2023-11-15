@@ -12,6 +12,18 @@ specs:
     resolution: '1600x2560'
     size: 8.4
     technology: 'Super AMOLED'
+  battery: 
+    capacity: 4900
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Compass'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Fingerprint reader'
+  release: 2014
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,13 @@ specs:
     resolution: '1600x2560'
     size: 8.4
     technology: 'Super clear LCD'
+  battery: 
+    capacity: 8220
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 'None'
+  release: '2014-01'
 roms: 
   - 
     rom-name: 'LineageOS'

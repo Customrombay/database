@@ -13,6 +13,32 @@ specs:
     resolution: '2340x1080'
     size: 6
     technology: 'AMOLED'
+  battery: 
+    capacity: 4080
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '3G CDMA2000'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'Accelerometer'
+    - 'BeiDou'
+    - 'Compass'
+    - 'Fingerprint reader'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'NFC'
+    - 'Proximity sensor'
+    - 'Qi wireless charging'
+    - 'Qi reverse wireless charging'
+    - 'USB OTG'
+  release: '2020-10'
 roms: 
   - 
     rom-name: 'LineageOS'

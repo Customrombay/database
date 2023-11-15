@@ -12,6 +12,20 @@ specs:
     resolution: '1024x600'
     size: 7
     technology: 'TFT LCD'
+  battery: 
+    capacity: 4000
+    removable: false
+    tech: 'Li-Ion'
+  network: 
+    - '2G CDMA'
+    - '3G CDMA2000'
+    - '4G LTE'
+  peripherals: 
+    - 'IR blaster'
+    - 'Accelerometer'
+    - 'Light sensor'
+    - 'Compass'
+  release: '2016-09'
 roms: 
   - 
     rom-name: 'LineageOS'

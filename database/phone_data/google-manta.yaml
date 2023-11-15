@@ -12,6 +12,21 @@ specs:
     resolution: '2560x1600'
     size: 10
     technology: 'Super PLS LCD'
+  battery: 
+    capacity: 9000
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'GPS'
+    - 'Hall effect sensor'
+    - 'Barometer'
+    - 'Dual side NFC'
+  release: '2012-11-13'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,32 @@ specs:
     resolution: '1080x1920'
     size: 5.5
     technology: 'Optic AMOLED'
+  battery: 
+    capacity: 3300
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '2G CDMA'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'BeiDou'
+    - 'Compass'
+    - 'Dual SIM'
+    - 'Fingerprint reader'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Hall effect sensor'
+    - 'Light sensor'
+    - 'NFC'
+    - 'Proximity sensor'
+    - 'USB OTG'
+  release: '2017-06'
 roms: 
   - 
     rom-name: 'LineageOS'

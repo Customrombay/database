@@ -12,6 +12,31 @@ specs:
     resolution: '720x1280'
     size: 5.5
     technology: 'IPS LCD'
+  battery: 
+    capacity: 3080
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Dual SIM'
+    - 'FM radio'
+    - 'BeiDou'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'Pedometer'
+    - 'Proximity sensor'
+    - 'USB OTG'
+    - 'IR blaster'
+  release: '2017-08-21'
 roms: 
   - 
     rom-name: 'LineageOS'

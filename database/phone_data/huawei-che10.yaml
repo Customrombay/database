@@ -21,6 +21,29 @@ specs:
         size: 5.5
         technology: 'IPS+ LCD'
 
+  battery: 
+    - 
+      Honor 4X: 
+        capacity: 2000
+        removable: false
+        tech: 'Li-Ion'
+
+    - 
+      Honor 4X: 
+        capacity: 3000
+        removable: false
+        tech: 'Li-Ion'
+
+  network: 
+    - '2G GSM'
+    - '2G CDMA'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Proximity sensor'
+    - 'Compass'
+  release: '2014-10'
 roms: 
   - 
     rom-name: 'LineageOS'

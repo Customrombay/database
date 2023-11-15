@@ -12,6 +12,22 @@ specs:
     resolution: '1200x1920'
     size: 10.1
     technology: 'TFT LCD'
+  battery: 
+    capacity: 6000
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'MHL'
+    - 'HDMI'
+    - 'GPS'
+    - 'NFC'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'Proximity sensor'
+  release: '2013-02'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,29 @@ specs:
     resolution: '1080x2160'
     size: 5.99
     technology: 'AMOLED'
+  battery: 
+    capacity: 3200
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '2G CDMA'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'Hardware keyboard'
+    - 'Dual SIM'
+    - 'Fingerprint reader'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'NFC'
+    - 'Hall effect sensor'
+    - 'Sensor hub'
+    - 'Light sensor'
+  release: '2022-12'
 roms: 
   - 
     rom-name: 'LineageOS'

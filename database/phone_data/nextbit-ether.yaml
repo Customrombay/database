@@ -12,6 +12,26 @@ specs:
     resolution: '1080x1920'
     size: 5.2
     technology: 'IPS LCD'
+  battery: 
+    capacity: 2680
+    removable: false
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'Hall effect sensor'
+    - 'Proximity sensor'
+    - 'Fingerprint reader'
+    - 'NFC'
+  release: '2016-02'
 roms: 
   - 
     rom-name: 'LineageOS'

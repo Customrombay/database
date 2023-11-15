@@ -12,6 +12,19 @@ specs:
     resolution: '1536x2048'
     size: 8
     technology: 'Super AMOLED'
+  battery: 
+    capacity: 4000
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Fingerprint reader'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+  release: 2016
 roms: 
   - 
     rom-name: 'LineageOS'

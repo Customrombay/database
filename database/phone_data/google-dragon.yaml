@@ -12,6 +12,18 @@ specs:
     resolution: '2560x1800'
     size: 10.2
     technology: 'IPS LTPS LCD'
+  battery: 
+    capacity: 9240
+    removable: false
+    tech: 'Li-Po'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'Barometer'
+  release: '2015-12-08'
 roms: 
   - 
     rom-name: 'LineageOS'

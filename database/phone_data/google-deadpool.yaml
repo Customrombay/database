@@ -9,6 +9,10 @@ specs:
   storage: '8 GB'
   is_ab_device: null
   screen: 'None'
+  battery: 'None'
+  network: 'None'
+  peripherals: 'None'
+  release: '2020-09-22'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,19 @@ specs:
     resolution: '540x960'
     size: 4.7
     technology: 'IPS LCD'
+  battery: 
+    capacity: 2540
+    removable: true
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'NFC'
+  release: '2014-02'
 roms: 
   - 
     rom-name: 'LineageOS'

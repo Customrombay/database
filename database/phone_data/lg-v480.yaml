@@ -12,6 +12,17 @@ specs:
     resolution: '1280x800'
     size: 8
     technology: 'IPS LCD'
+  battery: 
+    capacity: 4200
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Compass'
+    - 'GPS'
+    - 'Pedometer'
+  release: '2014-07'
 roms: 
   - 
     rom-name: 'LineageOS'

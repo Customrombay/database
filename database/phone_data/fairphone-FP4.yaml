@@ -12,6 +12,32 @@ specs:
     resolution: '2340x1080'
     size: 6.3
     technology: 'IPS LCD'
+  battery: 
+    capacity: 3905
+    removable: true
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'Fingerprint reader'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'NFC'
+    - 'GPS'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'BeiDou'
+    - 'Light sensor'
+    - 'RGB ambient light'
+    - 'Dual SIM'
+    - 'USB OTG'
+    - 'DP over USB-C'
+  release: '2021-10'
 roms: 
   - 
     rom-name: 'LineageOS'

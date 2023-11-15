@@ -12,6 +12,18 @@ specs:
     resolution: '2560x1600'
     size: 10.1
     technology: 'IPS LCD'
+  battery: 
+    capacity: 6000
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Light sensor'
+    - 'GPS'
+  release: '2015-10'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,21 @@ specs:
     resolution: '800x1280'
     size: 8
     technology: 'TFT LCD'
+  battery: 
+    capacity: 5000
+    removable: true
+    tech: 'Li-Ion'
+  network: 
+    - '2G CDMA'
+    - '3G CDMA2000'
+    - '4G LTE'
+  peripherals: 
+    - 'GPS'
+    - 'GLONASS'
+    - 'USB OTG'
+    - 'Accelerometer'
+    - 'Compass'
+  release: '2016-01'
 roms: 
   - 
     rom-name: 'LineageOS'

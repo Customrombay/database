@@ -12,6 +12,27 @@ specs:
     resolution: '1080x1920'
     size: 6
     technology: 'AMOLED'
+  battery: 
+    capacity: 4100
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Dual SIM'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'Proximity sensor'
+    - 'USB OTG'
+    - 'Fingerprint reader'
+  release: '2015-05'
 roms: 
   - 
     rom-name: 'LineageOS'

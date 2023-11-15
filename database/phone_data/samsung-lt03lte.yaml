@@ -12,6 +12,16 @@ specs:
     resolution: '1600x2560'
     size: 10.1
     technology: 'TFT LCD'
+  battery: 
+    capacity: 8220
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+  peripherals: 'None'
+  release: '2013-10'
 roms: 
   - 
     rom-name: 'LineageOS'

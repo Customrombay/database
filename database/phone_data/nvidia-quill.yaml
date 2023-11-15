@@ -9,6 +9,10 @@ specs:
   storage: '16 GB/Sdcard'
   is_ab_device: true
   screen: 'None'
+  battery: 'None'
+  network: 'None'
+  peripherals: 'None'
+  release: '2017-03-14'
 roms: 
   - 
     rom-name: 'LineageOS'

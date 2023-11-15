@@ -12,6 +12,16 @@ specs:
     resolution: '1200x2000'
     size: 10.4
     technology: 'TFT LCD'
+  battery: 
+    capacity: 7040
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'GPS'
+    - 'Gyroscope'
+  release: '2020-04-02'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -12,6 +12,28 @@ specs:
     resolution: '2160x1080'
     size: 5.7
     technology: 'IPS LCD'
+  battery: 
+    capacity: 3450
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Fingerprint reader'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'Pedometer'
+    - 'Proximity sensor'
+    - 'USB OTG'
+  release: 2019
 roms: 
   - 
     rom-name: 'LineageOS'

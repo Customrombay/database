@@ -12,6 +12,20 @@ specs:
     resolution: '480x800'
     size: 4.5
     technology: 'IPS LCD'
+  battery: 
+    capacity: 2040
+    removable: false
+    tech: 'Li-Ion'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+  peripherals: 
+    - 'GPS'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Proximity sensor'
+    - 'FM radio'
+  release: '2014-04'
 roms: 
   - 
     rom-name: 'LineageOS'

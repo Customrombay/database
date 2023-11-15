@@ -12,6 +12,13 @@ specs:
     resolution: '1920x1200'
     size: 7
     technology: 'IPS LCD'
+  battery: 
+    capacity: 3950
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 'None'
+  release: '2013-07-26'
 roms: 
   - 
     rom-name: 'LineageOS'
