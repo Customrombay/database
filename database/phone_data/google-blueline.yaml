@@ -2,6 +2,17 @@ device-name: 'blueline'
 device-vendor: 'Google'
 device-model-name: 'Pixel 3'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM845 Snapdragon 845'
+  gpu: 'Qualcomm Adreno 630'
+  ram: '4 GB'
+  storage: '64/128 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 60
+    resolution: '2160x1080'
+    size: 5.5
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

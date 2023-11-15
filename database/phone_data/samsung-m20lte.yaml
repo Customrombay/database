@@ -2,6 +2,16 @@ device-name: 'm20lte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy M20'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 7904'
+  gpu: 'ARM Mali-G71 MP2'
+  ram: '3/4 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2340x1080'
+    size: 6.3
+    technology: 'PLS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

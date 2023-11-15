@@ -2,6 +2,16 @@ device-name: 'surya'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO X3'
 device-description: "Both Poco X3 (karna) and Poco X3 NFC (surya) should work with the same ROMs. For more specific information visit ROM maintainer's pages"
+specs: 
+  soc: 'Qualcomm SM7150-AC Snapdragon 732G'
+  gpu: 'Qualcomm Adreno 618'
+  ram: '6/8 GB'
+  storage: '64/128/256 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2400x1080'
+    size: 6.67
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

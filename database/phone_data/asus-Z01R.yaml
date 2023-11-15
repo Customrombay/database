@@ -2,6 +2,16 @@ device-name: 'Z01R'
 device-vendor: 'ASUS'
 device-model-name: 'Zenfone 5Z (ZS620KL)'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM845 Snapdragon 845'
+  gpu: 'Qualcomm Adreno 630'
+  ram: '4/6/8 GB LPDDR4X'
+  storage: '64/128/256 GB UFS2.1'
+  is_ab_device: true
+  screen: 
+    resolution: '2246x1080'
+    size: 6.2
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

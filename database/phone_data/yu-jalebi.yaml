@@ -2,6 +2,16 @@ device-name: 'jalebi'
 device-vendor: 'YU'
 device-model-name: 'Yunique'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8916 Snapdragon 410'
+  gpu: 'Qualcomm Adreno 306'
+  ram: '1 GB'
+  storage: '8 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 4.7
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

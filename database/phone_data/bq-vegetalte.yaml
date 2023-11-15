@@ -2,6 +2,16 @@ device-name: 'vegetalte'
 device-vendor: 'BQ'
 device-model-name: 'Aquaris E5 4G / Aquaris E5s'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8916T Snapdragon 412'
+  gpu: 'Qualcomm Adreno 306'
+  ram: '1/2 GB'
+  storage: '8/16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

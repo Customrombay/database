@@ -2,6 +2,16 @@ device-name: 'm52xq'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy M52 5G'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7325 Snapdragon 778G 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '6/8 GB'
+  storage: '128 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2800'
+    size: 6.7
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

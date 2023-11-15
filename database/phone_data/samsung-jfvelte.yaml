@@ -2,6 +2,16 @@ device-name: 'jfvelte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S4 Value Edition (GT-I9515/L)'
 device-description: null
+specs: 
+  soc: 'Qualcomm APQ8064T Snapdragon 600'
+  gpu: 'Qualcomm Adreno 320'
+  ram: '2 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5
+    technology: 'Pentile RGBG Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

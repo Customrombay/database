@@ -2,6 +2,16 @@ device-name: 'A6020'
 device-vendor: 'Lenovo'
 device-model-name: 'Vibe K5 / K5 Plus'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8939v2 Snapdragon 616'
+  gpu: 'Qualcomm Adreno 405'
+  ram: '2/3 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x1920'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

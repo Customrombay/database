@@ -2,6 +2,17 @@ device-name: 'sunfish'
 device-vendor: 'Google'
 device-model-name: 'Pixel 4a'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7150-AB Snapdragon 730G'
+  gpu: 'Qualcomm Adreno 618'
+  ram: '6 GB'
+  storage: '128 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 60
+    resolution: '2340x1080'
+    size: 5.81
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

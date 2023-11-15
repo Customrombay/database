@@ -2,6 +2,16 @@ device-name: 'kugo'
 device-vendor: 'Sony'
 device-model-name: 'Xperia X Compact'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8956 Snapdragon 650'
+  gpu: 'Qualcomm Adreno 510'
+  ram: '3 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 4.6
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

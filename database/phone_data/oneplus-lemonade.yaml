@@ -2,6 +2,17 @@ device-name: 'lemonade'
 device-vendor: 'OnePlus'
 device-model-name: 9
 device-description: null
+specs: 
+  soc: 'Qualcomm SM8350 Snapdragon 888'
+  gpu: 'Qualcomm Adreno 660'
+  ram: '8/12 GB LPDDR5'
+  storage: '128/256 GB UFS3.1'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '1080x2400'
+    size: 6.55
+    technology: 'Fluid AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

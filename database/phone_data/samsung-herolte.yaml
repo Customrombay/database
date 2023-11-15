@@ -2,6 +2,16 @@ device-name: 'herolte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S7'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 8890'
+  gpu: 'ARM Mali-T880 MP12'
+  ram: '4 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2560x1440'
+    size: 5.1
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

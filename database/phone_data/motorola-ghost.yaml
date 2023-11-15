@@ -2,6 +2,16 @@ device-name: 'ghost'
 device-vendor: 'Motorola'
 device-model-name: 'moto x'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8960DT Snapdragon S4 Pro'
+  gpu: 'Qualcomm Adreno 320'
+  ram: '2 GB'
+  storage: '16/32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1280x720'
+    size: 4.7
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

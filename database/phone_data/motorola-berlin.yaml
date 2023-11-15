@@ -2,6 +2,16 @@ device-name: 'berlin'
 device-vendor: 'Motorola'
 device-model-name: 'edge 20'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7325 Snapdragon 778G 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '8 GB LPDDR4X'
+  storage: '128 GB UFS 2.2'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.7
+    technology: 'OLED'
 roms: 
   - 
     rom-name: 'LineageOS'

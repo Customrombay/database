@@ -2,6 +2,16 @@ device-name: 'beyond2lte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S10+'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 9820'
+  gpu: 'ARM Mali-G76 MP12'
+  ram: '8/12 GB'
+  storage: '128/512/1024 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '3040x1440'
+    size: 6.4
+    technology: 'Dynamic AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

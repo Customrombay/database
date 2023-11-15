@@ -2,6 +2,16 @@ device-name: 'FP2'
 device-vendor: 'Fairphone'
 device-model-name: 2
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8974AB-AB Snapdragon 801'
+  gpu: 'Qualcomm Adreno 330'
+  ram: '2 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5.1
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

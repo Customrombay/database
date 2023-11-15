@@ -2,6 +2,16 @@ device-name: 'serranoltexx'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S4 Mini (International LTE)'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8930AB Snapdragon 400'
+  gpu: 'Qualcomm Adreno 305'
+  ram: '1.5 GB'
+  storage: '8/16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '540x960'
+    size: 4.3
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

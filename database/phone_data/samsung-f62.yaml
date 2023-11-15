@@ -2,6 +2,16 @@ device-name: 'f62'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy F62/M62'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 9825'
+  gpu: 'ARM Mali-G76 MP12'
+  ram: '6/8 GB'
+  storage: '128 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2400x1080'
+    size: 6.7
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'star2lte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S9+'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 9810'
+  gpu: 'ARM Mali-G72 MP18'
+  ram: '6 GB'
+  storage: '64/128/256 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2960x1440'
+    size: 6.2
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

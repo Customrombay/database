@@ -2,6 +2,16 @@ device-name: 'ham'
 device-vendor: 'ZUK'
 device-model-name: 'Z1'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8974AC Snapdragon 801'
+  gpu: 'Qualcomm Adreno 330'
+  ram: '3 GB'
+  storage: '64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5.5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

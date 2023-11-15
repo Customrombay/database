@@ -2,6 +2,16 @@ device-name: 'mint'
 device-vendor: 'Sony'
 device-model-name: 'Xperia T'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8260A Snapdragon S4'
+  gpu: 'Qualcomm Adreno 225'
+  ram: '1 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 4.55
+    technology: 'TFT LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

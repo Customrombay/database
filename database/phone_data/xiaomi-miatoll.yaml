@@ -2,6 +2,16 @@ device-name: 'miatoll'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7125 Snapdragon 720G'
+  gpu: 'Qualcomm Adreno 618'
+  ram: '4/6/8 GB'
+  storage: '64/128 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2400'
+    size: 6.67
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

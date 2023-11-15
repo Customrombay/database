@@ -2,6 +2,16 @@ device-name: 'a52q'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy A52 4G'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7125 Snapdragon 720G'
+  gpu: 'Qualcomm Adreno 618'
+  ram: '4/6/8 GB'
+  storage: '128/256 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2800'
+    size: 6.5
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

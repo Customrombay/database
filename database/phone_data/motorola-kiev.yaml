@@ -2,6 +2,16 @@ device-name: 'kiev'
 device-vendor: 'Motorola'
 device-model-name: 'moto g 5G / one 5G ace'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7225 Snapdragon 750G'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '4/6 GB LPDDR4X'
+  storage: '64/128 GB UFS 2.1'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.7
+    technology: 'IPS LTPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

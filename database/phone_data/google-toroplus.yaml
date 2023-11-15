@@ -2,6 +2,16 @@ device-name: 'toroplus'
 device-vendor: 'Google'
 device-model-name: 'Galaxy Nexus LTE (Sprint)'
 device-description: null
+specs: 
+  soc: 'TI OMAP4460'
+  gpu: 'PowerVR SGX540'
+  ram: '1 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1280x720'
+    size: 4.7
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

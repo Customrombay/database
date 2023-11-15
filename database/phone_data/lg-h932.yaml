@@ -2,6 +2,16 @@ device-name: 'h932'
 device-vendor: 'LG'
 device-model-name: 'V30 (T-Mobile)'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8998 Snapdragon 835'
+  gpu: 'Qualcomm Adreno 540'
+  ram: '4 GB'
+  storage: '64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2880x1440'
+    size: 6
+    technology: 'P-OLED'
 roms: 
   - 
     rom-name: 'LineageOS'

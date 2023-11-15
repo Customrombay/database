@@ -2,6 +2,16 @@ device-name: 'peach'
 device-vendor: 'ARK'
 device-model-name: 'Benefit A3'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8916 Snapdragon 410'
+  gpu: 'Qualcomm Adreno 306'
+  ram: '1 GB'
+  storage: '8 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1280x720'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

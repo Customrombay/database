@@ -2,6 +2,16 @@ device-name: 'angler'
 device-vendor: 'Google'
 device-model-name: 'Nexus 6P'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8994 Snapdragon 810'
+  gpu: 'Qualcomm Adreno 430'
+  ram: '3 GB'
+  storage: '32/64/128 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1440x2560'
+    size: 5.7
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -50,6 +50,12 @@ Future<List> updateDeviceFiles(String content) async {
   var vendor = ydoc["vendor"];
   var name = ydoc["name"];
   var readCodename = ydoc["codename"];
+  var soc = ydoc["soc"];
+  var gpu = ydoc["gpu"];
+  var ram = ydoc["ram"];
+  var storage = ydoc["storage"];
+  var isABDevice = ydoc["is_ab_device"];
+  var screen = ydoc["screen"];
 
   // String codename = codenameCorrection(readCodename, vendor);
   String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: vendor);
@@ -124,6 +130,14 @@ Future<List> updateDeviceFiles(String content) async {
       "device-vendor": thisFileyaml["device-vendor"],
       "device-model-name": thisFileyaml["device-model-name"],
       "device-description": thisFileyaml["device-description"],
+      "specs": {
+        "soc": soc,
+        "gpu": gpu,
+        "ram": ram,
+        "storage": storage,
+        "is_ab_device": isABDevice,
+        "screen": screen
+      },
       "roms": newList,
       "recoveries": thisFileyaml["recoveries"],
       "linux": thisFileyaml["linux"],

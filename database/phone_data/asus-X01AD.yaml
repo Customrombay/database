@@ -2,6 +2,16 @@ device-name: 'X01AD'
 device-vendor: 'ASUS'
 device-model-name: 'Zenfone Max M2'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM632 Snapdragon 632'
+  gpu: 'Qualcomm Adreno 506'
+  ram: '3/4 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1520'
+    size: 6.26
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

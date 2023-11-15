@@ -2,6 +2,16 @@ device-name: 'hiae'
 device-vendor: 'HTC'
 device-model-name: 'One A9'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8952 Snapdragon 617'
+  gpu: 'Qualcomm Adreno 405'
+  ram: '2/3 GB'
+  storage: '16/32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

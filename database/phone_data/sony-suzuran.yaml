@@ -2,6 +2,16 @@ device-name: 'suzuran'
 device-vendor: 'Sony'
 device-model-name: 'Xperia Z5 Compact'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8994 Snapdragon 810'
+  gpu: 'Qualcomm Adreno 430'
+  ram: '2 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1280x720'
+    size: 5.2
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

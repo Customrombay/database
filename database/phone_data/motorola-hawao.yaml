@@ -2,6 +2,16 @@ device-name: 'hawao'
 device-vendor: 'Motorola'
 device-model-name: 'moto g42'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM6225 Snapdragon 680 4G'
+  gpu: 'Qualcomm Adreno 610'
+  ram: '4/6 GB LPDDR4X'
+  storage: '64/128 GB UFS 2.2'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.4
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

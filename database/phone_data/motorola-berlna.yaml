@@ -2,6 +2,16 @@ device-name: 'berlna'
 device-vendor: 'Motorola'
 device-model-name: 'edge 2021'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7325 Snapdragon 778G 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '8 GB LPDDR4X'
+  storage: '256 GB UFS 2.2'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2460'
+    size: 6.8
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

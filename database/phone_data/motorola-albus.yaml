@@ -2,6 +2,16 @@ device-name: 'albus'
 device-vendor: 'Motorola'
 device-model-name: 'moto z2 play'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8953 Pro Snapdragon 626'
+  gpu: 'Qualcomm Adreno 506'
+  ram: '4 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5.5
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

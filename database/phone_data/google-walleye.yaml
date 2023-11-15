@@ -2,6 +2,16 @@ device-name: 'walleye'
 device-vendor: 'Google'
 device-model-name: 'Pixel 2'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM835 Snapdragon 835'
+  gpu: 'Qualcomm Adreno 540'
+  ram: '4 GB'
+  storage: '64/128 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x1920'
+    size: 5
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

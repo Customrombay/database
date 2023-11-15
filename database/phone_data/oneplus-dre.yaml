@@ -2,6 +2,16 @@ device-name: 'dre'
 device-vendor: 'OnePlus'
 device-model-name: 'Nord N200'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM4350 Snapdragon 480'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '4 GB LPDDR4x'
+  storage: '64 GB UFS 2.1'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.49
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'xz2c'
 device-vendor: 'Sony'
 device-model-name: 'Xperia XZ2 Compact'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM845 Snapdragon 845'
+  gpu: 'Qualcomm Adreno 630'
+  ram: '4 GB'
+  storage: '64 GB UFS2.1'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2160'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

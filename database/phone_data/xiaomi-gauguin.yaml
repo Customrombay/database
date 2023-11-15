@@ -2,6 +2,16 @@ device-name: 'gauguin'
 device-vendor: 'Xiaomi'
 device-model-name: 'Mi 10T Lite / Mi 10i / Redmi Note 9 Pro 5G'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7225 Snapdragon 750G 5G'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '6/8 GB'
+  storage: '128 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2400x1080'
+    size: 6.67
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

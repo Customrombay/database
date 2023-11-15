@@ -2,6 +2,16 @@ device-name: 'dogo'
 device-vendor: 'Sony'
 device-model-name: 'Xperia ZR'
 device-description: null
+specs: 
+  soc: 'Qualcomm APQ8064 Snapdragon S4 Pro'
+  gpu: 'Qualcomm Adreno 320'
+  ram: '2 GB LPDDR2'
+  storage: '8 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 4.55
+    technology: 'TFT LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

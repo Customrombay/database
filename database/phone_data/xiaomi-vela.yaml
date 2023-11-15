@@ -2,6 +2,16 @@ device-name: 'vela'
 device-vendor: 'Xiaomi'
 device-model-name: 'Mi CC9 Meitu Edition'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM710 Snapdragon 710'
+  gpu: 'Qualcomm Adreno 616'
+  ram: '8 GB'
+  storage: '256 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2340'
+    size: 6.31
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

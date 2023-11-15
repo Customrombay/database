@@ -2,6 +2,16 @@ device-name: 'devon'
 device-vendor: 'Motorola'
 device-model-name: 'moto g32'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM6225 Snapdragon 680 4G'
+  gpu: 'Qualcomm Adreno 610'
+  ram: '4/6/8 GB LPDDR4X'
+  storage: '64/128/256 GB UFS 2.2'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

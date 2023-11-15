@@ -2,6 +2,17 @@ device-name: 'tangorpro'
 device-vendor: 'Google'
 device-model-name: 'Pixel Tablet'
 device-description: null
+specs: 
+  soc: 'Google Tensor GS201'
+  gpu: 'ARM Mali-G710 MP7'
+  ram: '8 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 60
+    resolution: '2560x1600'
+    size: 10.95
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

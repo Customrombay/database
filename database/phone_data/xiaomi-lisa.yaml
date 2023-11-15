@@ -2,6 +2,17 @@ device-name: 'lisa'
 device-vendor: 'Xiaomi'
 device-model-name: '11 Lite NE'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7325 Snapdragon 778G 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '6/8 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 90
+    resolution: '1080x2400'
+    size: 6.67
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

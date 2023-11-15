@@ -2,6 +2,17 @@ device-name: 'pdx214'
 device-vendor: 'Sony'
 device-model-name: 'Xperia 5 III'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM8350 Snapdragon 888'
+  gpu: 'Qualcomm Adreno 660'
+  ram: '8 GB'
+  storage: '128/256 GB UFS3.0'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '2520x1080'
+    size: 6.1
+    technology: 'OLED'
 roms: 
   - 
     rom-name: 'LineageOS'

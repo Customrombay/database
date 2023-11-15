@@ -2,6 +2,16 @@ device-name: 'enchilada'
 device-vendor: 'OnePlus'
 device-model-name: 6
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM845 Snapdragon 845'
+  gpu: 'Qualcomm Adreno 630'
+  ram: '6/8 GB LPDDR4X'
+  storage: '64/128/256 GB UFS2.1'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2280'
+    size: 6.28
+    technology: 'Optic AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

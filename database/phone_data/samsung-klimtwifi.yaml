@@ -2,6 +2,16 @@ device-name: 'klimtwifi'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy Tab S 8.4 Wi-Fi'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 5420'
+  gpu: 'ARM Mali-T628 MP6'
+  ram: '3 GB'
+  storage: '16/32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1600x2560'
+    size: 8.4
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

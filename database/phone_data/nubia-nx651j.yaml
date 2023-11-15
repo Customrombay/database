@@ -2,6 +2,17 @@ device-name: 'nx651j'
 device-vendor: 'Nubia'
 device-model-name: 'Play 5G'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7250 Snapdragon 765G'
+  gpu: 'Qualcomm Adreno 620'
+  ram: '6/8 GB'
+  storage: '128/256 GB UFS2.1'
+  is_ab_device: null
+  screen: 
+    refresh_rate: 144
+    resolution: '1080x2340'
+    size: 6.65
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

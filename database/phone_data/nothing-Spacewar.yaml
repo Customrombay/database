@@ -2,6 +2,17 @@ device-name: 'Spacewar'
 device-vendor: 'Nothing'
 device-model-name: 'Phone (1)'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7325-AE Snapdragon 778G+ 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '8/12 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '1080x2400'
+    size: 6.55
+    technology: 'OLED'
 roms: 
   - 
     rom-name: 'LineageOS'

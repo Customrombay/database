@@ -2,6 +2,16 @@ device-name: 'r7sf'
 device-vendor: 'OPPO'
 device-model-name: 'R7s (International)'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8939 Snapdragon 615'
+  gpu: 'Qualcomm Adreno 405'
+  ram: '4 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x1920'
+    size: 5.5
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

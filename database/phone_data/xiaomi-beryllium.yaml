@@ -2,6 +2,16 @@ device-name: 'beryllium'
 device-vendor: 'Xiaomi'
 device-model-name: 'Poco F1'
 device-description: 'Something interesting about the device'
+specs: 
+  soc: 'Qualcomm SDM845 Snapdragon 845'
+  gpu: 'Qualcomm Adreno 630'
+  ram: '6/8 GB LPDDR4X'
+  storage: '64/128/256 GB UFS2.1'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2160'
+    size: 6.18
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

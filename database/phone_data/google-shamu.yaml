@@ -2,6 +2,16 @@ device-name: 'shamu'
 device-vendor: 'Google'
 device-model-name: 'Nexus 6'
 device-description: null
+specs: 
+  soc: 'Qualcomm APQ8084 Snapdragon 805'
+  gpu: 'Qualcomm Adreno 420'
+  ram: '3 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2560x1440'
+    size: 5.96
+    technology: 'Pentile RGBG AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

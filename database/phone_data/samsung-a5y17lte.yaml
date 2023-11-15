@@ -2,6 +2,16 @@ device-name: 'a5y17lte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy A5 (2017)'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 7880'
+  gpu: 'ARM Mali-T830 MP3'
+  ram: '3 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5.2
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

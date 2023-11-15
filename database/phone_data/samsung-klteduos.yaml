@@ -2,6 +2,16 @@ device-name: 'klteduos'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S5 LTE Duos (G900FD/MD)'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8974AC Snapdragon 801'
+  gpu: 'Qualcomm Adreno 330'
+  ram: '2 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5.1
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

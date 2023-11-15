@@ -2,6 +2,16 @@ device-name: 'crownlte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy Note 9'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 9810'
+  gpu: 'ARM Mali-G72 MP18'
+  ram: '6/8 GB'
+  storage: '128/512 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2960x1440'
+    size: 6.4
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

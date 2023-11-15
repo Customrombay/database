@@ -2,6 +2,16 @@ device-name: 'm8d'
 device-vendor: 'HTC'
 device-model-name: 'One (M8) Dual SIM'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8974AB Snapdragon 801'
+  gpu: 'Qualcomm Adreno 320'
+  ram: '2 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x1920'
+    size: 4.7
+    technology: 'Super LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

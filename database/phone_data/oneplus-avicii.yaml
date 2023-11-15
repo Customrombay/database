@@ -2,6 +2,16 @@ device-name: 'avicii'
 device-vendor: 'OnePlus'
 device-model-name: 'Nord'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7250 Snapdragon 765G'
+  gpu: 'Qualcomm Adreno 620'
+  ram: '6/8/12 GB LPDDR4'
+  storage: '64/128/256 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '2400x1080'
+    size: 6.67
+    technology: 'Fluid AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

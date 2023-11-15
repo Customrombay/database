@@ -2,6 +2,16 @@ device-name: 'us996'
 device-vendor: 'LG'
 device-model-name: 'V20 (US Unlocked)'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8996 Snapdragon 820'
+  gpu: 'Qualcomm Adreno 530'
+  ram: '4 GB'
+  storage: '64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2560x1440'
+    size: 5.7
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

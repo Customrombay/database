@@ -2,6 +2,17 @@ device-name: 'raven'
 device-vendor: 'Google'
 device-model-name: 'Pixel 6 Pro'
 device-description: null
+specs: 
+  soc: 'Google Tensor GS101'
+  gpu: 'ARM Mali-G78 MP20'
+  ram: '12 GB'
+  storage: '128/256/512 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '1440x3120'
+    size: 6.71
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

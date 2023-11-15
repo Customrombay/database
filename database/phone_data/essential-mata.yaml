@@ -2,6 +2,16 @@ device-name: 'mata'
 device-vendor: 'Essential'
 device-model-name: 'PH-1'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8998 Snapdragon 835'
+  gpu: 'Qualcomm Adreno 540'
+  ram: '4 GB'
+  storage: '128 GB UFS 2.1 2-LANE'
+  is_ab_device: true
+  screen: 
+    resolution: '1312x2560'
+    size: 5.71
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

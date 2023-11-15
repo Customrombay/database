@@ -2,6 +2,16 @@ device-name: 'ether'
 device-vendor: 'Nextbit'
 device-model-name: 'Robin'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8992 Snapdragon 808'
+  gpu: 'Qualcomm Adreno 418'
+  ram: '3 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x1920'
+    size: 5.2
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'titan'
 device-vendor: 'Motorola'
 device-model-name: 'moto g (2014)'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8226 Snapdragon 400'
+  gpu: 'Qualcomm Adreno 305'
+  ram: '1 GB'
+  storage: '8/16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

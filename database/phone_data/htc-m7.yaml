@@ -2,6 +2,16 @@ device-name: 'm7'
 device-vendor: 'HTC'
 device-model-name: 'One (GSM)'
 device-description: null
+specs: 
+  soc: 'Qualcomm APQ8064T Snapdragon 600'
+  gpu: 'Qualcomm Adreno 320'
+  ram: '2 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x1920'
+    size: 4.7
+    technology: 'Super LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

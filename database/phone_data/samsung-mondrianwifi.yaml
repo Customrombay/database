@@ -2,6 +2,16 @@ device-name: 'mondrianwifi'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy Tab Pro 8.4'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8974 Snapdragon 800'
+  gpu: 'Qualcomm Adreno 330'
+  ram: '2 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1600x2560'
+    size: 8.4
+    technology: 'Super clear LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'mido'
 device-vendor: 'Xiaomi'
 device-model-name: 'Redmi Note 4'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8953 Snapdragon 625'
+  gpu: 'Qualcomm Adreno 506'
+  ram: '2/3/4 GB'
+  storage: '32/64 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x1920'
+    size: 5.5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

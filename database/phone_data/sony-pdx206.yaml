@@ -2,6 +2,17 @@ device-name: 'pdx206'
 device-vendor: 'Sony'
 device-model-name: 'Xperia 5 II'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM8250 Snapdragon 865'
+  gpu: 'Qualcomm Adreno 650'
+  ram: '8 GB'
+  storage: '128/256 GB UFS3.0'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '2520x1080'
+    size: 6.1
+    technology: 'OLED'
 roms: 
   - 
     rom-name: 'LineageOS'

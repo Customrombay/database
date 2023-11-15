@@ -2,6 +2,16 @@ device-name: 'heart'
 device-vendor: 'Lenovo'
 device-model-name: 'Z5 Pro GT'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM8150 Snapdragon 855'
+  gpu: 'Qualcomm Adreno 640'
+  ram: '6/8/12 GB LPDDR4X'
+  storage: '128/256/512 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2340'
+    size: 6.39
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'chaozu'
 device-vendor: 'BQ'
 device-model-name: 'Aquaris U'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8937 Snapdragon 430'
+  gpu: 'Qualcomm Adreno 505'
+  ram: '2 GB'
+  storage: '16/32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1280x720'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

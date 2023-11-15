@@ -2,6 +2,13 @@ device-name: 'quill'
 device-vendor: 'NVIDIA'
 device-model-name: 'Jetson (TX2 / TX2 NX) [Android TV]'
 device-description: null
+specs: 
+  soc: 'NVIDIA Tegra X2 (T186)'
+  gpu: 'NVIDIA GP10B (Pascal)'
+  ram: '4/8 GB'
+  storage: '16 GB/Sdcard'
+  is_ab_device: true
+  screen: 'None'
 roms: 
   - 
     rom-name: 'LineageOS'

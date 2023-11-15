@@ -2,6 +2,16 @@ device-name: 'charlotte'
 device-vendor: 'Huawei'
 device-model-name: 'P20 Pro'
 device-description: null
+specs: 
+  soc: 'HiSilicon Kirin 970'
+  gpu: 'ARM Mali-G72 MP12'
+  ram: '6/8 GB'
+  storage: '128/256 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2240'
+    size: 6.1
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

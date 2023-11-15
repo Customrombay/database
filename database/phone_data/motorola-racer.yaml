@@ -2,6 +2,16 @@ device-name: 'racer'
 device-vendor: 'Motorola'
 device-model-name: 'edge'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7250 Snapdragon 765G'
+  gpu: 'Qualcomm Adreno 620'
+  ram: '6 GB LPDDR4X'
+  storage: '128/256 GB UFS 2.1'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2340'
+    size: 6.7
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

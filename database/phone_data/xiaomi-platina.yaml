@@ -2,6 +2,16 @@ device-name: 'platina'
 device-vendor: 'Xiaomi'
 device-model-name: 'Mi 8 Lite'
 device-description: null
+specs: 
+  soc: 'Qualcomm SDM660 Snapdragon 660'
+  gpu: 'Qualcomm Adreno 512'
+  ram: '4 GB / 6 GB (LPDDR4X)'
+  storage: '64 / 128 GB eMMC 5.1 flash storage'
+  is_ab_device: null
+  screen: 
+    resolution: '2280x1080'
+    size: 6.26
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

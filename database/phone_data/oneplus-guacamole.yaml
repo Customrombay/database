@@ -2,6 +2,16 @@ device-name: 'guacamole'
 device-vendor: 'OnePlus'
 device-model-name: '7 Pro'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM8150 Snapdragon 855'
+  gpu: 'Qualcomm Adreno 640'
+  ram: '6/8/12GB GB LPDDR4X'
+  storage: '128/256 GB UFS3.0'
+  is_ab_device: true
+  screen: 
+    resolution: '1440x3120'
+    size: 6.67
+    technology: 'Fluid AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'dubai'
 device-vendor: 'Motorola'
 device-model-name: 'edge 30'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7325-AE Snapdragon 778G+ 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '6/8 GB LPDDR5 (uMPC5)'
+  storage: '128/256 GB UFS 3.1 (uMCP5)'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.5
+    technology: 'P-OLED'
 roms: 
   - 
     rom-name: 'LineageOS'

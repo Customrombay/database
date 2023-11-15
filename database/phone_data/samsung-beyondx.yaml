@@ -2,6 +2,16 @@ device-name: 'beyondx'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S10 5G'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 9820'
+  gpu: 'ARM Mali-G76 MP12'
+  ram: '8 GB'
+  storage: '256/512 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '3040x1440'
+    size: 6.7
+    technology: 'Dynamic AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

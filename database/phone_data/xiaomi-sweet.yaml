@@ -2,6 +2,17 @@ device-name: 'sweet'
 device-vendor: 'Xiaomi'
 device-model-name: 'Redmi Note 10 Pro'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7150-AC Snapdragon 732G'
+  gpu: 'Qualcomm Adreno 618'
+  ram: '6/8 GB'
+  storage: '64/128 GB'
+  is_ab_device: null
+  screen: 
+    refresh_rate: 120
+    resolution: '2400x1080'
+    size: 6.67
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

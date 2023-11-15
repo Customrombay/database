@@ -2,6 +2,16 @@ device-name: 'lentislte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy S5 LTE-A'
 device-description: null
+specs: 
+  soc: 'Qualcomm APQ8084 Snapdragon 805'
+  gpu: 'Qualcomm Adreno 420'
+  ram: '3 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2560x1440'
+    size: 5.1
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

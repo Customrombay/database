@@ -2,6 +2,16 @@ device-name: 'Z008'
 device-vendor: 'ASUS'
 device-model-name: 'Zenfone 2 (720p)'
 device-description: null
+specs: 
+  soc: 'Intel Atom Z3560'
+  gpu: 'PowerVR G6430'
+  ram: '2 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 5.5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

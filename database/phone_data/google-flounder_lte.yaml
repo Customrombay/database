@@ -2,6 +2,16 @@ device-name: 'flounder_lte'
 device-vendor: 'Google'
 device-model-name: 'Nexus 9 (LTE)'
 device-description: null
+specs: 
+  soc: 'NVIDIA Tegra K1 (T124)'
+  gpu: 'NVIDIA Kepler DX1 192-core'
+  ram: '2 GB'
+  storage: '32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '2048x1536'
+    size: 8.9
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

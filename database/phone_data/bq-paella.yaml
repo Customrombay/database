@@ -2,6 +2,16 @@ device-name: 'paella'
 device-vendor: 'BQ'
 device-model-name: 'Aquaris X5'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8916T Snapdragon 412'
+  gpu: 'Qualcomm Adreno 306'
+  ram: '2/3 GB'
+  storage: '16/32 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '720x1280'
+    size: 5
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

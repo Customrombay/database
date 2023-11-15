@@ -2,6 +2,16 @@ device-name: 'a7xelte'
 device-vendor: 'Samsung'
 device-model-name: 'Galaxy A7 (2016)'
 device-description: null
+specs: 
+  soc: 'Samsung Exynos 7580'
+  gpu: 'ARM Mali-T720 MP2'
+  ram: '3 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1080'
+    size: 5.5
+    technology: 'Super AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

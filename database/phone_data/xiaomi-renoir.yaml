@@ -2,6 +2,17 @@ device-name: 'renoir'
 device-vendor: 'Xiaomi'
 device-model-name: 'Mi 11 Lite 5G'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM7350-AB Snapdragon 780G 5G'
+  gpu: 'Qualcomm Adreno 642'
+  ram: '6/8 GB'
+  storage: '128 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 90
+    resolution: '1080x2400'
+    size: 6.67
+    technology: 'AMOLED'
 roms: 
   - 
     rom-name: 'LineageOS'

@@ -2,6 +2,16 @@ device-name: 'v500'
 device-vendor: 'LG'
 device-model-name: 'G Pad 8.3'
 device-description: null
+specs: 
+  soc: 'Qualcomm APQ8064T Snapdragon 600'
+  gpu: 'Qualcomm Adreno 320'
+  ram: '2 GB'
+  storage: '16 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1920x1200'
+    size: 8.3
+    technology: 'IPS LCD'
 roms: 
   - 
     rom-name: 'LineageOS'

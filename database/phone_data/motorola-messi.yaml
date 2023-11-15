@@ -2,6 +2,16 @@ device-name: 'messi'
 device-vendor: 'Motorola'
 device-model-name: 'moto z3'
 device-description: null
+specs: 
+  soc: 'Qualcomm MSM8998 Snapdragon 835'
+  gpu: 'Qualcomm Adreno 540'
+  ram: '4/6 GB LPDDR4X'
+  storage: '64 GB, 128 GB (UFS 2.1 2-LANE)'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2160'
+    size: 6.01
+    technology: 'P-OLED'
 roms: 
   - 
     rom-name: 'LineageOS'
