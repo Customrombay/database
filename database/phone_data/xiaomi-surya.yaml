@@ -122,7 +122,7 @@ roms:
     android-version: '12'
     rom-notes: ''
     rom-webpage: 'https://cherishos.com/'
-    phone-webpage: 'https://www.pling.com/p/1494954'
+    phone-webpage: 'https://downloads.cherishos.com/'
   - 
     rom-name: 'AlphaDroid'
     rom-support: true
