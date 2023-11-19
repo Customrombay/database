@@ -18,6 +18,7 @@ void main() async {
     for (YamlMap device in listOfDevices) {
       String readCodename = device["codename"];
       String readVendor = device["vendor"];
+      bool active = device["active"];
       String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
       String androidVersion = "";
       var deviceResponse = await http.get(Uri.parse("https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/thirteen/API/devices/$readCodename.json"));
@@ -31,7 +32,7 @@ void main() async {
           androidVersion: androidVersionFromNumberName(androidVersionNumberName: androidVersion).toString(),
           extendedCodename: extendedCodename,
           romName: "PixelOS",
-          romState: "Official",
+          romState: active ? "Official" : "Discontinued",
           romSupport: true,
           romWebpage: "https://pixelos.net/",
           deviceWebpage: "https://pixelos.net/download/$readCodename"
