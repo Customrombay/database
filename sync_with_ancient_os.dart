@@ -39,8 +39,8 @@ void main() async {
               romName: "AncientOS",
               romState: "Official",
               romSupport: true,
-              romWebpage: "https://sourceforge.net/projects/ancientrom/",
-              romNotes: ""
+              romWebpage: "https://ancientrom.xyz/",
+              deviceWebpage: "https://ancientrom.xyz/download"
             );
           }
           else {

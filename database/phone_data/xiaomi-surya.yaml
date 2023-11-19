@@ -162,7 +162,7 @@ roms:
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://ancientrom.xyz/'
-    phone-webpage: 'https://www.pling.com/p/1998461/'
+    phone-webpage: 'https://ancientrom.xyz/download'
 
 recoveries: null
 linux: 
