@@ -84,7 +84,7 @@ roms:
   - 
     rom-name: 'CherishOS'
     rom-support: true
-    rom-state: 'Discontinued'
+    rom-state: 'Official'
     android-version: '12'
     rom-notes: ''
     rom-webpage: 'https://cherishos.com/'
