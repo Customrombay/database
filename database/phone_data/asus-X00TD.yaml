@@ -151,7 +151,7 @@ roms:
     android-version: '12'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
-    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/asus/'
+    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/X00TD/'
   - 
     rom-name: 'AncientOS'
     rom-support: true

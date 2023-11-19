@@ -116,7 +116,7 @@ roms:
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
-    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/nothing/'
+    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/phone1/'
   - 
     rom-name: 'AncientOS'
     rom-support: true

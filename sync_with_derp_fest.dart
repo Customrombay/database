@@ -50,7 +50,7 @@ void main() async {
             romState: romType,
             romSupport: true,
             romWebpage: "https://derpfest.org/",
-            deviceWebpage: "https://sourceforge.net/projects/derpfest/files/$readVendor/",
+            deviceWebpage: "https://sourceforge.net/projects/derpfest/files/$readCodename/",
             romNotes: ""
           );
         }

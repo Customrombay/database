@@ -171,7 +171,7 @@ roms:
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
-    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/xiaomi/'
+    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/davinci/'
   - 
     rom-name: 'AncientOS'
     rom-support: true
