@@ -126,6 +126,9 @@ String extendedCodenameCreator({
   else if (readCodename == "camellia" && (readVendor == "redmi" || readVendor == "poco")) {
     return "xiaomi-camellia";
   }
+  else if (readCodename == "stone" && (readVendor == "redmi" || readVendor == "poco")) {
+    return "xiaomi-stone";
+  }
 
   // See xiaomi-surya description
   else if (readCodename == "surya" && readVendor == "poco") {
