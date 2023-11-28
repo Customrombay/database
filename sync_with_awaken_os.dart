@@ -16,7 +16,7 @@ void main() async {
     cacheDir.deleteSync(recursive: true);
   }
   cacheDir.createSync(recursive: true);
-  Process.runSync("git", ["clone", "-b", "triton", "https://github.com/Project-Awaken/official_devices.git", cacheDir.path]);
+  Process.runSync("git", ["clone", "-b", "ursa", "https://github.com/Project-Awaken/official_devices.git", cacheDir.path]);
   stdout.write("OK\n");
 
   for (FileSystemEntity entity in Directory("${cacheDir.path}/devices").listSync()) {
