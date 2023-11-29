@@ -31,7 +31,7 @@ roms:
 
     rom-name: 'Paranoid Android'
     rom-support: true
-    rom-state: 'UnOfficial'
+    rom-state: 'Unofficial'
     android-version: '13'
     rom-webpage: 'https://paranoidandroid.co/'
     phone-webpage: 'https://sourceforge.net/projects/sky-development/files/aospa/'
