@@ -31,6 +31,7 @@ void main() async {
           readVendor = "samsung";
         }
         String readCodename = ydoc["device"];
+        bool isActive = ydoc["is_active"];
         String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
         if (isSupported(extendedCodename: extendedCodename)) {
@@ -39,7 +40,7 @@ void main() async {
             androidVersion: "13",
             extendedCodename: extendedCodename,
             romName: "Project Elixir",
-            romState: "Official",
+            romState: isActive ? "Official" : "Discontinued",
             romSupport: true,
             romNotes: "",
             romWebpage: "https://projectelixiros.com/home",
