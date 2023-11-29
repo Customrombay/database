@@ -52,7 +52,7 @@ roms:
     rom-state: 'Official'
     android-version: 13
     rom-webpage: 'https://grapheneos.org/'
-    phone-webpage: 'https://grapheneos.org/faq#supported-devices'
+    phone-webpage: 'https://grapheneos.org/releases#cheetah-stable'
   - 
     rom-name: 'CorvusOS'
     rom-support: true
