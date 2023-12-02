@@ -14,7 +14,7 @@ specs:
     size: 6.3
     technology: 'AMOLED'
   battery: 
-    capacity: 5000
+    capacity: 4355
     removable: false
     tech: 'Li-Po'
   network: 
