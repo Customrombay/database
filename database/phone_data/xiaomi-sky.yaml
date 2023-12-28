@@ -35,6 +35,14 @@ roms:
     android-version: '13'
     rom-webpage: 'https://paranoidandroid.co/'
     phone-webpage: 'https://sourceforge.net/projects/sky-development/files/aospa/'
+  - 
+    rom-name: 'BlissROM'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: ''
+    rom-notes: ''
+    rom-webpage: 'https://blissroms.org/'
+    phone-webpage: 'https://downloads.blissroms.org/download/sky/'
 
 recoveries: []
 linux: null

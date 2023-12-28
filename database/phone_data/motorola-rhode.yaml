@@ -136,5 +136,12 @@ roms:
     rom-webpage: 'https://calyxos.org/'
     phone-webpage: 'https://calyxos.org/install/devices/rhode/'
 
-recoveries: null
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://twrp.me/motorola/motorolamotog52.html'
+
 linux: null
