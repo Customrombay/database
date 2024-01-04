@@ -31,10 +31,11 @@ roms:
   - 
     rom-name: 'Paranoid Android'
     rom-support: true
-    rom-state: 'Unofficial'
-    android-version: '13'
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
     rom-webpage: 'https://paranoidandroid.co/'
-    phone-webpage: 'https://sourceforge.net/projects/sky-development/files/aospa/'
+    phone-webpage: 'https://paranoidandroid.co/sky'
   - 
     rom-name: 'BlissROM'
     rom-support: true

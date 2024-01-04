@@ -30,13 +30,10 @@ specs:
     - 'Color spectrum sensor'
     - 'Light sensor'
     - 'GPS'
-    - 'IR blaster'
-    - 'Infrared sensor'
     - 'Mobility DisplayPort (MyDP)'
     - 'NFC'
     - 'USB OTG'
     - 'FM radio'
-    - 'Dual SIM'
   release: '2017-08'
 roms: 
   - 

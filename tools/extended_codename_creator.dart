@@ -120,7 +120,7 @@ String extendedCodenameCreator({
   else if (readCodename == "fleur" && readVendor == "poco") {
     return "xiaomi-fleur";
   }
-  else if (readCodename == "marble" && readVendor == "poco") {
+  else if (readCodename == "marble" && (readVendor == "poco" || readVendor == "redmi")) {
     return "xiaomi-marble";
   }
   else if (readCodename == "camellia" && (readVendor == "redmi" || readVendor == "poco")) {
@@ -128,6 +128,9 @@ String extendedCodenameCreator({
   }
   else if (readCodename == "stone" && (readVendor == "redmi" || readVendor == "poco")) {
     return "xiaomi-stone";
+  }
+  else if (readCodename == "haydn" && readVendor == "mi") {
+    return "xiaomi-haydn";
   }
 
   // See xiaomi-surya description

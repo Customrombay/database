@@ -34,7 +34,7 @@ specs:
     - 'GLONASS'
     - 'GPS'
     - 'Gyroscope'
-    - 'Infrared sensor'
+    - 'IR blaster'
     - 'Light sensor'
     - 'Ultrasound proximity sensor'
     - 'USB OTG'
