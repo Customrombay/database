@@ -60,7 +60,7 @@ roms:
     android-version: '14'
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#rhode'
-  -
+  - 
     rom-name: 'AwakenOS'
     rom-support: true
     rom-state: 'Unofficial'
