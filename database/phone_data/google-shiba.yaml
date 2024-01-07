@@ -53,6 +53,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://calyxos.org/'
     phone-webpage: 'https://calyxos.org/install/devices/shiba/'
+  - 
+    rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://storage.rcs-rds.ro/links/22cd094b-d12b-49e8-7cc2-50c708a1f9aa?path=%2Fshiba'
 
 recoveries: null
 linux: null
