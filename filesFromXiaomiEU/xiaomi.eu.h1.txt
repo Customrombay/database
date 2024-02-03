@@ -1,6 +1,8 @@
 cupid
+diting
 fuxi
 houji
+ingres
 ishtar
 mayfly
 mondrian
