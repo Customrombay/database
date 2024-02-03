@@ -21,6 +21,14 @@ specs:
   peripherals: null
   release: '2023-06'
 roms: 
+  -
+    rom-name: 'xiaomi.eu'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: ''
+    rom-notes: 'HyperOS 1.0'
+    rom-webpage: 'https://xiaomi.eu/community/'
+    phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/HyperOS-STABLE-RELEASES/HyperOS1.0/'
   - 
     rom-name: 'crDroid'
     rom-support: true
