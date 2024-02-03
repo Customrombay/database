@@ -13,6 +13,12 @@
 - codename: beryllium
   vendors:
   - xiaomi
+- codename: sky
+  vendors:
+  - xiaomi
+- codename: fleur
+  vendors:
+  - xiaomi
 - codename: beyond0lte
   vendors:
   - samsung
@@ -25,10 +31,31 @@
 - codename: beyondx
   vendors:
   - samsung
+- codename: greatlte
+  vendors:
+  - samsung
+- codename: dreamlte
+  vendors:
+  - samsung
+- codename: dream2lte
+  vendors:
+  - samsung
 - codename: bitra
   vendors:
   - realme
 - codename: bluejay
+  vendors:
+  - google
+- codename: oriole
+  vendors:
+  - google
+- codename: coral
+  vendors:
+  - google
+- codename: flame
+  vendors:
+  - google
+- codename: sunfish
   vendors:
   - google
 - codename: cheeseburger

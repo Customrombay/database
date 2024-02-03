@@ -44,6 +44,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
     phone-webpage: 'https://downloads.blissroms.org/download/sky/'
+  - 
+    rom-name: 'DerpFest'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://derpfest.org/'
+    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/sky/'
 
 recoveries: []
 linux: null
