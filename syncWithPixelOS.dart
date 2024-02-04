@@ -10,7 +10,7 @@ void main() async {
   int numberOfCovered = 0;
   int numberOfNotCovered = 0;
   List<String> listOfNotCovered = [];
-  var response = await http.get(Uri.parse("https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/thirteen/API/devices.json"));
+  var response = await http.get(Uri.parse("https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/fourteen/API/devices.json"));
   if (response.statusCode == 200) {
     stdout.write("OK\n");
     YamlMap ydoc = loadYaml(response.body);
@@ -20,8 +20,9 @@ void main() async {
       String readVendor = device["vendor"];
       bool active = device["active"];
       String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
+      stdout.write("$extendedCodename\n");
       String androidVersion = "";
-      var deviceResponse = await http.get(Uri.parse("https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/thirteen/API/devices/$readCodename.json"));
+      var deviceResponse = await http.get(Uri.parse("https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/fourteen/API/devices/$readCodename.json"));
       if (deviceResponse.statusCode == 200) {
         YamlMap deviceFileContent = loadYaml(deviceResponse.body);
         androidVersion = deviceFileContent["version"];
