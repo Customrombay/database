@@ -22,10 +22,10 @@ roms:
   - 
     rom-name: 'crDroid'
     rom-support: true
-    rom-state: 'Unofficial'
+    rom-state: 'Official'
     android-version: '14'
     rom-webpage: 'https://crdroid.net/'
-    phone-webpage: 'https://xdaforums.com/t/rom-unofficial-pong-14-0-crdroidandroid-v10-x.4646393/'
+    phone-webpage: 'https://crdroid.net/downloads#Pong'
   - 
     rom-name: 'PixelOS'
     rom-support: true

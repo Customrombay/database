@@ -1,5 +1,8 @@
 String androidVersionFromLineageOSVersion(String lineageOSVersion) {
-  if (lineageOSVersion == "20" || lineageOSVersion == "20.0") {
+  if (lineageOSVersion == "21" || lineageOSVersion == "21.0") {
+    return "14";
+  }
+  else if (lineageOSVersion == "20" || lineageOSVersion == "20.0") {
     return "13";
   }
   else if (lineageOSVersion == "19.1") {

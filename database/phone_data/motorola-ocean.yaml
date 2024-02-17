@@ -38,7 +38,7 @@ roms:
     rom-name: 'LineageOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '13'
+    android-version: '14'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/ocean/'
   - 
@@ -68,7 +68,7 @@ roms:
   - 
     rom-name: 'crDroid'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '14'
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#ocean'
