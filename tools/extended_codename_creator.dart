@@ -90,6 +90,9 @@ String extendedCodenameCreator({
   else if (readCodename == "sweet" && readVendor == "redmi") {
     return "xiaomi-sweet";
   }
+  else if (readCodename == "rosemary" && readVendor == "redmi") {
+    return "xiaomi-rosemary";
+  }
   else if (readCodename == "merlinx" && (readVendor == "xiaomi" || readVendor == "redmi")) {
     return "xiaomi-merlin";
   }
