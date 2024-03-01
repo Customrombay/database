@@ -33,6 +33,14 @@ roms:
     android-version: '14'
     rom-webpage: 'https://pixelos.net/'
     phone-webpage: 'https://xdaforums.com/t/rom-unofficial-pong-14-beta-pixelos-14-2023-12-22.4642760/'
+  - 
+    rom-name: 'Project Elixir'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://projectelixiros.com/home'
+    phone-webpage: 'https://projectelixiros.com/device/Pong'
 
 recoveries: 
   - 

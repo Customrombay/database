@@ -1,7 +1,10 @@
 int androidVersionFromPixelExperienceVersion({
   required String pixelExperienceVersion
 }) {
-  if (pixelExperienceVersion == "thirteen" || pixelExperienceVersion == "thirteen_plus") {
+  if (pixelExperienceVersion == "fourteen" || pixelExperienceVersion == "fourteen_plus") {
+    return 14;
+  }
+  else if (pixelExperienceVersion == "thirteen" || pixelExperienceVersion == "thirteen_plus") {
     return 13;
   }
   else if (pixelExperienceVersion == "twelve" || pixelExperienceVersion == "twelve_plus") {

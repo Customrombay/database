@@ -15,7 +15,7 @@ void main() async {
     String content = response.body;
     YamlList ydoc = loadYaml(content);
     for (YamlMap device in ydoc) {
-      String readName = device["name"];
+      // String readName = device["name"];
       String readBrand = device["brand"];
       String readCodename = device["codename"];
       YamlList readSupportedVersions = device["supported_versions"];

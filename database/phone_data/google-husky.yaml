@@ -6,7 +6,7 @@ specs:
   soc: 'Google Tensor G3'
   gpu: 'ARM Mali-G715s MC10'
   ram: '12 GB'
-  storage: '128/256/512 GB'
+  storage: '128/256/512/1024 GB'
   is_ab_device: true
   screen: 
     refresh_rate: 120
@@ -16,7 +16,7 @@ specs:
   battery: 
     capacity: 5050
     removable: false
-    tech: 'Li-Po'
+    tech: 'Li-Ion'
   network: 
     - '2G GSM'
     - '3G UMTS'
