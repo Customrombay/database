@@ -47,6 +47,14 @@ roms:
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/rhode/'
   - 
+    rom-name: 'CalyxOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://calyxos.org/'
+    phone-webpage: 'https://calyxos.org/install/'
+  - 
     rom-name: 'Optimized LineageOS'
     rom-support: true
     rom-state: 'Unofficial'
@@ -68,14 +76,6 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://awakenos.vercel.app/'
     phone-webpage: 'https://sourceforge.net/projects/josexda/files/'
-  - 
-    rom-name: 'RisingOS'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: '13'
-    rom-notes: ''
-    rom-webpage: 'https://github.com/RisingTechOSS/android'
-    phone-webpage: 'https://sourceforge.net/projects/fpsensor-builds/files/risingOS-v1.4-Elysium-FINAL-202310111126-rhode-GAPPS-OFFICIAL.zip/download'
   - 
     rom-name: 'Project Elixir'
     rom-support: true
@@ -113,21 +113,14 @@ roms:
     rom-state: 'Unofficial'
     android-version: '13'
     rom-webpage: 'https://arrowos.net/'
-    phone-webpage: 'https://sourceforge.net/projects/josexda/files/'
-  - 
-    rom-name: 'CherishOS'
-    rom-support: true
-    rom-state: 'Unofficial'
-    android-version: '13'
-    rom-webpage: 'https://cherishos.com/'
-    phone-webpage: 'https://sourceforge.net/projects/josexda/files/'
+    phone-webpage: 'https://github.com/josexda/rhode_releases/releases'
   - 
     rom-name: 'PixelExperience'
     rom-support: true
     rom-state: 'Unofficial'
     android-version: '13'
     rom-webpage: 'https://download.pixelexperience.org/'
-    phone-webpage: 'https://sourceforge.net/projects/josexda/files/'
+    phone-webpage: 'https://github.com/josexda/rhode_releases/releases'
   - 
     rom-name: 'DroidX-UI'
     rom-support: true
@@ -135,14 +128,6 @@ roms:
     android-version: '13'
     rom-webpage: 'https://github.com/DroidX-UI'
     phone-webpage: 'https://sourceforge.net/projects/droidxui-releases/files/rhode/'
-  - 
-    rom-name: 'CalyxOS'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: '13'
-    rom-notes: ''
-    rom-webpage: 'https://calyxos.org/'
-    phone-webpage: 'https://calyxos.org/install/devices/rhode/'
 
 recoveries: 
   - 
