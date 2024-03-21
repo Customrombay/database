@@ -16,7 +16,7 @@ void main() async {
     cacheDir.deleteSync(recursive: true);
   }
   cacheDir.createSync(recursive: true);
-  Process.runSync("git", ["clone", "-b", "alpha-13", "https://github.com/AlphaDroid-devices/OTA.git", cacheDir.path]);
+  Process.runSync("git", ["clone", "-b", "alpha-14", "https://github.com/AlphaDroid-devices/OTA.git", cacheDir.path]);
   stdout.write("OK\n");
 
   for (FileSystemEntity entity in cacheDir.listSync()) {
@@ -27,6 +27,14 @@ void main() async {
         YamlMap ydoc = loadYaml(entityContent);
         YamlMap response = ydoc["response"][0];
         String readVendor = response["oem"];
+        String alphaVersion = response["version"];
+        String androidVersion = "";
+        if (alphaVersion.startsWith("2.")) {
+          androidVersion = "14";
+        }
+        else if (alphaVersion.startsWith("1.")) {
+          androidVersion = "13";
+        }
         String readCodename = entity.path.split("/").last.replaceAll(".json", "");
         String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
 
@@ -38,7 +46,7 @@ void main() async {
           numberOfCovered += 1;
           // listOfCovered += [extendedCodename];
           addToSupport(
-            androidVersion: "13",
+            androidVersion: androidVersion,
             extendedCodename: extendedCodename,
             romName: "AlphaDroid",
             romState: "Official",
