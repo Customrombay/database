@@ -11,7 +11,6 @@ roms:
     rom-webpage: 'https://t.me/FairBlossomChannel'
     phone-webpage: 'https://t.me/fairblossom'
   - 
- 
     rom-name: 'ArrowOS'
     rom-support: true
     rom-state: 'Unofficial'
@@ -27,9 +26,9 @@ roms:
     phone-webpage: 'https://t.me/fairblossom'
 
 recoveries: 
- - 
+  - 
    recovery-name: 'OrangeFox Recovery | R11.1 Stable'
-   recover-support: true
+   recovery-support: true
    recovery-state: 'Unofficial'
    recovery-webpage: 'https://t.me/Blossom_Roms'
 
