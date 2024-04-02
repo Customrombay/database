@@ -40,11 +40,10 @@ roms:
   - 
     rom-name: 'LineageOS'
     rom-support: true
-    rom-state: 'Discontinued'
-    android-version: '7.1'
+    rom-state: 'Unofficial'
+    android-version: '13'
     rom-webpage: 'https://lineageos.org/'
-    phone-webpage: 'https://wiki.lineageos.org/devices/zeroltexx/'
-
+    phone-webpage: 'https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/'
 recoveries: null
 linux: 
   - 
