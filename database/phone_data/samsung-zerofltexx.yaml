@@ -45,7 +45,14 @@ roms:
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://xdaforums.com/t/rom-unofficial-13-0-lineageos-20.4586295/'
 
-recoveries: null
+recoveries:
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://twrp.me/samsung/samsunggalaxys6.html'
+
 linux: 
   - 
     distribution-name: 'PostmarketOS'
