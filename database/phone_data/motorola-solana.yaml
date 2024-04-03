@@ -14,7 +14,7 @@ specs:
     technology: 'TFT LCD'
   battery: 
     capacity: 1540
-    removable: false
+    removable: true
     tech: 'Li-Ion'
   network: 
     - '2G CDMA'
