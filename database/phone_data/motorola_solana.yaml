@@ -28,7 +28,7 @@ specs:
     - 'GPS'
     - 'HDMI'
     - 'FM radio'
-  release: '2012-02-10'
+  release: '2011-07-14'
 roms: 
   - 
     rom-name: 'Liquid Smooth'
