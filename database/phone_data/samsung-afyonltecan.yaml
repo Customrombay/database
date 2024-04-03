@@ -9,7 +9,7 @@ specs:
   storage: '16 GB'
   is_ab_device: null
   screen: 
-    resolution: '960x540'
+    resolution: '540x960'
     size: 4.5
     technology: 'TFT'
   battery: 
