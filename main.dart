@@ -4,7 +4,7 @@ import 'package:yaml/yaml.dart';
 main() async {
   for (var file in await Directory("devices").list().toList()) {
     String content = await File(file.path).readAsString();
-    stdout.write(file.path + "\n");
+    stdout.write("${file.path}\n");
     var ydoc = loadYaml(content);
     var vendor = ydoc["vendor"];
     var name = ydoc["name"];
