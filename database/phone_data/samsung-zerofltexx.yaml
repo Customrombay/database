@@ -37,8 +37,15 @@ specs:
     - 'NFC'
   release: '2015-04'
 roms: 
-  - 
+  -
     rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '7.1'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://wiki.lineageos.org/devices/zerofltexx/'
+  -
+    rom-name: 'LineageOS (Unofficial)'
     rom-support: true
     rom-state: 'Unofficial'
     android-version: '13'
