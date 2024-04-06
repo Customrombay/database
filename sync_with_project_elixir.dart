@@ -35,6 +35,9 @@ void main() async {
         if (readVendor.toLowerCase() == "galaxy") {
           readVendor = "samsung";
         }
+        if (readVendor.toLowerCase() == "pixel") {
+          readVendor = "google";
+        }
         String readCodename = ydoc["device"];
         bool isActive = ydoc["is_active"];
         String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
