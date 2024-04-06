@@ -4,7 +4,6 @@ import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 import 'tools/codename_correction.dart'; // Deprecated
-import 'tools/android_version_from_crdroid_version.dart';
 
 void main() async {
   File devicesFile = File("filesFromCorvusOS/devices.json");
