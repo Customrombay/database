@@ -3,7 +3,7 @@
 import 'dart:io';
 import 'package:yaml/yaml.dart';
 import 'package:yaml_writer/yaml_writer.dart';
-import 'tools/codename_correction.dart'; // Deprecated
+import '../tools/codename_correction.dart'; // Deprecated
 
 void main() async {
   File devicesFile = File("filesFromCorvusOS/devices.json");
