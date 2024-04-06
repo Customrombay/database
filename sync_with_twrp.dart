@@ -69,7 +69,7 @@ void main() async {
   }
   stdout.write("END\n");
   for (String problematicFile in listOfProblematic) {
-    stdout.write(problematicFile + "\n");
+    stdout.write("$problematicFile\n");
   }
   stdout.write("Covered: $numberOfCovered\n");
   stdout.write("Not covered: $numberOfNotCovered\n");
