@@ -16,7 +16,8 @@ void main() async {
     int numberOfNotCovered = 0;
     List<String> listOfNotCovered = [];
     List<String> listOfCovered = [];
-    YamlMap ydoc = loadYaml(response.body);
+    String cleanBody = response.body.replaceAll("\\ud835\\udd71\\ud835\\udd97\\ud835\\udd94\\ud835\\udd98\\ud835\\udd99", "ok");
+    YamlMap ydoc = loadYaml(cleanBody);
     print(ydoc.runtimeType);
     for (var entry in ydoc.entries) {
       print(entry.key);
