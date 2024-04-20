@@ -86,7 +86,7 @@ roms:
     rom-name: 'EvolutionX'
     rom-support: true
     rom-state: 'Official'
-    android-version: '13'
+    android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://evolution-x.org/'
     phone-webpage: 'https://evolution-x.org/device/monet'
@@ -106,6 +106,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://libremobileos.com/'
     phone-webpage: 'https://get.libremobileos.com/devices/monet/'
+  - 
+    rom-name: 'Project Matrixx'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://www.projectmatrixx.org/'
+    phone-webpage: 'https://www.projectmatrixx.org/downloads/monet'
 
 recoveries: 
   - 
