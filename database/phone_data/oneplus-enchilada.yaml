@@ -179,4 +179,11 @@ linux:
     distribution-notes: null
     distribution-webpage: 'https://postmarketos.org/'
     device-webpage: 'https://wiki.postmarketos.org/wiki/OnePlus_6_(oneplus-enchilada)'
+  - 
+    distribution-name: 'Mobile NixOS'
+    distribution-support: true
+    distribution-state: 'Supported'
+    distribution-notes: null
+    distribution-webpage: 'https://mobile.nixos.org/index.html'
+    device-webpage: 'https://mobile.nixos.org/devices/oneplus-enchilada.html'
 

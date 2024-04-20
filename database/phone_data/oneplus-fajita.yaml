@@ -172,4 +172,11 @@ linux:
     distribution-notes: null
     distribution-webpage: 'https://postmarketos.org/'
     device-webpage: 'https://wiki.postmarketos.org/wiki/OnePlus_6T_(oneplus-fajita)'
+  - 
+    distribution-name: 'Mobile NixOS'
+    distribution-support: true
+    distribution-state: 'Best-effort'
+    distribution-notes: null
+    distribution-webpage: 'https://mobile.nixos.org/index.html'
+    device-webpage: 'https://mobile.nixos.org/devices/oneplus-fajita.html'
 
