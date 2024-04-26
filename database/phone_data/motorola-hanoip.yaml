@@ -11,5 +11,42 @@ recoveries:
     recovery-state: 'Current'
     recovery-webpage: 'https://twrp.me/'
     device-webpage: 'https://twrp.me/motorola/motorolamotog60g40fusion.html'
+  - 
+    rom-name: 'Project Sakura'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://projectsakura.me/'
+    phone-webpage: 'https://www.pling.com/p/2148525/'
+  -
+    rom-name: 'PixelOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://pixelos.net/'
+    phone-webpage: 'https://www.pling.com/p/2130171/'
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '12L'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://wiki.lineageos.org/devices/alioth/'
+  - 
+    rom-name: 'AwakenOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://awakenos.vercel.app/'
+    phone-webpage: 'https://www.pling.com/p/2148669/'
+   - 
+    rom-name: 'RisingUI'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://github.com/RisingTechOSS'
+    phone-webpage: 'https://www.pling.com/p/2135439/'
+   
+  
 
 linux: null
