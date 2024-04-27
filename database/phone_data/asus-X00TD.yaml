@@ -127,7 +127,7 @@ roms:
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://projectelixiros.com/home'
-    phone-webpage: 'https://projectelixiros.com/device/X00T'
+    phone-webpage: 'https://projectelixiros.com/device/X00TD'
   - 
     rom-name: 'RisingOS'
     rom-support: true
