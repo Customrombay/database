@@ -5,13 +5,6 @@ device-description: null
 specs: null
 roms: 
   - 
-    rom-name: 'CorvusOS'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: null
-    rom-webpage: 'https://www.corvusrom.com/'
-    phone-webpage: 'https://www.pling.com/p/1372381/'
-  - 
     rom-name: 'crDroid'
     rom-support: true
     rom-state: 'Discontinued'

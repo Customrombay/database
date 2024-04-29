@@ -37,13 +37,6 @@ roms:
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#raphael'
   - 
-    rom-name: 'CorvusOS'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: null
-    rom-webpage: 'https://www.corvusrom.com/'
-    phone-webpage: 'https://download.corvusrom.com/?dir=raphael/'
-  - 
     rom-name: 'HavocOS'
     rom-support: true
     rom-state: 'Official'

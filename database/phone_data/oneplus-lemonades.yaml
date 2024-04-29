@@ -59,13 +59,6 @@ roms:
     rom-webpage: 'https://arrowos.net/'
     phone-webpage: 'https://arrowos.net/download/'
   - 
-    rom-name: 'CorvusOS'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: null
-    rom-webpage: 'https://www.corvusrom.com/'
-    phone-webpage: 'https://downloads.corvusrom.com/?dir=lemonkebab'
-  - 
     rom-name: 'HavocOS'
     rom-support: true
     rom-state: 'Official'
