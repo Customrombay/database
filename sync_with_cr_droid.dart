@@ -1,17 +1,15 @@
-// Legacy script, needs rewriting to use the addToSupport() function
-
 import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';
-import 'package:yaml_writer/yaml_writer.dart';
+import 'tools/add_to_support.dart';
 import 'tools/android_version_from_crdroid_version.dart';
 import 'tools/extended_codename_creator.dart';
+import 'tools/is_supported.dart';
 
 void main() async {
   var response = await http.get(Uri.parse("https://crdroid.net/devices_handler/compiled.json"));
   if (response.statusCode == 200) {
     print("OK");
-    var yamlWriter = YAMLWriter();
     int numberOfCovered = 0;
     int numberOfNotCovered = 0;
     List<String> listOfNotCovered = [];
@@ -47,7 +45,6 @@ void main() async {
         else if (readCodename == "RMX2151") {
           continue;
         }
-        // String codename = codenameCorrection(readCodename, vendor);
         String extendedCodename = extendedCodenameCreator(readCodename: readCodename, readVendor: readVendor);
         print(extendedCodename);
         int newestVersion = 0;
@@ -60,7 +57,7 @@ void main() async {
             newestVersion = thisVersion;
           }
           YamlMap finals = versions[version];
-          String deviceName = finals["device"];
+          // String deviceName = finals["device"];
           String maintainers = finals["maintainer"];
           if (maintainers != "") {
             isMaintained = true;
@@ -70,64 +67,21 @@ void main() async {
         String phoneWebpage = "https://crdroid.net/downloads#$readCodename";
         print(newestVersion);
         String androidVersion = androidVersionFromCrDroidVersion(newestVersion.toString());
-        File thisFile = File("database/phone_data/$extendedCodename.yaml");
-        if (await thisFile.exists()) {
-          numberOfCovered += 1;
+        if (isSupported(extendedCodename: extendedCodename)) {
           if (listOfCovered.contains(extendedCodename)) {
             throw Exception();
           }
+          addToSupport(
+            androidVersion: androidVersion,
+            extendedCodename: extendedCodename,
+            romName: "crDroid",
+            romState: state,
+            romSupport: true,
+            romWebpage: "https://crdroid.net/",
+            deviceWebpage: phoneWebpage,
+          );
+          numberOfCovered += 1;
           listOfCovered += [extendedCodename];
-          String thisFileContent = await thisFile.readAsString();
-          var thisFileyaml = loadYaml(thisFileContent);
-//       // stdout.write(yamlWriter.write(thisFileyaml));
-
-          List newList = [];
-          bool alreadySupported = false;
-          for (var thisRom in thisFileyaml["roms"]) {
-            String thisRomName = thisRom["rom-name"];
-            if (thisRomName == "crDroid") {
-              alreadySupported = true;
-              newList += [
-                {
-                  "rom-name": "crDroid",
-                  "rom-support": true,
-                  "rom-state": state,
-                  "android-version": androidVersion,
-                  "rom-webpage": "https://crdroid.net/",
-                  "phone-webpage": phoneWebpage
-                }
-              ];
-            }
-            else {
-              newList += [thisRom];
-            }
-          }
-
-          if (!alreadySupported) {
-            newList += <dynamic>[
-              {
-                "rom-name": "crDroid",
-                  "rom-support": true,
-                  "rom-state": state,
-                  "android-version": androidVersion,
-                  "rom-webpage": "https://crdroid.net/",
-                  "phone-webpage": phoneWebpage
-              }
-            ];
-          }
-
-          Map newMap = {
-            "device-name" : thisFileyaml["device-name"],
-            "device-vendor": thisFileyaml["device-vendor"],
-            "device-model-name": thisFileyaml["device-model-name"],
-            "device-description": thisFileyaml["device-description"],
-            "specs": thisFileyaml["specs"],
-            "roms": newList,
-            "recoveries": thisFileyaml["recoveries"],
-            "linux": thisFileyaml["linux"],
-          };
-
-          await thisFile.writeAsString(yamlWriter.write(newMap));
         }
         else {
           numberOfNotCovered += 1;
