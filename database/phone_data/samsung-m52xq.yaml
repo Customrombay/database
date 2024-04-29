@@ -62,6 +62,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://download.pixelexperience.org/'
     phone-webpage: 'https://download.pixelexperience.org/m52xq/'
+  - 
+    rom-name: '/e/OS'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '13'
+    rom-notes: ''
+    rom-webpage: 'https://e.foundation/e-os/'
+    phone-webpage: 'https://doc.e.foundation/devices/m52xq'
 
 recoveries: []
 linux: null

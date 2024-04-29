@@ -164,6 +164,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://ancientrom.xyz/'
     phone-webpage: 'https://ancientrom.xyz/download'
+  - 
+    rom-name: '/e/OS'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '13'
+    rom-notes: ''
+    rom-webpage: 'https://e.foundation/e-os/'
+    phone-webpage: 'https://doc.e.foundation/devices/surya'
 
 recoveries: null
 linux: 
