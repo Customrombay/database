@@ -200,6 +200,9 @@ String extendedCodenameCreator({
   }
 
   else {
+    if (readVendor == "lge") {
+      readVendor = "lg";
+    }
     return "$readVendor-$readCodename";
   }
 }
