@@ -1,12 +1,12 @@
 device-name: 'borneo'
 device-vendor: 'Motorola'
-device-model-name: 'moto g power (2021)'
-device-description: null
+device-model-name: 'Motorola Moto G Power 2021 (XT2117-4)'
+device-description: The last good moto.
 specs: 
   soc: 'Qualcomm SM6115 Snapdragon 662'
   gpu: 'Qualcomm Adreno 610'
-  ram: '3/4 GB LPDDR4X'
-  storage: '32/64 GB'
+  ram: '3/4 GB'
+  storage: '32/64 GB eMMC 5.1'
   is_ab_device: true
   screen: 
     resolution: '720x1600'
@@ -15,11 +15,95 @@ specs:
   battery: 
     capacity: 5000
     removable: false
-    tech: 'Li-Po'
-  network: null
-  peripherals: null
+    tech: 
+  network: 
+    - '2G GSM/CDMA'
+    - '3G GS/CDMA'
+    - '4G HSPA/LTE'
+  peripherals: 
+    - '3.5mm jack'
+    - 'Accelerometer'
+    - 'Barometer'
+    - 'Compass'
+    - 'FM radio'
+    - 'Fingerprint reader'
+    - 'GALILEO'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Proximity sensor'
   release: '2021-01'
-roms: []
-recoveries: []
+roms: 
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13'    
+    rom-notes: 'Vanilla'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://androidfilehost.com/?w=files&flid=338330, https://t.me/motobengalchat'
+  - 
+    rom-name: 'HentaiOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13, 14'
+    rom-notes: ''
+    rom-webpage: 'https://hentaios.com/'
+    phone-webpage: 'https://mirrors.gitdaisy.works/HentaiOS/cebu/latest/, https://t.me/GitDaisyShitposting/10227'
+  - 
+    rom-name: 'Pixel Experience'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://get.pixelexperience.org/'
+    phone-webpage: 'https://mirrors.gitdaisy.works/PixelExperience/cebu/, https://t.me/GitDaisyShitposting/10227'
+
+  -   
+    rom-name: 'AOSP'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13, 14'
+    rom-notes: 'A14 build here: https://yzu.moe/tempper/aosp_borneo-img-eng.jenkins.zip . A13 builds are vanilla, A14 build has gapps.'
+    rom-webpage: 'https://source.android.com/'
+    phone-webpage: 'https://yzu.moe/android/borneo/aosp/, https://t.me/electimonrel'
+  -
+    rom-name: 'LMODroid'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13, 14'
+    rom-notes: 'Despite the fact that the folder is named 13, the latest build is 14. There is also a newer build here: https://yzu.moe/tempper/lmodroid_borneo-img.zip . That build is vanilla. The latest build in the jenkins folder has gapps, while the others can choose between vanilla, gapps, and microg.'
+    rom-webpage: 'https://lmo.framer.website/lmodroid'
+    phone-webpage: 'https://yzu.moe/android/borneo/jenkins-13/, https://t.me/electimonrel'
+  - 
+    rom-name: 'ArrowOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13'
+    rom-notes: 'Gapps'
+    rom-webpage: 'https://arrowos.net/'
+    phone-webpage: 'https://androidfilehost.com/?w=files&flid=338329, https://t.me/motobengalchat'
+    
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://xdaforums.com/t/recovery-unofficial-twrp-3-7-0-11-borneo-android-11-based.4559849/'
+  -
+    
+    recovery-name: 'SHRP'
+    recovery-support: true
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://skyhawkrecovery.github.io/'
+    device-webpage: 'https://xdaforums.com/t/shrp-for-moto-borneo-everything-working.4469043/'
+  -
+  
+    recovery-name: 'OrangeFox Recovery Project'
+    recovery-support: true
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://orangefox.download/'
+    device-webpage: 'https://xdaforums.com/t/orange-fox-for-borneo-decryption-and-fastboot-d-not-working-but-fastboot-can-be-fixed-idk-about-decryption.4461499/'
 
 linux: null
