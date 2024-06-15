@@ -6,7 +6,7 @@ specs:
   soc: 'Qualcomm SM7150-AC Snapdragon 732G'
   gpu: 'Qualcomm Adreno 618'
   ram: '6/8 GB'
-  storage: '64/128 GB'
+  storage: '64/128/256 GB'
   is_ab_device: null
   screen: 
     refresh_rate: 120
@@ -36,6 +36,7 @@ specs:
     - 'Gyroscope'
     - 'IR blaster'
     - 'Light sensor'
+    - 'NFC'
     - 'Ultrasound proximity sensor'
     - 'USB OTG'
   release: '2021-03'

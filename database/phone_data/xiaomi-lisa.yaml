@@ -44,7 +44,7 @@ specs:
     - 'NFC'
     - 'Ultrasound proximity sensor'
     - 'USB OTG'
-  release: '2021-12'
+  release: '2021-09'
 roms: 
   - 
     rom-name: 'LineageOS'

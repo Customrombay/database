@@ -46,4 +46,7 @@ void main() async {
       stdout.write("$deviceNotCovered\n");
     }
   }
+  else {
+    stdout.write(response.statusCode);
+  }
 }

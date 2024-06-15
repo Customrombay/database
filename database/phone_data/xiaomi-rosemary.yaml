@@ -35,7 +35,6 @@ specs:
     - 'Gyroscope'
     - 'IR blaster'
     - 'Light sensor'
-    - 'NFC'
     - 'Ultrasound proximity sensor'
     - 'USB OTG'
   release: '2021-04'
