@@ -138,6 +138,9 @@ String extendedCodenameCreator({
   else if (readCodename == "stone" && (readVendor == "redmi" || readVendor == "poco")) {
     return "xiaomi-stone";
   }
+  else if (readCodename == "garnet" && (readVendor == "redmi" || readVendor == "poco")) {
+    return "xiaomi-garnet";
+  }
   else if (readCodename == "haydn" && readVendor == "mi") {
     return "xiaomi-haydn";
   }
