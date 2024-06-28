@@ -50,6 +50,7 @@ roms:
     rom-support: true
     rom-state: 'Official'
     android-version: '14'
+    rom-notes: ''
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/pstar/'
   - 
@@ -67,7 +68,7 @@ roms:
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://e.foundation/e-os/'
-    phone-webpage: 'https://doc.e.foundation/devices/pstar'
+    phone-webpage: 'https://doc.e.foundation/devices/pstar/'
   - 
     rom-name: 'crDroid'
     rom-support: true
@@ -76,6 +77,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#pstar'
+  - 
+    rom-name: 'DerpFest'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://derpfest.org/'
+    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/pstar/'
 
 recoveries: null
 linux: null
