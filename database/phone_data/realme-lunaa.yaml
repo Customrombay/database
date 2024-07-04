@@ -66,7 +66,7 @@ roms:
     rom-state: 'Community'
     android-version: '14'
     rom-notes: ''
-    rom-webpage: 'https://projectelixiros.com/home'
+    rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://github.com/pjgowtham/android_device_realme_lunaa/releases'
 
 recoveries: null
