@@ -59,7 +59,7 @@ roms:
     android-version: '14'
     rom-webpage: 'https://awakenos.vercel.app/'
     phone-webpage: 'https://www.pling.com/p/2148669/'
-   - 
+  - 
     rom-name: 'RisingUI'
     rom-support: true
     rom-state: 'Unofficial'
