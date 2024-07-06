@@ -9,6 +9,7 @@ specs:
   storage: '128 GB'
   is_ab_device: null
   screen: 
+    refresh_rate: 120
     resolution: '1080x2400'
     size: 6.7
     technology: 'Super AMOLED'
@@ -70,6 +71,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://e.foundation/e-os/'
     phone-webpage: 'https://doc.e.foundation/devices/m52xq'
+  - 
+    rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://crdroid.net/downloads#m52xq'
 
 recoveries: []
 linux: null
