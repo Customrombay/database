@@ -1,6 +1,6 @@
-device-name: 'nx'
+device-name: 'nx_tab'
 device-vendor: 'Nintendo'
-device-model-name: 'Switch'
+device-model-name: 'Switch (Tablet)'
 device-description: null
 specs: 
   soc: 'NVIDIA Tegra X1 (T210)'
