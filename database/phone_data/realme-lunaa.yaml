@@ -31,7 +31,7 @@ roms:
   - 
     rom-name: 'DerpFest'
     rom-support: true
-    rom-state: 'Community'
+    rom-state: 'Unofficial'
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
@@ -63,7 +63,7 @@ roms:
   -
     rom-name: 'LineageOS'
     rom-support: true
-    rom-state: 'Community'
+    rom-state: 'Unofficial'
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://lineageos.org/'
