@@ -33,6 +33,13 @@ roms:
     android-version: '14'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/nx_tab/'
+  - 
+    rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://crdroid.net/nx_tab/10'
 
 recoveries: null
 linux: null
