@@ -55,5 +55,11 @@ roms:
     rom-webpage: 'https://www.projectmatrixx.org/'
     phone-webpage: 'https://t.me/Redmi12C/50365/56271?single'
   - 
+    rom-name: 'PixelOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://www.pixelos.net/'
+    phone-webpage: 'https://t.me/Discussion_Verse/211752'
 recoveries: []
 linux: null
