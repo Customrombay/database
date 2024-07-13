@@ -47,6 +47,13 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://libremobileos.com/'
     phone-webpage: 'https://get.libremobileos.com/devices/earth/'
-
+  - 
+    rom-name: 'Project Matrixx'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://www.projectmatrixx.org/'
+    phone-webpage: 'https://t.me/Redmi12C/50365/56271?single'
+  - 
 recoveries: []
 linux: null
