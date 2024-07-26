@@ -1,0 +1,24 @@
+device-name: 's5360'
+device-vendor: 'Samsung'
+device-model-name: 'Galaxy Y'
+device-description: null
+specs: null
+roms: 
+  - 
+    rom-name: 'Lineage OS'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '4'
+    rom-notes: 'Unofficial'
+    rom-webpage: 'https://lineageos.org'
+    phone-webpage: 'https://xdaforums.com/t/rom-4-0-4-unofficial-lineageos-9-0-20181029-mtd-twrp.3484394/'
+
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://xdaforums.com/t/rom-4-0-4-unofficial-lineageos-9-0-20181029-mtd-twrp.3484394/'
+
+linux: null

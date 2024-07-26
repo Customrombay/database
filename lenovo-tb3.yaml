@@ -1,0 +1,24 @@
+device-name: 'tb3-710f/tb3-710l'
+device-vendor: 'Lenovo'
+device-model-name: 'TAB3 7 Essential'
+device-description: null
+specs: null
+roms: 
+  - 
+    rom-name: 'CyanogenMod'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '5'
+    rom-notes: 'Unofficial'
+    rom-webpage: null
+    phone-webpage: 'https://xdaforums.com/t/custom-rom-cyanogenmod-12-1-lenovo-tab-3-7-essential-tb3-710f.4310207/'
+
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://xdaforums.com/t/custom-rom-cyanogenmod-12-1-lenovo-tab-3-7-essential-tb3-710f.4310207/'
+
+linux: null

@@ -1,0 +1,24 @@
+device-name: 'tb2-x30f/tb2-x30l'
+device-vendor: 'Lenovo'
+device-model-name: 'TAB 2 A10-30'
+device-description: null
+specs: null
+roms: 
+  - 
+    rom-name: 'Lineage OS'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '9'
+    rom-notes: 'Unofficial'
+    rom-webpage: 'https://lineageos.org'
+    phone-webpage: null
+
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://xdaforums.com/t/share-recovery-tb2-x30l-tab-a10-30-f-l-twrp-3-1-1-unofficial.4520911/'
+
+linux: null
