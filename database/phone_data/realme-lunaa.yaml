@@ -2,7 +2,33 @@ device-name: 'lunaa'
 device-vendor: 'Realme'
 device-model-name: 'GT Master Editon'
 device-description: ''
-specs: null
+specs: 
+  soc: 'Qualcomm SM7325 Snapdragon 778G 5G'
+  gpu: 'Qualcomm Adreno 642L'
+  ram: '6/8 GB'
+  storage: '128/256 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1080x2400'
+    size: 6.43
+    technology: 'Super AMOLED'
+  battery: 
+    capacity: 4300
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'Fingerprint reader'
+    - 'Accelerometer'
+    - 'Gyroscope'
+    - 'Proximity sensor'
+    - 'Compass'
+    - 'NFC'
+  release: '2021-07-30'
 roms: 
   - 
     rom-name: 'crDroid'
