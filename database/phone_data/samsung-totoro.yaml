@@ -5,7 +5,7 @@ device-description: null
 specs: null
 roms: 
   - 
-    rom-name: 'Lineage OS'
+    rom-name: 'LineageOS'
     rom-support: true
     rom-state: 'Discontinued'
     android-version: '4'
@@ -17,8 +17,8 @@ recoveries:
   - 
     recovery-name: 'TWRP'
     recovery-support: true
-    recovery-state: 'Current'
+    recovery-state: 'Unofficial'
     recovery-webpage: 'https://twrp.me/'
-    device-webpage: 'https://xdaforums.com/t/rom-4-0-4-unofficial-lineageos-9-0-20181029-mtd-twrp.3484394/'
+    device-webpage: 'https://androidfilehost.com/?fid=11410932744536991382'
 
 linux: null
