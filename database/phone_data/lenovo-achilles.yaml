@@ -1,17 +1,9 @@
-device-name: 'tb2-x30f/tb2-x30l'
+device-name: 'achilles'
 device-vendor: 'Lenovo'
-device-model-name: 'TAB 2 A10-30'
+device-model-name: 'Tab2 A10-30'
 device-description: null
 specs: null
-roms: 
-  - 
-    rom-name: 'Lineage OS'
-    rom-support: true
-    rom-state: 'Discontinued'
-    android-version: '9'
-    rom-notes: 'Unofficial'
-    rom-webpage: 'https://lineageos.org'
-    phone-webpage: null
+roms: []
 
 recoveries: 
   - 
