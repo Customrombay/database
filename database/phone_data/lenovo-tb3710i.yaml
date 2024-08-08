@@ -17,8 +17,8 @@ recoveries:
   - 
     recovery-name: 'TWRP'
     recovery-support: true
-    recovery-state: 'Current'
+    recovery-state: 'Unofficial'
     recovery-webpage: 'https://twrp.me/'
-    device-webpage: 'https://xdaforums.com/t/custom-rom-cyanogenmod-12-1-lenovo-tab-3-7-essential-tb3-710f.4310207/'
+    device-webpage: 'https://androidfilehost.com/?fid=24591000424951943'
 
 linux: null
