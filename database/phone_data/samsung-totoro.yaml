@@ -21,4 +21,12 @@ recoveries:
     recovery-webpage: 'https://twrp.me/'
     device-webpage: 'https://androidfilehost.com/?fid=11410932744536991382'
 
-linux: null
+linux: 
+  - 
+    distribution-name: 'PostmarketOS'
+    distribution-support: true
+    distribution-state: 'Non-booting'
+    distribution-notes: null
+    distribution-webpage: 'https://postmarketos.org/'
+    device-webpage: 'https://wiki.postmarketos.org/wiki/Samsung_Galaxy_Y_(samsung-totoro)'
+

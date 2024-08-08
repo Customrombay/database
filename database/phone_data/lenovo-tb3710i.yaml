@@ -21,4 +21,12 @@ recoveries:
     recovery-webpage: 'https://twrp.me/'
     device-webpage: 'https://androidfilehost.com/?fid=24591000424951943'
 
-linux: null
+linux: 
+  - 
+    distribution-name: 'PostmarketOS'
+    distribution-support: true
+    distribution-state: 'Non-booting'
+    distribution-notes: null
+    distribution-webpage: 'https://postmarketos.org/'
+    device-webpage: 'https://wiki.postmarketos.org/wiki/Lenovo_Tab3_7_Essential_(lenovo-tb3710i)'
+

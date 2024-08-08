@@ -61,5 +61,6 @@ roms:
     android-version: '14'
     rom-webpage: 'https://www.pixelos.net/'
     phone-webpage: 'https://t.me/Discussion_Verse/211752'
+
 recoveries: []
 linux: null
