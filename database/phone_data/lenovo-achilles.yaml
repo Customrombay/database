@@ -9,7 +9,7 @@ recoveries:
   - 
     recovery-name: 'TWRP'
     recovery-support: true
-    recovery-state: 'Current'
+    recovery-state: 'Unofficial'
     recovery-webpage: 'https://twrp.me/'
     device-webpage: 'https://xdaforums.com/t/share-recovery-tb2-x30l-tab-a10-30-f-l-twrp-3-1-1-unofficial.4520911/'
 
