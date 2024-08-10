@@ -1,0 +1,25 @@
+device-name: 'fogos'
+device-vendor: 'Motorola'
+device-model-name: 'moto g34'
+device-description: null
+specs: 
+  soc: 'Qualcomm SM6375 Snapdragon 695 5G'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '4/8 GB'
+  storage: '64/128/256 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '720x1600'
+    size: 6.5
+    technology: 'IPS LCD'
+  battery: 
+    capacity: 5000
+    removable: false
+    tech: 'Li-Po'
+  network: null
+  peripherals: null
+  release: '2023-12'
+roms: []
+recoveries: []
+
+linux: []

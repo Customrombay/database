@@ -1,0 +1,25 @@
+device-name: 'malmo'
+device-vendor: 'Motorola'
+device-model-name: 'moto g85'
+device-description: null
+specs: 
+  soc: 'Qualcomm SM6375 Snapdragon 6s Gen 3'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '8/12 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.67
+    technology: 'P-OLED'
+  battery: 
+    capacity: 5000
+    removable: false
+    tech: 'Li-Po'
+  network: null
+  peripherals: null
+  release: '2024-06'
+roms: []
+recoveries: []
+
+linux: []

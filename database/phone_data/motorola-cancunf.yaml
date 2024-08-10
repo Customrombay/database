@@ -1,0 +1,25 @@
+device-name: 'cancunf'
+device-vendor: 'Motorola'
+device-model-name: 'moto g54'
+device-description: null
+specs: 
+  soc: 'Mediatek Dimensity 7020'
+  gpu: 'IMG BXM-8-256'
+  ram: '4/8/12 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.5
+    technology: 'IPS LCD'
+  battery: 
+    capacity: 5000
+    removable: false
+    tech: 'Li-Po'
+  network: null
+  peripherals: null
+  release: '2023-09'
+roms: []
+recoveries: []
+
+linux: []

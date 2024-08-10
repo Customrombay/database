@@ -1,0 +1,25 @@
+device-name: 'penang'
+device-vendor: 'Motorola'
+device-model-name: 'moto g53'
+device-description: null
+specs: 
+  soc: 'Qualcomm SM4350-AC Snapdragon 480+ 5G'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '4/6/8 GB'
+  storage: '64/128 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '720x1600'
+    size: 6.5
+    technology: 'IPS LCD'
+  battery: 
+    capacity: 5000
+    removable: false
+    tech: 'Li-Po'
+  network: null
+  peripherals: null
+  release: '2022-12'
+roms: []
+recoveries: []
+
+linux: []
