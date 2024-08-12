@@ -44,6 +44,13 @@ roms:
     android-version: '11'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/lavender/'
+  -
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://github.com/0xsharkboy/Lineage_OTA/releases'
   - 
     rom-name: 'ArrowOS'
     rom-support: true
@@ -102,8 +109,8 @@ roms:
     phone-webpage: 'https://sourceforge.net/projects/evolution-x/files/lavender/'
   - 
     rom-name: 'PixysOS'
-    rom-support: false
-    rom-state: 'Official'
+    rom-support: true
+    rom-state: 'Discontinued'
     android-version: '12'
     rom-notes: ''
     rom-webpage: 'https://pixysos.com/'
@@ -143,23 +150,23 @@ roms:
   - 
     rom-name: 'RisingOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Unofficial'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://github.com/RisingTechOSS/android'
-    phone-webpage: 'https://sourceforge.net/projects/fpsensor-builds/files/lavender/riceDroid/10.2/riceDroid-13.0-202302131844-lavender-v10.2-PIXEL-OFFICIAL.zip/download'
+    phone-webpage: 'https://sourceforge.net/projects/spidybuilds/files/lavenderROMs/RisingOS/'
   - 
     rom-name: 'DerpFest'
-    rom-support: false
-    rom-state: 'Official'
+    rom-support: true
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
     phone-webpage: 'https://sourceforge.net/projects/derpfest/files/lavender/'
   - 
     rom-name: 'BlissROM'
-    rom-support: false
-    rom-state: 'Official'
+    rom-support: true
+    rom-state: 'Discontinued'
     android-version: ''
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
@@ -182,8 +189,8 @@ recoveries:
 linux: 
   - 
     distribution-name: 'Ubuntu Touch'
-    distribution-support: false
-    distribution-state: 'Official'
+    distribution-support: true
+    distribution-state: 'Discontinued'
     distribution-notes: 'Xenial'
     distribution-webpage: 'https://ubuntu-touch.io/'
     device-webpage: 'https://devices.ubuntu-touch.io/device/lavender/release/xenial/'
