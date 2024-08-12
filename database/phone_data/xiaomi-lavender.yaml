@@ -58,7 +58,15 @@ roms:
     android-version: '14'
     rom-webpage: 'https://github.com/LineageOS-Ext/'
     phone-webpage: 'https://sourceforge.net/projects/spidybuilds/files/lavenderROMs/LineageOSExt/'
-  - 
+  -
+    rom-name: 'DivestOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '11'
+    rom-notes: ''
+    rom-webpage: 'https://divestos.org/'
+    phone-webpage: 'https://divestos.org/pages/devices#device-lavender'
+  -
     rom-name: 'ArrowOS'
     rom-support: true
     rom-state: 'Official'
