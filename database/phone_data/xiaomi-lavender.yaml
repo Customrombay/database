@@ -51,6 +51,13 @@ roms:
     android-version: '14'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://github.com/0xsharkboy/Lineage_OTA/releases'
+  -
+    rom-name: 'LineageOS-Ext'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '14'
+    rom-webpage: 'https://github.com/LineageOS-Ext/'
+    phone-webpage: 'https://sourceforge.net/projects/spidybuilds/files/lavenderROMs/LineageOSExt/'
   - 
     rom-name: 'ArrowOS'
     rom-support: true
@@ -59,7 +66,15 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://arrowos.net/'
     phone-webpage: 'https://arrowos.net/download/'
-  - 
+  -
+    rom-name: 'ArrowOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13'
+    rom-notes: ''
+    rom-webpage: 'https://arrowos.net/'
+    phone-webpage: 'https://sourceforge.net/projects/tilt2/files/ArrowOS/'
+  -
     rom-name: 'PixelExperience'
     rom-support: true
     rom-state: 'Discontinued'
@@ -150,11 +165,19 @@ roms:
   - 
     rom-name: 'RisingOS'
     rom-support: true
-    rom-state: 'Unofficial'
-    android-version: '13'
+    rom-state: 'Community'
+    android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://github.com/RisingTechOSS/android'
     phone-webpage: 'https://sourceforge.net/projects/spidybuilds/files/lavenderROMs/RisingOS/'
+  -
+    rom-name: 'RisingOS'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://github.com/RisingTechOSS/android'
+    phone-webpage: 'https://sourceforge.net/projects/tilt2/files/RisingOS/'
   -
     rom-name: 'RisingOS'
     rom-support: true
@@ -179,6 +202,22 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
     phone-webpage: 'https://downloads.blissroms.org/download/lavender/'
+  -
+    rom-name: 'Resurrection Remix OS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '10'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/resurrectionremix/'
+    phone-webpage: 'https://sourceforge.net/projects/vitor-unofficial-builds/files/ResurrectionRemix/'
+  -
+    rom-name: 'Project Matrixx'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://www.projectmatrixx.org/'
+    phone-webpage: 'https://sourceforge.net/projects/vitor-unofficial-builds/files/Project%20Matrix/'
 
 recoveries: 
   - 
