@@ -94,3 +94,18 @@ linux:
     distribution-webpage: 'https://postmarketos.org/'
     device-webpage: 'https://wiki.postmarketos.org/wiki/Samsung_Galaxy_A52_4G_(samsung-a52q)'
 
+  -
+    rom-name: 'UN1CA'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://github.com/salvogiangri/UN1CA'
+    phone-webpage: 'https://github.com/salvogiangri/UN1CA/releases/tag/2.2.1'
+  -
+    rom-name: 'crDroid Android'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://github.com/matei9/android_vendor_crDroidOTA/releases'
+    phone-webpage: 'https://wiki.lineageos.org/devices/a52q/'
+

@@ -30,3 +30,11 @@ recoveries:
     device-webpage: 'https://twrp.me/samsung/samsunggalaxyS21FEqcom.html'
 
 linux: []
+
+  -
+    rom-name: 'UN1CA'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://github.com/salvogiangri/UN1CA'
+    phone-webpage: 'https://github.com/salvogiangri/UN1CA/releases/tag/2.2.1'
