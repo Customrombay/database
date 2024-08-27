@@ -1,16 +1,16 @@
-device-name: 'tokay'
+device-name: 'caiman'
 device-vendor: 'Google'
-device-model-name: 'Pixel 9'
+device-model-name: 'Pixel 9 Pro'
 device-description: null
 specs: 
   soc: 'Google Tensor G4'
   gpu: ''
-  ram: '12 GB'
-  storage: '128/256 GB'
+  ram: '16 GB'
+  storage: '128/256/512/1024 GB'
   is_ab_device: true
   screen: 
     refresh_rate: 120
-    resolution: '1080x2424'
+    resolution: '1280 x 2856'
     size: 6.3
     technology: 'AMOLED'
   battery: 
@@ -44,7 +44,7 @@ roms:
     rom-state: 'Official'
     android-version: '14'
     rom-webpage: 'https://grapheneos.org/'
-    phone-webpage: 'https://grapheneos.org/releases#tokay-stable'
+    phone-webpage: 'https://grapheneos.org/releases#caiman-stable'
 
 recoveries: null
 linux: null

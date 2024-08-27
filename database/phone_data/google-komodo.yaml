@@ -1,20 +1,20 @@
-device-name: 'tokay'
+device-name: 'komodo'
 device-vendor: 'Google'
-device-model-name: 'Pixel 9'
+device-model-name: 'Pixel 9 Pro XL'
 device-description: null
 specs: 
   soc: 'Google Tensor G4'
   gpu: ''
-  ram: '12 GB'
-  storage: '128/256 GB'
+  ram: '16 GB'
+  storage: '128/256/512/1024 GB'
   is_ab_device: true
   screen: 
     refresh_rate: 120
-    resolution: '1080x2424'
-    size: 6.3
+    resolution: '1344x2992'
+    size: 6.8
     technology: 'AMOLED'
   battery: 
-    capacity: 4700
+    capacity: 5060
     removable: false
     tech: 'Li-Po'
   network: 
@@ -44,7 +44,7 @@ roms:
     rom-state: 'Official'
     android-version: '14'
     rom-webpage: 'https://grapheneos.org/'
-    phone-webpage: 'https://grapheneos.org/releases#tokay-stable'
+    phone-webpage: 'https://grapheneos.org/releases#komodo-stable'
 
 recoveries: null
 linux: null
