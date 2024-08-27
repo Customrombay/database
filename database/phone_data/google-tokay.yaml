@@ -1,0 +1,50 @@
+device-name: 'tokay'
+device-vendor: 'Google'
+device-model-name: 'Pixel 9'
+device-description: null
+specs: 
+  soc: 'Google Tensor G4'
+  gpu: ''
+  ram: '12 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '1080x2424'
+    size: 6.3
+    technology: 'AMOLED'
+  battery: 
+    capacity: 4700
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'Accelerometer'
+    - 'BeiDou'
+    - 'Compass'
+    - 'Fingerprint reader'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'NFC'
+    - 'Proximity sensor'
+    - 'Qi wireless charging'
+    - 'USB OTG'
+  release: '2024-08'
+roms: 
+  - 
+    rom-name: 'GrapheneOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://grapheneos.org/'
+    phone-webpage: 'https://grapheneos.org/releases#tokay-stable'
+
+recoveries: null
+linux: null
