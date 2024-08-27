@@ -130,6 +130,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/alphadroid-project/'
     phone-webpage: 'https://sourceforge.net/projects/alphadroid-project/files/lemonades/'
+- 
+    rom-name: 'Nameless AOSP'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-notes: ''
+    rom-webpage: 'https://www.nameless.wiki'
+    phone-webpage: 'https://www.nameless.wiki/getting-started/downloads/oneplus/lemonades'
 
 recoveries: null
 linux: null
