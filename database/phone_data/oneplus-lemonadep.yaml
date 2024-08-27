@@ -133,7 +133,7 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/alphadroid-project/'
     phone-webpage: 'https://sourceforge.net/projects/alphadroid-project/files/lemonadep/'
-- 
+  - 
     rom-name: 'Nameless AOSP'
     rom-support: true
     rom-state: 'Official'
