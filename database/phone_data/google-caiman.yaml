@@ -45,3 +45,6 @@ roms:
     android-version: '14'
     rom-webpage: 'https://grapheneos.org/'
     phone-webpage: 'https://grapheneos.org/releases#caiman-stable'
+
+recoveries: null
+linux: null
