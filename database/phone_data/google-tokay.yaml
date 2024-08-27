@@ -5,7 +5,7 @@ device-description: null
 specs: 
   soc: 'Google Tensor G4'
   gpu: ''
-  ram: '8 GB'
+  ram: '12 GB'
   storage: '128/256 GB'
   is_ab_device: true
   screen: 
