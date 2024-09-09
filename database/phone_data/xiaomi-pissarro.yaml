@@ -20,7 +20,15 @@ specs:
   network: null
   peripherals: null
   release: '2022-1'
-roms: []
+roms:
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '14'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://github.com/pissarro-dev/OTA'
+  - 
 recoveries: 
   - 
     recovery-name: 'TWRP'
