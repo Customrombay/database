@@ -20,7 +20,57 @@ specs:
   network: null
   peripherals: null
   release: '2023-02'
-roms: []
+roms:
+  - 
+    rom-name: 'VoltageOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-webpage: 'https://sourceforge.net/projects/voltage-os/'
+    phone-webpage: 'https://sourceforge.net/projects/voltage-os/files/dm1q/'
+  - 
+    rom-name: 'UN1CA'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://github.com/salvogiangri/UN1CA'
+    phone-webpage: 'https://github.com/salvogiangri/UN1CA/releases/tag/2.5.4'
+  - 
+    rom-name: 'RisingOS'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '15'
+    rom-webpage: 'https://sourceforge.net/projects/risingos-official/'
+    phone-webpage: 'https://xdaforums.com/t/rom-rising-os-6-2-stable-community-dm1q-dm2q-signed.4705846/'
+  - 
+    rom-name: 'Project Matrixx'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '14'
+    rom-webpage: 'https://www.projectmatrixx.org/'
+    phone-webpage: 'https://xdaforums.com/t/rom-project-matrixx-10-10-0-community-dm1q-gapps-vanilla-signed.4709952/'
+  - 
+    rom-name: 'BlissRoms'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '15'
+    rom-webpage: 'https://blissroms.org/'
+    phone-webpage: 'https://xdaforums.com/t/rom-blissrom-18-0-stable-unofficial-dm1q-signed.4706646/'
+  - 
+    rom-name: 'BeyondROM'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://xdaforums.com/t/rom-beyondrom-v3-5-19-01-2025-cxl2-sm-s91xb.4560189/'
+    phone-webpage: 'https://xdaforums.com/t/rom-beyondrom-v3-5-19-01-2025-cxl2-sm-s91xb.4560189/'
+  - 
+    rom-name: 'Dr.Ketan ROM'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '14'
+    rom-webpage: 'https://drketanrom.com/'
+    phone-webpage: 'https://drketanrom.com/samsung-s23'
+    
 recoveries: 
   - 
     recovery-name: 'TWRP'
