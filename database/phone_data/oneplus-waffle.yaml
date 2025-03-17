@@ -20,7 +20,48 @@ specs:
   network: null
   peripherals: null
   release: '2023-12'
-roms: []
+roms: 
+  - 
+    rom-name: 'YAAP'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-webpage: 'https://mirror.codebucket.de/yaap/waffle/'
+    phone-webpage: 'https://mirror.codebucket.de/yaap/waffle/'
+  - 
+    rom-name: 'Evolution-X'
+    rom-support: true
+    rom-state: 'UnOfficial'
+    android-version: '15'
+    rom-webpage: 'https://sourceforge.net/projects/evolution-x-waffle-unofficial/'
+    phone-webpage: 'https://sourceforge.net/projects/evolution-x-waffle-unofficial/'
+  - 
+    rom-name: 'MistOS ⭐'
+    rom-support: true
+    rom-state: 'UnOfficial'
+    android-version: '15'
+    rom-webpage: 'https://sourceforge.net/projects/oneplus-12-waffle-custom-roms/files/Project-Mist-OS/'
+    phone-webpage: 'https://sourceforge.net/projects/oneplus-12-waffle-custom-roms/files/Project-Mist-OS/'
+  - 
+    rom-name: 'RisingOS Revived'
+    rom-support: true
+    rom-state: 'UnOfficial'
+    android-version: '15'
+    rom-webpage: 'https://sourceforge.net/projects/oneplus-12-waffle-custom-roms/files/RisingOS-Revived/GAPPS/'
+    phone-webpage: 'https://sourceforge.net/projects/oneplus-12-waffle-custom-roms/files/RisingOS-Revived/GAPPS/'
+    
 
-recoveries: []
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'UnOfficial'
+    recovery-webpage: 'https://xdaforums.com/t/recovery-12-unofficial-teamwin-recovery-project.4662856/'
+    device-webpage: 'https://xdaforums.com/t/recovery-12-unofficial-teamwin-recovery-project.4662856/'
+  - 
+    recovery-name: 'Pitch Black Recovery'
+    recovery-support: true
+    recovery-state: 'Official'
+    recovery-webpage: 'https://github.com/snowwolf725/Action-TWRP-Builder-Waffle/releases/tag/12105243201'
+    device-webpage: 'https://github.com/snowwolf725/Action-TWRP-Builder-Waffle/releases/tag/12105243201'
 linux: []
