@@ -2,12 +2,25 @@ device-name: 'phoenix'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO X2'
 device-description: null
-specs: null
+specs: 
+  soc: 'Qualcomm SDM730 Snapdragon 730G'
+  gpu: 'Qualcomm Adreno 618'
+  ram: '6/8 GB RAM'
+  storage: '64/128/256 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.67
+    technology: 'IPS LCD'
+  battery: 
+    capacity: 4500
+    removable: false
+    tech: 'Li-Ion'
 roms: 
   - 
     rom-name: 'ArrowOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '12L'
     rom-notes: ''
     rom-webpage: 'https://arrowos.net/'
@@ -31,15 +44,15 @@ roms:
   - 
     rom-name: 'crDroid'
     rom-support: true
-    rom-state: 'Discontinued'
-    android-version: '12'
+    rom-state: 'Unofficial'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://crdroid.net/'
-    phone-webpage: 'https://crdroid.net/downloads#phoenix'
+    phone-webpage: 'https://t.me/PocoX2K30Official/57109'
   - 
     rom-name: 'HavocOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://havoc-os.com/'
@@ -47,15 +60,15 @@ roms:
   - 
     rom-name: 'EvolutionX'
     rom-support: true
-    rom-state: 'Official'
-    android-version: '13'
+    rom-state: 'Unoffcial'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://evolution-x.org/'
-    phone-webpage: 'https://evolution-x.org/device/phoenix'
+    phone-webpage: 'https://t.me/tillua467build/15/1533'
   - 
     rom-name: 'PixysOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://pixysos.com/'
@@ -71,7 +84,7 @@ roms:
   - 
     rom-name: 'Paranoid Android'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://paranoidandroid.co/'
@@ -79,7 +92,7 @@ roms:
   - 
     rom-name: 'CherishOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://cherishos.com/'
@@ -87,7 +100,7 @@ roms:
   - 
     rom-name: 'AlphaDroid'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/alphadroid-project/'
@@ -95,7 +108,7 @@ roms:
   - 
     rom-name: 'DerpFest'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
@@ -103,21 +116,86 @@ roms:
   - 
     rom-name: 'BlissROM'
     rom-support: true
-    rom-state: 'Official'
-    android-version: ''
+    rom-state: 'Discontinued'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
     phone-webpage: 'https://downloads.blissroms.org/download/phoenix/'
   - 
     rom-name: 'AwakenOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://awakenos.vercel.app/'
     phone-webpage: 'https://awakenos.vercel.app/downloads/phoenix'
 
+- 
+    rom-name: 'Aospb'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/aospb-project/files/'
+    phone-webpage: 'https://sourceforge.net/projects/aospb-project/files/phoenix/'
+
+- 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unoffcial'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://t.me/PocoX2K30Official/60769'
+
+- 
+    rom-name: 'Matrixxx'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://www.projectmatrixx.org/'
+    phone-webpage: 'https://t.me/PocoX2K30Official/59460'
+
+- 
+    rom-name: 'Rising-OS-Revived'
+    rom-support: true
+    rom-state: 'Unoffcial'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://risingosrevived.tech/'
+    phone-webpage: 'https://t.me/PocoX2K30Official/60909'
+- 
+    rom-name: 'Pixel-OS'
+    rom-support: true
+    rom-state: 'Unoffcial'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://pixelos.net/download'
+    phone-webpage: 'https://t.me/PocoX2K30Official/58768'
+
 recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Official'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://twrp.me/xiaomi/xiaomiredmik30.html'
+
+- 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Official'
+    recovery-webpage: 'https://sourceforge.net/projects/pbrp/'
+    device-webpage: 'https://sourceforge.net/projects/pbrp/files/phoenix/'
+
+- 
+    recovery-name: 'SHRP'
+    recovery-support: true
+    recovery-state: 'Official'
+    recovery-webpage: 'https://skyhawkrecovery.github.io/'
+    device-webpage: 'https://sourceforge.net/projects/shrp/files/phoenix/'
+    
   - 
     recovery-name: 'OrangeFox'
     recovery-support: true
