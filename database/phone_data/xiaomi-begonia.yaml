@@ -8,7 +8,7 @@ roms:
     rom-name: 'PixelExperience'
     rom-support: true
     rom-state: 'Discontinued'
-    android-version: '14'
+    android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://download.pixelexperience.org/'
     phone-webpage: 'https://download.pixelexperience.org/begonia/'
@@ -23,15 +23,15 @@ roms:
   - 
     rom-name: 'crDroid'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://crdroid.net/'
-    phone-webpage: 'https://crdroid.net/downloads#begonia'
+    phone-webpage: 'https://crdroid.net/begonia/10'
   - 
     rom-name: 'PixysOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://pixysos.com/'
@@ -39,19 +39,19 @@ roms:
   - 
     rom-name: 'SuperiorOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/superioros/'
-    phone-webpage: 'https://sourceforge.net/projects/superioros/'
+    phone-webpage: 'https://sourceforge.net/projects/superioros/files/begonia/'
   - 
     rom-name: 'EvolutionX'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '14'
-    rom-notes: ''
+    rom-notes: 'No longer available on the official website, only in a build archive by the original creator.'
     rom-webpage: 'https://evolution-x.org/'
-    phone-webpage: 'https://evolution-x.org/device/begonia'
+    phone-webpage: 'https://t.me/shamiksroms/47'
   - 
     rom-name: 'DerpFest'
     rom-support: true
@@ -63,7 +63,7 @@ roms:
   - 
     rom-name: 'BlissROM'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: ''
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
@@ -84,6 +84,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://projectelixiros.com/home'
     phone-webpage: 'https://projectelixiros.com/device/begonia'
+  - 
+    rom-name: 'AxionOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://axionaosp.github.io/'
+    phone-webpage: 'https://axionaosp.github.io/'
 
 recoveries: 
   - 
@@ -103,7 +111,7 @@ linux:
   - 
     distribution-name: 'Ubuntu Touch'
     distribution-support: true
-    distribution-state: 'Official'
+    distribution-state: 'Discontinued'
     distribution-notes: 'Xenial'
     distribution-webpage: 'https://ubuntu-touch.io/'
     device-webpage: 'https://devices.ubuntu-touch.io/device/begonia'
