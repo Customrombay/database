@@ -20,7 +20,15 @@ specs:
   network: null
   peripherals: null
   release: '2022-11'
-roms: []
+roms: 
+  - 
+    rom-name: 'Evolution-X'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '14'
+    rom-webpage: 'https://evolution-x.org/'
+    phone-webpage: 'https://evolution-x.org/devices/rubyx'
+  - 
 
 recoveries: []
 
