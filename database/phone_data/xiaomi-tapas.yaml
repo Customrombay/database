@@ -25,10 +25,10 @@ roms:
     rom-name: 'xiaomi.eu'
     rom-support: true
     rom-state: 'Official'
-    android-version: ''
-    rom-notes: 'HyperOS 1.0'
+    android-version: '15'
+    rom-notes: 'HyperOS 2.0'
     rom-webpage: 'https://xiaomi.eu/community/'
-    phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/HyperOS-STABLE-RELEASES/HyperOS1.0/'
+    phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/HyperOS-STABLE-RELEASES/HyperOS2.0/'
   - 
     rom-name: 'Project Matrixx'
     rom-support: true
@@ -44,6 +44,14 @@ roms:
     rom-notes: ''
     rom-webpage: 'https://github.com/RisingTechOSS'
     phone-webpage: 'https://sourceforge.net/projects/risingos-official/files/3.x/'
+  - 
+    rom-name: 'Evolution X'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://evolution-x.org/'
+    phone-webpage: 'https://evolution-x.org/devices/topaz'
 
 recoveries: 
   - 
