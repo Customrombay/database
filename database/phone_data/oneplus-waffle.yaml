@@ -20,7 +20,21 @@ specs:
   network: null
   peripherals: null
   release: '2023-12'
-roms: []
-
+roms: 
+  - 
+    rom-name: 'YAAP'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-webpage: 'https://github.com/YAAP'
+    phone-webpage: 'https://t.me/yaapop12'
+  - 
+    rom-name: 'YEvolution-X'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '15'
+    rom-webpage: 'https://evolution-x.org/'
+    phone-webpage: 'https://t.me/evoxop12'
+  - 
 recoveries: []
 linux: []
