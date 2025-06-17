@@ -1,6 +1,6 @@
 device-name: 'gta4xl'
 device-vendor: 'Samsung'
-device-model-name: 'Galaxy Tab S6 Lite (LTE)'
+device-model-name: 'Galaxy Tab S6 Lite (LTE) SM-P613'
 device-description: null
 specs: 
   soc: 'Samsung Exynos 9611'
@@ -30,7 +30,7 @@ roms:
     rom-name: 'LineageOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '15'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/gta4xl/'
   - 

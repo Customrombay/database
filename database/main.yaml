@@ -1029,11 +1029,15 @@
 - 
   device-name: 'gta4xl'
   device-vendor: 'Samsung'
-  device-model-name: 'Galaxy Tab S6 Lite (LTE)'
+  device-model-name: 'Galaxy Tab S6 Lite (LTE) SM-P615'
+-
+  device-name: 'gta4xlve'
+  device-vendor: 'Samsung'
+  device-model-name: 'Galaxy Tab S6 Lite (Wi-Fi) SM-P613'
 - 
   device-name: 'gta4xlwifi'
   device-vendor: 'Samsung'
-  device-model-name: 'Galaxy Tab S6 Lite (Wi-Fi)'
+  device-model-name: 'Galaxy Tab S6 Lite (Wi-Fi) SM-P610'
 - 
   device-name: 'gtaxlwifi'
   device-vendor: 'Samsung'

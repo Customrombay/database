@@ -1,0 +1,35 @@
+device-name: 'samsung-gta4xlve'
+device-vendor: 'Samsung'
+device-model-name: 'Galaxy Tab S6 Lite (Wi-Fi) SM-P613'
+device-description: null
+specs: 
+  soc: 'Qualcomm SM7125 Snapdragon 720G'
+  gpu: 'Adreno 618'
+  ram: '4 GB'
+  storage: '64/128 GB'
+  is_ab_device: null
+  screen: 
+    resolution: '1200x2000'
+    size: 10.4
+    technology: 'TFT LCD'
+  battery: 
+    capacity: 7040
+    removable: false
+    tech: 'Li-Ion'
+  network: 'None'
+  peripherals: 
+    - 'Accelerometer'
+    - 'GPS'
+    - 'Gyroscope'
+  release: '2022-05-14'
+roms:
+  -
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '15'
+    rom-webpage: 'https://github.com/danielml3/releases'
+    phone-webpage: 'https://xdaforums.com/t/rom-unofficial-2022-model-lineageos-22-2-for-galaxy-tab-s6-lite-2022-qualcomm.4699445/'
+
+recoveries: null
+linux: null
