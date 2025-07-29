@@ -47,17 +47,9 @@ roms:
     rom-name: 'LineageOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '13'
+    android-version: '15'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/apollon/'
-  - 
-    rom-name: 'ArrowOS'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: '13'
-    rom-notes: ''
-    rom-webpage: 'https://arrowos.net/'
-    phone-webpage: 'https://arrowos.net/download/'
   - 
     rom-name: 'PixelExperience'
     rom-support: true
@@ -86,26 +78,18 @@ roms:
     rom-name: '/e/OS'
     rom-support: true
     rom-state: 'Community'
-    android-version: '13'
+    android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://e.foundation/e-os/'
     phone-webpage: 'https://doc.e.foundation/devices/apollon'
   - 
     rom-name: 'HavocOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://havoc-os.com/'
     phone-webpage: 'https://havoc-os.com/device#apollo'
-  - 
-    rom-name: 'EvolutionX'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: '14'
-    rom-notes: ''
-    rom-webpage: 'https://evolution-x.org/'
-    phone-webpage: 'https://evolution-x.org/device/apollo'
   - 
     rom-name: 'xiaomi.eu'
     rom-support: true
@@ -126,7 +110,7 @@ roms:
     rom-name: 'AlphaDroid'
     rom-support: true
     rom-state: 'Official'
-    android-version: '13'
+    android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/alphadroid-project/'
     phone-webpage: 'https://sourceforge.net/projects/alphadroid-project/files/apollo/'
@@ -142,7 +126,7 @@ roms:
     rom-name: 'LibreMobileOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '13'
+    android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://libremobileos.com/'
     phone-webpage: 'https://get.libremobileos.com/devices/apollon/'
@@ -157,7 +141,7 @@ roms:
   - 
     rom-name: 'BlissROM'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: ''
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
@@ -166,7 +150,7 @@ roms:
     rom-name: 'PixelOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://pixelos.net/'
     phone-webpage: 'https://pixelos.net/download/apollo'
