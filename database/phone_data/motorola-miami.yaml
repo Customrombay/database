@@ -2,7 +2,50 @@ device-name: 'miami'
 device-vendor: 'Motorola'
 device-model-name: 'Edge 30 Neo'
 device-description: null
+specs: 
+  soc: 'Qualcomm SM6375 Snapdragon 695 5G'
+  gpu: 'Qualcomm Adreno 619'
+  ram: '8 GB LPDDR4X'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    resolution: '1080x2400'
+    size: 6.28
+    technology: 'P-OLED'
+  battery: 
+    capacity: 4020
+    removable: false
+    tech: 'Li-Po'
+  network: 
+    - '2G GSM'
+    - '2G CDMA'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals: 
+    - 'A-GPS'
+    - 'Accelerometer'
+    - 'Compass'
+    - 'Dual speakers'
+    - 'Dual SIM'
+    - 'Fingerprint reader'
+    - 'Galileo'
+    - 'GLONASS'
+    - 'GPS'
+    - 'Gyroscope'
+    - 'Light sensor'
+    - 'NFC'
+    - 'Proximity sensor'
+    - 'USB OTG'
+  release: '2022-10-07'
 roms: []
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://wiki.lineageos.org/devices/miami/'
 
 recoveries: null
 linux: null
