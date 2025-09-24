@@ -17,10 +17,59 @@ specs:
     capacity: 5000
     removable: false
     tech: 'Li-Po'
-  network: null
-  peripherals: null
+  network:     
+    - '2G GSM'
+    - '2G CDMA'
+    - '3G UMTS'
+    - '4G LTE'
+    - '5G NR'
+  peripherals:    
+    - 'Dual SIM'
+    - 'Fingerprint reader'
+    - 'Ultrasound proximity sensor'
+    - 'NFC'
+    - 'GPS'
   release: '2022-10'
-roms: []
+roms:
 
-recoveries: null
+    rom-name: 'Xiaomi.eu'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '12'
+    rom-notes: 'MIUI 13'
+    rom-webpage: 'Xiaomi.eu'
+    phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv13/xiaomi.eu_multi_PLATO_V13.0.7.0.SLQMIXM_v13-12.zip/download'
+
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '14'
+    rom-notes: 'LineageOS 21.0'
+    rom-webpage: 'Lineageos.org'
+    phone-webpage: 'https://drive.google.com/file/d/1BncBpB5Ox1LtoulHdlZ3xugelRHOi-TE/view?usp=sharing'
+      
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '15'
+    rom-notes: 'LineageOS 22.0'
+    rom-webpage: 'Lineageos.org'
+    phone-webpage: 'https://sourceforge.net/projects/xiaomi-mediatek-devs/files/plato_201224/'
+    
+    rom-name: 'Xiaomi.eu'
+    rom-support: true
+    rom-state: 'Community'
+    android-version: '13'
+    rom-notes: 'MIUI 14'
+    rom-webpage: 'Xiaomi.eu'
+    phone-webpage: 'https://drive.google.com/file/d/1MUAu8tf4-dbeHxU5HHOAANku2FjUiu-1/view?usp=sharing'
+
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Community'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://github.com/JonesqPacMan/android_device_xiaomi_plato_TWRP/releases/tag/3.7.1_12.1_A14_HOS_V2'
+
 linux: null
