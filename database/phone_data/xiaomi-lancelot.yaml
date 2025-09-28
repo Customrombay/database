@@ -35,8 +35,9 @@ roms:
   - 
     rom-name: 'LineageOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
+    rom-notes: 'You have to get the files from archived version or build yourself.'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/lancelot/'
   - 
@@ -72,18 +73,10 @@ roms:
     rom-webpage: 'https://libremobileos.com/'
     phone-webpage: 'https://get.libremobileos.com/devices/lancelot/'
   - 
-    rom-name: 'DerpFest'
-    rom-support: true
-    rom-state: 'Official'
-    android-version: '13'
-    rom-notes: ''
-    rom-webpage: 'https://derpfest.org/'
-    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/lancelot/'
-  - 
     rom-name: 'crDroid'
     rom-support: true
     rom-state: 'Discontinued'
-    android-version: '14'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#lancelot'
