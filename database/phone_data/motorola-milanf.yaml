@@ -1,8 +1,15 @@
 device-name: 'milanf'
 device-vendor: 'Motorola'
 device-model-name: 'moto g Stylus 5G (2022)'
-device-description: null
-roms: []
+device-description: '"The Motorola Moto G Stylus 5G (2022) is a budget-friendly smartphone featuring a 6.8-inch 120Hz display, Snapdragon 695 5G processor, 8GB RAM, and a 50MP triple-camera system. It offers a built-in stylus for note-taking and sketching, making it a solid choice for users seeking stylus functionality without the premium price tag." - The Verge (https://www.theverge.com/23054028/motorola-moto-g-stylus-5g-2022-price-screen-specs-battery)'
+
+roms:
+  - rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://wiki.lineageos.org/devices/milanf/'
 
 recoveries: []
 
