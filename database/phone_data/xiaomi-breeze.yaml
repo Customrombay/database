@@ -20,7 +20,24 @@ specs:
   network: null
   peripherals: null
   release: '2024-05'
-roms: []
+  
+roms: 
+  - 
+    rom-name: 'LineageOS 22.2'
+    rom-support: true
+    rom-state: 'UNOFFICIAL'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://xdaforums.com/t/rom-15-unofficial-lineageos-22-2-for-poco-m6-plus-5g-redmi-13-5g-breeze.4750128/'
+    phone-webpage: 'https://xdaforums.com/f/xiaomi-poco-m6-plus-redmi-note-13r-13-5g.12883/'
+  - 
+    rom-name: 'CrDroid v12.0'
+    rom-support: true
+    rom-state: 'UNOFFICIAL'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://xdaforums.com/t/rom-16-unofficial-crdroid-v12-0-for-poco-m6-plus-5g-redmi-13-5g-breeze.4758836/'
+    phone-webpage: 'https://xdaforums.com/f/xiaomi-poco-m6-plus-redmi-note-13r-13-5g.12883/'
 
 recoveries: null
 linux: null
