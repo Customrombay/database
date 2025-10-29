@@ -30,5 +30,10 @@ roms:
     rom-webpage: 'https://libremobileos.com/'
     phone-webpage: 'https://get.libremobileos.com/devices/sabrina/'
 
-recoveries: []
+recoveries:
+  - recovery-name: 'OrangeFox'
+    recovery-support: true
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://xdaforums.com/t/orange-fox-recovery-sabrina.4738685/#post-90121621'
+    device-webpage: 'https://xdaforums.com/t/orange-fox-recovery-sabrina.4738685/#post-90121621'
 linux: null
