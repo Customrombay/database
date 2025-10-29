@@ -20,25 +20,25 @@ specs:
   network: null
   peripherals: null
   release: '2023-09'
+
 roms: 
-  - 
-    rom-name: 'xiaomi.eu'
+  - rom-name: 'xiaomi.eu'
     rom-support: true
     rom-state: 'Official'
     android-version: ''
     rom-notes: 'HyperOS 1.0'
     rom-webpage: 'https://xiaomi.eu/community/'
     phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/HyperOS-STABLE-RELEASES/HyperOS1.0/'
-  - 
-    rom-name: 'crDroid'
+
+  - rom-name: 'crDroid'
     rom-support: true
     rom-state: 'Official'
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#garnet'
-  - 
-    rom-name: 'Project Matrixx'
+
+  - rom-name: 'Project Matrixx'
     rom-support: true
     rom-state: 'Official'
     android-version: '14'
@@ -46,9 +46,193 @@ roms:
     rom-webpage: 'https://www.projectmatrixx.org/'
     phone-webpage: 'https://www.projectmatrixx.org/downloads/garnet'
 
+  # Android 15 ROMs
+  - rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://sourceforge.net/projects/crdroid/files/garnet/11.x/'
+
+  - rom-name: 'VoltageOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: 'v4.x'
+    rom-webpage: 'https://sourceforge.net/projects/garnet-aosp/files/'
+    phone-webpage: 'https://sourceforge.net/projects/garnet-aosp/files/'
+
+  - rom-name: 'Project PixelAge'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/projectpixelage/files/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/projectpixelage/files/garnet/'
+
+  - rom-name: 'DerpFest'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/derpfest/files/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/derpfest/files/garnet/'
+
+  - rom-name: 'FortuneOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/fortuneos/files/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/fortuneos/files/garnet/'
+
+  - rom-name: 'Project Infinity-X'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/infinity-x/files/garnet/15/gapps/'
+    phone-webpage: 'https://sourceforge.net/projects/infinity-x/files/garnet/15/gapps/'
+
+  - rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: '22'
+    rom-webpage: 'https://sourceforge.net/projects/los-garnet/files/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/los-garnet/files/garnet/'
+
+  - rom-name: 'GenesisOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://www.genesisos.dev/devices/garnet'
+    phone-webpage: 'https://www.genesisos.dev/devices/garnet'
+
+  - rom-name: 'BlissROM'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: 'v18.x'
+    rom-webpage: 'https://sourceforge.net/projects/protect-hikari-paradoxes/files/'
+    phone-webpage: 'https://sourceforge.net/projects/protect-hikari-paradoxes/files/'
+
+  - rom-name: 'RisingOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: '6.x'
+    rom-webpage: 'https://sourceforge.net/projects/garnet-aosp/files/'
+    phone-webpage: 'https://sourceforge.net/projects/garnet-aosp/files/'
+
+  - rom-name: 'PixelOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15.0'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/garnet-aosp/files/'
+    phone-webpage: 'https://sourceforge.net/projects/garnet-aosp/files/'
+
+  - rom-name: 'EvolutionX'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15.0'
+    rom-notes: ''
+    rom-webpage: 'https://xdaforums.com/t/rom-15-0-qpr1-garnet-official-evolution-x-01-14-25.4713398/'
+    phone-webpage: 'https://xdaforums.com/t/rom-15-0-qpr1-garnet-official-evolution-x-01-14-25.4713398/'
+
+  - rom-name: 'MistOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '3.2.x'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/project-mistos/files/Android15/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/project-mistos/files/Android15/garnet/'
+
+  - rom-name: 'Xiaomi EU HyperOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: '2.0.1.0'
+    rom-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/HyperOS-STABLE-RELEASES/HyperOS2.0/'
+    phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/HyperOS-STABLE-RELEASES/HyperOS2.0/xiaomi.eu_GARNET_OS2.0.1.0.VNRCNXM_15.zip'
+
+  - rom-name: 'EliteRomLite HyperOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: '2.0.1.0'
+    rom-webpage: 'https://sourceforge.net/projects/eliteroms/files/HyperOS-STABLE-UPDATES/HyperOS-v2.0/'
+    phone-webpage: 'https://sourceforge.net/projects/eliteroms/files/HyperOS-STABLE-UPDATES/HyperOS-v2.0/EliteRomLite_v1.10_GARNET_OS2.0.1.0_ChinaStable-A15.zip'
+
+  - rom-name: 'Project Flare'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: '1.0'
+    rom-webpage: 'https://sourceforge.net/projects/projectflare/files/garnet'
+    phone-webpage: 'https://sourceforge.net/projects/projectflare/files/garnet'
+
+  - rom-name: 'Matrixx'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '11.1.x'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/projectmatrixx/files/Android-15/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/projectmatrixx/files/Android-15/garnet/'
+
+  - rom-name: 'Pixel Project'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '2.x'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/pixel-project/files/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/pixel-project/files/garnet/'
+
+  - rom-name: 'Black Iron Project'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '5.7'
+    rom-notes: ''
+    rom-webpage: 'https://xdaforums.com/t/rom-official-black-iron-rom-v5-7-android-15-garnet.4731618/'
+    phone-webpage: 'https://xdaforums.com/t/rom-official-black-iron-rom-v5-7-android-15-garnet.4731618/'
+
+  - rom-name: 'WitAqua'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15.2'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/protect-hikari-paradoxes/files/'
+    phone-webpage: 'https://sourceforge.net/projects/protect-hikari-paradoxes/files/'
+
+  - rom-name: 'HorizonDroid'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '5.3'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/horizondroid/files/garnet/'
+    phone-webpage: 'https://sourceforge.net/projects/horizondroid/files/garnet/'
+
+  - rom-name: 'Komodo OS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '15'
+    rom-notes: ''
+    rom-webpage: 'https://komodos.id/downloads/garnet'
+    phone-webpage: 'https://komodos.id/downloads/garnet'
+
+  - rom-name: 'AICP'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '20.0'
+    rom-notes: ''
+    rom-webpage: 'https://sourceforge.net/projects/protect-hikari-paradoxes/files/'
+    phone-webpage: 'https://sourceforge.net/projects/protect-hikari-paradoxes/files/aicp_garnet_v-20.0-UNOFFICIAL-20250627.zip'
+
 recoveries: 
-  - 
-    recovery-name: 'OrangeFox'
+  - recovery-name: 'OrangeFox'
     recovery-support: true
     recovery-state: 'Official'
     recovery-webpage: 'https://orangefox.download/'
