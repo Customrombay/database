@@ -4,16 +4,24 @@ device-model-name: 'Redmi Note 8 Pro'
 device-description: null
 specs: null
 roms: 
+    - 
+    rom-name: 'ProjectInfinity-X'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://projectinfinity-x.com/'
+    phone-webpage: 'https://projectinfinity-x.com/downloads/begonia'
+    - 
+    rom-name: 'AxionOS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://www.axionos.org/'
+    phone-webpage: 'https://www.axionos.org/'
   - 
     rom-name: 'PixelExperience'
-    rom-support: true
-    rom-state: 'Discontinued'
-    android-version: '14'
-    rom-notes: ''
-    rom-webpage: 'https://download.pixelexperience.org/'
-    phone-webpage: 'https://download.pixelexperience.org/begonia/'
-  - 
-    rom-name: 'PixelExperience Plus'
     rom-support: true
     rom-state: 'Discontinued'
     android-version: '13'
@@ -21,9 +29,17 @@ roms:
     rom-webpage: 'https://download.pixelexperience.org/'
     phone-webpage: 'https://download.pixelexperience.org/begonia/'
   - 
-    rom-name: 'crDroid'
+    rom-name: 'PixelExperience Plus Edition'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
+    android-version: '13'
+    rom-notes: ''
+    rom-webpage: 'https://download.pixelexperience.org/'
+    phone-webpage: 'https://download.pixelexperience.org/begonia/'
+  - 
+    rom-name: 'CrDroid'
+    rom-support: true
+    rom-state: 'Discontinued'
     android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://crdroid.net/'
@@ -31,7 +47,7 @@ roms:
   - 
     rom-name: 'PixysOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://pixysos.com/'
@@ -39,23 +55,23 @@ roms:
   - 
     rom-name: 'SuperiorOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/superioros/'
-    phone-webpage: 'https://sourceforge.net/projects/superioros/'
+    phone-webpage: 'https://sourceforge.net/projects/superioros/files/begonia/'
   - 
     rom-name: 'EvolutionX'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '14'
-    rom-notes: ''
+    rom-notes: 'No longer available on the website'
     rom-webpage: 'https://evolution-x.org/'
     phone-webpage: 'https://evolution-x.org/device/begonia'
   - 
     rom-name: 'DerpFest'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://derpfest.org/'
@@ -63,7 +79,7 @@ roms:
   - 
     rom-name: 'BlissROM'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: ''
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
@@ -71,7 +87,7 @@ roms:
   - 
     rom-name: 'DroidX-UI'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://github.com/DroidX-UI'
@@ -79,8 +95,8 @@ roms:
   - 
     rom-name: 'Project Elixir'
     rom-support: true
-    rom-state: 'Official'
-    android-version: '14'
+    rom-state: 'Discontinued'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://projectelixiros.com/home'
     phone-webpage: 'https://projectelixiros.com/device/begonia'
@@ -103,7 +119,7 @@ linux:
   - 
     distribution-name: 'Ubuntu Touch'
     distribution-support: true
-    distribution-state: 'Official'
+    distribution-state: 'Discontinued'
     distribution-notes: 'Xenial'
     distribution-webpage: 'https://ubuntu-touch.io/'
     device-webpage: 'https://devices.ubuntu-touch.io/device/begonia'
