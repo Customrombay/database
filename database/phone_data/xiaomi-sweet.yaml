@@ -45,7 +45,7 @@ roms:
     rom-name: 'LineageOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '16'
     rom-webpage: 'https://lineageos.org/'
     phone-webpage: 'https://wiki.lineageos.org/devices/sweet/'
   - 
@@ -55,13 +55,13 @@ roms:
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://arrowos.net/'
-    phone-webpage: 'https://arrowos.net/download/'
+    phone-webpage: 'https://sourceforge.net/projects/arrow-os/files/arrow-13.1/official/sweet/'
   - 
     rom-name: 'PixelExperience'
     rom-support: true
     rom-state: 'Discontinued'
-    android-version: '14'
-    rom-notes: ''
+    android-version: '13'
+    rom-notes: '14 version not available'
     rom-webpage: 'https://download.pixelexperience.org/'
     phone-webpage: 'https://download.pixelexperience.org/sweet/'
   - 
@@ -69,21 +69,21 @@ roms:
     rom-support: true
     rom-state: 'Discontinued'
     android-version: '13'
-    rom-notes: ''
+    rom-notes: '14 version not available'
     rom-webpage: 'https://download.pixelexperience.org/'
     phone-webpage: 'https://download.pixelexperience.org/sweet/'
   - 
     rom-name: 'crDroid'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
-    rom-notes: ''
+    android-version: '16'
+    rom-notes: 'Vanilla build. GAPPS must be installed separately if desired.'
     rom-webpage: 'https://crdroid.net/'
     phone-webpage: 'https://crdroid.net/downloads#sweet'
   - 
     rom-name: 'HavocOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://havoc-os.com/'
@@ -92,15 +92,15 @@ roms:
     rom-name: 'EvolutionX'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '16'
     rom-notes: ''
     rom-webpage: 'https://evolution-x.org/'
-    phone-webpage: 'https://evolution-x.org/device/sweet'
+    phone-webpage: 'https://evolution-x.org/devices/sweet'
   - 
     rom-name: 'PixelOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '16'
     rom-notes: ''
     rom-webpage: 'https://pixelos.net/'
     phone-webpage: 'https://pixelos.net/download/sweet'
@@ -117,15 +117,15 @@ roms:
     rom-support: true
     rom-state: 'Official'
     android-version: '14'
-    rom-notes: ''
+    rom-notes: 'GAPPS and Vanilla build available.'
     rom-webpage: 'https://sourceforge.net/projects/superioros/'
-    phone-webpage: 'https://sourceforge.net/projects/superioros/'
+    phone-webpage: 'https://sourceforge.net/projects/superioros/files/sweet/'
   - 
     rom-name: 'xiaomi.eu'
     rom-support: true
     rom-state: 'Official'
-    android-version: ''
-    rom-notes: 'MIUI 14'
+    android-version: '13'
+    rom-notes: 'MIUI 14 with Android 13. Check for HMNote10Pro'
     rom-webpage: 'https://xiaomi.eu/community/'
     phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv14/'
   - 
@@ -140,7 +140,7 @@ roms:
     rom-name: 'AlphaDroid'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '16'
     rom-notes: ''
     rom-webpage: 'https://sourceforge.net/projects/alphadroid-project/'
     phone-webpage: 'https://sourceforge.net/projects/alphadroid-project/files/sweet/'
@@ -148,18 +148,18 @@ roms:
     rom-name: 'Project Elixir'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
-    rom-notes: ''
+    android-version: '15'
+    rom-notes: 'A15 builds available but discontinued. A16 builds behind a paywall.'
     rom-webpage: 'https://projectelixiros.com/home'
     phone-webpage: 'https://projectelixiros.com/device/sweet'
   - 
     rom-name: 'RisingOS'
     rom-support: true
-    rom-state: 'Official'
-    android-version: '13'
+    rom-state: 'Unofficial'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://github.com/RisingTechOSS/android'
-    phone-webpage: 'https://sourceforge.net/projects/electrokernel/files/risingOS-v1.4-Elysium-FINAL-202401081020-sweet-CORE-OFFICIAL.zip/download'
+    phone-webpage: 'https://sourceforge.net/projects/electrokernel/files/'
   - 
     rom-name: 'DerpFest'
     rom-support: true
@@ -180,7 +180,7 @@ roms:
     rom-name: 'LibreMobileOS'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://libremobileos.com/'
     phone-webpage: 'https://get.libremobileos.com/devices/sweet/'
@@ -196,7 +196,7 @@ roms:
     rom-name: 'DroidX-UI'
     rom-support: true
     rom-state: 'Official'
-    android-version: '13'
+    android-version: '14'
     rom-notes: ''
     rom-webpage: 'https://github.com/DroidX-UI'
     phone-webpage: 'https://sourceforge.net/projects/droidxui-releases/files/sweet/'
@@ -212,10 +212,10 @@ roms:
     rom-name: 'Project Matrixx'
     rom-support: true
     rom-state: 'Official'
-    android-version: '14'
+    android-version: '15'
     rom-notes: ''
     rom-webpage: 'https://www.projectmatrixx.org/'
-    phone-webpage: 'https://www.projectmatrixx.org/downloads/sweet'
+    phone-webpage: 'https://sourceforge.net/projects/projectmatrixx/files/Android-15/sweet/'
   - 
     rom-name: '/e/OS'
     rom-support: true
@@ -223,7 +223,7 @@ roms:
     android-version: '13'
     rom-notes: ''
     rom-webpage: 'https://e.foundation/e-os/'
-    phone-webpage: 'https://doc.e.foundation/devices/sweet'
+    phone-webpage: 'https://images.ecloud.global/community/sweet/'
 
 recoveries: 
   - 
