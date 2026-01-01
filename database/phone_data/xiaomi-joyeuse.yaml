@@ -16,10 +16,18 @@ roms:
     rom-name: 'xiaomi.eu'
     rom-support: true
     rom-state: 'Official'
-    android-version: ''
+    android-version: '12'
     rom-notes: 'MIUI 14'
     rom-webpage: 'https://xiaomi.eu/community/'
     phone-webpage: 'https://sourceforge.net/projects/xiaomi-eu-multilang-miui-roms/files/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv14/'
+  -
+    rom-name: 'Evolution X'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://evolution-x.org/'
+    phone-webpage: 'https://evolution-x.org/devices/miatoll/'
 
 recoveries: null
 linux: 
