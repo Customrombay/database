@@ -41,7 +41,7 @@ roms:
   - 
     rom-name: 'ArrowOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://arrowos.net/'
@@ -73,7 +73,7 @@ roms:
   - 
     rom-name: '/e/OS'
     rom-support: true
-    rom-state: 'Community'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://e.foundation/e-os/'
@@ -81,7 +81,7 @@ roms:
   - 
     rom-name: 'HavocOS'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: '11'
     rom-notes: ''
     rom-webpage: 'https://havoc-os.com/'
@@ -89,7 +89,7 @@ roms:
   - 
     rom-name: 'BlissROM'
     rom-support: true
-    rom-state: 'Official'
+    rom-state: 'Discontinued'
     android-version: ''
     rom-notes: ''
     rom-webpage: 'https://blissroms.org/'
