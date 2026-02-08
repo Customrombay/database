@@ -2259,6 +2259,10 @@
   device-vendor: 'Xiaomi'
   device-model-name: 'Redmi Note 12 Pro'
 - 
+  device-name: 'rubyx'
+  device-vendor: 'Xiaomi'
+  device-model-name: 'Redmi Note 12 Pro+ 5G'
+- 
   device-name: 's2'
   device-vendor: 'LeEco'
   device-model-name: 'Le 2'
