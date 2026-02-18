@@ -1,27 +1,32 @@
+
 device-name: 'duchamp'
 device-vendor: 'Xiaomi'
 device-model-name: 'POCO X6 Pro 5G / Redmi K70E'
 device-description: null
-specs: 
+specs:
   soc: 'Mediatek Dimensity 8300 Ultra'
   gpu: 'Mali G615-MC6'
   ram: '8/12 GB'
   storage: '256/512 GB'
   is_ab_device: true
-  screen: 
+  screen:
     refresh_rate: 120
     resolution: '1220x2712'
     size: 6.67
     technology: 'AMOLED'
-  battery: 
+  battery:
     capacity: 5000
     removable: false
     tech: 'Li-Po'
   network: null
   peripherals: null
   release: '2024-01'
-
-roms: []
-
+roms:
+  - rom-name: 'Axion OS'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '16'
+    rom-webpage: 'https://axionos.org/'    # Main site, select device manually
+    phone-webpage: 'https://axionos.org/'  # No device-specific page
 recoveries: null
 linux: null
