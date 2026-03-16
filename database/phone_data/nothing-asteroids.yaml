@@ -1,0 +1,82 @@
+device-name: 'Asteroids'
+device-vendor: 'Nothing'
+device-model-name: 'Phone (3a)/Pro'
+device-description: null
+specs: 
+  soc: 'Qualcomm SM8475 Snapdragon 7s Gen 3'
+  gpu: 'Qualcomm Adreno 810'
+  ram: '8/12 GB'
+  storage: '128/256 GB'
+  is_ab_device: true
+  screen: 
+    refresh_rate: 120
+    resolution: '1080x2392'
+    size: 6.77
+    technology: 'AMOLED'
+  battery: 
+    capacity: 4700
+    removable: false
+    tech: 'Li-Ion'
+  release: '2025-03-05'
+roms: 
+  - 
+    rom-name: '/e/os'
+    rom-support: True
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-notes: 'Dev: SaalimQuadri'
+    rom-webpage: 'https://e.foundation/e-os/'
+    phone-webpage: 'https://xdaforums.com/t/rom-unofficial-a16-e-os-nothing-3a-3a-pro-asteroids.4782276/'
+  - 
+    rom-name: 'crDroid'
+    rom-support: True
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://sourceforge.net/projects/eosbuildsronnz98/files/OtherCustomROMS/crDroid/crDroidAndroid-16.0-20251126-asteroids-v12.3.zip/download'
+  - 
+    rom-name: 'LunarisAosp'
+    rom-support: True
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://github.com/Lunaris-AOSP'
+    phone-webpage: 'https://drive.google.com/file/d/1qpYAP_SUDdO94x7Zo8ExNs_tvwlm28iH/view'
+  - 
+    rom-name: 'Project Infinity-X'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '16'
+    rom-notes: 'Dev: ShantanuPC'
+    rom-webpage: 'https://projectinfinity-x.com/'
+    phone-webpage: 'https://projectinfinity-x.com/downloads/asteroids'
+  - 
+    rom-name: 'EvolutionX'
+    rom-support: false
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://evolution-x.org/'
+    phone-webpage: 'https://mega.nz/file/3VNgEZTR#o1wgDxMtQwiXRLa9hOZ8iPRDJGmSql7EYcLlaDQCUco'
+  - 
+
+
+recoveries: 
+  - 
+    recovery-name: 'OrangeFox'
+    recovery-support: true
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://orangefox.download'
+    recovery-notes: 'Dev: Ubuntuify'
+    device-webpage: 'https://xdaforums.com/t/recovery-unofficial-orangefox-recovery-project-ofrp-for-nothing-phone-3a-asteroids.4779760/'
+
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Unofficial, Bad'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://xdaforums.com/t/recovery-incomplete-unofficial-twrp-for-nothing-phone-3a-pro-asteroids.4781383/'
+
+
+linux: null
+

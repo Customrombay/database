@@ -7,6 +7,11 @@
   device-vendor: 'Yandex'
   device-model-name: 'Phone'
 - 
+  device-name: 'Asteroids'
+  device-vendor: 'Nothing'
+  device-model-name: 'Phone (3a)/Pro'
+
+- 
   device-name: 'CPH1859'
   device-vendor: 'Realme'
   device-model-name: '1'
