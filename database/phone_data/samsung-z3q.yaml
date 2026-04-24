@@ -1,0 +1,42 @@
+device-name: 'z3q'
+device-vendor: 'Samsung'
+device-model-name: 'Galaxy S20 Ultra (Snapdragon)'
+device-description: null
+specs: null
+roms: 
+  - 
+    rom-name: 'AstroROM'
+    rom-support: true
+    rom-state: 'Official'
+    android-version: '16'
+    rom-notes: ''
+    rom-webpage: 'https://t.me/astroromofficial'
+    phone-webpage: 'https://xdaforums.com/t/astro-os-rom-oneui-8-0-galaxy-s20-series-snapdragon-s23-ultra-port-version-3-0-4-ai-port-camera-enhancements-optimize-stable.4786250'
+
+recoveries: 
+  - 
+    recovery-name: 'TWRP'
+    recovery-support: false
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://twrp.me'
+    device-webpage: 'https://xdaforums.com/t/recovery-unofficial-twrp-for-galaxy-s20-series-snapdragon.4157901'
+  - 
+    recovery-name: 'OrangeFox Recovery Project'
+    recovery-support: false
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://orangefox.tech'
+    device-webpage: 'https://xdaforums.com/t/unofficial-recovery-orangefox-recovery-project-r11-1.4302283'
+  - 
+    recovery-name: 'Lineage Recovery'
+    recovery-support: false
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://lineageos.org'
+    device-webpage: 'https://xdaforums.com/t/recovery-lineage-recovery-for-s20-series-snapdragon.4084977'
+  - 
+    recovery-name: 'Sky Hawk Recovery Project'
+    recovery-support: false
+    recovery-state: 'Unofficial'
+    recovery-webpage: 'https://skyhawkrecovery.github.io'
+    device-webpage: 'https://xdaforums.com/t/recovery-unofficial-x1q-y2q-z3q-sky-hawk-recovery-project-v3-0-01022021.4227381/'
+
+linux: null
