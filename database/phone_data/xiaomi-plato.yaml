@@ -20,7 +20,69 @@ specs:
   network: null
   peripherals: null
   release: '2022-10'
-roms: []
+roms: 
+  - 
+    rom-name: 'Project Infinity X'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://projectinfinity-x.com/'
+    phone-webpage: 'https://sourceforge.net/projects/infinity-x-plato-unofficial/'
+  - 
+    rom-name: 'Evolution X'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '16'
+    rom-webpage: 'https://evolution-x.org/'
+    phone-webpage: 'https://sourceforge.net/projects/plato-evox/'
+  - 
+    rom-name: 'Project Matrixx'
+    rom-support: true
+    rom-state: 'Discontinued'
+    android-version: '16'
+    rom-webpage: 'https://github.com/ProjectMatrixx'
+    phone-webpage: 'https://sourceforge.net/projects/matrixx-plato-unofficial/'
+  - 
+    rom-name: 'crDroid'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://crdroid.net/'
+    phone-webpage: 'https://skyx-arch.github.io/SkyX-Arch_ROM_site/?rom=crdroid-plato'
+  - 
+    rom-name: 'AxionOS'
+    rom-support: true
+    rom-state: 'Beta'
+    android-version: '16'
+    rom-webpage: 'https://www.axionos.org/'
+    phone-webpage: 'https://skyx-arch.github.io/SkyX-Arch_ROM_site/?rom=axionos-plato'
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://github.com/mt6895-plato/OTA/releases'
+ - 
+    rom-name: 'PixelOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://pixelos.net/'
+    phone-webpage: 'https://github.com/mt6895-plato/OTA/releases'
 
-recoveries: null
+recoveries: 
+ - 
+    recovery-name: 'TWRP'
+    recovery-support: true
+    recovery-state: 'Discontinued'
+    recovery-webpage: 'https://twrp.me/'
+    device-webpage: 'https://github.com/mt6895-plato/TWRP_device_xiaomi_plato/releases'
+  - 
+    recovery-name: 'OFRP'
+    recovery-support: true
+    recovery-state: 'Discontinued'
+    recovery-webpage: 'https://orangefox.tech/'
+    device-webpage: 'https://github.com/archcloudy/android_device_xiaomi_plato_OFRP/releases'
+
 linux: null
