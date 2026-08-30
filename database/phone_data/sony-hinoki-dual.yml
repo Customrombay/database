@@ -1,0 +1,12 @@
+device-name: 'hinoki'
+device-vendor: 'Sony'
+device-model-name: 'Xperia XA1 (Dual/G3112)'
+device-description: 'These ROM only work with the Sony Xperia XA1 Dual (G3112)'
+roms: 
+  - 
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '10'
+    rom-webpage: 'https://xdaforums.com/'
+    phone-webpage: 'https://xdaforums.com/t/rom-10-unofficial-b-lineageos-17-1-for-xperia-xa1-dual-g3112.4796524/'
