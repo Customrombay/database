@@ -20,7 +20,54 @@ specs:
   network: null
   peripherals: null
   release: '2023-09'
-roms: []
-
-recoveries: null
+roms:
+  -
+    rom-name: 'LineageOS'
+    rom-support: true
+    rom-state: 'Unofficial Beta'
+    android-version: '16'
+    rom-webpage: 'https://lineageos.org/'
+    phone-webpage: 'https://t.me/RedmiNote_13Community/308949'
+  -
+    rom-name: 'Axion OS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://www.axionos.org/'
+    phone-webpage: 'https://t.me/RedmiNote_13Community/329016'
+  -
+    rom-name: 'LunarisAOSP'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://github.com/Lunaris-AOSP'
+    phone-webpage: 'https://t.me/RedmiNote_13Community/324176'
+  -
+    rom-name: 'ColorOS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://t.me/RedmiNote_13Community/301236'
+    phone-webpage: 'https://t.me/RedmiNote_13Community/301236'
+  -
+    rom-name: 'Project Eclipse OS'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '16'
+    rom-webpage: 'https://t.me/RedmiNote_13Community/285571'
+    phone-webpage: 'https://t.me/RedmiNote_13Community/285571'
+  -
+    rom-name: 'Modded MIUI 14 CN'
+    rom-support: true
+    rom-state: 'Unofficial'
+    android-version: '13'
+    rom-webpage: 'https://t.me/RedmiNote_13Community/297114'
+    phone-webpage: 'https://t.me/RedmiNote_13Community/297114'
+recoveries:
+  -
+    recovery-name: 'OrangeFox'
+    recovery-support: true
+    recovery-state: 'Current'
+    recovery-webpage: 'https://orangefox.download/'
+    device-webpage: 'https://github.com/ukriu/Multiple-Recovery-Builder-2026/releases/tag/33847192803'
 linux: null
